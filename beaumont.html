@@ -764,6 +764,7 @@ function newGameMenu(){
 
 function loadGame(){
   try{st=JSON.parse(localStorage.getItem('beaumont_save'));}catch(e){newGameMenu();return;}
+  if(st.dead){localStorage.removeItem('beaumont_save');newGameMenu();return;}
   updateStats();
   addSysMsg('— Resumed —');
   runScenario();
@@ -777,7 +778,7 @@ function startGame(diff){
     floors:{lobby:5,f1:0,f2:0,f3:0},
     level:1,scenario:0,day:1,
     levels:[pick3(L1_POOL),pick3(L2_POOL),pick3(L3_POOL)],
-    chaosQueue:[],lastChaos:null,usedChaos:{},chaosCount:0,l4Count:0,
+    chaosQueue:[],lastChaos:null,usedChaos:{},chaosCount:0,l4Count:0,dead:false,
   };
   saveGame();
   updateStats();
@@ -790,6 +791,25 @@ function startGame(diff){
 function startScenarios(){runScenario();}
 
 function saveGame(){try{localStorage.setItem('beaumont_save',JSON.stringify(st));}catch(e){}}
+
+// ── Game Over Check ───────────────────────────────────────────────────────────
+function checkGameOver(){
+  if(st.dead) return true;
+  if(st.money< -3000){st.dead=true;gameLost('The operating fund ran dry. The building gave everything it had.');return true;}
+  if(st.rep<=0){st.dead=true;gameLost('The team\'s reputation collapsed. Every resident deserved better.');return true;}
+  if(st.chaos>=40){st.dead=true;gameLost('Chaos overwhelmed operations. Twelve people couldn\'t hold it together.');return true;}
+  return false;
+}
+function gameLost(reason){
+  localStorage.removeItem('beaumont_save');
+  clearChoices();setChoiceLabel('');
+  const wrap=document.getElementById('choices-wrap');
+  const card=document.createElement('div');card.className='end-card';
+  card.style.cssText='background:linear-gradient(155deg,#2c0000,#1c1c1e)';
+  card.innerHTML=`<div class="end-title" style="color:#ff3b30">The Building Closed</div><div class="end-score" style="font-size:32px;margin:8px 0">Day ${st.day}</div><div class="end-breakdown">${reason}<br><br>Budget: ${fmtM(st.money)} · Rep: ${st.rep} · Chaos: ${st.chaos}</div><button class="end-btn" style="background:#ff3b30;margin-top:14px" onclick="playAgain()">Try Again</button>`;
+  wrap.appendChild(card);
+  addSysMsg('The building is quiet now. It was a fight worth fighting.');
+}
 
 // ── Scenario Runner ───────────────────────────────────────────────────────────
 async function runScenario(){
@@ -822,6 +842,7 @@ async function applyChoice(ch,sc){
   if(ch.delivOn) st.delivery.on=true;
   if(ch.delivIncome!=null) st.delivery.income=ch.delivIncome;
   updateStats();
+  if(checkGameOver()) return;
   await delay(500);
   addSysMsg(ch.result);
   await delay(600);
@@ -836,9 +857,14 @@ async function applyChoice(ch,sc){
   const cpp=DIFF[st.diff].cpp;
   for(let i=0;i<cpp;i++){
     if(st.diff==='easy'&&Math.random()<DIFF.easy.skipChance) continue;
-    await triggerChaos();
+    const alive=await triggerChaos();
+    if(alive===false) return;
     await delay(600);
   }
+  if(st.diff==='hard') st.chaos=Math.min(50,st.chaos+2);
+  else if(st.diff==='medium') st.chaos=Math.min(50,st.chaos+1);
+  updateStats();
+  if(checkGameOver()) return;
   // advance
   st.scenario++;st.day++;
   saveGame();
@@ -874,7 +900,7 @@ async function triggerChaos(){
   const b=document.createElement('div');b.className='bubble chaos-b';b.innerHTML=`<strong>${ev.title}</strong><br><br>${ev.msg}`;
   row.appendChild(av);row.appendChild(b);chat.appendChild(row);scrollBottom();
   // render choices and wait
-  await new Promise(resolve=>{
+  return await new Promise(resolve=>{
     setChoiceLabel('How do you respond?');
     renderChoices(ev.choices,async(choice)=>{
       clearChoices();setChoiceLabel('');
@@ -886,7 +912,8 @@ async function triggerChaos(){
       await delay(400);
       addSysMsg(choice.result);
       await delay(700);
-      resolve();
+      if(checkGameOver()){resolve(false);return;}
+      resolve(true);
     });
   });
 }
@@ -926,13 +953,14 @@ function levelUp(){
 // ── End Game ──────────────────────────────────────────────────────────────────
 function endGame(){
   localStorage.removeItem('beaumont_save');
-  const mScore=Math.round(Math.max(0,st.money)/200);
+  const mScore=Math.min(100,Math.round(Math.max(0,st.money)/200));
   const rScore=st.rep;
   const cScore=Math.max(0,50-st.chaos);
+  const floorScore=Math.round(((st.floors.f1||0)+(st.floors.f2||0)+(st.floors.f3||0))/1.5);
   const cafeScore=st.cafe.open?25:0;
   const delivScore=st.delivery.on?10:0;
-  const total=mScore+rScore+cScore+cafeScore+delivScore;
-  const grade=total>180?'A+':total>150?'A':total>120?'B':total>90?'C':'D';
+  const total=mScore+rScore+cScore+floorScore+cafeScore+delivScore;
+  const grade=total>200?'A+':total>165?'A':total>130?'B':total>95?'C':'D';
   clearChoices();setChoiceLabel('');
   const wrap=document.getElementById('choices-wrap');
   const card=document.createElement('div');card.className='end-card';
@@ -943,6 +971,7 @@ function endGame(){
       Budget: ${fmtM(st.money)} → ${mScore} pts<br>
       Reputation: ${st.rep} → ${rScore} pts<br>
       Chaos: ${st.chaos} → ${cScore} pts<br>
+      Floors: avg ${Math.round(((st.floors.f1||0)+(st.floors.f2||0)+(st.floors.f3||0))/3)}/10 → ${floorScore} pts<br>
       Cafe: ${st.cafe.open?'Open +'+cafeScore:'Closed'}<br>
       Delivery: ${st.delivery.on?'Active +'+delivScore:'Inactive'}
     </div>
