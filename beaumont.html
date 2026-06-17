@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Beaumont Housekeeping GC</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#1c1c1e;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',sans-serif}
+#phone{width:390px;max-width:100vw;height:844px;max-height:100svh;background:#fff;border-radius:48px;overflow:hidden;display:flex;flex-direction:column;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.6),inset 0 0 0 1.5px rgba(255,255,255,.12)}
+/* Status bar */
+#notch-bar{background:#000;height:54px;display:flex;align-items:flex-end;padding:0 20px 8px;justify-content:space-between;flex-shrink:0;position:relative}
+#notch-bar::before{content:'';position:absolute;top:11px;left:50%;transform:translateX(-50%);width:122px;height:34px;background:#000;border-radius:20px;z-index:1}
+.nb-time{color:#fff;font-size:15px;font-weight:600;position:relative;z-index:2}
+.nb-icons{display:flex;align-items:center;gap:6px;position:relative;z-index:2}
+.nb-icons svg{fill:#fff}
+/* iMessage header */
+#imessage-header{background:#fff;border-bottom:.5px solid rgba(0,0,0,.15);padding:8px 14px 10px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.hdr-back{color:#007aff;font-size:18px;cursor:pointer}
+.hdr-av{width:42px;height:42px;border-radius:21px;background:linear-gradient(135deg,#34c759,#007aff);display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;letter-spacing:-.5px;flex-shrink:0;position:relative}
+.hdr-av::after{content:'';position:absolute;bottom:1px;right:1px;width:11px;height:11px;border-radius:6px;background:#34c759;border:2px solid #fff}
+.hdr-info{flex:1;min-width:0;text-align:center}
+.hdr-name{font-size:15px;font-weight:600;color:#000}
+.hdr-sub{font-size:11px;color:#8e8e93;margin-top:1px}
+.hdr-actions{display:flex;gap:18px;color:#007aff;font-size:20px;cursor:pointer}
+/* Stats area */
+#stats-area{background:#1c1c1e;flex-shrink:0}
+#level-bar{padding:6px 12px 4px;display:flex;align-items:center;gap:7px}
+#level-name{font-size:12px;font-weight:700;color:#fff;flex:1}
+#diff-badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:8px;text-transform:uppercase;letter-spacing:.5px}
+.prog-dots{display:flex;gap:4px}
+.pd{width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);transition:background .3s}
+.pd.cur{background:#34c759}.pd.done{background:rgba(255,255,255,.45)}
+#stat-strip{display:flex;padding:3px 8px 5px;gap:4px}
+.sp{flex:1;background:rgba(255,255,255,.08);border-radius:8px;padding:4px 5px;text-align:center}
+.sp-l{font-size:9px;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.3px}
+.sp-v{font-size:13px;font-weight:700;color:#fff;margin-top:1px}
+.sg{color:#34c759!important}.sy{color:#ff9500!important}.sr{color:#ff3b30!important}
+#cafe-strip{padding:2px 12px 4px;display:flex;align-items:center;gap:5px;min-height:20px}
+.cs-l{font-size:11px;color:rgba(255,255,255,.4);flex:1}
+.cs-v{font-size:11px;font-weight:600;color:rgba(255,255,255,.7)}
+.shift-chip{font-size:10px;padding:1px 6px;border-radius:5px;background:rgba(255,255,255,.12);color:rgba(255,255,255,.7)}
+#floor-strip{display:flex;padding:3px 8px 6px;gap:4px}
+.fc{flex:1;background:rgba(255,255,255,.08);border-radius:7px;padding:4px 5px;text-align:center}
+.fc-l{font-size:9px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.3px}
+.fc-v{font-size:12px;font-weight:700;color:#fff;margin-top:1px}
+/* Chat */
+#chat{flex:1;overflow-y:auto;background:#fff;padding:10px 10px 4px;display:flex;flex-direction:column;gap:1px}
+#chat::-webkit-scrollbar{width:0}
+.date-stamp{text-align:center;font-size:12px;color:#8e8e93;font-weight:500;margin:10px 0 4px}
+.msg-row{display:flex;align-items:flex-end;gap:6px;margin:2px 0}
+.msg-row.r{flex-direction:row-reverse}
+.av-sm{width:26px;height:26px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;flex-shrink:0;margin-bottom:12px}
+.sender-n{font-size:11px;color:#8e8e93;margin-bottom:2px;margin-left:32px}
+.bubble{padding:8px 12px;font-size:15px;line-height:1.4;max-width:76%;word-break:break-word;border-radius:18px 18px 18px 4px;background:#e9e9eb;color:#000}
+.msg-row.r .bubble{background:#007aff;color:#fff;border-radius:18px 18px 4px 18px;margin-left:auto}
+.bubble.sms{background:#d4efda;color:#000}
+.bubble.chaos-b{background:#fff0f0;border:1px solid #ff3b30;color:#1c1c1e;border-radius:14px}
+.bubble.sys{background:none;color:#8e8e93;font-size:12px;text-align:center;width:100%;padding:2px 0}
+.delivered{text-align:right;font-size:11px;color:#8e8e93;margin-right:4px;margin-top:2px}
+/* Typing */
+.typing-row{display:flex;align-items:center;gap:6px;margin:3px 0}
+.typing-b{background:#e9e9eb;border-radius:18px;padding:9px 13px;display:flex;gap:4px;align-items:center}
+.td{width:7px;height:7px;border-radius:4px;background:#8e8e93;animation:tb 1.2s infinite}
+.td:nth-child(2){animation-delay:.2s}.td:nth-child(3){animation-delay:.4s}
+@keyframes tb{0%,60%,100%{transform:translateY(0);opacity:.4}30%{transform:translateY(-5px);opacity:1}}
+/* Choice area */
+#choice-area{background:#f2f2f7;border-top:.5px solid rgba(0,0,0,.1);padding:9px 11px 14px;flex-shrink:0;max-height:46%;overflow-y:auto}
+#choice-label{font-size:13px;font-weight:600;color:#3c3c43;margin-bottom:7px;line-height:1.3}
+#choices-wrap{display:flex;flex-direction:column;gap:6px}
+.cb{background:#fff;border:none;border-radius:12px;padding:10px 12px;cursor:pointer;text-align:left;box-shadow:0 1px 3px rgba(0,0,0,.1);width:100%;display:block;transition:opacity .15s}
+.cb:active{opacity:.7}
+.cb-t{font-size:14px;font-weight:500;color:#1c1c1e!important;-webkit-text-fill-color:#1c1c1e!important;line-height:1.35;display:block}
+.cb-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.tag{font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;color:#fff!important;-webkit-text-fill-color:#fff!important}
+.tg{background:#34c759}.tr{background:#ff3b30}.tb{background:#007aff}.to{background:#ff9500}.tgr{background:#8e8e93}
+/* Promo card */
+.promo-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.1);margin:6px 0}
+.promo-hdr{background:linear-gradient(135deg,#1c1c1e,#3a3a3c);padding:14px 16px;color:#fff}
+.promo-badge{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,.5);margin-bottom:5px}
+.promo-title{font-size:20px;font-weight:800;line-height:1.2}
+.promo-body{padding:12px 16px;font-size:14px;color:#3c3c43;line-height:1.5}
+.promo-cta{padding:0 16px 14px}
+.promo-btn{background:#007aff;color:#fff!important;-webkit-text-fill-color:#fff!important;border:none;border-radius:10px;padding:11px;width:100%;font-size:15px;font-weight:600;cursor:pointer}
+/* Diff screen */
+.diff-title{font-size:15px;font-weight:700;color:#1c1c1e;text-align:center;margin-bottom:4px}
+.diff-sub{font-size:13px;color:#8e8e93;text-align:center;margin-bottom:9px}
+.diff-btn{background:#fff;border:none;border-radius:12px;padding:11px 13px;margin-bottom:7px;box-shadow:0 1px 4px rgba(0,0,0,.12);cursor:pointer;text-align:left;width:100%;display:block}
+.diff-btn-name{font-size:15px;font-weight:700;color:#1c1c1e!important;-webkit-text-fill-color:#1c1c1e!important;margin-bottom:2px}
+.diff-btn-desc{font-size:12px;color:#8e8e93!important;-webkit-text-fill-color:#8e8e93!important;line-height:1.35}
+/* End */
+.end-card{background:linear-gradient(155deg,#1c1c1e,#3a3a3c);border-radius:14px;padding:20px;color:#fff;margin:6px 0}
+.end-title{font-size:20px;font-weight:800;margin-bottom:6px}
+.end-score{font-size:44px;font-weight:900;color:#ffd60a;margin:6px 0}
+.end-breakdown{font-size:13px;color:rgba(255,255,255,.7);line-height:1.8;margin-bottom:14px}
+.end-btn{background:#007aff;color:#fff!important;-webkit-text-fill-color:#fff!important;border:none;border-radius:10px;padding:12px;width:100%;font-size:15px;font-weight:700;cursor:pointer}
+/* Save banner */
+.save-banner{background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px rgba(0,0,0,.12);margin-bottom:8px}
+.save-banner-t{font-size:14px;font-weight:600;color:#1c1c1e!important;-webkit-text-fill-color:#1c1c1e!important;margin-bottom:8px}
+.save-banner-btns{display:flex;gap:8px}
+.save-banner-btns button{flex:1;border:none;border-radius:9px;padding:9px;font-size:14px;font-weight:600;cursor:pointer}
+.sbb-c{background:#007aff;color:#fff!important;-webkit-text-fill-color:#fff!important}
+.sbb-n{background:#e9e9eb;color:#1c1c1e!important;-webkit-text-fill-color:#1c1c1e!important}
+</style>
+</head>
+<body>
+<div id="phone">
+  <div id="notch-bar">
+    <span class="nb-time" id="nb-clock">9:41</span>
+    <div class="nb-icons">
+      <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="8" width="3" height="4" rx=".5"/><rect x="4.5" y="5.5" width="3" height="6.5" rx=".5"/><rect x="9" y="3" width="3" height="9" rx=".5"/><rect x="13.5" y="0" width="3" height="12" rx=".5" opacity=".3"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12"><circle cx="8" cy="10.5" r="1.5"/><path d="M4.8 7.5a4.5 4.5 0 016.4 0M2 4.8a8 8 0 0112 0" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <svg width="25" height="12" viewBox="0 0 25 12"><rect x=".5" y="1.5" width="21" height="9" rx="2" fill="none" stroke="#fff" stroke-width="1"/><rect x="22.5" y="4" width="2" height="4" rx="1" fill="#fff" opacity=".4"/><rect x="2" y="3" width="16" height="6" rx="1.2" fill="#fff"/></svg>
+    </div>
+  </div>
+  <div id="imessage-header">
+    <span class="hdr-back">‹</span>
+    <div class="hdr-av">BHG</div>
+    <div class="hdr-info">
+      <div class="hdr-name">Beaumont Housekeeping GC</div>
+      <div class="hdr-sub">12 members · iMessage</div>
+    </div>
+    <div class="hdr-actions"><span>📞</span><span>📹</span></div>
+  </div>
+  <div id="stats-area">
+    <div id="level-bar">
+      <span id="level-name">Beaumont GC</span>
+      <span id="diff-badge"></span>
+      <div class="prog-dots"><div class="pd" id="pd1"></div><div class="pd" id="pd2"></div><div class="pd" id="pd3"></div><div class="pd" id="pd4"></div></div>
+    </div>
+    <div id="stat-strip">
+      <div class="sp"><div class="sp-l">Budget</div><div class="sp-v" id="sv-m">—</div></div>
+      <div class="sp"><div class="sp-l">Rep</div><div class="sp-v" id="sv-r">—</div></div>
+      <div class="sp"><div class="sp-l">Chaos</div><div class="sp-v" id="sv-c">—</div></div>
+      <div class="sp"><div class="sp-l">Staff</div><div class="sp-v" id="sv-s">12</div></div>
+    </div>
+    <div id="cafe-strip"><span class="cs-l">Cafe</span><span id="cafe-val" class="cs-v">Closed</span></div>
+    <div id="floor-strip">
+      <div class="fc"><div class="fc-l">Lobby</div><div class="fc-v" id="fv-l">—</div></div>
+      <div class="fc"><div class="fc-l">Floor 1</div><div class="fc-v" id="fv-1">—</div></div>
+      <div class="fc"><div class="fc-l">Floor 2</div><div class="fc-v" id="fv-2">—</div></div>
+      <div class="fc"><div class="fc-l">Floor 3</div><div class="fc-v" id="fv-3">—</div></div>
+    </div>
+  </div>
+  <div id="chat"></div>
+  <div id="choice-area">
+    <div id="choice-label"></div>
+    <div id="choices-wrap"></div>
+  </div>
+</div>
+<script>
+// ── Characters ──────────────────────────────────────────────────────────────
+const CH={
+  gloria:  {name:'Gloria',       i:'GL',c:'#5856d6'},
+  darnell: {name:'Darnell',      i:'DA',c:'#ff9500'},
+  yuki:    {name:'Yuki',         i:'YU',c:'#ff2d55'},
+  rosa:    {name:'Rosa',         i:'RO',c:'#34c759'},
+  pete:    {name:'Mr. Pete',     i:'MP',c:'#007aff'},
+  jenkins: {name:'Mr. Jenkins',  i:'MJ',c:'#636366'},
+  abrams:  {name:'Mrs. Abrams',  i:'MA',c:'#af52de'},
+  kowalski:{name:'Mr. Kowalski', i:'MK',c:'#5ac8fa'},
+  park:    {name:'Mrs. Park',    i:'PK',c:'#ff6b35'},
+  benny:   {name:'Chef Benny',   i:'CB',c:'#4cd964'},
+  dario:   {name:'Chef Dario',   i:'CD',c:'#2c2c2e'},
+  city:    {name:'City Office',  i:'CO',c:'#6d6d70'},
+  housing: {name:'Housing Board',i:'HB',c:'#6d6d70'},
+  news:    {name:'NewsChannel7', i:'NC',c:'#ff3b30'},
+  deliver: {name:'QuickDeliver', i:'QD',c:'#007aff'},
+  lawyer:  {name:'Housing Lawyer',i:'HL',c:'#34c759'},
+};
+const SMS_CHARS=new Set(['city','housing','news','deliver','lawyer']);
+
+// ── Difficulty ───────────────────────────────────────────────────────────────
+const DIFF={
+  easy:  {label:'Easy',  money:35000,chaosStart:5, cm:.5, color:'#34c759',skipChance:.5,cpp:1},
+  medium:{label:'Medium',money:30000,chaosStart:10,cm:1,  color:'#ff9500',skipChance:0, cpp:1},
+  hard:  {label:'Hard',  money:22000,chaosStart:18,cm:1.8,color:'#ff3b30',skipChance:0, cpp:2},
+};
+
+// ── Cafe Shifts ───────────────────────────────────────────────────────────────
+const SHIFTS=[
+  {label:'Morning',   time:'8am–2pm', chef:'Chef Benny'},
+  {label:'Afternoon', time:'2pm–8pm', chef:'Chef Margot'},
+  {label:'Late Night',time:'8pm–2am', chef:'Chef Dario'},
+];
+
+// ── Chaos Pools ───────────────────────────────────────────────────────────────
+const CHAOS_L1=[
+  {title:'Raccoon in the Loading Dock',msg:"There is a raccoon in the loading dock. It's not leaving. It has opinions.",c:'darnell',
+   choices:[{t:'Shoo it with a broom',money:0,rep:3,chaos:-1,result:"Gone. Left a look over its shoulder that felt personal."},
+            {t:'Call animal control',money:-150,rep:5,chaos:-2,result:"Removed professionally. The raccoon was not impressed."},
+            {t:'Leave snacks to lure it out',money:-20,rep:2,chaos:2,result:"It left. It brought a friend. The friend brought a friend."}]},
+  {title:'A Cat Has Adopted the Lobby',msg:"There is an orange cat on the front desk. It has been here since Tuesday. Mr. Pete has opinions about this.",c:'pete',
+   choices:[{t:"Keep it — Mr. Pete adopts it. Name it Beaumont.",money:0,rep:10,chaos:-2,result:"Beaumont now lives in Room 108 unofficially. The residents love him."},
+            {t:'Find it a home elsewhere',money:0,rep:5,chaos:-2,result:"Found a home. Mr. Pete did not speak to anyone for the rest of the day."},
+            {t:'Ignore it and see what happens',money:0,rep:1,chaos:2,result:"It's still there. It's getting comfortable. It has learned the elevator schedule."}]},
+  {title:'Piano Found in Basement Storage',msg:"There's an upright piano in sub-basement storage. Out of tune. No one knows how long it's been down there.",c:'yuki',
+   choices:[{t:'Move it to the lobby — a community piano',money:-80,rep:10,chaos:1,result:"Lobby piano hours start immediately. Darnell plays a single dramatic chord every morning."},
+            {t:'Donate it to a local school',money:0,rep:8,chaos:-1,result:"The school is thrilled. The Bugle covers it."},
+            {t:'Leave it. Rosa will catalogue it.',money:0,rep:2,chaos:-1,result:"It's in Tab 12 now. Sub-section: Mysterious Assets."}]},
+  {title:'Jenkins Hit Reply-All Again',msg:"I have sent an update regarding globe storage protocols to the relevant parties. — Mr. Jenkins",c:'jenkins',
+   choices:[{t:'Reply-all with a polite note to use direct messages',money:0,rep:3,chaos:2,result:"Jenkins replies-all to acknowledge this. Three residents weigh in."},
+            {t:'Quietly explain reply-all to Jenkins in person',money:0,rep:5,chaos:-2,result:"He nods. He understands. He sends a follow-up reply-all to confirm."},
+            {t:'Do nothing — let it pass',money:0,rep:1,chaos:1,result:"Mrs. Abrams timestamps her response. Kowalski begins drafting an editorial."}]},
+  {title:'The WiFi Router Has Gone Missing',msg:"The router is not in the closet. It is not on the cart. It is not anywhere that I can find, which means it is somewhere I have not looked yet.",c:'yuki',
+   choices:[{t:'Yuki does a full room-by-room sweep',money:0,rep:5,chaos:-3,result:"Found in Room 204, under a mattress. No one admitted to moving it."},
+            {t:'Buy a replacement router immediately',money:-80,rep:4,chaos:-2,result:"Installed in an hour. The original was later found in the soap dispenser closet."},
+            {t:'Post a note in the lobby asking residents',money:0,rep:2,chaos:1,result:"A chain of notes follows. No router. More notes."}]},
+  {title:'The Umbrella Stand Is at Capacity',msg:"47 umbrellas. All unclaimed. Blocking part of the entrance. I have photographed them at timestamps.",c:'abrams',
+   choices:[{t:'Organize a lost & found and post notices',money:0,rep:5,chaos:-1,result:"Three umbrellas claimed. 44 remain. The stand has been reorganized."},
+            {t:'Donate the excess umbrellas',money:0,rep:8,chaos:-2,result:"Donated to a shelter. Mrs. Abrams logs the transfer formally."},
+            {t:"Darnell builds an 'umbrella installation'",money:0,rep:6,chaos:2,result:"It's a conversation piece. Kowalski writes 200 words about it."}]},
+  {title:'Darnell Accidentally Booked a Yoga Class',msg:"I saw 'lobby available 9am' in the calendar and filled in the form. I may have selected the wrong dropdown. Twelve people are arriving.",c:'darnell',
+   choices:[{t:'Cancel and send apologies',money:-20,rep:3,chaos:-1,result:"Cancelled with grace. The instructor was very understanding. Darnell took a picture."},
+            {t:'Let the class happen — the lobby needs the energy',money:0,rep:8,chaos:2,result:"It was great. Four residents joined in. Mrs. Park filmed it silently from the corridor."},
+            {t:'Make it an official resident yoga event',money:-50,rep:12,chaos:1,result:"Now a weekly fixture. Rosa has added it to the schedule. Darnell takes attendance."}]},
+  {title:'The Soap Dispenser in 3B Never Runs Out',msg:"I have been refilling the 3B soap dispenser monthly for 7 months. According to my logs, it has not decreased once. Tab 14, Sub-section: Anomalies.",c:'rosa',
+   choices:[{t:'Investigate seriously',money:0,rep:5,chaos:-1,result:"Mr. Pete has been quietly refilling it. He was embarrassed. He was thanked."},
+            {t:'Accept the mystery and move on',money:0,rep:3,chaos:0,result:"Added to Tab 14B: Accepted Mysteries. Rosa is at peace."},
+            {t:'Replace it with a new one',money:-30,rep:2,chaos:-2,result:"Done. The new one ran out in 3 days. Rosa has thoughts."}]},
+  {title:'Mr. Kowalski Publishes The Bugle Vol. 1 No. 1',msg:"I am pleased to distribute Volume 1, Number 1 of THE BEAUMONT BUGLE. Times New Roman. For gravitas.",c:'kowalski',
+   choices:[{t:'Celebrate it — this is wonderful',money:0,rep:8,chaos:-1,result:"The Bugle is a hit. Residents read it in the lobby. Beaumont the cat sits on a copy."},
+            {t:'Suggest a brief editorial review process',money:0,rep:4,chaos:-2,result:"Kowalski accepts. The process becomes Tab 22 in Rosa's system."},
+            {t:'Ignore it and hope for the best',money:0,rep:1,chaos:1,result:"Volume 2 will cover the umbrella situation in some depth."}]},
+  {title:"Mrs. Park's Soup Has Reached Floor 2",msg:"For the record, the soup smell first arrived at Floor 2 at 11:23am on Tuesday. I have documentation.",c:'abrams',
+   choices:[{t:'Adjust the ventilation routing',money:-100,rep:5,chaos:-3,result:"Smell contained to Floor 1 and the cafe corridor. Mrs. Park is pleased."},
+            {t:"Invite Mrs. Park to use the cafe kitchen",money:0,rep:10,chaos:-2,result:"She agrees. The cafe now has a daily soup special. It sells out every time."},
+            {t:'Issue a polite general note about cooking smells',money:0,rep:-2,chaos:2,result:"Mrs. Park is offended. The note is now in Mrs. Abrams' documentation."}]},
+  {title:'Old Room Service Menu Found',msg:"Found in a drawer in 211. Club sandwich: $8. Orange juice: $4. I would like to honor these prices.",c:'darnell',
+   choices:[{t:'Frame it as lobby decor — a piece of history',money:0,rep:7,chaos:-1,result:"Framed and mounted. Residents stop to read it. Kowalski writes a retrospective."},
+            {t:"Let Darnell honor the prices for one lunch service",money:-180,rep:15,chaos:1,result:"Darnell serves 30 guests at 2004 prices. He's never been happier."},
+            {t:'File it with Rosa — historical document',money:0,rep:3,chaos:-1,result:"Catalogued under Tab 12B: Hotel Ephemera. Date-stamped."}]},
+  {title:'The Elevator Plays Mystery Music',msg:"Smooth jazz. Intermittent. No one selected it. The source is not the speaker panel.",c:'yuki',
+   choices:[{t:'Investigate fully',money:0,rep:4,chaos:-2,result:"A Bluetooth speaker behind the rear panel. Mr. Pete installed it. He thought it would be nice."},
+            {t:'Embrace it — the elevator has taste',money:0,rep:9,chaos:1,result:"Now a feature, not a bug. Residents request specific songs."},
+            {t:'Disable all elevator audio immediately',money:-40,rep:2,chaos:-2,result:"Done. The silence is notable. Mr. Pete seems sad."}]},
+  {title:'Package Addressed to "The Hotel"',msg:"No room number. No resident name. Just: The Hotel, Beaumont, City. It is large.",c:'gloria',
+   choices:[{t:'Open it carefully',money:0,rep:3,chaos:1,result:"It's a ficus. A very large ficus. A note says 'You'll know where it belongs.' We do not."},
+            {t:'Return to sender',money:0,rep:2,chaos:-1,result:"Return address: Hotel Beaumont, same address. It came from here."},
+            {t:'Put it in the lobby and wait',money:0,rep:5,chaos:-1,result:"The ficus is now a lobby fixture. No one questions it. Beaumont the cat likes it."}]},
+  {title:'The WiFi Password Is Literally "incorrect"',msg:"Residents keep telling me their password doesn't work. I keep asking what they typed. They type 'incorrect'. Then it works. I am very tired.",c:'yuki',
+   choices:[{t:'Change it to something sensible',money:0,rep:6,chaos:-3,result:"Changed to BeaumontGC2024. Yuki updates the sign. There is peace."},
+            {t:'Keep it — it is objectively funny',money:0,rep:8,chaos:2,result:"Kowalski covers it. 'WIFI CRISIS AT BEAUMONT — A DEVELOPING STORY.'"},
+            {t:'Give Yuki a half-day off for dealing with this',money:0,rep:10,chaos:-1,result:"Morale significantly improved. Yuki sends one (1) emoji: 🙏"}]},
+  {title:'All Three Mops Have Gone Missing',msg:"Gerald I, Gerald II, and Gerald III are all unaccounted for. I have a new spreadsheet.",c:'rosa',
+   choices:[{t:'Organize a formal mop search',money:0,rep:3,chaos:-2,result:"Found in the stairwell between F2 and F3. Darnell had 'reorganized' them."},
+            {t:'Buy replacement mops immediately',money:-60,rep:4,chaos:-2,result:"New mops acquired. Darnell names them Gerald IV, V, and VI."},
+            {t:'Issue a building-wide memo',money:0,rep:-2,chaos:3,result:"Six responses. None helpful. Mrs. Abrams requests a formal inquiry."}]},
+];
+
+const CHAOS_L2=[
+  {title:'Boiler Failure — Midnight',msg:"No heat. Floors 1, 2, and 3. Outside temperature is 38°F. I'm already downstairs.",c:'yuki',
+   choices:[{t:'Emergency contractor — tonight',money:-800,rep:5,chaos:-5,result:"Fixed by 4am. Expensive. Worth every dollar. Residents wake up warm."},
+            {t:'Space heaters for all residents until morning',money:-200,rep:8,chaos:-2,result:"Every room has a heater. Yuki does not sleep. Residents are looked after."},
+            {t:'Wait until morning — it should hold',money:0,rep:-10,chaos:8,result:"It does not hold. Three residents file formal complaints. Mrs. Abrams has timestamps."}]},
+  {title:'Pipe Burst — Floor 2 Bathroom',msg:"Hallway flooding. Three rooms affected. I have the shut-off valve location. Awaiting instructions.",c:'gloria',
+   choices:[{t:'Shut off water and call a plumber now',money:-600,rep:6,chaos:-4,result:"Fixed in 3 hours. The hallway has a slight lean toward the east now. Not structural."},
+            {t:'Emergency tape and bucket operation',money:-80,rep:-2,chaos:-2,result:"Contained. Not fixed. Darnell names his bucket Gerald VII."},
+            {t:'Evacuate the floor to dry rooms',money:-100,rep:3,chaos:5,result:"Residents relocated. The pipe is still burst. Logistics are intense."}]},
+  {title:'Bed Bug Report — Room 214',msg:"I have photographs, a chain-of-custody log, a formal demand letter, and a recommended remediation timeline. Please advise.",c:'abrams',
+   choices:[{t:'Full professional extermination — all floors',money:-1200,rep:10,chaos:-5,result:"Cleared. All rooms inspected. Rosa updates Tab 18: Remediation Log."},
+            {t:'Inspect and treat affected rooms only',money:-400,rep:5,chaos:-3,result:"214 cleared. Spot checks on adjacent rooms. Fingers crossed."},
+            {t:'Quarantine 214 and observe',money:0,rep:-8,chaos:3,result:"Mrs. Abrams escalates. The Housing Board is now involved."}]},
+  {title:'Anonymous 17-Point Complaint Letter',msg:"Delivered under the office door. 17 points. Timestamped. Written in a font I recognize.",c:'gloria',
+   choices:[{t:'Respond formally to all 17 points',money:-50,rep:10,chaos:-4,result:"A 19-point response is sent. Point 18 is a genuine thank-you. Point 19 is a form for future feedback."},
+            {t:'Address the top 5 issues publicly',money:0,rep:6,chaos:-2,result:"Notice posted. Rosa color-codes the response. The author (Mrs. Abrams) appears satisfied."},
+            {t:'Post it on the bulletin board with a note: "We see this"',money:0,rep:4,chaos:3,result:"Three more complaint letters appear. One of them is supportive."}]},
+  {title:'Planning Permission Question from City',msg:"Your cafe may require a change-of-use permit under Section 42(b) of the Municipal Code given the lapse of the previous hotel license.",c:'city',
+   choices:[{t:'Hire a planning consultant immediately',money:-400,rep:6,chaos:-3,result:"Consultant confirms: permit required. Application filed. Six-week wait. Cafe continues."},
+            {t:'Rosa researches the ordinance overnight',money:0,rep:5,chaos:-2,result:"She finds a transitional housing exemption. The cafe is likely covered. Rosa adds Tab 19."},
+            {t:'Keep operating and hope the issue resolves',money:0,rep:-5,chaos:5,result:"The city sends a second letter. It has a different font. It is less friendly."}]},
+  {title:'Master Key Is Missing',msg:"The master key — access to all 30 rooms — is not in the lockbox, not with any of the 12, and not logged as checked out.",c:'gloria',
+   choices:[{t:'Rekey every lock in the building',money:-900,rep:8,chaos:-5,result:"Secure. Expensive. Every resident gets a new key. Rosa catalogs all 30. Twice."},
+            {t:'Lock down non-essential areas and keep searching',money:0,rep:3,chaos:-2,result:"Found in 24 hours. Darnell had it 'just in case.' He had forgotten to log it."},
+            {t:'Change high-risk locks only and investigate',money:-200,rep:4,chaos:-3,result:"Pragmatic. Risky. The key is never found. The building is fine. Probably."}]},
+  {title:'Elevator Fails City Inspection',msg:"Certificate of Compliance not renewed. Elevator out of service until a certified inspection is passed. Timeline: 3–10 business days.",c:'city',
+   choices:[{t:'Emergency certified inspection — expedited fee',money:-500,rep:5,chaos:-3,result:"Back in service in 48 hours. Rosa has added an inspection reminder to Tab 7."},
+            {t:'Stair signage and resident support for now',money:-80,rep:-2,chaos:-1,result:"Managed. Mr. Pete is philosophical about it. Mrs. Abrams is not."},
+            {t:'Contest the ruling with documentation',money:-200,rep:3,chaos:4,result:"Ruling stands. Appeal adds two weeks. The elevator is very quiet."}]},
+  {title:'Roof Leak — Floor 3 in Rainstorm',msg:"Rooms 301, 302, 303 have active leaks. We have buckets deployed. Three residents are awake.",c:'yuki',
+   choices:[{t:'Emergency roofer tonight',money:-700,rep:8,chaos:-4,result:"Patched. Rooms cleared and dried. Residents get a formal apology note and extra towels."},
+            {t:'Tarps and buckets — assess at dawn',money:-50,rep:-2,chaos:-1,result:"Contained for the night. One bucket overflows at 3am. Yuki handles it personally."},
+            {t:'Move all F3 residents to spare rooms',money:-100,rep:3,chaos:5,result:"Disruptive but safe. Six residents need new keys. One refuses to leave."}]},
+  {title:"Mrs. Park's Cooking Triggers Fire Alarm",msg:"Third time this month. The alarm company is asking questions.",c:'park',
+   choices:[{t:'Install a proper commercial vent hood',money:-300,rep:8,chaos:-4,result:"Problem solved. Mrs. Park sends a thank-you note. Her soup is better than ever."},
+            {t:'Have a gentle conversation with Mrs. Park',money:0,rep:5,chaos:-3,result:"She understands. She will cook with the window open. The soup is still magnificent."},
+            {t:"Quietly disable that sensor — just temporarily",money:0,rep:-5,chaos:4,result:"The alarm company finds out. There are forms now. Rosa has a new tab."}]},
+  {title:'Health Inspector — Surprise Visit',msg:"Inspector arriving in 20 minutes. All common areas and the kitchen are subject to review.",c:'city',
+   choices:[{t:"We're ready — Rosa's systems are in place",money:0,rep:15,chaos:-3,result:"Passed with a score of 94. The inspector requests a copy of Rosa's cleaning schedule for reference."},
+            {t:'Quick 20-minute panic-clean of visible areas',money:-30,rep:7,chaos:-2,result:"Passed. Barely. The inspector noted 'earnest effort' in the comments. Rosa is mortified."},
+            {t:'Be fully honest about what we are and what we\'re managing',money:0,rep:8,chaos:-2,result:"Inspector appreciates the transparency. Gives informal guidance. Returns in 60 days."}]},
+  {title:'Jenkins Expands Archive Into Hallway',msg:"I have temporarily placed 6 boxes in the corridor outside my suite for organizational purposes. The process requires approximately 3–4 weeks.",c:'jenkins',
+   choices:[{t:'Negotiate a firm 72-hour removal timeline',money:0,rep:4,chaos:-3,result:"Jenkins agrees. He is done in 71 hours. The corridor is clear. 48 boxes are now inside one suite."},
+            {t:'Offer a storage unit at building expense',money:-150,rep:7,chaos:-4,result:"Jenkins calls it The Annex. He visits it every other day. He has a key on a special ring."},
+            {t:'Formally document the blockage — policy violation',money:0,rep:2,chaos:2,result:"Jenkins responds with a 3-page memo on the organizational necessity of the boxes."}]},
+  {title:'Bugle Causes Resident Dispute',msg:"Volume 2, No. 3 of The Beaumont Bugle made a reference to a 'persistent ambient condition' near Room 217. I live in Room 217. This is now a matter of record.",c:'abrams',
+   choices:[{t:'Mediate a meeting between both parties',money:0,rep:8,chaos:-4,result:"Resolution reached. Kowalski prints a clarification. Mrs. Abrams accepts. No one mentions the shoes."},
+            {t:'Ask Kowalski to print a retraction',money:0,rep:5,chaos:-3,result:"Retraction printed in Vol 2 No. 4. Framed by Mrs. Abrams. For documentation."},
+            {t:'Let them work it out between themselves',money:0,rep:-4,chaos:6,result:"They do not. Gloria spends her Tuesday mediating. The Bugle gains three subscribers."}]},
+  {title:'Float Team Payroll Processing Error',msg:"Darnell, Yuki, and I were not paid this cycle. The fund shows the debit. The accounts don't. I'm not worried. I am writing this down, though.",c:'rosa',
+   choices:[{t:'Emergency same-day bank transfer',money:-30,rep:10,chaos:-5,result:"Fixed in 2 hours. Darnell sends a GIF of fireworks. Rosa updates the payroll tab."},
+            {t:'Committed to resolving by Friday',money:0,rep:-4,chaos:2,result:"Fixed Friday. Three very quiet days in between. Rosa's spreadsheet has new color codes."},
+            {t:'Full payroll system audit first, then payment',money:-200,rep:5,chaos:-2,result:"Audit finds two other small errors. Fixed. The system is now Rosa-approved."}]},
+  {title:'Electrical Fault — Floor 3',msg:"Outlets in Rooms 301 through 306 have no power. Circuit breakers look fine from here but I haven't touched them yet.",c:'yuki',
+   choices:[{t:'Licensed electrician — today',money:-450,rep:6,chaos:-4,result:"Wiring fault behind panel 3C. Fixed, and an adjacent issue caught early. Yuki is relieved."},
+            {t:'Yuki resets every circuit breaker systematically',money:0,rep:3,chaos:-2,result:"Power restored to 4 of 6 rooms. 301 and 303 need a professional. Scheduled for tomorrow."},
+            {t:'Temporary extension cords and power strips for tonight',money:-40,rep:-3,chaos:3,result:"Residents cope. One power strip is plugged into another power strip. Yuki does not sleep."}]},
+  {title:'Resident Dispute — 11pm, Rooms 112 & 114',msg:"TV volume. Ongoing. I have the incident logged. Awaiting guidance.",c:'gloria',
+   choices:[{t:'Gloria mediates immediately',money:0,rep:8,chaos:-5,result:"Resolved in 12 minutes. Both residents shake hands. Gloria does not mention this was her third 11pm call this week."},
+            {t:'Noise policy card under both doors',money:0,rep:4,chaos:-2,result:"Quiet for three days. Then Room 118 starts. The policy card has begun to spread."},
+            {t:"Send Darnell — he's still awake",money:0,rep:6,chaos:-3,result:"Darnell arrives in a bathrobe. He mediates with extraordinary warmth. The residents apologize to each other and to him."}]},
+];
+
+const CHAOS_L3=[
+  {title:'Former Owner Files Legal Challenge',msg:"Our client disputes the settlement terms on procedural grounds. We are prepared to defend the full record. Please advise availability for a call.",c:'lawyer',
+   choices:[{t:'Full legal defense — we go to court',money:-3000,rep:8,chaos:-5,result:"Case heard. Settlement upheld. The judge's language is emphatic. The Bugle's headline: 'WE WIN. (AGAIN.)'"},
+            {t:'Negotiate — resolve it out of court',money:-1500,rep:5,chaos:-2,result:"Settlement confirmed with additional documentation. Quieter. Faster. Gloria does not like it but agrees."},
+            {t:'Press conference — let the public record speak',money:-200,rep:18,chaos:2,result:"National attention. 140 journalists. Gloria speaks for 4 minutes. Darnell stands directly behind her."}]},
+  {title:'City Announces Social Housing Budget Cuts',msg:"The city's social housing support budget will be reduced by 20% effective next quarter. Beaumont-category properties may be impacted.",c:'city',
+   choices:[{t:'Apply immediately for emergency federal grant',money:0,rep:6,chaos:-2,result:"Application submitted. Approved 6 weeks later. The gap is covered. Rosa slept 4 hours during this period."},
+            {t:'Launch a public campaign — residents and staff speak',money:-300,rep:18,chaos:3,result:"City reverses the cut for designated social housing. The Beaumont is cited by name in the council minutes."},
+            {t:'Cut internal expenses to create a buffer',money:1500,rep:-5,chaos:5,result:"Buffer established. Three vendors are now annoyed. The float team's supply budget is notably leaner."}]},
+  {title:'Rosa Submits a Resignation Letter',msg:"Effective [date TBD]. I love this building. I need two weeks of personal leave. I formatted this as a resignation because it felt more official. Please advise.",c:'rosa',
+   choices:[{t:'Approve the vacation immediately',money:0,rep:12,chaos:-3,result:"Rosa returns rested. Tab 99 has been color-coded gold. She brings snacks. Everything is fine."},
+            {t:'Have a thoughtful conversation about what she needs',money:0,rep:10,chaos:-4,result:"She gets 10 days, a half-day Friday for a month, and a formal acknowledgment in the staff meeting."},
+            {t:'Pretend you did not receive it and carry on',money:0,rep:-10,chaos:5,result:"Rosa submits it again. Certified mail. With a cover sheet. Gloria stages an intervention."}]},
+  {title:"Defamation Claim from Former Owner's Lawyer",msg:"The Bugle's description of our client as 'a monument to negligence' (Vol. 3, No. 2) may constitute actionable defamation. Please advise.",c:'lawyer',
+   choices:[{t:'Issue a formal retraction in the Bugle',money:0,rep:-4,chaos:-4,result:"Retraction printed. Kowalski is not happy. He writes a letter of protest to himself."},
+            {t:'Fight it — the description was accurate and documented',money:-2000,rep:10,chaos:2,result:"Dismissed. The record supports every word. Kowalski frames the dismissal notice."},
+            {t:'Settle quietly and move on',money:-3000,rep:2,chaos:-3,result:"Settled. No admission. The Bugle is technically still in print."}]},
+  {title:'National Media Picks Up the Story',msg:"NewsChannel7 here. We'd like to do a feature on the Beaumont housing model for our national segment. Is the building available this weekend?",c:'news',
+   choices:[{t:'Gloria and the team lead the interview warmly',money:0,rep:22,chaos:3,result:"The segment airs to 2.4 million viewers. Gloria's line — 'We just knew the building' — becomes a quote."},
+            {t:'Brief on-record statement only, no cameras inside',money:0,rep:12,chaos:-1,result:"Clean and professional. The story runs. The building's waitlist grows 40% in a week."},
+            {t:"Open the doors — let the residents tell their own story",money:0,rep:20,chaos:5,result:"Authentic and a little chaotic. Darnell is briefly on CNN. Beaumont the cat is widely photographed."}]},
+  {title:'Housing Board Full Audit Announced',msg:"A full operational audit of the Beaumont social housing facility will be conducted over the next 30 days. Please ensure all records are accessible.",c:'housing',
+   choices:[{t:"Rosa's system is ready — we welcome this",money:0,rep:18,chaos:-5,result:"The auditors ask Rosa three questions. She answers all three by directing them to the relevant tab. Score: 97/100."},
+            {t:'Begin urgent digitization of all physical records',money:-500,rep:10,chaos:-3,result:"Everything digitized in 10 days. Two boxes of documents are discovered that Rosa didn't know existed. She's troubled."},
+            {t:'Cooperate fully and answer everything honestly',money:0,rep:12,chaos:3,result:"Audit passes. The auditors note 'operational transparency above standard.' Rosa receives a note of commendation."}]},
+  {title:'All 12 Staff — Payroll Error',msg:"The operating fund shows payroll disbursed. None of us received it. All twelve. I have the bank confirmation. I need to understand what happened.",c:'gloria',
+   choices:[{t:'Emergency bank escalation — today, all hands',money:-200,rep:10,chaos:-3,result:"Error traced to a vendor ACH conflict. Fixed same day. Darnell rallies everyone with an extremely motivational speech."},
+            {t:'File formally and commit to resolution in 48 hours',money:0,rep:-4,chaos:2,result:"Fixed in 48 hours. The 48 hours are very quiet. Very, very quiet."},
+            {t:'Audit the full payroll system while fixing this',money:-300,rep:6,chaos:-2,result:"Root cause identified and eliminated. Rosa creates Tab 28: Financial Integrity. It is comprehensive."}]},
+  {title:'Former Owner Attempts Proxy Repurchase',msg:"A company called GBM Holdings has filed a property inquiry on the adjacent parcel and is claiming shared access rights. Our analysis suggests this is a proxy vehicle.",c:'lawyer',
+   choices:[{t:'Block via city zoning and formal objection',money:-500,rep:8,chaos:-3,result:"Filed and upheld. GBM Holdings' application is denied. The adjacent parcel remains quiet."},
+            {t:'Public statement — let the community know',money:0,rep:15,chaos:2,result:"Community rallies. Three neighbourhood associations write letters of support. Kowalski's headline: 'WE SEE YOU.'"},
+            {t:'Legal injunction immediately',money:-2000,rep:10,chaos:-5,result:"Injunction granted. The access claim is dismissed. A footnote in legal databases now mentions the Beaumont."}]},
+  {title:'Congressional Staffer Calls — Visit in 48 Hours',msg:"The Subcommittee on Housing Innovation would like to schedule a site visit to the Beaumont within 48 hours. Please confirm availability.",c:'city',
+   choices:[{t:'Full tour — all hands, all floors, all residents welcome',money:-100,rep:22,chaos:4,result:"The subcommittee stays 50 minutes over schedule. One member requests Rosa's spreadsheet methodology as part of the public record."},
+            {t:'Structured tour with a tight agenda',money:-50,rep:15,chaos:-1,result:"Professional and efficient. The chair takes notes. The vice-chair photographs the Bugle."},
+            {t:'Request 2 more weeks notice for a proper visit',money:0,rep:8,chaos:-2,result:"Request granted. When they arrive, everything is perfect. Rosa has made laminated guides."}]},
+  {title:'$50K Federal Grant — Deadline 72 Hours',msg:"A federal Social Housing Innovation Grant of $50,000 is available. Application deadline: 72 hours. 40-page application required.",c:'housing',
+   choices:[{t:'Rosa and Yuki do it — all-nighter',money:50000,rep:12,chaos:5,result:"Submitted at 3:47am. 41 pages. Approved 3 weeks later. Rosa sleeps for 14 hours. Yuki sends a single thumbs-up emoji."},
+            {t:'Hire an emergency grant writer',money:-800,rep:8,chaos:-2,result:"Writer delivers 38 pages in time. Application is good. Grant approved at $40K."},
+            {t:"It's too fast — decline this cycle",money:0,rep:4,chaos:-3,result:"The grant goes elsewhere. A note goes in the calendar: apply next cycle. Rosa opens Tab 30."}]},
+  {title:'Eight Cities Want the Beaumont Model',msg:"Following recent media coverage, we have received formal inquiries from 8 municipalities seeking to replicate the Beaumont social housing approach. Please advise.",c:'housing',
+   choices:[{t:'Accept — formal partnership, shared resources',money:10000,rep:28,chaos:5,result:"Eight cities. One model. The replication team is Darnell, Yuki, and a lot of video calls."},
+            {t:'Share the playbook freely — no central control',money:0,rep:32,chaos:2,result:"Open-source housing. The idea spreads faster than any organization could manage. The Bugle editorial: 'What We Started.'"},
+            {t:'Pilot with 2 cities first — learn before scaling',money:3000,rep:18,chaos:-2,result:"Pilots run clean. The 2 cities become the templates. Six more cities are waiting. Rosa has a new binder."}]},
+  {title:"Building Designated a Historic Landmark",msg:"The city's Heritage Commission has formally designated The Grand Beaumont as a Historic Landmark. This carries tax benefits and certain renovation restrictions.",c:'city',
+   choices:[{t:'Accept — the history is part of who we are',money:2000,rep:16,chaos:-2,result:"Official designation. A plaque is installed. Kowalski publishes a 6-page special edition."},
+            {t:'Negotiate exceptions for renovation needs',money:-300,rep:12,chaos:2,result:"Exceptions granted for operational renovations. The plaque goes up. Rosa files the exemption in Tab 25."},
+            {t:'Decline — we need operational flexibility',money:0,rep:-2,chaos:-3,result:"Designation declined. The city is surprised. Three heritage organizations send letters. The building is still itself."}]},
+  {title:"Darnell Is Offered a Job Elsewhere",msg:"I need to tell you something. I've been offered a position at a new housing project. 30% pay increase. Better title. I don't know what to do. I love this building.",c:'darnell',
+   choices:[{t:'Make a counteroffer — match what you can',money:-500,rep:10,chaos:-3,result:"Darnell stays. He frames the counteroffer letter and hangs it next to Gerald VII."},
+            {t:'Tell him you support whatever he decides',money:0,rep:8,chaos:-1,result:"He stays. Three weeks of silence, then: 'The other place doesn't have Beaumont.' He means the cat."},
+            {t:'Say nothing and hope he figures it out',money:0,rep:-6,chaos:5,result:"He figures it out. It takes a month. During that month, Darnell is extremely quiet. Everyone notices."}]},
+  {title:'Insurance Premium Doubles Again',msg:"Your annual renewal has been assessed at 2x last year's premium. Underwriter cites occupancy type change and increased liability exposure.",c:'gloria',
+   choices:[{t:'Pay it — stability matters',money:-4000,rep:4,chaos:-2,result:"Paid. Budget tighter. Rosa opens a cost-optimization tab. It has 8 sub-tabs already."},
+            {t:'Fight it — formally challenge the assessment',money:-1000,rep:7,chaos:2,result:"Challenge accepted for review. Premium stays while it's reviewed. Decision expected in 60 days. Rosa is watching."},
+            {t:'Shop for a new insurer immediately',money:-500,rep:5,chaos:3,result:"New insurer found at 1.4x. Some coverage gaps. Lawyer reviews. Rosa catalogues the gaps. In red."}]},
+  {title:'The Original Verdict Is Appealed',msg:"Our client has filed a procedural appeal of the original settlement on the basis of newly identified documentation. We are well-positioned to defend. Please advise budget.",c:'lawyer',
+   choices:[{t:'Full defense — this ends here',money:-4000,rep:8,chaos:-3,result:"Appeal dismissed at first hearing. The judge uses the word 'frivolous' twice. The Bugle uses it six times."},
+            {t:'Press conference — let the public see what this is',money:-200,rep:18,chaos:3,result:"Attention is intense. Supporters rally. The appeal is quietly withdrawn 10 days later."},
+            {t:'Request mediation — resolve this once and for all',money:-1000,rep:10,chaos:-2,result:"Mediated settlement: appeal withdrawn, no further challenges for 10 years. Gloria shakes hands and doesn't smile until she's outside."}]},
+];
+
+function getL4Pool(){return [...CHAOS_L1,...CHAOS_L2,...CHAOS_L3];}
+
+// ── Scenario Pools ────────────────────────────────────────────────────────────
+const L1_POOL=[
+  {day:'Monday, Day 1',
+   msgs:[{c:'gloria',t:"Alright. The deed is in Rosa's binder. This building is ours."},{c:'darnell',t:"I STILL CAN'T BELIEVE IT. Four years. OURS."},{c:'yuki',t:"Floors 1 through 3 need assessment today. I already started a list."},{c:'rosa',t:"I have a spreadsheet. 17 tabs. Tab 1: structural. Tabs 2–6: plumbing. Tab 7 is contingencies. Tab 8 is contingency-contingencies."}],
+   prompt:'How do you organize Day One?',
+   choices:[
+    {t:'Top-down sweep — all 12 on Floor 1, then 2, then 3',money:0,rep:10,chaos:-3,f1:3,f2:0,f3:0,good:true,result:"Floor 1 done by noon. The systematic approach suits a building that rewards patience."},
+    {t:'Split into 3 teams — hit all floors at once',money:0,rep:5,chaos:-2,f1:2,f2:2,f3:2,good:true,result:"All floors touched. Messier than ideal. Nothing is neglected."},
+    {t:'Lobby and cafe first — public face matters',money:500,rep:15,chaos:-1,f1:0,f2:0,f3:0,good:false,result:"The lobby is perfect. Floors 1–3 are not. Residents will notice."},
+    {t:"Rosa's spreadsheet governs the sequence",money:0,rep:8,chaos:-4,f1:2,f2:1,f3:1,good:true,result:"Chaotic at first, then eerily efficient. Tab 1 is complete by 4pm."},
+   ],
+   follow:[{c:'gloria',good:"That's what owning something looks like.",bad:"Tomorrow we do better. Today was still Day One."},{c:'darnell',good:"WE ARE THE BUILDING! I said that out loud and I stand by it.",bad:"It's fine. We're fine. This is fine."}]},
+
+  {day:'Tuesday, Day 2',
+   msgs:[{c:'gloria',t:"The cafe is dark but everything's there. Walk-in fridge, espresso machine, the lot."},{c:'benny',t:"I can have it open by Thursday if someone says go."},{c:'yuki',t:"Coffee revenue would help the operating fund considerably."},{c:'darnell',t:"Chef Benny. Say go. Please say go."}],
+   prompt:'How do you open the Beaumont Cafe?',
+   choices:[
+    {t:'Soft open — breakfast and lunch, Chef Benny only',money:0,rep:10,chaos:-2,cafeOpen:true,cafeIncome:800,cafeShifts:[0],good:true,result:"Lines out the door by Day 5. Chef Benny is in his element."},
+    {t:'Full launch — all three shifts, all in',money:-400,rep:15,chaos:3,cafeOpen:true,cafeIncome:1200,cafeShifts:[0,1,2],good:true,result:"Ambitious and loud. Revenue good. Chaos real. The 2am shift is Dario's domain now."},
+    {t:'Residents-only cafe — no outside customers',money:0,rep:12,chaos:-4,cafeOpen:true,cafeIncome:200,cafeShifts:[0],good:true,result:"Quiet. Right. Mrs. Park asks Benny for a soup trade. He says yes immediately."},
+    {t:'Not yet — floors first, then the cafe',money:0,rep:-3,chaos:-3,cafeOpen:false,good:false,result:"The cafe stays dark. Benny waits. The espresso machine hums to itself."},
+   ],
+   follow:[{c:'benny',good:"*sends a photo of a full table at 8:15am*",bad:"Whenever you're ready. The oven stays warm."},{c:'darnell',good:"I had the soup. I cried a little. Happy crying. Important distinction.",bad:"Soon though, right? The espresso machine is looking at me."}]},
+
+  {day:'Wednesday, Day 3',
+   msgs:[{c:'city',t:"Formal notice: The Grand Beaumont must obtain a residential habitability certificate within 72 hours or operations will be suspended."},{c:'gloria',t:"72 hours. We've cleaned faster under worse conditions."},{c:'rosa',t:"Tab 4 is now active: Habitability Certification. I have a sub-tab for each room."},{c:'yuki',t:"Tell me where to start."}],
+   prompt:'How do you hit the 72-hour deadline?',
+   choices:[
+    {t:'All hands — non-stop until everything is done',money:-200,rep:15,chaos:4,f1:8,f2:7,f3:6,good:true,result:"Certified. Rosa's eye twitches slightly. Just slightly. It passes."},
+    {t:'Focus on Floors 1 and 2, flag Floor 3 as in-progress',money:-100,rep:8,chaos:-1,f1:8,f2:7,f3:1,good:true,result:"Certified for occupied floors. Floor 3 flagged for 30-day follow-up."},
+    {t:'Request a 24-hour extension from the city',money:0,rep:-3,chaos:-3,f1:3,f2:2,f3:1,good:false,result:"Extension granted. The inspector sighs audibly on the phone. Rosa logs the sigh."},
+    {t:"Use Rosa's system — inspect-critical items only",money:-50,rep:12,chaos:-2,f1:5,f2:4,f3:3,good:true,result:"Strategic, targeted, and certified by 6pm on Day 2 of the deadline. Rosa nods once."},
+   ],
+   follow:[{c:'rosa',good:"Certificate filed under Tab 4B. Green status. Sub-tab: DONE.",bad:"We learn. I'm opening Tab 9."},{c:'gloria',good:"That is what 12 people who own their building look like.",bad:"We've earned the right to do better next time."}]},
+
+  {day:'Friday, Day 5',
+   msgs:[{c:'gloria',t:"First residents arrive tomorrow. Twenty-four people who've been on the waitlist an average of fourteen months."},{c:'pete',t:"I called ahead about the cat situation. Someone said yes. I hope that was official."},{c:'darnell',t:"I am going to be so professional. I have practiced my professional face."},{c:'abrams',t:"I would like to confirm the move-in protocol in writing. For the record."}],
+   prompt:'How do you welcome the first residents?',
+   choices:[
+    {t:'Full welcome committee — all 12, all floors, the works',money:-100,rep:20,chaos:2,good:true,result:"Mrs. Abrams calls it 'unprecedented in warmth.' That is her highest available commendation."},
+    {t:'Quiet dignity — rooms ready, keys at the desk',money:0,rep:12,chaos:-3,good:true,result:"Peaceful and right. Mr. Pete finds his spot. Beaumont the cat is in the lobby already."},
+    {t:"Rosa's 14-section orientation packet and a short speech",money:-50,rep:15,chaos:-2,good:true,result:"The packet is excellent. Mr. Kowalski requests an additional copy 'for archival purposes.'"},
+    {t:'Let each resident settle on their own terms',money:0,rep:8,chaos:-4,good:false,result:"Low-key. Some love it. Mrs. Abrams has three follow-up questions, properly filed."},
+   ],
+   follow:[{c:'pete',good:"Found a good window. Beaumont approves of the ledge.",bad:"Nice room. A very nice room."},{c:'abrams',good:"I've documented the arrival. Formally. It was — it was lovely, actually.",bad:"I have follow-up questions. I'll file them in the appropriate format."}]},
+
+  {day:'Saturday, Day 6',
+   msgs:[{c:'gloria',t:"Jenkins is outside with a moving truck."},{c:'jenkins',t:"I have 48 boxes. They are catalogued. This is not a collection. It is an archive."},{c:'darnell',t:"I counted. There are also two globes."},{c:'yuki',t:"The elevator takes approximately 12 trips per 10 boxes. Penthouse, so: 58 trips. I've done the math."}],
+   prompt:"How do you handle the Jenkins archive situation?",
+   choices:[
+    {t:'Penthouse suite — archive gets a dedicated room in-unit',money:-200,rep:8,chaos:3,good:false,result:"Jenkins is delighted. Dario counts: 14 elevator trips. The globes went up together, separately labeled."},
+    {t:'Penthouse suite — archive goes to building storage (The Annex)',money:-100,rep:8,chaos:-3,good:true,result:"Compromise reached. Jenkins names the storage room The Annex immediately. The globes go upstairs."},
+    {t:'15 boxes in-suite, remainder in The Annex — negotiated split',money:0,rep:10,chaos:-4,good:true,result:"Jenkins agrees. The organizational schema is revised. The globes are in-suite. Neither is labeled 'decorative.'"},
+    {t:'Policy limit: 10 boxes per resident — equally applied',money:0,rep:5,chaos:-5,good:true,result:"Jenkins complies. 48 boxes become 10 'logical groupings.' Each grouping weighs approximately 40 pounds."},
+   ],
+   follow:[{c:'jenkins',good:"The archive integrity is preserved. I am grateful.",bad:"I'll need to reassess the organizational schema. Thursday, at the latest."},{c:'darnell',good:"HE HAS TWO GLOBES. ONE IS HEAVIER. I HELD THEM.",bad:"I tried to ask about the globes. He redirected me to a box labeled 'Correspondence, 1987–91.'"}]},
+];
+
+const L2_POOL=[
+  {day:'Week 3',
+   msgs:[{c:'rosa',t:"Floor 1, rooms 102 through 109, have a radiator situation."},{c:'darnell',t:"'Situation' is generous. It sounds like someone is playing percussion in the pipes at 3am."},{c:'yuki',t:"Residents have been awake. Formally logged. Multiple."},{c:'gloria',t:"What are our options?"}],
+   prompt:'How do you resolve the Floor 1 radiator situation?',
+   choices:[
+    {t:'Professional HVAC contractor — fix it properly',money:-800,rep:8,chaos:-5,f1:2,good:true,result:"Fixed. Silent. Rosa removes it from Tab 3. She seems almost wistful."},
+    {t:'Darnell + a YouTube tutorial + a very long weekend',money:-30,rep:3,chaos:-2,f1:1,good:false,result:"Quieter. Not fixed. Not louder, though. Darnell considers this a win."},
+    {t:'Residents vote on a thermostat schedule workaround',money:0,rep:12,chaos:-3,f1:0,good:true,result:"Democratic and effective. The 3am percussion stops. Kowalski covers it."},
+    {t:'Schedule maintenance; offer voluntary room swaps in the meantime',money:-200,rep:10,chaos:-4,f1:1,good:true,result:"Smooth. Residents feel looked after. The contractor arrives in 72 hours. The pipes are respectful."},
+   ],
+   follow:[{c:'rosa',good:"Tab 7 updated. Radiator: Green. I feel good about Tab 7.",bad:"Tab 23 now exists. It's for things I have feelings about."},{c:'darnell',good:"Floor 1 is sleeping. That matters to me.",bad:"I stand by my repair. Mostly."}]},
+
+  {day:'Week 4',
+   msgs:[{c:'abrams',t:"I am filing a formal grievance regarding the balcony furniture arrangement of Room 214, specifically the placement of a folding chair in shared sightline territory."},{c:'kowalski',t:"I'm covering this for the Bugle. 'BALCONY DISPUTE: A DEVELOPING STORY.'"},{c:'yuki',t:"Room 214 is aware. They have sent a counter-statement."},{c:'gloria',t:"It's a folding chair."}],
+   prompt:'How do you resolve the balcony dispute?',
+   choices:[
+    {t:'Formal mediation — all parties, independent process',money:0,rep:15,chaos:-5,good:true,result:"Resolved. Mrs. Abrams files an 8-page resolution summary. It is thorough. It is fair. It is filed in triplicate."},
+    {t:'Building-wide balcony furniture policy — level playing field',money:-50,rep:8,chaos:-4,good:true,result:"Clear, consistent, and equal. Kowalski writes a 'Community Finds Common Ground' editorial."},
+    {t:'Community vote on the policy',money:0,rep:10,chaos:-2,good:true,result:"Slow but legitimate. 22 of 24 residents vote. The result is unambiguous. The chair moves 6 inches."},
+    {t:'Gloria has a private conversation with each party',money:0,rep:5,chaos:-6,good:false,result:"Done in 40 minutes. Nobody is totally happy. Nobody is hostile. The chair stays where it is. The Bugle is disappointed."},
+   ],
+   follow:[{c:'abrams',good:"I've appended the resolution to the original grievance. For completeness and future reference.",bad:"The documentation timeline was not fully respected. I have noted this."},{c:'kowalski',good:"'BALCONY PEACE.' Front page. Vol 2. The chair has been moved.",bad:"I had headlines ready for every outcome. I'll save them."}]},
+
+  {day:'Week 5',
+   msgs:[{c:'yuki',t:"The penthouse corridor is not entirely clear."},{c:'jenkins',t:"I am temporarily staging 6 additional boxes in the corridor for what I expect to be a brief organizational transition."},{c:'gloria',t:"Jenkins. The last 'brief transition' was 3 weeks ago."},{c:'jenkins',t:"The archive does not move on anyone else's timeline. Respectfully."}],
+   prompt:"How do you handle the archive corridor situation?",
+   choices:[
+    {t:"Offer a dedicated off-site storage unit at building expense",money:-200,rep:7,chaos:-4,good:true,result:"Jenkins accepts. He names it The Annex Extension. He requests a key fob. He visits Tuesday and Thursday."},
+    {t:"Build proper shelving inside his suite — solve it permanently",money:-400,rep:10,chaos:-5,good:true,result:"Jenkins is moved. He offers to show the non-decorative globe. You politely decline. The shelving is beautiful."},
+    {t:"Firm notice: corridor must be clear within 48 hours",money:0,rep:3,chaos:-3,good:true,result:"Jenkins complies at hour 47. The corridor is clear. The 48 boxes are now very precisely arranged in-suite."},
+    {t:"Send Rosa to negotiate",money:0,rep:12,chaos:-6,good:true,result:"Rosa returns 90 minutes later with a signed 4-page framework agreement and a hand-drawn map of the archive organized by era. She is calm."},
+   ],
+   follow:[{c:'jenkins',good:"The organizational integrity is preserved. I have updated the catalogue.",bad:"I'll reframe the boxes by Thursday. The corridor will be passable."},{c:'yuki',good:"Corridor clear. I slept seven hours. These two facts are related.",bad:"It's passable. Not clear, but passable. I'm going home."}]},
+
+  {day:'Week 6',
+   msgs:[{c:'gloria',t:"The operating fund is tighter than it should be. A vendor invoice is due Friday."},{c:'yuki',t:"We have three months of runway at current burn rate. Two if the boiler needs attention."},{c:'rosa',t:"Tab 11 is now called 'Budget Situation.' Tab 11B is 'If Budget Situation Worsens.' Tab 11C does not have a name yet."},{c:'darnell',t:"I have some ideas. They involve the cafe."}],
+   prompt:'How do you stabilize the budget?',
+   choices:[
+    {t:'Expand the cafe — add QuickDeliver delivery service',money:0,rep:5,chaos:3,cafeOpen:true,cafeIncome:1200,delivOn:true,delivIncome:400,good:true,result:"Revenue grows fast. So does the pace. Darnell is managing delivery at peak hours. He loves it."},
+    {t:'Apply for an emergency social housing grant',money:5000,rep:8,chaos:-2,good:true,result:"Approved in 3 weeks. The Housing Board is impressed by Rosa's application. Tab 11 turns green."},
+    {t:'Renegotiate vendor contracts — ask for better terms',money:2000,rep:-3,chaos:2,good:false,result:"Savings achieved. Two vendors are noticeably cooler. The numbers work. Barely."},
+    {t:'Fundraising event in the lobby — open to the public',money:3000,rep:15,chaos:4,money2:-300,good:true,result:"Packed. Mrs. Park provides soup. The Bugle covers it in full. Kowalski is the MC. He has prepared remarks."},
+   ],
+   follow:[{c:'gloria',good:"We make it work. We always make it work.",bad:"Tighter month ahead. We've been tighter."},{c:'rosa',good:"Tab 11C has a name: 'Resolution.' It's green. This is a green tab.",bad:"Tab 11C is amber. Working on it."}]},
+
+  {day:'Week 7',
+   msgs:[{c:'housing',t:"The Beaumont Social Housing Facility is scheduled for a full operational re-inspection commencing in 14 days. All records, rooms, and staff must be available."},{c:'rosa',t:"I've been waiting for this. Tab 4 through Tab 21 are ready."},{c:'yuki',t:"All floors. All rooms. Every log."},{c:'darnell',t:"I feel like we're about to take a very important test and we've already done all the revision."}],
+   prompt:'How do you prepare for the re-inspection?',
+   choices:[
+    {t:"Rosa's full preparation protocol — every room, every tab",money:-100,rep:20,chaos:2,f1:10,f2:9,f3:8,good:true,result:"97 out of 100. The inspector asks for Rosa's contact details. She gives them the spreadsheet URL."},
+    {t:'Focus effort on Floors 1 and 2 — Floor 3 flagged in-progress',money:0,rep:12,chaos:-2,f1:10,f2:9,f3:3,good:true,result:"Certified for occupied areas. Floor 3 flagged for follow-up. The inspector is understanding."},
+    {t:'All 12 staff on non-stop prep for 14 days',money:-200,rep:15,chaos:5,f1:9,f2:8,f3:7,good:true,result:"Exhausting and effective. Certified. Gloria orders pizza at 11pm the night before. It feels earned."},
+    {t:'Request an informal pre-inspection first — ask for guidance',money:0,rep:8,chaos:-4,f1:5,f2:4,f3:3,good:true,result:"Inspector visits informally, gives notes. Every note becomes a tab. The formal inspection is close to formality."},
+   ],
+   follow:[{c:'housing',good:"The Beaumont meets or exceeds all applicable residential standards.",bad:"Several items require attention within 30 days. The board will follow up."},{c:'rosa',good:"Tab 4B: Certificate filed. Green. I need a moment.",bad:"I've noted every feedback point. Each has a sub-tab. We will be ready."}]},
+];
+
+const L3_POOL=[
+  {day:'Month 3',
+   msgs:[{c:'gloria',t:"The cafe has a two-hour wait. A journalist mentioned us in a national newsletter."},{c:'benny',t:"We're out of oat milk by 9am. I need a bigger order."},{c:'news',t:"NewsChannel7 here. We'd like to come this weekend for a feature. The national desk is interested."},{c:'darnell',t:"THE. NATIONAL. DESK. *sends seventeen fire emojis*"}],
+   prompt:'How do you handle the national media attention?',
+   choices:[
+    {t:'Gloria and the team do a joint interview — warm and honest',money:0,rep:25,chaos:3,good:true,result:"The segment airs to 2.4 million viewers. Gloria's quote — 'We just knew the building' — becomes the pull quote."},
+    {t:'Brief on-record statement only — no cameras inside',money:0,rep:14,chaos:-1,good:true,result:"Controlled and professional. The story runs. The waitlist grows 40% in a week. Benny orders triple the oat milk."},
+    {t:"Open the doors — residents tell their own story",money:0,rep:22,chaos:6,good:false,result:"Authentic and somewhat chaotic. Darnell is briefly on CNN. Beaumont the cat appears in 6 photographs."},
+    {t:"Kowalski writes the press release in Times New Roman",money:0,rep:10,chaos:-2,good:true,result:"3 pages. Double-spaced. The AP picks up one paragraph. Kowalski frames the paragraph."},
+   ],
+   follow:[{c:'news',good:"'The Beaumont model is the housing story of the decade.' — segment outro",bad:"We'll follow up as the story develops."},{c:'darnell',good:"I was on TV for eleven seconds. That is enough for me. That is more than enough.",bad:"Nobody said my name correctly. Which is fine. I know who I am."}]},
+
+  {day:'Month 4',
+   msgs:[{c:'gloria',t:"The operating fund is at three months of runway. A major grant was denied."},{c:'yuki',t:"Two months if the boiler needs anything structural."},{c:'lawyer',t:"Funding position noted. Recommend identifying alternative capital sources within 30 days."},{c:'rosa',t:"Tab 11C is now red. I have opened Tab 11D. It is also red. I am working on Tab 11E."}],
+   prompt:'How do you stabilize long-term funding?',
+   choices:[
+    {t:'Social enterprise model — cafe and delivery as revenue center',money:0,rep:10,chaos:5,cafeIncome:2000,delivOn:true,delivIncome:600,good:true,result:"Revenue-positive by Month 5. Not comfortable. Sustainable. Darnell manages the evening delivery window personally."},
+    {t:'National fundraising campaign — let the public in',money:15000,rep:22,chaos:4,good:true,result:"$15,000 in 10 days. Kowalski publishes a 4-page commemorative Bugle. Rosa's Tab 11E turns green."},
+    {t:'City pilot program partnership — stable funding, some oversight',money:20000,rep:15,chaos:2,good:true,result:"Partnership signed. Some autonomy traded for stability. Gloria considers this a reasonable tradeoff."},
+    {t:'Apply for federal Section 8 housing designation',money:30000,rep:12,chaos:-2,good:true,result:"Approved in 6 weeks. Gloria quietly cries in the stairwell between Floor 2 and Floor 3. She returns in 4 minutes."},
+   ],
+   follow:[{c:'gloria',good:"We are not going anywhere. I want everyone to say that out loud.",bad:"Three months is enough time. Let's move."},{c:'yuki',good:"Financial projections: green for 24 months. Tab 11 has been retired.",bad:"We have time. Let's use it exactly right."}]},
+
+  {day:'Month 5',
+   msgs:[{c:'city',t:"The Subcommittee on Housing Innovation will be conducting a site visit within 48 hours. Please confirm availability."},{c:'gloria',t:"48 hours. Right."},{c:'rosa',t:"I am already updating the binder. Tab 31 is now active: Congressional Visit. There are seven sub-tabs."},{c:'darnell',t:"Should I wear the good apron?"}],
+   prompt:'How do you host the congressional visit?',
+   choices:[
+    {t:'Full tour led by Gloria — all floors, all staff',money:-100,rep:28,chaos:4,good:true,result:"The subcommittee stays 45 minutes over schedule. One member asks to keep a copy of Rosa's floor map."},
+    {t:'Resident-led tour — let the people speak for the place',money:-50,rep:32,chaos:6,good:true,result:"Mr. Pete speaks about Beaumont the cat for 9 minutes. The subcommittee is enchanted. Darnell cries once."},
+    {t:'Tight professional briefing plus a short walk-through',money:0,rep:18,chaos:-1,good:true,result:"Efficient and strong. The chair takes 2 pages of notes. Vice-chair photographs the Bugle wall."},
+    {t:'Rosa coordinates the entire 48 hours to the minute',money:0,rep:24,chaos:1,good:true,result:"A 43-point itinerary. Color-coded by floor. Laminated. The subcommittee is slightly in awe."},
+   ],
+   follow:[{c:'city',good:"The subcommittee has formally designated the Beaumont as a model program.",bad:"The subcommittee will follow up with written questions within 14 days."},{c:'rosa',good:"Tab 31 complete. All 7 sub-tabs: green. I'm going to lie down in an extremely organized way.",bad:"Three items deviated from the itinerary. Tab 31B addresses this. I have feelings."}]},
+
+  {day:'Month 6',
+   msgs:[{c:'housing',t:"Following national coverage, 8 municipalities have submitted formal requests to replicate the Beaumont social housing model."},{c:'gloria',t:"Eight cities."},{c:'darnell',t:"EIGHT."},{c:'lawyer',t:"We recommend reviewing the terms carefully before committing to any replication framework."}],
+   prompt:'How do you approach the 8-city replication deal?',
+   choices:[
+    {t:'Accept — formal partnership, shared coordination',money:10000,rep:30,chaos:5,good:true,result:"Eight cities. One model. The replication team is Darnell, Yuki, and three video calls a week."},
+    {t:'Share the playbook freely — no central control needed',money:0,rep:35,chaos:2,good:true,result:"Open-source housing. The idea spreads faster than any single organization could. The Bugle editorial: 'What We Started.'"},
+    {t:'Pilot with 2 cities first — prove the template',money:3000,rep:20,chaos:-2,good:true,result:"Cleaner. Slower. The 2 pilots become the framework. Six cities are still waiting. Patiently."},
+    {t:'Put it to a resident vote — this affects their home',money:0,rep:25,chaos:2,good:true,result:"Unanimous yes. Kowalski's editorial headline: 'WHAT WE BUILT, WHAT WE GAVE.' Darnell frames it."},
+   ],
+   follow:[{c:'housing',good:"The Beaumont Replication Framework is now formally under development.",bad:"We'll revisit following further internal review."},{c:'darnell',good:"Eight cities. I started here because I needed a job. I stayed because this is mine.",bad:"I trust the process. I do. I just need a minute."}]},
+
+  {day:'Month 12',
+   msgs:[{c:'gloria',t:"One year."},{c:'pete',t:"I took a photo of Beaumont in the lobby this morning. Same spot as Day One. He's grown."},{c:'abrams',t:"I have formally documented the full year of operations. It runs to 847 pages. I — yes. A year."},{c:'kowalski',t:"The Year One Edition of The Bugle is printing now. 16 pages. Times New Roman. There's a centerfold."}],
+   prompt:'How do you mark one year of the Beaumont?',
+   choices:[
+    {t:'Community celebration — all 30 residents, all 12 staff, the whole building',money:-800,rep:30,chaos:3,good:true,result:"Beaumont the cat wears a bow tie. Mrs. Abrams documents every moment. It is the best day."},
+    {t:'Quiet dinner — just the 12 of them',money:-300,rep:20,chaos:-3,good:true,result:"Simple and right. Gloria says four sentences. Everyone understands all of them."},
+    {t:"Kowalski's Year One Bugle — let the paper be the ceremony",money:-100,rep:22,chaos:1,good:true,result:"16 pages. A centerfold map of all 30 rooms. It wins a neighborhood press commendation."},
+    {t:'File the year-end records and keep working',money:0,rep:14,chaos:-5,good:false,result:"No ceremony. The work continues. For some of them, that is the celebration."},
+   ],
+   follow:[{c:'gloria',good:"We did something they said was impossible. We did it.",bad:"Next year will be better. We know what we're doing now."},{c:'abrams',good:"847 pages. I would do it again. I would do it in more detail. Congratulations, everyone.",bad:"Year Two documentation begins Monday. I have a new binder."}]},
+];
+
+// ── Promos ────────────────────────────────────────────────────────────────────
+const PROMOS_L1=[
+  {title:'The Ink Is Dry',badge:'Week One',body:"Four years of depositions, counterclaims, and one photograph of a burst pipe that the judge called 'unambiguous.' Today the settlement is final. The Grand Beaumont belongs to the twelve people who cleaned it, fixed it, and kept it running while the owner pocketed the proceeds.\n\nGloria took a photo of the signed deed. She hasn't stopped looking at it.",cta:'Start Week One →'},
+  {title:'The Vote',badge:'Week One',body:"The settlement offered three options: sell the building, take a cash payout, or assume ownership with operating funds. The vote was held in the break room over cold pizza.\n\nFour minutes. Unanimous. Rosa had already built a pro/con spreadsheet. She'd added a fourth column: 'what we deserve.'",cta:'Start Week One →'},
+  {title:'Thirty Rooms',badge:'Week One',body:"Thirty rooms. Five floors. A cafe with a working espresso machine. A walk-in freezer full of someone else's decisions. The Housing Board has granted conditional occupancy pending full habitability review.\n\nGloria has written the schedule for the next three months. Darnell has named the mop. We begin.",cta:'Start Week One →'},
+  {title:'Welcome Home',badge:'Week One',body:"The first residents arrive this week. Two dozen people who've been on the social housing waitlist an average of fourteen months. Mr. Pete called ahead to ask about the cat situation.\n\nYuki spent twenty minutes figuring out what to say. She said yes. The cat's name hasn't been decided yet.",cta:'Start Week One →'},
+  {title:'What This Building Knows',badge:'Week One',body:"Between the twelve of them, they've cleaned every room on every floor at least a dozen times. They know which outlets flicker, which windows stick, which room has the best light.\n\nThey didn't need a handover document. They were already the handover document.",cta:'Start Week One →'},
+];
+const PROMOS_L2=[
+  {title:'The First Month',badge:'The Floors',body:"Week one was adrenaline. Week two was adjustment. By week three, a pattern: something on Floor 2 needed fixing, someone on Floor 3 had a question, and the cafe was out of oat milk before 9am.\n\nThe Beaumont is becoming a building that is actually lived in. That is harder than it sounds.",cta:'Continue →'},
+  {title:'Running Count',badge:'The Floors',body:"Rosa's spreadsheet has 31 active tabs. She considers this early stage.\n\nFloor 1 is largely stable. Floor 2 has a radiator situation. Floor 3 has Mr. Jenkins' archive, which now occupies 1.3 rooms by Yuki's estimate. There is a note about the stairwell.",cta:'Continue →'},
+  {title:'The Residents',badge:'The Floors',body:"Mrs. Abrams has submitted 4 formal complaints and 2 formal commendations. Mr. Kowalski is on Volume 2 of The Bugle. Mr. Pete has a cat, a goldfish named Sandra, and a large ficus that arrived addressed to no one.\n\nNobody has asked about the ficus.",cta:'Continue →'},
+  {title:'What a Building Costs',badge:'The Floors',body:"The operating fund is not infinite. The boiler is old. The elevator passed its last inspection by a margin Yuki called 'technically passing.'\n\nThe cafe is profitable. That's the only reason nobody's visibly panicking. Rosa is watching three tabs simultaneously.",cta:'Continue →'},
+  {title:'Ordinary Days',badge:'The Floors',body:"There are days now where nothing goes wrong. Yuki calls them suspicious. Darnell calls them a gift. Gloria calls them maintenance windows.\n\nRosa has a tab for them. Kowalski's headline: 'BEAUMONT CALM — A DEVELOPING STORY.' Eight subscribers. Up from six.",cta:'Continue →'},
+];
+const PROMOS_L3=[
+  {title:"They're Watching",badge:'Full Operations',body:"Somewhere around month three, people started paying attention. A journalist mentioned the Beaumont in a national newsletter. A city councillor visited. Three cities sent formal inquiries.\n\nThe building is the same building it was. It just means more now.",cta:'Continue →'},
+  {title:'The Hard Part',badge:'Full Operations',body:"The former owner hasn't gone away. Neither have the insurance premiums, the structural questions, or the vendor who keeps sending invoices addressed to the previous management entity.\n\nRosa has tabs for each of them. Tabs 19 through 24. She is not panicking. She is organized.",cta:'Continue →'},
+  {title:'What Twelve People Can Do',badge:'Full Operations',body:"The Housing Board asked Gloria how the Beaumont achieved what it achieved with no hired management, no external consultants, and a budget most hotels would call a weekend retreat budget.\n\nShe said: 'We knew the building. The building knew us.'",cta:'Continue →'},
+  {title:'Replication',badge:'Full Operations',body:"Eight cities have asked about the model. Each phrases it differently, but the question is the same: can you teach us to do what you did?\n\nRosa has begun a document she's calling the playbook. It has 22 tabs. Darnell says Tab 1 is the most important. It's titled: 'Vote first. Vote unanimous.'",cta:'Continue →'},
+  {title:'One Year',badge:'Full Operations',body:"The lease on the former owner's apartment runs out next month. Three of the 12 have been offered positions elsewhere. None of them have left.\n\nThe Beaumont has a waitlist of 60 people. The cafe has a two-hour wait on Saturdays. Beaumont the cat has been formally named.",cta:'Continue →'},
+];
+
+const L4_MSGS=["All right. Phones down. This is the part where the building decides if you're serious.","Level 4 is not a level. It's nine back-to-back crises. No breaks. Rosa has opened Tab 99.","Darnell is stress-eating a granola bar. Yuki has three clipboards. Gloria is already in the lobby. What are you waiting for?","The Beaumont has survived a legal battle, a boiler, a mould scare, and Mr. Jenkins' archive. It can survive this. Probably.","Nine crises. No scenario. No warm-up. Just the building, the chaos, and the twelve of you."];
+
+// ── Game State ────────────────────────────────────────────────────────────────
+let st={};
+
+// ── Utilities ─────────────────────────────────────────────────────────────────
+const rand=n=>Math.floor(Math.random()*n);
+const pick=a=>a[rand(a.length)];
+function pick3(a){const s=[...a];const r=[];while(r.length<3&&s.length){const i=rand(s.length);r.push(s.splice(i,1)[0]);}return r;}
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+function gt(){const d=new Date();let h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM';h=h%12||12;return `${h}:${m.toString().padStart(2,'0')} ${ap}`;}
+function fmtM(n){return(n<0?'-$':'$')+Math.abs(n).toLocaleString();}
+function scrollBottom(){const c=document.getElementById('chat');c.scrollTop=c.scrollHeight;}
+function makeTag(label,cls){const s=document.createElement('span');s.className='tag '+cls;s.textContent=label;return s;}
+
+// ── Stats UI ──────────────────────────────────────────────────────────────────
+function updateStats(){
+  const{money,rep,chaos,floors,cafe,delivery,level,diff}=st;
+  const d=DIFF[diff]||{};
+  // money
+  const mv=document.getElementById('sv-m');
+  mv.textContent=fmtM(money);
+  mv.className='sp-v '+(money>15000?'sg':money>5000?'sy':'sr');
+  // rep
+  const rv=document.getElementById('sv-r');
+  rv.textContent=rep;
+  rv.className='sp-v '+(rep>60?'sg':rep>30?'sy':'sr');
+  // chaos
+  const cv=document.getElementById('sv-c');
+  cv.textContent=chaos;
+  cv.className='sp-v '+(chaos<10?'sg':chaos<20?'sy':'sr');
+  // floors
+  const fc=v=>v==null?'—':v+'/10';
+  document.getElementById('fv-l').textContent=fc(floors.lobby);
+  document.getElementById('fv-1').textContent=fc(floors.f1);
+  document.getElementById('fv-2').textContent=fc(floors.f2);
+  document.getElementById('fv-3').textContent=fc(floors.f3);
+  // cafe
+  let cafeStr='Closed';
+  if(cafe.open){
+    cafeStr=fmtM(cafe.income)+'/wk';
+    const strip=document.getElementById('cafe-strip');
+    strip.innerHTML='<span class="cs-l">Cafe</span><span id="cafe-val" class="cs-v">'+cafeStr+'</span>';
+    (cafe.shifts||[]).forEach(i=>{const ch=document.createElement('span');ch.className='shift-chip';ch.textContent=SHIFTS[i].label;strip.appendChild(ch);});
+  } else {
+    document.getElementById('cafe-strip').innerHTML='<span class="cs-l">Cafe</span><span id="cafe-val" class="cs-v">Closed</span>';
+  }
+  // delivery
+  if(delivery&&delivery.on){
+    const strip=document.getElementById('cafe-strip');
+    const d2=document.createElement('span');d2.className='shift-chip';d2.textContent='📦 Delivery';strip.appendChild(d2);
+  }
+  // level bar
+  document.getElementById('level-name').textContent=
+    level===1?'Week One':level===2?'The Floors':level===3?'Full Operations':level===4?'All Chaos':'—';
+  const badge=document.getElementById('diff-badge');
+  if(d.label){badge.textContent=d.label;badge.style.background=d.color;badge.style.color='#fff';}
+  // progress dots
+  for(let i=1;i<=4;i++){
+    const el=document.getElementById('pd'+i);
+    el.className='pd'+(i<level?' done':i===level?' cur':'');
+  }
+}
+
+// ── Chat UI ───────────────────────────────────────────────────────────────────
+let typingEl=null;
+function showTyping(charKey){
+  hideTyping();
+  const ch=CH[charKey];
+  const row=document.createElement('div');row.className='typing-row';
+  const av=document.createElement('div');av.className='av-sm';av.style.background=ch.c;av.textContent=ch.i;
+  const b=document.createElement('div');b.className='typing-b';
+  b.innerHTML='<div class="td"></div><div class="td"></div><div class="td"></div>';
+  row.appendChild(av);row.appendChild(b);
+  document.getElementById('chat').appendChild(row);
+  typingEl=row;scrollBottom();
+}
+function hideTyping(){if(typingEl){typingEl.remove();typingEl=null;}}
+
+async function addMsg(charKey,text,extraClass=''){
+  showTyping(charKey);
+  await delay(700+rand(600));
+  hideTyping();
+  const ch=CH[charKey];
+  const isSms=SMS_CHARS.has(charKey);
+  const chat=document.getElementById('chat');
+  // sender name
+  const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;chat.appendChild(sn);
+  const row=document.createElement('div');row.className='msg-row';
+  const av=document.createElement('div');av.className='av-sm';av.style.background=ch.c;av.textContent=ch.i;
+  const b=document.createElement('div');
+  b.className='bubble'+(isSms?' sms':'')+(extraClass?' '+extraClass:'');
+  b.textContent=text;
+  row.appendChild(av);row.appendChild(b);
+  chat.appendChild(row);scrollBottom();
+}
+
+async function addMyMsg(text){
+  await delay(400);
+  const chat=document.getElementById('chat');
+  const row=document.createElement('div');row.className='msg-row r';
+  const b=document.createElement('div');b.className='bubble';b.textContent=text;
+  row.appendChild(b);chat.appendChild(row);
+  const d=document.createElement('div');d.className='delivered';d.textContent='Delivered '+gt();
+  chat.appendChild(d);scrollBottom();
+}
+
+function addSysMsg(text){
+  const chat=document.getElementById('chat');
+  const b=document.createElement('div');b.className='bubble sys';b.textContent=text;
+  chat.appendChild(b);scrollBottom();
+}
+
+function addDateStamp(text){
+  const d=document.createElement('div');d.className='date-stamp';d.textContent=text;
+  document.getElementById('chat').appendChild(d);scrollBottom();
+}
+
+// ── Choice UI ─────────────────────────────────────────────────────────────────
+function setChoiceLabel(text){document.getElementById('choice-label').textContent=text;}
+function clearChoices(){document.getElementById('choices-wrap').innerHTML='';}
+
+function renderChoices(choices,onPick){
+  clearChoices();
+  const wrap=document.getElementById('choices-wrap');
+  choices.forEach((ch,i)=>{
+    const btn=document.createElement('button');btn.className='cb';
+    const t=document.createElement('span');t.className='cb-t';t.textContent=ch.t;btn.appendChild(t);
+    const tags=document.createElement('div');tags.className='cb-tags';
+    if(ch.money){const v=ch.money+(ch.money2||0);tags.appendChild(makeTag(fmtM(v),v>0?'tg':'tr'));}
+    if(ch.rep){tags.appendChild(makeTag((ch.rep>0?'+':'')+ch.rep+' rep',ch.rep>0?'tg':'tr'));}
+    if(ch.chaos!=null&&ch.chaos!==0){tags.appendChild(makeTag((ch.chaos>0?'+':'')+ch.chaos+' chaos',ch.chaos>0?'tr':'tg'));}
+    if(ch.cafeOpen){tags.appendChild(makeTag('☕ Cafe open','tb'));}
+    if(ch.delivOn){tags.appendChild(makeTag('📦 Delivery','tb'));}
+    if(ch.f1||ch.f2||ch.f3){const fc=(ch.f1||0)+(ch.f2||0)+(ch.f3||0);tags.appendChild(makeTag('+'+fc+' clean','tg'));}
+    btn.appendChild(tags);
+    btn.addEventListener('click',()=>{
+      wrap.querySelectorAll('.cb').forEach(b=>b.disabled=true);
+      onPick(ch,i);
+    });
+    wrap.appendChild(btn);
+  });
+}
+
+// ── Promo Card ────────────────────────────────────────────────────────────────
+function showPromo(){
+  const pool=[PROMOS_L1,PROMOS_L2,PROMOS_L3][st.level-1];
+  if(!pool){runChaosLevel();return;}
+  const p=pick(pool);
+  clearChoices();
+  const wrap=document.getElementById('choices-wrap');
+  const card=document.createElement('div');card.className='promo-card';
+  card.innerHTML=`<div class="promo-hdr"><div class="promo-badge">${p.badge}</div><div class="promo-title">${p.title}</div></div><div class="promo-body">${p.body.replace(/\n/g,'<br><br>')}</div><div class="promo-cta"><button class="promo-btn" onclick="startScenarios()">${p.cta}</button></div>`;
+  wrap.appendChild(card);
+  setChoiceLabel('');
+}
+
+// ── Diff Screen ───────────────────────────────────────────────────────────────
+function showDiff(){
+  // reset DOM fully
+  document.getElementById('chat').innerHTML='';
+  setChoiceLabel('');
+  clearChoices();
+  const wrap=document.getElementById('choices-wrap');
+  // check for save
+  const saved=localStorage.getItem('beaumont_save');
+  if(saved){
+    try{
+      const s=JSON.parse(saved);
+      const banner=document.createElement('div');banner.className='save-banner';
+      banner.innerHTML=`<div class="save-banner-t">Continue from Day ${s.day||'?'}, Level ${s.level||'?'}?</div><div class="save-banner-btns"><button class="sbb-c" onclick="loadGame()">Continue</button><button class="sbb-n" onclick="newGameMenu()">New Game</button></div>`;
+      wrap.appendChild(banner);return;
+    }catch(e){}
+  }
+  newGameMenu();
+}
+
+function newGameMenu(){
+  clearChoices();
+  const wrap=document.getElementById('choices-wrap');
+  const title=document.createElement('div');title.className='diff-title';title.textContent='Choose Difficulty';
+  const sub=document.createElement('div');sub.className='diff-sub';sub.textContent='Affects starting budget, chaos rate, and event intensity.';
+  wrap.appendChild(title);wrap.appendChild(sub);
+  Object.entries(DIFF).forEach(([key,d])=>{
+    const btn=document.createElement('button');btn.className='diff-btn';
+    btn.innerHTML=`<div class="diff-btn-name" style="color:${d.color}!important;-webkit-text-fill-color:${d.color}!important">${d.label}</div><div class="diff-btn-desc">${fmtM(d.money)} start · ${d.cpp===2?'2 chaos events/turn':'1 chaos event/turn'}${d.skipChance?` · ${d.skipChance*100}% skip chance`:''}</div>`;
+    btn.addEventListener('click',()=>startGame(key));
+    wrap.appendChild(btn);
+  });
+}
+
+function loadGame(){
+  try{st=JSON.parse(localStorage.getItem('beaumont_save'));}catch(e){newGameMenu();return;}
+  updateStats();
+  addSysMsg('— Resumed —');
+  runScenario();
+}
+
+// ── Game Init ─────────────────────────────────────────────────────────────────
+function startGame(diff){
+  st={
+    diff,money:DIFF[diff].money,rep:60,chaos:DIFF[diff].chaosStart,
+    cafe:{open:false,income:0,shifts:[]},delivery:{on:false,income:0},
+    floors:{lobby:5,f1:0,f2:0,f3:0},
+    level:1,scenario:0,day:1,
+    levels:[pick3(L1_POOL),pick3(L2_POOL),pick3(L3_POOL)],
+    chaosQueue:[],lastChaos:null,usedChaos:{},chaosCount:0,l4Count:0,
+  };
+  saveGame();
+  updateStats();
+  document.getElementById('chat').innerHTML='';
+  addDateStamp('Monday, Day 1');
+  clearChoices();
+  showPromo();
+}
+
+function startScenarios(){runScenario();}
+
+function saveGame(){try{localStorage.setItem('beaumont_save',JSON.stringify(st));}catch(e){}}
+
+// ── Scenario Runner ───────────────────────────────────────────────────────────
+async function runScenario(){
+  if(st.level===4){runChaosLevel();return;}
+  const scenarios=st.levels[st.level-1];
+  if(!scenarios||st.scenario>=scenarios.length){levelUp();return;}
+  const sc=scenarios[st.scenario];
+  setChoiceLabel('');clearChoices();
+  addDateStamp(sc.day||('Day '+st.day));
+  for(const m of sc.msgs){await addMsg(m.c,m.t);}
+  setChoiceLabel(sc.prompt);
+  renderChoices(sc.choices,(ch)=>applyChoice(ch,sc));
+}
+
+// ── Apply Choice ──────────────────────────────────────────────────────────────
+async function applyChoice(ch,sc){
+  setChoiceLabel('');clearChoices();
+  await addMyMsg(ch.t);
+  // apply stats
+  if(ch.money) st.money+=ch.money;
+  if(ch.money2) st.money+=ch.money2;
+  if(ch.rep!=null) st.rep=Math.max(0,Math.min(100,st.rep+ch.rep));
+  if(ch.chaos!=null) st.chaos=Math.max(0,Math.round(st.chaos+ch.chaos*DIFF[st.diff].cm));
+  if(ch.f1) st.floors.f1=Math.min(10,st.floors.f1+ch.f1);
+  if(ch.f2) st.floors.f2=Math.min(10,st.floors.f2+ch.f2);
+  if(ch.f3) st.floors.f3=Math.min(10,st.floors.f3+ch.f3);
+  if(ch.cafeOpen!=null) st.cafe.open=ch.cafeOpen;
+  if(ch.cafeIncome!=null) st.cafe.income=ch.cafeIncome;
+  if(ch.cafeShifts!=null) st.cafe.shifts=ch.cafeShifts;
+  if(ch.delivOn) st.delivery.on=true;
+  if(ch.delivIncome!=null) st.delivery.income=ch.delivIncome;
+  updateStats();
+  await delay(500);
+  addSysMsg(ch.result);
+  await delay(600);
+  // follow-ups
+  if(sc&&sc.follow){
+    for(const f of sc.follow){
+      await addMsg(f.c,ch.good?f.good:f.bad);
+    }
+  }
+  await delay(400);
+  // chaos
+  const cpp=DIFF[st.diff].cpp;
+  for(let i=0;i<cpp;i++){
+    if(st.diff==='easy'&&Math.random()<DIFF.easy.skipChance) continue;
+    await triggerChaos();
+    await delay(600);
+  }
+  // advance
+  st.scenario++;st.day++;
+  saveGame();
+  runScenario();
+}
+
+// ── Chaos ─────────────────────────────────────────────────────────────────────
+function getChaosPool(){
+  if(st.level===4) return getL4Pool();
+  return [CHAOS_L1,CHAOS_L2,CHAOS_L3][st.level-1]||CHAOS_L1;
+}
+
+async function triggerChaos(){
+  let pool=getChaosPool().filter(e=>!st.usedChaos[e.title]);
+  if(pool.length===0){
+    const last=st.lastChaos;
+    st.usedChaos={};
+    pool=getChaosPool().filter(e=>e.title!==last);
+  }
+  const ev=pool[rand(pool.length)];
+  st.usedChaos[ev.title]=true;
+  st.lastChaos=ev.title;
+  st.chaosCount++;
+  // show chaos bubble
+  await delay(500);
+  const chat=document.getElementById('chat');
+  const lbl=document.createElement('div');lbl.className='date-stamp';lbl.textContent='⚠ CHAOS EVENT';chat.appendChild(lbl);scrollBottom();
+  showTyping(ev.c);await delay(800);hideTyping();
+  const ch=CH[ev.c];
+  const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;chat.appendChild(sn);
+  const row=document.createElement('div');row.className='msg-row';
+  const av=document.createElement('div');av.className='av-sm';av.style.background=ch.c;av.textContent=ch.i;
+  const b=document.createElement('div');b.className='bubble chaos-b';b.innerHTML=`<strong>${ev.title}</strong><br><br>${ev.msg}`;
+  row.appendChild(av);row.appendChild(b);chat.appendChild(row);scrollBottom();
+  // render choices and wait
+  await new Promise(resolve=>{
+    setChoiceLabel('How do you respond?');
+    renderChoices(ev.choices,async(choice)=>{
+      clearChoices();setChoiceLabel('');
+      await addMyMsg(choice.t);
+      if(choice.money) st.money+=choice.money;
+      if(choice.rep!=null) st.rep=Math.max(0,Math.min(100,st.rep+choice.rep));
+      if(choice.chaos!=null) st.chaos=Math.max(0,Math.round(st.chaos+choice.chaos*DIFF[st.diff].cm));
+      updateStats();
+      await delay(400);
+      addSysMsg(choice.result);
+      await delay(700);
+      resolve();
+    });
+  });
+}
+
+// ── Level 4 ───────────────────────────────────────────────────────────────────
+async function runChaosLevel(){
+  if(st.l4Count===0){
+    addDateStamp('— Level 4: All Chaos —');
+    await addMsg('gloria',pick(L4_MSGS));
+  }
+  if(st.l4Count>=9){endGame();return;}
+  st.l4Count++;
+  setChoiceLabel(`Crisis ${st.l4Count} of 9`);
+  await triggerChaos();
+  await delay(500);
+  saveGame();
+  // continue button
+  clearChoices();
+  const wrap=document.getElementById('choices-wrap');
+  const btn=document.createElement('button');btn.className='cb';
+  btn.innerHTML=`<span class="cb-t">${st.l4Count<9?`Continue to Crisis ${st.l4Count+1} of 9 →`:'See the Final Score →'}</span>`;
+  btn.addEventListener('click',()=>runChaosLevel());
+  wrap.appendChild(btn);
+  setChoiceLabel(st.l4Count>=9?'One more.':'Breathe. Next crisis incoming.');
+}
+
+// ── Level Up ──────────────────────────────────────────────────────────────────
+function levelUp(){
+  st.level++;st.scenario=0;
+  st.chaosQueue=[];st.usedChaos={};
+  saveGame();updateStats();
+  if(st.level>3){st.level=4;runChaosLevel();return;}
+  addDateStamp('— Level '+st.level+' —');
+  showPromo();
+}
+
+// ── End Game ──────────────────────────────────────────────────────────────────
+function endGame(){
+  localStorage.removeItem('beaumont_save');
+  const mScore=Math.round(Math.max(0,st.money)/200);
+  const rScore=st.rep;
+  const cScore=Math.max(0,50-st.chaos);
+  const cafeScore=st.cafe.open?25:0;
+  const delivScore=st.delivery.on?10:0;
+  const total=mScore+rScore+cScore+cafeScore+delivScore;
+  const grade=total>180?'A+':total>150?'A':total>120?'B':total>90?'C':'D';
+  clearChoices();setChoiceLabel('');
+  const wrap=document.getElementById('choices-wrap');
+  const card=document.createElement('div');card.className='end-card';
+  card.innerHTML=`
+    <div class="end-title">The Grand Beaumont — Final Score</div>
+    <div class="end-score">${total} <span style="font-size:28px;color:rgba(255,255,255,.6)">${grade}</span></div>
+    <div class="end-breakdown">
+      Budget: ${fmtM(st.money)} → ${mScore} pts<br>
+      Reputation: ${st.rep} → ${rScore} pts<br>
+      Chaos: ${st.chaos} → ${cScore} pts<br>
+      Cafe: ${st.cafe.open?'Open +'+cafeScore:'Closed'}<br>
+      Delivery: ${st.delivery.on?'Active +'+delivScore:'Inactive'}
+    </div>
+    <button class="end-btn" onclick="playAgain()">Play Again</button>`;
+  wrap.appendChild(card);
+  addSysMsg(total>160?'The Beaumont stands. Thirty rooms. Twelve people. No rent.':total>100?'It wasn\'t easy. It was never going to be easy. But it\'s standing.':'The building took some hits. So did the team. They\'re still there.');
+}
+
+function playAgain(){
+  document.getElementById('chat').innerHTML='';
+  setChoiceLabel('');clearChoices();
+  st={};showDiff();
+}
+
+// ── Clock ─────────────────────────────────────────────────────────────────────
+function updateClock(){document.getElementById('nb-clock').textContent=gt();}
+updateClock();setInterval(updateClock,60000);
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+window.addEventListener('load',showDiff);
+</script>
+</body>
+</html>
