@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Hotel Libre</title>
+<style>
+:root{--teal:#339CB3;--teal-dark:#267A8C;--teal-light:#4ABFD4;--gold:#D4963A;--bg:#F7F5F0;--card:#FFFFFF;--text:#1A1A2E;--text-muted:#6B7080;--border:#E8E4DC;--green:#4CAF82;--orange:#F0944D;--red:#E05252;--purple:#8B5CF6;--shadow:0 2px 12px rgba(0,0,0,0.08);--shadow-lg:0 8px 32px rgba(0,0,0,0.16);--radius:16px;--radius-sm:10px}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:#2A2A3E;display:flex;align-items:center;justify-content:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+#app{width:100%;max-width:430px;height:100vh;max-height:932px;background:var(--bg);display:flex;flex-direction:column;position:relative;overflow:hidden}
+#hud{background:var(--teal);color:white;padding:10px 14px 8px;display:flex;align-items:center;gap:8px;flex-shrink:0;box-shadow:0 2px 8px rgba(51,156,179,0.3)}
+#hud-stats{display:flex;gap:10px;flex:1;flex-wrap:wrap}
+.hud-stat{display:flex;align-items:center;gap:4px;font-size:13px;font-weight:600}
+.hud-stat .icon{font-size:15px}
+#hud-actions{display:flex;gap:6px}
+.hud-btn{background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.3);color:white;border-radius:8px;padding:6px 10px;font-size:13px;cursor:pointer;font-weight:600;display:flex;align-items:center;gap:4px;min-width:44px;min-height:36px;justify-content:center;transition:background 0.15s}
+.hud-btn:active{background:rgba(255,255,255,0.3)}
+#morale-bar-wrap{background:var(--teal-dark);padding:4px 14px 6px;display:flex;align-items:center;gap:8px;flex-shrink:0}
+#morale-label{color:rgba(255,255,255,0.85);font-size:11px;font-weight:600;min-width:52px}
+#morale-bar-outer{flex:1;background:rgba(255,255,255,0.2);border-radius:4px;height:6px;overflow:hidden}
+#morale-bar-inner{height:100%;border-radius:4px;transition:width 0.4s,background 0.4s}
+#morale-val{color:white;font-size:11px;font-weight:700;min-width:28px;text-align:right}
+#tab-bar{background:var(--card);border-top:1px solid var(--border);display:flex;flex-shrink:0;padding-bottom:env(safe-area-inset-bottom,0)}
+.tab-btn{flex:1;padding:8px 4px 6px;display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:none;cursor:pointer;color:var(--text-muted);transition:color 0.15s;min-height:56px}
+.tab-btn .tab-icon{font-size:22px}
+.tab-btn .tab-label{font-size:10px;font-weight:600;letter-spacing:0.3px}
+.tab-btn.active{color:var(--teal)}
+#main{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+.tab-panel{display:none;padding:14px}
+.tab-panel.active{display:block}
+.section-header{font-size:18px;font-weight:700;color:var(--text);margin-bottom:12px}
+#floor-selector{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:12px;scrollbar-width:none}
+#floor-selector::-webkit-scrollbar{display:none}
+.floor-chip{flex-shrink:0;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;border:2px solid var(--border);background:var(--card);color:var(--text-muted);cursor:pointer;transition:all 0.15s;min-height:36px}
+.floor-chip.active{background:var(--teal);border-color:var(--teal);color:white}
+#room-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.room-card{background:var(--card);border-radius:var(--radius);padding:12px;box-shadow:var(--shadow);cursor:pointer;transition:transform 0.12s;border:2px solid transparent;position:relative;min-height:120px}
+.room-card:active{transform:scale(0.97)}
+.room-card.locked{opacity:0.5;cursor:default;background:#EEE}
+.room-card.occupied{border-color:var(--teal-light)}
+.room-card.needs-repair{border-color:var(--red)}
+.room-card.needs-clean{border-color:var(--orange)}
+.room-num{font-size:18px;font-weight:800;color:var(--text)}
+.room-type{font-size:11px;color:var(--text-muted);font-weight:600;margin-bottom:6px}
+.condition-dot{width:10px;height:10px;border-radius:50%;position:absolute;top:12px;right:12px}
+.cond-pristine{background:var(--green)}
+.cond-good{background:#8BC34A}
+.cond-fair{background:#FFC107}
+.cond-needsCleaning{background:var(--orange)}
+.cond-needsRepair{background:var(--red)}
+.cond-outOfService{background:#9E9E9E}
+.clean-bar-wrap{margin-top:6px}
+.clean-bar-label{font-size:10px;color:var(--text-muted);margin-bottom:2px}
+.bar-outer{background:var(--border);border-radius:4px;height:5px;overflow:hidden}
+.bar-inner{height:100%;border-radius:4px;transition:width 0.3s}
+.room-resident{font-size:11px;color:var(--teal-dark);font-weight:600;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card{background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow);margin-bottom:10px}
+#residents-seg{display:flex;background:var(--border);border-radius:10px;padding:3px;margin-bottom:14px}
+.seg-btn{flex:1;padding:7px;border-radius:8px;border:none;background:none;font-size:13px;font-weight:600;color:var(--text-muted);cursor:pointer;transition:all 0.15s}
+.seg-btn.active{background:var(--card);color:var(--teal);box-shadow:var(--shadow)}
+.resident-card{cursor:pointer}
+.resident-card:active{transform:scale(0.98)}
+.res-header{display:flex;align-items:flex-start;gap:10px;margin-bottom:8px}
+.res-emoji{font-size:32px}
+.res-info{flex:1}
+.res-name{font-size:15px;font-weight:700;color:var(--text)}
+.res-snippet{font-size:12px;color:var(--text-muted);margin-top:2px;line-height:1.4}
+.res-status-badge{font-size:11px;font-weight:700;padding:3px 8px;border-radius:20px;display:inline-block;margin-top:4px}
+.badge-thriving{background:#E8F7EE;color:var(--green)}
+.badge-housed{background:#E8F4F7;color:var(--teal)}
+.badge-struggling{background:#FFF0F0;color:var(--red)}
+.badge-waitlisted{background:#FFF8EE;color:var(--gold)}
+.need-tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:20px;background:#EEF2FF;color:var(--purple);margin:2px 2px 0 0}
+.contrib-tag{display:inline-block;font-size:10px;font-weight:600;padding:2px 7px;border-radius:20px;background:#F0FBF0;color:var(--green);margin:2px 2px 0 0}
+.hap-bar-wrap{margin-top:6px;display:flex;align-items:center;gap:8px}
+.hap-bar-outer{flex:1;background:var(--border);border-radius:4px;height:5px;overflow:hidden}
+.hap-bar-inner{height:100%;border-radius:4px;transition:width 0.3s}
+.maid-card{cursor:default}
+.maid-header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.maid-emoji{font-size:36px}
+.maid-info{flex:1}
+.maid-name{font-size:15px;font-weight:700;color:var(--text)}
+.maid-title{font-size:12px;color:var(--text-muted)}
+.skill-tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;margin:2px 2px 0 0}
+.skill-admin{background:#EEF2FF;color:var(--purple)}
+.skill-cleaning{background:#E8F4F7;color:var(--teal)}
+.skill-maintenance{background:#FFF0E8;color:var(--orange)}
+.skill-socialWork{background:#F0FBF0;color:var(--green)}
+.skill-cooking{background:#FFF8EE;color:var(--gold)}
+.energy-bar-wrap{display:flex;align-items:center;gap:8px;margin-top:8px}
+.energy-label{font-size:11px;color:var(--text-muted);min-width:44px}
+.energy-bar-outer{flex:1;background:var(--border);border-radius:4px;height:6px;overflow:hidden}
+.energy-bar-inner{height:100%;border-radius:4px;transition:width 0.3s}
+.energy-val{font-size:11px;font-weight:700;color:var(--text);min-width:30px;text-align:right}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,0.5);display:flex;align-items:flex-end;justify-content:center;z-index:100;opacity:0;pointer-events:none;transition:opacity 0.2s}
+.overlay.visible{opacity:1;pointer-events:all}
+.sheet{background:var(--bg);border-radius:22px 22px 0 0;width:100%;max-height:88vh;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:0 0 env(safe-area-inset-bottom,16px);transform:translateY(40px);transition:transform 0.25s cubic-bezier(0.32,0.72,0,1)}
+.overlay.visible .sheet{transform:translateY(0)}
+.sheet-handle{width:40px;height:4px;background:var(--border);border-radius:2px;margin:10px auto 4px}
+.sheet-header{display:flex;align-items:center;justify-content:space-between;padding:8px 16px 12px}
+.sheet-title{font-size:18px;font-weight:800;color:var(--text)}
+.sheet-close{background:var(--border);border:none;border-radius:50%;width:32px;height:32px;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--text-muted)}
+.sheet-body{padding:0 16px 16px}
+.action-btn{display:block;width:100%;padding:14px;border-radius:var(--radius-sm);font-size:15px;font-weight:700;border:none;cursor:pointer;margin-bottom:8px;transition:opacity 0.15s,transform 0.1s;text-align:center}
+.action-btn:active{transform:scale(0.98)}
+.action-btn.primary{background:var(--teal);color:white}
+.action-btn.secondary{background:var(--border);color:var(--text)}
+.action-btn.danger{background:var(--red);color:white}
+.action-btn.gold{background:var(--gold);color:white}
+.action-btn:disabled{opacity:0.4;cursor:not-allowed;transform:none}
+#event-overlay{position:absolute;inset:0;background:rgba(26,26,46,0.88);display:flex;align-items:center;justify-content:center;z-index:200;opacity:0;pointer-events:none;transition:opacity 0.25s;padding:20px}
+#event-overlay.visible{opacity:1;pointer-events:all}
+#event-card{background:var(--card);border-radius:var(--radius);padding:24px;width:100%;max-height:80vh;overflow-y:auto;transform:scale(0.9);transition:transform 0.25s cubic-bezier(0.32,0.72,0,1);box-shadow:var(--shadow-lg)}
+#event-overlay.visible #event-card{transform:scale(1)}
+#event-icon{font-size:48px;text-align:center;margin-bottom:12px}
+#event-title{font-size:20px;font-weight:800;color:var(--text);text-align:center;margin-bottom:8px}
+#event-desc{font-size:14px;color:var(--text-muted);text-align:center;line-height:1.5;margin-bottom:20px}
+#event-choices{display:flex;flex-direction:column;gap:8px}
+.choice-btn{padding:14px;border-radius:var(--radius-sm);border:2px solid var(--border);background:var(--bg);text-align:left;cursor:pointer;transition:all 0.15s;width:100%}
+.choice-btn:active{background:var(--border)}
+.choice-btn:disabled{opacity:0.4;cursor:not-allowed}
+.choice-name{font-size:14px;font-weight:700;color:var(--text);margin-bottom:2px}
+.choice-meta{font-size:12px;color:var(--text-muted)}
+.choice-reason{font-size:11px;color:var(--red);margin-top:2px}
+#result-overlay{position:absolute;inset:0;background:rgba(0,0,0,0.75);display:flex;align-items:center;justify-content:center;z-index:300;opacity:0;pointer-events:none;transition:opacity 0.3s;padding:24px}
+#result-overlay.visible{opacity:1;pointer-events:all}
+#result-card{background:var(--card);border-radius:var(--radius);padding:32px 24px;width:100%;text-align:center;box-shadow:var(--shadow-lg);transform:translateY(40px);transition:transform 0.3s cubic-bezier(0.32,0.72,0,1)}
+#result-overlay.visible #result-card{transform:translateY(0)}
+#result-icon{font-size:64px;margin-bottom:16px}
+#result-title{font-size:26px;font-weight:800;color:var(--text);margin-bottom:8px}
+#result-desc{font-size:15px;color:var(--text-muted);line-height:1.5;margin-bottom:24px}
+#toast-container{position:absolute;bottom:80px;left:0;right:0;display:flex;flex-direction:column-reverse;align-items:center;gap:6px;z-index:400;pointer-events:none}
+.toast{background:rgba(26,26,46,0.9);color:white;padding:10px 18px;border-radius:24px;font-size:13px;font-weight:600;opacity:0;transform:translateY(20px);transition:opacity 0.2s,transform 0.2s;pointer-events:none;max-width:320px;text-align:center}
+.toast.show{opacity:1;transform:translateY(0)}
+#start-overlay{position:absolute;inset:0;background:linear-gradient(160deg,var(--teal) 0%,var(--teal-dark) 100%);display:flex;align-items:center;justify-content:center;z-index:500;flex-direction:column;padding:32px;transition:opacity 0.4s}
+#start-overlay.hidden{opacity:0;pointer-events:none}
+.start-logo{font-size:72px;margin-bottom:8px}
+.start-title{font-size:38px;font-weight:900;color:white;text-align:center;letter-spacing:-1px}
+.start-tagline{font-size:13px;font-weight:700;color:rgba(255,255,255,0.6);text-align:center;letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+.start-sub{font-size:15px;color:rgba(255,255,255,0.85);text-align:center;margin:0 0 32px;line-height:1.6}
+.start-btn{background:white;color:var(--teal);border:none;border-radius:14px;padding:16px 40px;font-size:17px;font-weight:800;cursor:pointer;margin-bottom:12px;width:100%;max-width:280px;transition:transform 0.1s}
+.start-btn:active{transform:scale(0.97)}
+.start-btn.secondary{background:rgba(255,255,255,0.15);color:white;border:2px solid rgba(255,255,255,0.4)}
+.pick-list{display:flex;flex-direction:column;gap:8px}
+.pick-item{background:var(--bg);border-radius:var(--radius-sm);padding:12px;border:2px solid var(--border);cursor:pointer;transition:all 0.15s}
+.pick-item:active{background:var(--border)}
+.pick-item.disabled{opacity:0.45;cursor:not-allowed}
+.pick-item-name{font-size:14px;font-weight:700;color:var(--text)}
+.pick-item-sub{font-size:12px;color:var(--text-muted);margin-top:2px}
+.pick-item-reason{font-size:11px;color:var(--red);margin-top:3px}
+.info-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)}
+.info-row:last-child{border-bottom:none}
+.info-key{font-size:13px;color:var(--text-muted)}
+.info-val{font-size:13px;font-weight:700;color:var(--text)}
+.upgrade-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.upgrade-name{font-size:14px;font-weight:700;color:var(--text)}
+.upgrade-price{font-size:13px;font-weight:700;color:var(--gold)}
+.upgrade-desc{font-size:12px;color:var(--text-muted);margin-bottom:8px}
+.upgrade-purchased{font-size:12px;font-weight:700;color:var(--green)}
+.day-badge{background:rgba(255,255,255,0.2);border-radius:8px;padding:3px 8px;font-size:12px;font-weight:800}
+.empty-state{text-align:center;padding:40px 20px;color:var(--text-muted)}
+.empty-state .e-icon{font-size:40px;margin-bottom:8px}
+.empty-state .e-text{font-size:14px;line-height:1.5}
+.divider{height:1px;background:var(--border);margin:12px 0}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="start-overlay">
+    <div class="start-logo">🏨</div>
+    <div class="start-tagline">A Community Housing Game</div>
+    <div class="start-title">Hotel Libre</div>
+    <div class="start-sub">Five maids won a luxury hotel in a lottery.<br>Now it's free public housing — and you're in charge.</div>
+    <button class="start-btn" id="btn-newgame">New Game</button>
+    <button class="start-btn secondary" id="btn-continue" style="display:none">Continue</button>
+  </div>
+  <div id="hud">
+    <div id="hud-stats">
+      <div class="hud-stat"><span class="icon">💰</span><span id="hud-funding">$1000</span></div>
+      <div class="hud-stat"><span class="icon">🧹</span><span id="hud-supplies">50</span></div>
+      <div class="hud-stat day-badge">Day <span id="hud-day">1</span></div>
+    </div>
+    <div id="hud-actions">
+      <button class="hud-btn" id="btn-upgrades">🔧</button>
+      <button class="hud-btn" id="btn-advance">🌙 Next</button>
+    </div>
+  </div>
+  <div id="morale-bar-wrap">
+    <div id="morale-label">Morale</div>
+    <div id="morale-bar-outer"><div id="morale-bar-inner"></div></div>
+    <div id="morale-val">60</div>
+  </div>
+  <div id="main">
+    <div id="panel-hotel" class="tab-panel active">
+      <div id="floor-selector"></div>
+      <div id="room-grid"></div>
+    </div>
+    <div id="panel-residents" class="tab-panel">
+      <div id="residents-seg">
+        <button class="seg-btn active" data-seg="housed">Housed</button>
+        <button class="seg-btn" data-seg="waitlist">Waitlist</button>
+      </div>
+      <div id="residents-list"></div>
+    </div>
+    <div id="panel-staff" class="tab-panel">
+      <div class="section-header">Our Team</div>
+      <div id="staff-list"></div>
+    </div>
+  </div>
+  <div id="tab-bar">
+    <button class="tab-btn active" data-tab="hotel"><span class="tab-icon">🏨</span><span class="tab-label">Hotel</span></button>
+    <button class="tab-btn" data-tab="residents"><span class="tab-icon">👥</span><span class="tab-label">Residents</span></button>
+    <button class="tab-btn" data-tab="staff"><span class="tab-icon">✨</span><span class="tab-label">Staff</span></button>
+  </div>
+  <div class="overlay" id="room-overlay">
+    <div class="sheet" id="room-sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <div class="sheet-title" id="room-sheet-title">Room</div>
+        <button class="sheet-close" id="room-sheet-close">✕</button>
+      </div>
+      <div class="sheet-body" id="room-sheet-body"></div>
+    </div>
+  </div>
+  <div class="overlay" id="maid-overlay">
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <div class="sheet-title" id="maid-sheet-title">Choose a Maid</div>
+        <button class="sheet-close" id="maid-sheet-close">✕</button>
+      </div>
+      <div class="sheet-body" id="maid-sheet-body"></div>
+    </div>
+  </div>
+  <div class="overlay" id="res-pick-overlay">
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <div class="sheet-title">House a Resident</div>
+        <button class="sheet-close" id="res-pick-close">✕</button>
+      </div>
+      <div class="sheet-body" id="res-pick-body"></div>
+    </div>
+  </div>
+  <div class="overlay" id="res-detail-overlay">
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <div class="sheet-title" id="res-detail-title">Resident</div>
+        <button class="sheet-close" id="res-detail-close">✕</button>
+      </div>
+      <div class="sheet-body" id="res-detail-body"></div>
+    </div>
+  </div>
+  <div class="overlay" id="upgrade-overlay">
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="sheet-header">
+        <div class="sheet-title">🔧 Upgrades</div>
+        <button class="sheet-close" id="upgrade-close">✕</button>
+      </div>
+      <div class="sheet-body" id="upgrade-body"></div>
+    </div>
+  </div>
+  <div id="event-overlay">
+    <div id="event-card">
+      <div id="event-icon">📰</div>
+      <div id="event-title">Event</div>
+      <div id="event-desc"></div>
+      <div id="event-choices"></div>
+    </div>
+  </div>
+  <div id="result-overlay">
+    <div id="result-card">
+      <div id="result-icon">🏆</div>
+      <div id="result-title">You Win!</div>
+      <div id="result-desc"></div>
+      <button class="action-btn primary" id="result-restart" style="margin-top:8px">Play Again</button>
+    </div>
+  </div>
+  <div id="toast-container"></div>
+</div>
+<script>
+// =====================================================================
+// DATA
+// =====================================================================
+var MAID_DEFS = [
+  {id:'rosa',name:'Rosa Delgado',title:'Head Housekeeper',emoji:'👩‍💼',skills:['admin','cleaning'],happinessBonus:3,maxEnergy:100},
+  {id:'lily',name:'Lily Tran',title:'Senior Maid',emoji:'👩‍🦱',skills:['socialWork','cleaning'],happinessBonus:5,maxEnergy:120},
+  {id:'carmen',name:'Carmen Reyes',title:'Senior Maid',emoji:'👩‍🔧',skills:['maintenance','cleaning'],happinessBonus:2,maxEnergy:100},
+  {id:'dalia',name:'Dalia Osei',title:'Facilities Maid',emoji:'🧑‍🔧',skills:['maintenance','admin'],happinessBonus:1,maxEnergy:110},
+  {id:'esther',name:'Esther Mwangi',title:'Kitchen & Housekeeping',emoji:'👩‍🍳',skills:['cooking','socialWork'],happinessBonus:4,maxEnergy:100}
+];
+
+var RESIDENT_POOL = [
+  {id:'marcus',name:'Marcus Webb',age:34,emoji:'👨‍💻',story:'Lost his apartment after a medical crisis. Brilliant with computers — fixes everything.',needs:['medical','quiet'],contribution:'Fixes computers',happinessBase:50},
+  {id:'priya',name:'Priya Sharma',age:28,emoji:'👩‍🎓',story:'Grad student priced out of housing. Loves learning and building community.',needs:['quiet','community'],contribution:'Tutors kids',happinessBase:55},
+  {id:'kowalski',name:'The Kowalski Family',age:42,emoji:'👨‍👩‍👧‍👦',story:'Displaced after factory closure. Always cooking something wonderful for everyone.',needs:['childcare','petFriendly'],contribution:'Community cooking',happinessBase:48},
+  {id:'dot',name:'Dot Hargrove',age:71,emoji:'👵',story:'Retired nurse who knows every remedy. Needs an accessible room for her mobility.',needs:['medical','accessibility'],contribution:'First aid knowledge',happinessBase:60},
+  {id:'andre',name:'Andre & Biscuit',age:29,emoji:'🐕',story:'A man and his rescue dog, always willing to help with deliveries and odd jobs.',needs:['petFriendly','community'],contribution:'Deliveries',happinessBase:52},
+  {id:'yuki',name:'Yuki Nakamura',age:19,emoji:'🌸',story:'Aged out of foster care at 18. Vibrant social media presence could help Hotel Libre.',needs:['community'],contribution:'Social media outreach',happinessBase:45},
+  {id:'reverend',name:'Reverend Gaines',age:58,emoji:'⛪',story:"His congregation's building burned. Offers wise counsel and mediation to all.",needs:['community','quiet'],contribution:'Mediation',happinessBase:58},
+  {id:'elena',name:'Elena Vasquez',age:45,emoji:'🌱',story:'DV survivor starting fresh. Dreams of planting a community garden on the roof.',needs:['quiet','childcare'],contribution:'Community garden',happinessBase:42}
+];
+
+var EVENTS = [
+  {id:'burst_pipe',icon:'🚰',title:'Burst Pipe on Floor 2',desc:'A pipe on Floor 2 has burst! Water is spreading fast and residents are worried.',choices:[
+    {label:'Fix it ourselves',meta:'Needs maintenance skill, 25 energy, 10 supplies',skill:'maintenance',energy:25,supplies:10,effect:function(g){g.morale=Math.min(100,g.morale+5);toast('Pipe fixed by your team! Morale +5 🔧');}},
+    {label:'Call a plumber',meta:'Costs $150 — quick fix, less morale',cost:150,effect:function(g){g.funding-=150;g.morale=Math.min(100,g.morale+2);toast('Plumber called. $150 spent. Morale +2');}}
+  ]},
+  {id:'garden',icon:'🌻',title:'Residents Want a Community Garden',desc:'Residents are asking to convert the roof corner into a shared garden. It would lift spirits!',choices:[
+    {label:"Let's do it!",meta:'Costs 20 supplies. Big morale boost.',supplies:20,effect:function(g){g.morale=Math.min(100,g.morale+15);toast('Garden project started! Morale +15 🌻');}},
+    {label:'Not yet, sorry',meta:'Small morale hit.',effect:function(g){g.morale=Math.max(0,g.morale-5);toast('Residents disappointed. Morale -5 😞');}}
+  ]},
+  {id:'inspector',icon:'📋',title:'City Inspector Visit',desc:'A city inspector has arrived for a surprise evaluation. How do you respond?',choices:[
+    {label:'Tour proudly',meta:'Needs admin skill, 30 energy → +$500, Morale +20',skill:'admin',energy:30,effect:function(g){g.morale=Math.min(100,g.morale+20);g.funding+=500;toast('Inspector wowed! +$500, Morale +20 🎉');}},
+    {label:'Panic-clean everything',meta:'Needs cleaning skill, 40 energy, 30 supplies → Morale +8',skill:'cleaning',energy:40,supplies:30,effect:function(g){g.morale=Math.min(100,g.morale+8);toast('Passed inspection! Morale +8 ✅');}}
+  ]},
+  {id:'donation',icon:'💝',title:'Anonymous Donation Arrives',desc:'A mysterious envelope arrived. A generous donor wants to help Hotel Libre thrive!',choices:[
+    {label:'Accept gratefully',meta:'Supplies +40, Morale +10',effect:function(g){g.supplies+=40;g.morale=Math.min(100,g.morale+10);toast('Donation accepted! +40 supplies, Morale +10 💝');}}
+  ]},
+  {id:'former_owner',icon:'⚖️',title:'Former Owner Demands Hotel Back',desc:'The former hotel owner showed up with lawyers demanding the lottery be reversed.',choices:[
+    {label:'Stand firm legally',meta:'Needs admin skill, 20 energy → Morale +25',skill:'admin',energy:20,effect:function(g){g.morale=Math.min(100,g.morale+25);toast('You stood firm! Morale +25 ✊');}},
+    {label:'Rally the community',meta:'Needs socialWork skill, 35 energy → Morale +15, +$200',skill:'socialWork',energy:35,effect:function(g){g.morale=Math.min(100,g.morale+15);g.funding+=200;toast('Community rallied! Morale +15, +$200 💪');}}
+  ]},
+  {id:'potluck',icon:'🍲',title:'Community Potluck Night',desc:'Residents want to host a potluck dinner. How big should it be?',choices:[
+    {label:'Big community event',meta:'Needs cooking skill, 20 energy, 15 supplies → Morale +20',skill:'cooking',energy:20,supplies:15,effect:function(g){g.morale=Math.min(100,g.morale+20);toast('Amazing potluck! Morale +20 🍲');}},
+    {label:'Small cozy dinner',meta:'10 energy, 5 supplies → Morale +8',energy:10,supplies:5,effect:function(g){g.morale=Math.min(100,g.morale+8);toast('Cozy dinner enjoyed. Morale +8 🕯️');}}
+  ]},
+  {id:'journalist',icon:'📰',title:'Journalist Wants a Story',desc:'A journalist from the city paper wants to write a piece about Hotel Libre\'s unique model.',choices:[
+    {label:'Welcome her in',meta:'Needs socialWork skill, 15 energy → +$400, Morale +15',skill:'socialWork',energy:15,effect:function(g){g.funding+=400;g.morale=Math.min(100,g.morale+15);toast('Great press coverage! +$400, Morale +15 📰');}},
+    {label:'Decline politely',meta:'No effect — privacy maintained.',effect:function(g){toast('Journalist respectfully declined. No change.');}}
+  ]},
+  {id:'power',icon:'⚡',title:'Power Outage on Floor 3',desc:'A breaker tripped and Floor 3 is dark. Residents up there are anxious.',choices:[
+    {label:'Reset the breaker',meta:'Needs maintenance skill, 10 energy → Morale +5',skill:'maintenance',energy:10,effect:function(g){g.morale=Math.min(100,g.morale+5);toast('Lights back on! Morale +5 ⚡');}},
+    {label:'Move residents temporarily',meta:'20 energy → Morale -5 (disruption)',energy:20,effect:function(g){g.morale=Math.max(0,g.morale-5);toast('Residents moved to Floor 1. Morale -5 😕');}}
+  ]}
+];
+
+var UPGRADE_DEFS = [
+  {id:'laundry',name:'Community Laundry Room',cost:300,supplies:20,icon:'🧺',desc:'All current residents gain +5 happiness immediately.',effect:function(g){g.residents.forEach(function(r){r.happiness=Math.min(100,r.happiness+5);});}},
+  {id:'floor3',name:'Unlock Floor 3 Suites',cost:500,supplies:40,icon:'🏢',desc:'Opens 2 additional suite rooms on Floor 3.',effect:function(g){['r330','r340'].forEach(function(id){var r=g.rooms.find(function(x){return x.id===id;});if(r){r.isLocked=false;r.condition='good';r.cleanliness=75;}});}},
+  {id:'noticeboard',name:'Community Notice Board',cost:50,supplies:5,icon:'📌',desc:'+3 morale per day passively.'},
+  {id:'roofgarden',name:'Roof Garden',cost:800,supplies:60,icon:'🌿',desc:'+5 supplies per day passively.'},
+  {id:'floor4',name:'Unlock Floor 4 Family Suites',cost:700,supplies:50,icon:'👨‍👩‍👧',desc:'Opens 3 family suite rooms on Floor 4.',effect:function(g){['r410','r420','r430'].forEach(function(id){var r=g.rooms.find(function(x){return x.id===id;});if(r){r.isLocked=false;r.condition='good';r.cleanliness=70;}});}},
+  {id:'solar',name:'Solar Panels',cost:1200,supplies:0,icon:'☀️',desc:'Daily upkeep drops from $100 to $50.'},
+  {id:'floor5',name:'Unlock Wellness Floor',cost:1000,supplies:80,icon:'🌅',desc:'Opens 4 rooms on Floor 5.',effect:function(g){['r510','r520','r530','r540'].forEach(function(id){var r=g.rooms.find(function(x){return x.id===id;});if(r){r.isLocked=false;r.condition='good';r.cleanliness=80;}});}},
+  {id:'penthouse',name:'Unlock Penthouse',cost:2000,supplies:100,icon:'👑',desc:'Opens PH1 and PH2 penthouse suites.',effect:function(g){['ph1','ph2'].forEach(function(id){var r=g.rooms.find(function(x){return x.id===id;});if(r){r.isLocked=false;r.condition='pristine';r.cleanliness=100;}});}}
+];
+
+function makeRooms(){
+  function R(id,floor,num,type,locked,broken){
+    return {id:id,floor:floor,num:num,type:type,
+      cleanliness:broken?20:(locked?80:Math.floor(Math.random()*20+70)),
+      condition:broken?'needsRepair':(locked?'good':'good'),
+      isOccupied:false,isLocked:locked||false,pendingRepair:broken||false,residentId:null};
+  }
+  return [
+    R('r110',1,'110','Accessible'),R('r120',1,'120','Standard'),R('r130',1,'130','Standard'),R('r140',1,'140','Communal'),
+    R('r210',2,'210','Standard'),R('r220',2,'220','Standard'),R('r230',2,'230','Standard'),
+    R('r240',2,'240','Standard',false,true),R('r250',2,'250','Standard'),R('r260',2,'260','Standard'),
+    R('r310',3,'310','Suite'),R('r320',3,'320','Suite'),R('r330',3,'330','Suite',true),R('r340',3,'340','Suite',true),
+    R('r410',4,'410','Family Suite',true),R('r420',4,'420','Family Suite',true),R('r430',4,'430','Family Suite',true),
+    R('r510',5,'510','Standard',true),R('r520',5,'520','Standard',true),R('r530',5,'530','Communal',true),R('r540',5,'540','Standard',true),
+    R('ph1','PH','PH1','Penthouse',true),R('ph2','PH','PH2','Penthouse',true)
+  ];
+}
+
+function makeMaids(){
+  return MAID_DEFS.map(function(d){return Object.assign({},d,{energy:d.maxEnergy,workingToday:false});});
+}
+
+function makeWaitlist(){
+  var shuffled=RESIDENT_POOL.slice().sort(function(){return Math.random()-0.5;});
+  return shuffled.slice(0,4).map(function(r){return Object.assign({},r,{happiness:r.happinessBase,daysHoused:0,status:'waitlisted',roomId:null});});
+}
+
+// =====================================================================
+// GAME STATE
+// =====================================================================
+window.G=null;
+
+function newGame(){
+  window.G={
+    day:1,funding:1000,supplies:50,morale:60,
+    rooms:makeRooms(),maids:makeMaids(),
+    residents:[],waitlist:makeWaitlist(),
+    activeEvent:null,upgrades:[],
+    selectedFloor:1,residentSeg:'housed',gameOver:false
+  };
+  saveGame();
+}
+
+function saveGame(){
+  try{localStorage.setItem('hotelLibre',JSON.stringify(window.G));}catch(e){}
+}
+
+function loadGame(){
+  try{
+    var raw=localStorage.getItem('hotelLibre');
+    if(!raw)return false;
+    window.G=JSON.parse(raw);
+    return true;
+  }catch(e){return false;}
+}
+
+// =====================================================================
+// RENDER
+// =====================================================================
+function render(){renderHUD();renderFloors();renderRoomGrid();renderResidents();renderStaff();}
+
+function renderHUD(){
+  var G=window.G;
+  document.getElementById('hud-funding').textContent='$'+G.funding;
+  document.getElementById('hud-supplies').textContent=G.supplies;
+  document.getElementById('hud-day').textContent=G.day;
+  document.getElementById('morale-val').textContent=G.morale;
+  var bar=document.getElementById('morale-bar-inner');
+  bar.style.width=G.morale+'%';
+  bar.style.background=G.morale>=70?'var(--green)':G.morale>=40?'var(--orange)':'var(--red)';
+}
+
+function renderFloors(){
+  var G=window.G;
+  var floors=[];
+  G.rooms.forEach(function(r){if(floors.indexOf(r.floor)<0)floors.push(r.floor);});
+  document.getElementById('floor-selector').innerHTML=floors.map(function(f){
+    return '<button class="floor-chip'+(G.selectedFloor===f?' active':'')+'" data-floor="'+f+'">Floor '+f+'</button>';
+  }).join('');
+}
+
+function condClass(c){return 'cond-'+c;}
+function cleanColor(c){return c>=80?'var(--green)':c>=50?'var(--orange)':'var(--red)';}
+function hapColor(h){return h>=70?'var(--green)':h>=40?'var(--orange)':'var(--red)';}
+function energyColor(e,max){var p=e/max;return p>=0.6?'var(--green)':p>=0.3?'var(--orange)':'var(--red)';}
+
+function renderRoomGrid(){
+  var G=window.G;
+  var rooms=G.rooms.filter(function(r){return r.floor===G.selectedFloor;});
+  var html='';
+  rooms.forEach(function(r){
+    var cls='room-card';
+    if(r.isLocked)cls+=' locked';
+    else if(r.condition==='needsRepair'||r.condition==='outOfService')cls+=' needs-repair';
+    else if(r.condition==='needsCleaning')cls+=' needs-clean';
+    else if(r.isOccupied)cls+=' occupied';
+    var res=r.residentId?G.residents.find(function(x){return x.id===r.residentId;}):null;
+    html+='<div class="'+cls+'" data-room="'+r.id+'">';
+    html+='<div class="room-num">'+r.num+'</div>';
+    html+='<div class="room-type">'+r.type+'</div>';
+    html+='<div class="condition-dot '+condClass(r.condition)+'"></div>';
+    if(!r.isLocked){
+      html+='<div class="clean-bar-wrap"><div class="clean-bar-label">Cleanliness</div>';
+      html+='<div class="bar-outer"><div class="bar-inner" style="width:'+r.cleanliness+'%;background:'+cleanColor(r.cleanliness)+'"></div></div></div>';
+      if(res)html+='<div class="room-resident">👤 '+res.name+'</div>';
+    } else {
+      html+='<div style="font-size:11px;color:var(--text-muted);margin-top:8px">🔒 Locked</div>';
+    }
+    html+='</div>';
+  });
+  document.getElementById('room-grid').innerHTML=html||'<div class="empty-state"><div class="e-icon">🏠</div><div class="e-text">No rooms on this floor</div></div>';
+}
+
+function renderResidents(){
+  var G=window.G;
+  var seg=G.residentSeg;
+  var list=seg==='housed'?G.residents:G.waitlist;
+  var html='';
+  if(list.length===0){
+    html='<div class="empty-state"><div class="e-icon">'+(seg==='housed'?'🏠':'⏳')+'</div><div class="e-text">'+(seg==='housed'?'No one housed yet.<br>Go to Hotel tab, open a room, and house someone from the waitlist.':'Waitlist is empty right now.')+'</div></div>';
+  } else {
+    list.forEach(function(r){
+      var badgeCls='badge-waitlisted',badgeText='Waitlisted';
+      if(r.status==='thriving'){badgeCls='badge-thriving';badgeText='Thriving ✨';}
+      else if(r.status==='housed'){badgeCls='badge-housed';badgeText='Housed';}
+      else if(r.status==='struggling'){badgeCls='badge-struggling';badgeText='Struggling';}
+      html+='<div class="card resident-card" data-resid="'+r.id+'">';
+      html+='<div class="res-header"><div class="res-emoji">'+r.emoji+'</div><div class="res-info">';
+      html+='<div class="res-name">'+r.name+'</div>';
+      html+='<div class="res-snippet">'+r.story.substring(0,65)+'…</div>';
+      html+='<span class="res-status-badge '+badgeCls+'">'+badgeText+'</span>';
+      html+='</div></div>';
+      if(seg==='housed'){
+        html+='<div class="hap-bar-wrap">';
+        html+='<div style="font-size:11px;color:var(--text-muted);min-width:60px">Happiness</div>';
+        html+='<div class="hap-bar-outer"><div class="hap-bar-inner" style="width:'+r.happiness+'%;background:'+hapColor(r.happiness)+'"></div></div>';
+        html+='<div style="font-size:11px;font-weight:700;min-width:24px;text-align:right">'+r.happiness+'</div>';
+        html+='</div>';
+      } else {
+        html+='<div style="margin-top:4px">'+r.needs.map(function(n){return '<span class="need-tag">'+n+'</span>';}).join('')+'</div>';
+        html+='<div style="margin-top:4px"><span class="contrib-tag">✦ '+r.contribution+'</span></div>';
+      }
+      html+='</div>';
+    });
+  }
+  document.getElementById('residents-list').innerHTML=html;
+}
+
+function skillLabel(s){var m={admin:'Admin',cleaning:'Cleaning',maintenance:'Maintenance',socialWork:'Social Work',cooking:'Cooking'};return m[s]||s;}
+
+function renderStaff(){
+  var G=window.G;
+  var html='';
+  G.maids.forEach(function(m){
+    var pct=(m.energy/m.maxEnergy)*100;
+    html+='<div class="card maid-card">';
+    html+='<div class="maid-header"><div class="maid-emoji">'+m.emoji+'</div><div class="maid-info">';
+    html+='<div class="maid-name">'+m.name+'</div><div class="maid-title">'+m.title+'</div>';
+    html+='<div style="margin-top:4px">'+m.skills.map(function(s){return '<span class="skill-tag skill-'+s+'">'+skillLabel(s)+'</span>';}).join('')+'</div>';
+    html+='</div></div>';
+    html+='<div class="energy-bar-wrap">';
+    html+='<div class="energy-label">⚡ Energy</div>';
+    html+='<div class="energy-bar-outer"><div class="energy-bar-inner" style="width:'+pct+'%;background:'+energyColor(m.energy,m.maxEnergy)+'"></div></div>';
+    html+='<div class="energy-val">'+m.energy+'/'+m.maxEnergy+'</div>';
+    html+='</div></div>';
+  });
+  document.getElementById('staff-list').innerHTML=html;
+}
+
+// =====================================================================
+// ROOM SHEET
+// =====================================================================
+var currentRoomId=null;
+var pendingAction=null;
+
+function condLabel(c){var m={pristine:'✨ Pristine',good:'👍 Good',fair:'😐 Fair',needsCleaning:'🧹 Needs Cleaning',needsRepair:'🔨 Needs Repair',outOfService:'🚫 Out of Service'};return m[c]||c;}
+
+function openRoomSheet(roomId){
+  var G=window.G;
+  var room=G.rooms.find(function(r){return r.id===roomId;});
+  if(!room||room.isLocked)return;
+  currentRoomId=roomId;
+  document.getElementById('room-sheet-title').textContent='Room '+room.num;
+  var res=room.residentId?G.residents.find(function(r){return r.id===room.residentId;}):null;
+  var html='';
+  html+='<div class="info-row"><div class="info-key">Type</div><div class="info-val">'+room.type+'</div></div>';
+  html+='<div class="info-row"><div class="info-key">Condition</div><div class="info-val">'+condLabel(room.condition)+'</div></div>';
+  html+='<div class="info-row"><div class="info-key">Cleanliness</div><div class="info-val">';
+  html+='<div style="display:flex;align-items:center;gap:8px"><div style="width:70px"><div class="bar-outer"><div class="bar-inner" style="width:'+room.cleanliness+'%;background:'+cleanColor(room.cleanliness)+'"></div></div></div><span>'+room.cleanliness+'%</span></div></div></div>';
+  html+='<div class="info-row"><div class="info-key">Status</div><div class="info-val">'+(room.isOccupied?'Occupied':'Vacant')+'</div></div>';
+  if(res)html+='<div class="info-row"><div class="info-key">Resident</div><div class="info-val">'+res.emoji+' '+res.name+'</div></div>';
+  html+='<div class="divider"></div>';
+  var alreadyClean=(room.condition==='pristine'&&room.cleanliness>=95);
+  var canRepair=(room.condition==='needsRepair'||room.pendingRepair);
+  html+='<button class="action-btn primary" id="btn-room-clean"'+(alreadyClean?' disabled':'')+'>🧹 Clean Room (−5 supplies)</button>';
+  html+='<button class="action-btn danger" id="btn-room-repair"'+(canRepair?'':' disabled')+'>🔨 Repair Room (−15 supplies)</button>';
+  if(!room.isOccupied&&room.condition!=='needsRepair'&&room.condition!=='outOfService'){
+    html+='<button class="action-btn gold" id="btn-room-house">🏠 House a Resident</button>';
+  }
+  if(res){
+    html+='<button class="action-btn secondary" id="btn-room-evict">👋 Move Out Resident</button>';
+  }
+  document.getElementById('room-sheet-body').innerHTML=html;
+  document.getElementById('btn-room-clean').addEventListener('click',function(){closeSheet('room-overlay');openMaidPick('clean',roomId);});
+  document.getElementById('btn-room-repair').addEventListener('click',function(){closeSheet('room-overlay');openMaidPick('repair',roomId);});
+  var houseBtn=document.getElementById('btn-room-house');
+  if(houseBtn)houseBtn.addEventListener('click',function(){closeSheet('room-overlay');openResPick(roomId);});
+  var evictBtn=document.getElementById('btn-room-evict');
+  if(evictBtn)evictBtn.addEventListener('click',function(){evictResident(roomId);closeSheet('room-overlay');});
+  openSheet('room-overlay');
+}
+
+// =====================================================================
+// MAID PICK
+// =====================================================================
+function openMaidPick(action,roomId){
+  var G=window.G;
+  pendingAction={action:action,roomId:roomId};
+  document.getElementById('maid-sheet-title').textContent=action==='clean'?'🧹 Choose Maid to Clean':'🔨 Choose Maid to Repair';
+  var needSkill=action==='clean'?'cleaning':'maintenance';
+  var costSupplies=action==='clean'?5:15;
+  var html='<div class="pick-list">';
+  G.maids.forEach(function(m){
+    var hasSkill=m.skills.indexOf(needSkill)>=0;
+    var energyCost;
+    if(action==='clean')energyCost=20;
+    else energyCost=hasSkill?25:40;
+    var canDo=m.energy>=energyCost;
+    var noSup=G.supplies<costSupplies;
+    var disabled=!canDo||noSup;
+    var reason='';
+    if(!canDo)reason='Needs '+energyCost+' energy (has '+m.energy+')';
+    else if(noSup)reason='Need '+costSupplies+' supplies (have '+G.supplies+')';
+    var ePct=(m.energy/m.maxEnergy)*100;
+    html+='<div class="pick-item'+(disabled?' disabled':'')+'" '+(disabled?'':'role="button"')+' data-maid="'+m.id+'">';
+    html+='<div style="display:flex;align-items:center;gap:8px">';
+    html+='<span style="font-size:28px">'+m.emoji+'</span>';
+    html+='<div style="flex:1">';
+    html+='<div class="pick-item-name">'+m.name+'</div>';
+    html+='<div class="pick-item-sub">Energy '+m.energy+'/'+m.maxEnergy+' · '+(hasSkill?'✅ Has '+skillLabel(needSkill):'⚠️ No '+skillLabel(needSkill)+' (costs '+energyCost+' energy)')+'</div>';
+    html+='<div class="bar-outer" style="margin-top:4px"><div class="bar-inner" style="width:'+ePct+'%;background:'+energyColor(m.energy,m.maxEnergy)+'"></div></div>';
+    if(reason)html+='<div class="pick-item-reason">'+reason+'</div>';
+    html+='</div></div></div>';
+  });
+  html+='</div>';
+  document.getElementById('maid-sheet-body').innerHTML=html;
+  openSheet('maid-overlay');
+}
+
+function doMaidAction(maidId){
+  if(!pendingAction)return;
+  var G=window.G;
+  var action=pendingAction.action,roomId=pendingAction.roomId;
+  var maid=G.maids.find(function(m){return m.id===maidId;});
+  var room=G.rooms.find(function(r){return r.id===roomId;});
+  if(!maid||!room)return;
+  if(action==='clean'){
+    if(maid.energy<20||G.supplies<5){toast('Not enough energy or supplies!');return;}
+    maid.energy-=20;maid.workingToday=true;G.supplies-=5;
+    room.cleanliness=Math.min(100,room.cleanliness+35);
+    if(room.condition==='needsCleaning')room.condition='fair';
+    if(room.cleanliness>=90)room.condition='pristine';
+    else if(room.cleanliness>=70&&room.condition!=='needsRepair')room.condition='good';
+    toast(maid.name+' cleaned Room '+room.num+'! Now '+room.cleanliness+'% 🧹');
+  } else if(action==='repair'){
+    var hasSkill=maid.skills.indexOf('maintenance')>=0;
+    var cost=hasSkill?25:40;
+    if(maid.energy<cost||G.supplies<15){toast('Not enough energy or supplies!');return;}
+    maid.energy-=cost;maid.workingToday=true;G.supplies-=15;
+    room.condition='fair';room.cleanliness=Math.max(room.cleanliness,50);room.pendingRepair=false;
+    toast(maid.name+' repaired Room '+room.num+'! 🔨');
+  }
+  pendingAction=null;
+  saveGame();render();
+}
+
+// =====================================================================
+// RESIDENT PICK & HOUSING
+// =====================================================================
+var pendingHouseRoomId=null;
+
+function openResPick(roomId){
+  pendingHouseRoomId=roomId;
+  var G=window.G;
+  var room=G.rooms.find(function(r){return r.id===roomId;});
+  var html='<div class="pick-list">';
+  if(G.waitlist.length===0){
+    html='<div class="empty-state"><div class="e-icon">⏳</div><div class="e-text">Nobody on the waitlist right now.</div></div>';
+  } else {
+    G.waitlist.forEach(function(res){
+      var warn='';
+      if(res.needs.indexOf('accessibility')>=0&&room&&room.type!=='Accessible'){
+        warn='⚠️ Prefers an accessible room';
+      }
+      html+='<div class="pick-item" data-pickres="'+res.id+'" role="button">';
+      html+='<div style="display:flex;align-items:center;gap:8px">';
+      html+='<span style="font-size:28px">'+res.emoji+'</span>';
+      html+='<div style="flex:1">';
+      html+='<div class="pick-item-name">'+res.name+'</div>';
+      html+='<div class="pick-item-sub" style="margin-top:2px">'+res.needs.map(function(n){return '<span class="need-tag">'+n+'</span>';}).join('')+'</div>';
+      if(warn)html+='<div class="pick-item-reason">'+warn+'</div>';
+      html+='</div></div></div>';
+    });
+  }
+  html+='</div>';
+  document.getElementById('res-pick-body').innerHTML=html;
+  openSheet('res-pick-overlay');
+}
+
+function houseResident(resId){
+  var G=window.G;
+  var roomId=pendingHouseRoomId;
+  if(!roomId)return;
+  var room=G.rooms.find(function(r){return r.id===roomId;});
+  var resIdx=G.waitlist.findIndex(function(r){return r.id===resId;});
+  if(resIdx<0||!room)return;
+  var res=G.waitlist.splice(resIdx,1)[0];
+  res.status='housed';res.roomId=roomId;
+  room.isOccupied=true;room.residentId=res.id;
+  G.residents.push(res);
+  var bonus=G.maids.reduce(function(s,m){return s+m.happinessBonus;},0);
+  res.happiness=Math.min(100,res.happiness+Math.round(bonus*0.3));
+  if(G.waitlist.length<2)refillWaitlist();
+  saveGame();render();
+  closeSheet('res-pick-overlay');
+  toast(res.name+' moved in to Room '+room.num+'! 🏠');
+  checkWinLose();
+}
+
+function refillWaitlist(){
+  var G=window.G;
+  var occupied={};
+  G.residents.forEach(function(r){occupied[r.id]=true;});
+  G.waitlist.forEach(function(r){occupied[r.id]=true;});
+  var avail=RESIDENT_POOL.filter(function(r){return !occupied[r.id];});
+  avail.sort(function(){return Math.random()-0.5;});
+  avail.slice(0,3).forEach(function(r){
+    G.waitlist.push(Object.assign({},r,{happiness:r.happinessBase,daysHoused:0,status:'waitlisted',roomId:null}));
+  });
+}
+
+function evictResident(roomId){
+  var G=window.G;
+  var room=G.rooms.find(function(r){return r.id===roomId;});
+  if(!room||!room.residentId)return;
+  var resIdx=G.residents.findIndex(function(r){return r.id===room.residentId;});
+  if(resIdx>=0){
+    var res=G.residents.splice(resIdx,1)[0];
+    res.status='waitlisted';res.roomId=null;res.daysHoused=0;
+    G.waitlist.unshift(res);
+    toast(res.name+' has moved out of Room '+room.num+'.');
+  }
+  room.isOccupied=false;room.residentId=null;
+  saveGame();render();
+}
+
+// =====================================================================
+// RESIDENT DETAIL
+// =====================================================================
+function openResDetail(resId){
+  var G=window.G;
+  var res=G.residents.concat(G.waitlist).find(function(r){return r.id===resId;});
+  if(!res)return;
+  document.getElementById('res-detail-title').textContent=res.name;
+  var room=res.roomId?G.rooms.find(function(r){return r.id===res.roomId;}):null;
+  var badgeCls='badge-waitlisted',badgeText='Waitlisted';
+  if(res.status==='thriving'){badgeCls='badge-thriving';badgeText='Thriving ✨';}
+  else if(res.status==='housed'){badgeCls='badge-housed';badgeText='Housed';}
+  else if(res.status==='struggling'){badgeCls='badge-struggling';badgeText='Struggling';}
+  var html='';
+  html+='<div style="text-align:center;margin-bottom:16px">';
+  html+='<div style="font-size:56px">'+res.emoji+'</div>';
+  html+='<div style="font-size:18px;font-weight:800;color:var(--text);margin:4px 0">'+res.name+'</div>';
+  html+='<span class="res-status-badge '+badgeCls+'">'+badgeText+'</span>';
+  html+='</div>';
+  html+='<div class="card" style="margin-bottom:12px"><div style="font-size:14px;color:var(--text-muted);line-height:1.6">'+res.story+'</div></div>';
+  html+='<div class="info-row"><div class="info-key">Age</div><div class="info-val">'+res.age+'</div></div>';
+  html+='<div class="info-row"><div class="info-key">Needs</div><div class="info-val">'+res.needs.map(function(n){return '<span class="need-tag">'+n+'</span>';}).join('')+'</div></div>';
+  html+='<div class="info-row"><div class="info-key">Contributes</div><div class="info-val"><span class="contrib-tag">✦ '+res.contribution+'</span></div></div>';
+  if(res.status!=='waitlisted'){
+    html+='<div class="info-row"><div class="info-key">Room</div><div class="info-val">'+(room?'Room '+room.num:'—')+'</div></div>';
+    html+='<div class="info-row"><div class="info-key">Days Housed</div><div class="info-val">'+res.daysHoused+'</div></div>';
+    html+='<div class="info-row"><div class="info-key">Happiness</div><div class="info-val" style="display:flex;align-items:center;gap:8px"><div style="width:80px"><div class="bar-outer"><div class="bar-inner" style="width:'+res.happiness+'%;background:'+hapColor(res.happiness)+'"></div></div></div><span>'+res.happiness+'/100</span></div></div>';
+  }
+  if(res.status==='waitlisted'){
+    html+='<div class="divider"></div>';
+    html+='<button class="action-btn gold" id="btn-detail-house">🏠 Find a Room for '+res.name+'</button>';
+  }
+  document.getElementById('res-detail-body').innerHTML=html;
+  var hb=document.getElementById('btn-detail-house');
+  if(hb){
+    hb.addEventListener('click',function(){
+      closeSheet('res-detail-overlay');
+      var freeRoom=G.rooms.find(function(r){return !r.isOccupied&&!r.isLocked&&r.condition!=='needsRepair'&&r.condition!=='outOfService';});
+      if(freeRoom){pendingHouseRoomId=freeRoom.id;houseResident(resId);}
+      else{toast('No available rooms! Clean or repair a room first.');}
+    });
+  }
+  openSheet('res-detail-overlay');
+}
+
+// =====================================================================
+// UPGRADES
+// =====================================================================
+function openUpgrades(){
+  var G=window.G;
+  var html='<div style="display:flex;flex-direction:column;gap:10px">';
+  UPGRADE_DEFS.forEach(function(u){
+    var owned=G.upgrades.indexOf(u.id)>=0;
+    var canAfford=G.funding>=u.cost&&G.supplies>=u.supplies;
+    html+='<div class="card">';
+    html+='<div class="upgrade-header">';
+    html+='<div style="display:flex;align-items:center;gap:8px"><span style="font-size:24px">'+u.icon+'</span><div class="upgrade-name">'+u.name+'</div></div>';
+    html+='<div class="upgrade-price">$'+u.cost+(u.supplies>0?' +'+u.supplies+'sup':'')+'</div>';
+    html+='</div>';
+    html+='<div class="upgrade-desc">'+u.desc+'</div>';
+    if(owned){
+      html+='<div class="upgrade-purchased">✅ Purchased</div>';
+    } else {
+      html+='<button class="action-btn gold" data-upgrade="'+u.id+'"'+(canAfford?'':' disabled')+' style="margin-top:4px">'+(canAfford?'Purchase':'Can\'t afford yet')+'</button>';
+    }
+    html+='</div>';
+  });
+  html+='</div>';
+  document.getElementById('upgrade-body').innerHTML=html;
+  openSheet('upgrade-overlay');
+}
+
+function purchaseUpgrade(upgradeId){
+  var G=window.G;
+  var u=UPGRADE_DEFS.find(function(x){return x.id===upgradeId;});
+  if(!u||G.upgrades.indexOf(u.id)>=0)return;
+  if(G.funding<u.cost||G.supplies<u.supplies)return;
+  G.funding-=u.cost;G.supplies-=u.supplies;
+  G.upgrades.push(u.id);
+  if(u.effect)u.effect(G);
+  toast(u.icon+' '+u.name+' purchased!');
+  saveGame();render();
+  openUpgrades();
+}
+
+// =====================================================================
+// EVENTS
+// =====================================================================
+function fireEvent(evt){
+  var G=window.G;
+  G.activeEvent=evt.id;
+  document.getElementById('event-icon').textContent=evt.icon;
+  document.getElementById('event-title').textContent=evt.title;
+  document.getElementById('event-desc').textContent=evt.desc;
+  var html='';
+  evt.choices.forEach(function(c,i){
+    var disabled=false,reason='';
+    if(c.skill){
+      var q=G.maids.filter(function(m){return m.skills.indexOf(c.skill)>=0&&m.energy>=(c.energy||0);});
+      if(q.length===0){disabled=true;reason='Need a maid with '+skillLabel(c.skill)+' and '+(c.energy||0)+' energy';}
+    } else if(c.energy){
+      var any=G.maids.find(function(m){return m.energy>=c.energy;});
+      if(!any){disabled=true;reason='Need a maid with '+c.energy+' energy';}
+    }
+    if(c.cost&&G.funding<c.cost){disabled=true;reason='Need $'+c.cost+' (have $'+G.funding+')';}
+    if(c.supplies&&G.supplies<c.supplies){disabled=true;reason='Need '+c.supplies+' supplies (have '+G.supplies+')';}
+    html+='<button class="choice-btn" data-choice="'+i+'"'+(disabled?' disabled':'')+' style="width:100%">';
+    html+='<div class="choice-name">'+c.label+'</div>';
+    html+='<div class="choice-meta">'+c.meta+'</div>';
+    if(reason)html+='<div class="choice-reason">'+reason+'</div>';
+    html+='</button>';
+  });
+  document.getElementById('event-choices').innerHTML=html;
+  document.getElementById('event-overlay').classList.add('visible');
+  saveGame();
+}
+
+function resolveEvent(choiceIdx){
+  var G=window.G;
+  var evt=EVENTS.find(function(e){return e.id===G.activeEvent;});
+  if(!evt)return;
+  var c=evt.choices[choiceIdx];
+  if(!c)return;
+  var energyCost=c.energy||0;
+  if(energyCost>0){
+    var needSkill=c.skill||null;
+    var maid=needSkill
+      ?G.maids.find(function(m){return m.skills.indexOf(needSkill)>=0&&m.energy>=energyCost;})
+      :G.maids.find(function(m){return m.energy>=energyCost;});
+    if(maid){maid.energy=Math.max(0,maid.energy-energyCost);maid.workingToday=true;}
+  }
+  if(c.cost)G.funding-=c.cost;
+  if(c.supplies)G.supplies-=c.supplies;
+  c.effect(G);
+  G.activeEvent=null;
+  document.getElementById('event-overlay').classList.remove('visible');
+  saveGame();render();
+  checkWinLose();
+}
+
+// =====================================================================
+// ADVANCE DAY
+// =====================================================================
+function advanceDay(){
+  var G=window.G;
+  if(G.activeEvent){toast('Resolve the current event first!');return;}
+  if(G.gameOver)return;
+  var upkeep=G.upgrades.indexOf('solar')>=0?50:100;
+  G.funding-=upkeep;
+  if(G.funding<0)G.funding=0;
+  if(G.upgrades.indexOf('roofgarden')>=0)G.supplies+=5;
+  if(G.upgrades.indexOf('noticeboard')>=0)G.morale=Math.min(100,G.morale+3);
+  // Room decay
+  G.rooms.forEach(function(room){
+    if(room.isLocked)return;
+    var decay=room.isOccupied?8:3;
+    room.cleanliness=Math.max(0,room.cleanliness-decay);
+    if(room.cleanliness<30&&room.condition!=='needsRepair'&&room.condition!=='outOfService'){
+      room.condition='needsCleaning';
+    }
+  });
+  // Resident happiness
+  G.residents.forEach(function(res){
+    var room=G.rooms.find(function(r){return r.id===res.roomId;});
+    if(room){
+      if(room.cleanliness>=60)res.happiness=Math.min(100,res.happiness+1);
+      else res.happiness=Math.max(0,res.happiness-3);
+    }
+    res.daysHoused++;
+    if(res.happiness>=80&&res.daysHoused>=7)res.status='thriving';
+    else if(res.happiness<30)res.status='struggling';
+    else if(res.status!=='thriving')res.status='housed';
+  });
+  // Morale from residents
+  if(G.residents.length>0){
+    var avgHap=G.residents.reduce(function(s,r){return s+r.happiness;},0)/G.residents.length;
+    if(avgHap>=70)G.morale=Math.min(100,G.morale+1);
+    else if(avgHap<40)G.morale=Math.max(0,G.morale-1);
+  }
+  // Maid energy restore
+  G.maids.forEach(function(maid){
+    var restore=maid.workingToday?15:30;
+    maid.energy=Math.min(maid.maxEnergy,maid.energy+restore);
+    maid.workingToday=false;
+  });
+  G.day++;
+  if(G.waitlist.length<2)refillWaitlist();
+  // Morale natural drift toward center
+  if(G.morale>50)G.morale=Math.max(50,G.morale-1);
+  else if(G.morale<50)G.morale=Math.min(50,G.morale+0);
+  saveGame();render();
+  toast('Day '+G.day+' begins. Upkeep −$'+upkeep+' 🌙');
+  checkWinLose();
+  // Fire event (65% chance)
+  if(!G.activeEvent&&Math.random()<0.65){
+    var eligible=EVENTS;
+    var evt=eligible[Math.floor(Math.random()*eligible.length)];
+    setTimeout(function(){fireEvent(evt);},500);
+  }
+}
+
+// =====================================================================
+// WIN / LOSE
+// =====================================================================
+function checkWinLose(){
+  var G=window.G;
+  if(G.gameOver)return;
+  if(G.residents.length>=20&&G.morale>=70){
+    G.gameOver=true;showResult(true);return;
+  }
+  if(G.funding<=0&&G.morale<=0){
+    G.gameOver=true;showResult(false);return;
+  }
+}
+
+function showResult(win){
+  var G=window.G;
+  document.getElementById('result-icon').textContent=win?'🏆':'💔';
+  document.getElementById('result-title').textContent=win?'Hotel Libre Thrives!':'Hotel Libre Closes';
+  document.getElementById('result-desc').textContent=win
+    ?'You housed '+G.residents.length+' people with morale at '+G.morale+'! The five maids proved that luxury and care belong to everyone. Hotel Libre is now a model for public housing worldwide.'
+    :'After '+G.day+' days, resources and community spirit ran dry. But the five maids never stopped believing — try again?';
+  document.getElementById('result-overlay').classList.add('visible');
+}
+
+// =====================================================================
+// SHEET HELPERS
+// =====================================================================
+function openSheet(id){document.getElementById(id).classList.add('visible');}
+function closeSheet(id){document.getElementById(id).classList.remove('visible');}
+
+// =====================================================================
+// TOAST
+// =====================================================================
+function toast(msg){
+  var el=document.createElement('div');
+  el.className='toast';el.textContent=msg;
+  document.getElementById('toast-container').appendChild(el);
+  requestAnimationFrame(function(){requestAnimationFrame(function(){el.classList.add('show');});});
+  setTimeout(function(){el.classList.remove('show');setTimeout(function(){el.remove();},300);},2800);
+}
+
+// =====================================================================
+// INIT & EVENT LISTENERS
+// =====================================================================
+document.addEventListener('DOMContentLoaded',function(){
+  var hasSave=loadGame();
+  if(hasSave&&window.G&&!window.G.gameOver){
+    document.getElementById('btn-continue').style.display='block';
+  }
+
+  document.getElementById('btn-newgame').addEventListener('click',function(){
+    newGame();
+    document.getElementById('start-overlay').classList.add('hidden');
+    render();
+  });
+
+  document.getElementById('btn-continue').addEventListener('click',function(){
+    if(!window.G)newGame();
+    document.getElementById('start-overlay').classList.add('hidden');
+    render();
+    if(window.G.activeEvent){
+      var evt=EVENTS.find(function(e){return e.id===window.G.activeEvent;});
+      if(evt)setTimeout(function(){fireEvent(evt);},200);
+    }
+    if(window.G.gameOver)setTimeout(function(){
+      var G=window.G;
+      showResult(G.residents.length>=20&&G.morale>=70);
+    },200);
+  });
+
+  // Tabs
+  document.querySelectorAll('.tab-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      document.querySelectorAll('.tab-btn').forEach(function(b){b.classList.remove('active');});
+      document.querySelectorAll('.tab-panel').forEach(function(p){p.classList.remove('active');});
+      btn.classList.add('active');
+      document.getElementById('panel-'+btn.dataset.tab).classList.add('active');
+    });
+  });
+
+  // Floor chips
+  document.getElementById('floor-selector').addEventListener('click',function(e){
+    var chip=e.target.closest('.floor-chip');
+    if(!chip)return;
+    var f=chip.dataset.floor;
+    window.G.selectedFloor=isNaN(f)?f:parseInt(f);
+    renderFloors();renderRoomGrid();
+  });
+
+  // Room grid
+  document.getElementById('room-grid').addEventListener('click',function(e){
+    var card=e.target.closest('.room-card');
+    if(!card||!card.dataset.room)return;
+    openRoomSheet(card.dataset.room);
+  });
+
+  // Sheet closes
+  document.getElementById('room-sheet-close').addEventListener('click',function(){closeSheet('room-overlay');});
+  document.getElementById('maid-sheet-close').addEventListener('click',function(){closeSheet('maid-overlay');});
+  document.getElementById('res-pick-close').addEventListener('click',function(){closeSheet('res-pick-overlay');});
+  document.getElementById('res-detail-close').addEventListener('click',function(){closeSheet('res-detail-overlay');});
+  document.getElementById('upgrade-close').addEventListener('click',function(){closeSheet('upgrade-overlay');});
+
+  // Click backdrop to close sheets
+  ['room-overlay','maid-overlay','res-pick-overlay','res-detail-overlay','upgrade-overlay'].forEach(function(id){
+    document.getElementById(id).addEventListener('click',function(e){
+      if(e.target===document.getElementById(id))closeSheet(id);
+    });
+  });
+
+  // Maid selection
+  document.getElementById('maid-sheet-body').addEventListener('click',function(e){
+    var item=e.target.closest('[data-maid]');
+    if(!item||item.classList.contains('disabled'))return;
+    closeSheet('maid-overlay');
+    doMaidAction(item.dataset.maid);
+  });
+
+  // Resident pick
+  document.getElementById('res-pick-body').addEventListener('click',function(e){
+    var item=e.target.closest('[data-pickres]');
+    if(!item)return;
+    houseResident(item.dataset.pickres);
+  });
+
+  // Resident detail
+  document.getElementById('residents-list').addEventListener('click',function(e){
+    var card=e.target.closest('[data-resid]');
+    if(!card)return;
+    openResDetail(card.dataset.resid);
+  });
+
+  // Seg control
+  document.getElementById('residents-seg').addEventListener('click',function(e){
+    var btn=e.target.closest('.seg-btn');
+    if(!btn)return;
+    document.querySelectorAll('.seg-btn').forEach(function(b){b.classList.remove('active');});
+    btn.classList.add('active');
+    window.G.residentSeg=btn.dataset.seg;
+    renderResidents();
+  });
+
+  // Advance day
+  document.getElementById('btn-advance').addEventListener('click',advanceDay);
+
+  // Upgrades
+  document.getElementById('btn-upgrades').addEventListener('click',openUpgrades);
+  document.getElementById('upgrade-body').addEventListener('click',function(e){
+    var btn=e.target.closest('[data-upgrade]');
+    if(!btn||btn.disabled)return;
+    purchaseUpgrade(btn.dataset.upgrade);
+  });
+
+  // Event choices
+  document.getElementById('event-choices').addEventListener('click',function(e){
+    var btn=e.target.closest('[data-choice]');
+    if(!btn||btn.disabled)return;
+    resolveEvent(parseInt(btn.dataset.choice));
+  });
+
+  // Result restart
+  document.getElementById('result-restart').addEventListener('click',function(){
+    document.getElementById('result-overlay').classList.remove('visible');
+    newGame();render();
+  });
+});
+</script>
+</body>
+</html>
