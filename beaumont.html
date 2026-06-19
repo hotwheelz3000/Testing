@@ -586,6 +586,41 @@ function fmtM(n){return(n<0?'-$':'$')+Math.abs(n).toLocaleString();}
 function scrollBottom(){const c=document.getElementById('chat');c.scrollTop=c.scrollHeight;}
 function makeTag(label,cls){const s=document.createElement('span');s.className='tag '+cls;s.textContent=label;return s;}
 
+// ── Choice Emoji ──────────────────────────────────────────────────────────────
+function getChoiceEmoji(ch){
+  const t=(ch.t||'').toLowerCase();
+  if(/hire|contractor|professional|electrician|plumber|roofer|exterminator/.test(t)) return '📞';
+  if(/lawyer|legal|court|fight it|defend|injunction|appeal|retract/.test(t)) return '⚖️';
+  if(/emergency/.test(t)) return '🚨';
+  if(/rosa/.test(t)) return '📋';
+  if(/yuki/.test(t)) return '🔍';
+  if(/darnell/.test(t)) return '🔨';
+  if(/gloria/.test(t)) return '🤝';
+  if(/donat|gift/.test(t)) return '🎁';
+  if(/celebrat|party|wonderful|best day|full welcome|bow tie/.test(t)) return '🎉';
+  if(/mediat|conversation|gentle|meeting|both parties|private convers/.test(t)) return '💬';
+  if(/press conference|interview|media|journalist|statement|cameras|open the doors/.test(t)) return '📺';
+  if(/fundrais|campaign|public campaign/.test(t)) return '📣';
+  if(/grant|apply for|section 8|federal/.test(t)) return '📝';
+  if(/vote|community vote|residents vote|put it to/.test(t)) return '🗳️';
+  if(/tour|walk.through|full tour|structured/.test(t)) return '🏨';
+  if(/clean|mop|prep|panic.clean|deep.clean/.test(t)) return '🧹';
+  if(/repair|fix|patch|tarp|bucket|circuit|heater|vent hood|shelving/.test(t)) return '🔧';
+  if(/cook|chef|soup|food|cafe|menu|kitchen|shift|lunch|breakfast|all.nighter/.test(t)) return '🍳';
+  if(/note|memo|letter|respond formally|policy card|notice|bulletin|written/.test(t)) return '✉️';
+  if(/buy|replac|purchas|install|new.*mop|new.*router|storage unit/.test(t)) return '🛒';
+  if(/expand|delivery|social enterprise|renegotiat|vendor/.test(t)) return '💼';
+  if(/quiet dignity|nothing|ignore|let it pass|wait|observe|decline|see what|carry on|accept the mystery|hope/.test(t)) return '🤐';
+  if(/counteroffer|support whatever|full defense|all.nighter|non.stop|all hands|all 12|full.*protocol/.test(t)) return '💪';
+  if(/frame|lobby decor|piece of history|embrace/.test(t)) return '🖼️';
+  if(/investigate|sweep|search|look/.test(t)) return '🔍';
+  if(ch.money>0) return '💰';
+  if(ch.money<0) return '💸';
+  if((ch.rep||0)>10) return '⭐';
+  if((ch.chaos||0)<-3) return '✅';
+  return '💬';
+}
+
 // ── Stats UI ──────────────────────────────────────────────────────────────────
 function updateStats(){
   const{money,rep,chaos,floors,cafe,delivery,level,diff}=st;
@@ -601,7 +636,7 @@ function updateStats(){
   // chaos
   const cv=document.getElementById('sv-c');
   cv.textContent=chaos;
-  cv.className='sp-v '+(chaos<10?'sg':chaos<20?'sy':'sr');
+  cv.className='sp-v '+(chaos<15?'sg':chaos<25?'sy':'sr');
   // floors
   const fc=v=>v==null?'—':v+'/10';
   document.getElementById('fv-l').textContent=fc(floors.lobby);
@@ -778,7 +813,7 @@ function startGame(diff){
     floors:{lobby:5,f1:0,f2:0,f3:0},
     level:1,scenario:0,day:1,
     levels:[pick3(L1_POOL),pick3(L2_POOL),pick3(L3_POOL)],
-    chaosQueue:[],lastChaos:null,usedChaos:{},chaosCount:0,l4Count:0,dead:false,
+    chaosQueue:[],lastChaos:null,usedChaos:{},chaosCount:0,l4Count:0,dead:false,chaosWarn15:false,chaosWarn25:false,chaosWarn35:false,
   };
   saveGame();
   updateStats();
@@ -811,6 +846,36 @@ function gameLost(reason){
   addSysMsg('The building is quiet now. It was a fight worth fighting.');
 }
 
+// ── Chaos Passive Engine ──────────────────────────────────────────────────────
+async function applyChaosPassive(){
+  // First-crossing threshold warnings
+  if(st.chaos>=35&&!st.chaosWarn35){
+    st.chaosWarn35=true;
+    addSysMsg('🔴 CRITICAL — The building is destabilizing.');
+    await addMsg('gloria','This is not sustainable. We are losing the floor. Everyone focus — right now.');
+  } else if(st.chaos>=25&&!st.chaosWarn25){
+    st.chaosWarn25=true;
+    addSysMsg('🟠 HIGH CHAOS — Operations under strain.');
+    await addMsg('yuki','Chaos is at a level I am not comfortable with. Every new problem lands harder when we are already stretched.');
+  } else if(st.chaos>=15&&!st.chaosWarn15){
+    st.chaosWarn15=true;
+    addSysMsg('🟡 CHAOS RISING — Keep an eye on this.');
+    await addMsg('darnell','Feels like things are getting a little… a lot. Just saying.');
+  }
+  // Passive drain by tier (rep and money bleed from unmanaged chaos)
+  if(st.chaos>=35){
+    st.money-=200; st.rep=Math.max(0,st.rep-4);
+    addSysMsg('Chaos drain: -$200, -4 rep');
+  } else if(st.chaos>=25){
+    st.money-=100; st.rep=Math.max(0,st.rep-2);
+    addSysMsg('Chaos drain: -$100, -2 rep');
+  } else if(st.chaos>=15){
+    st.rep=Math.max(0,st.rep-1);
+    addSysMsg('Chaos drain: -1 rep');
+  }
+  updateStats();
+}
+
 // ── Scenario Runner ───────────────────────────────────────────────────────────
 async function runScenario(){
   if(st.level===4){runChaosLevel();return;}
@@ -827,7 +892,7 @@ async function runScenario(){
 // ── Apply Choice ──────────────────────────────────────────────────────────────
 async function applyChoice(ch,sc){
   setChoiceLabel('');clearChoices();
-  await addMyMsg(ch.t);
+  await addMyMsg(getChoiceEmoji(ch)+' '+ch.t);
   // apply stats
   if(ch.money) st.money+=ch.money;
   if(ch.money2) st.money+=ch.money2;
@@ -863,7 +928,7 @@ async function applyChoice(ch,sc){
   }
   if(st.diff==='hard') st.chaos=Math.min(50,st.chaos+2);
   else if(st.diff==='medium') st.chaos=Math.min(50,st.chaos+1);
-  updateStats();
+  await applyChaosPassive();
   if(checkGameOver()) return;
   // advance
   st.scenario++;st.day++;
@@ -877,7 +942,7 @@ function getChaosPool(){
   return [CHAOS_L1,CHAOS_L2,CHAOS_L3][st.level-1]||CHAOS_L1;
 }
 
-async function triggerChaos(){
+async function triggerChaos(isCascade=false){
   let pool=getChaosPool().filter(e=>!st.usedChaos[e.title]);
   if(pool.length===0){
     const last=st.lastChaos;
@@ -891,7 +956,9 @@ async function triggerChaos(){
   // show chaos bubble
   await delay(500);
   const chat=document.getElementById('chat');
-  const lbl=document.createElement('div');lbl.className='date-stamp';lbl.textContent='⚠ CHAOS EVENT';chat.appendChild(lbl);scrollBottom();
+  const tierIcon=st.chaos>=35?'💀':st.chaos>=25?'🔴':st.chaos>=15?'⚠️':'⚡';
+  const chaosLabel=isCascade?'⚡ CHAOS CASCADE':(tierIcon+' CHAOS EVENT');
+  const lbl=document.createElement('div');lbl.className='date-stamp';lbl.textContent=chaosLabel;chat.appendChild(lbl);scrollBottom();
   showTyping(ev.c);await delay(800);hideTyping();
   const ch=CH[ev.c];
   const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;chat.appendChild(sn);
@@ -904,7 +971,8 @@ async function triggerChaos(){
     setChoiceLabel('How do you respond?');
     renderChoices(ev.choices,async(choice)=>{
       clearChoices();setChoiceLabel('');
-      await addMyMsg(choice.t);
+      await addMyMsg(getChoiceEmoji(choice)+' '+choice.t);
+      const chaosBefore=st.chaos;
       if(choice.money) st.money+=choice.money;
       if(choice.rep!=null) st.rep=Math.max(0,Math.min(100,st.rep+choice.rep));
       if(choice.chaos!=null) st.chaos=Math.max(0,Math.round(st.chaos+choice.chaos*DIFF[st.diff].cm));
@@ -912,6 +980,13 @@ async function triggerChaos(){
       await delay(400);
       addSysMsg(choice.result);
       await delay(700);
+      // Cascade: bad choices at high chaos risk a second event (no chaining cascades)
+      if(!isCascade&&st.chaos>chaosBefore&&st.chaos>=20&&Math.random()<0.3){
+        addSysMsg('⚡ The chaos isn\'t done.');
+        await delay(700);
+        const alive2=await triggerChaos(true);
+        if(alive2===false){resolve(false);return;}
+      }
       if(checkGameOver()){resolve(false);return;}
       resolve(true);
     });
@@ -927,7 +1002,7 @@ async function runChaosLevel(){
   if(st.l4Count>=9){endGame();return;}
   st.l4Count++;
   setChoiceLabel(`Crisis ${st.l4Count} of 9`);
-  await triggerChaos();
+  await triggerChaos(true);
   await delay(500);
   saveGame();
   // continue button
