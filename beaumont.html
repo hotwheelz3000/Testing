@@ -990,6 +990,18 @@ async function triggerChaos(isCascade=false){
       if(checkGameOver()){resolve(false);return;}
       resolve(true);
     });
+    // Skip button — lets the player pass without stat changes
+    const wrap=document.getElementById('choices-wrap');
+    const skip=document.createElement('button');skip.className='cb';
+    skip.style.cssText='opacity:.5;margin-top:2px';
+    skip.innerHTML='<span class="cb-t" style="font-size:13px;color:#8e8e93!important;-webkit-text-fill-color:#8e8e93!important">→ Handle it quietly</span>';
+    skip.addEventListener('click',()=>{
+      wrap.querySelectorAll('.cb').forEach(b=>b.disabled=true);
+      clearChoices();setChoiceLabel('');
+      addSysMsg('Handled quietly. No major changes.');
+      resolve(true);
+    });
+    wrap.appendChild(skip);
   });
 }
 
@@ -1020,7 +1032,7 @@ function levelUp(){
   st.level++;st.scenario=0;
   st.chaosQueue=[];st.usedChaos={};
   saveGame();updateStats();
-  if(st.level>3){st.level=4;runChaosLevel();return;}
+  if(st.level>3){endGame();return;}
   addDateStamp('— Level '+st.level+' —');
   showPromo();
 }
