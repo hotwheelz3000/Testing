@@ -15,9 +15,9 @@ body{background:#1c1c1e;display:flex;justify-content:center;align-items:center;m
 .nb-icons{display:flex;align-items:center;gap:6px;position:relative;z-index:2}
 .nb-icons svg{fill:#fff}
 /* iMessage header */
-#imessage-header{background:#fff;border-bottom:.5px solid rgba(0,0,0,.15);padding:8px 14px 10px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+#imessage-header{background:#fff;border-bottom:.5px solid rgba(0,0,0,.15);padding:5px 14px 7px;display:flex;align-items:center;gap:10px;flex-shrink:0}
 .hdr-back{color:#007aff;font-size:18px;cursor:pointer}
-.hdr-av{width:42px;height:42px;border-radius:21px;background:linear-gradient(135deg,#34c759,#007aff);display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;letter-spacing:-.5px;flex-shrink:0;position:relative}
+.hdr-av{width:34px;height:34px;border-radius:17px;background:linear-gradient(135deg,#34c759,#007aff);display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700;letter-spacing:-.5px;flex-shrink:0;position:relative}
 .hdr-av::after{content:'';position:absolute;bottom:1px;right:1px;width:11px;height:11px;border-radius:6px;background:#34c759;border:2px solid #fff}
 .hdr-info{flex:1;min-width:0;text-align:center}
 .hdr-name{font-size:15px;font-weight:600;color:#000}
@@ -25,39 +25,48 @@ body{background:#1c1c1e;display:flex;justify-content:center;align-items:center;m
 .hdr-actions{display:flex;gap:18px;color:#007aff;font-size:20px;cursor:pointer}
 /* Stats area */
 #stats-area{background:#1c1c1e;flex-shrink:0}
-#level-bar{padding:6px 12px 4px;display:flex;align-items:center;gap:7px}
+#level-bar{padding:4px 12px 2px;display:flex;align-items:center;gap:7px}
 #level-name{font-size:12px;font-weight:700;color:#fff;flex:1}
 #diff-badge{font-size:10px;font-weight:700;padding:2px 7px;border-radius:8px;text-transform:uppercase;letter-spacing:.5px}
 .prog-dots{display:flex;gap:4px}
 .pd{width:6px;height:6px;border-radius:3px;background:rgba(255,255,255,.2);transition:background .3s}
 .pd.cur{background:#34c759}.pd.done{background:rgba(255,255,255,.45)}
-#stat-strip{display:flex;padding:3px 8px 5px;gap:4px}
-.sp{flex:1;background:rgba(255,255,255,.08);border-radius:8px;padding:4px 5px;text-align:center}
-.sp-l{font-size:9px;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.3px}
-.sp-v{font-size:13px;font-weight:700;color:#fff;margin-top:1px}
+#stat-strip{display:flex;padding:2px 8px 3px;gap:4px}
+.sp{flex:1;background:rgba(255,255,255,.08);border-radius:7px;padding:3px 4px;text-align:center}
+.sp-l{font-size:8px;color:rgba(255,255,255,.45);text-transform:uppercase;letter-spacing:.3px}
+.sp-v{font-size:12px;font-weight:700;color:#fff;margin-top:0}
 .sg{color:#34c759!important}.sy{color:#ff9500!important}.sr{color:#ff3b30!important}
-#cafe-strip{padding:2px 12px 4px;display:flex;align-items:center;gap:5px;min-height:20px}
-.cs-l{font-size:11px;color:rgba(255,255,255,.4);flex:1}
-.cs-v{font-size:11px;font-weight:600;color:rgba(255,255,255,.7)}
-.shift-chip{font-size:10px;padding:1px 6px;border-radius:5px;background:rgba(255,255,255,.12);color:rgba(255,255,255,.7)}
-#floor-strip{display:flex;padding:3px 8px 6px;gap:4px}
-.fc{flex:1;background:rgba(255,255,255,.08);border-radius:7px;padding:4px 5px;text-align:center}
-.fc-l{font-size:9px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.3px}
-.fc-v{font-size:12px;font-weight:700;color:#fff;margin-top:1px}
+#cafe-strip{padding:1px 12px 2px;display:flex;align-items:center;gap:5px;min-height:16px}
+.cs-l{font-size:10px;color:rgba(255,255,255,.4);flex:1}
+.cs-v{font-size:10px;font-weight:600;color:rgba(255,255,255,.7)}
+.shift-chip{font-size:9px;padding:1px 5px;border-radius:5px;background:rgba(255,255,255,.12);color:rgba(255,255,255,.7)}
+#floor-strip{display:flex;padding:2px 8px 4px;gap:4px}
+.fc{flex:1;background:rgba(255,255,255,.08);border-radius:6px;padding:3px 4px;text-align:center}
+.fc-l{font-size:8px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.3px}
+.fc-v{font-size:11px;font-weight:700;color:#fff;margin-top:0}
 /* Chat */
-#chat{flex:1;min-height:180px;overflow-y:auto;background:#fff;padding:10px 10px 20px;display:flex;flex-direction:column;gap:1px}
+#chat{flex:1;min-height:180px;overflow-y:auto;background:#fff;padding:10px 12px 20px;display:flex;flex-direction:column}
 #chat::-webkit-scrollbar{width:0}
-.date-stamp{text-align:center;font-size:12px;color:#8e8e93;font-weight:500;margin:10px 0 4px}
-.msg-row{display:flex;align-items:flex-end;gap:6px;margin:2px 0}
+.date-stamp{text-align:center;font-size:11px;color:#8e8e93;font-weight:600;margin:16px 0 8px;letter-spacing:-.1px}
+/* Row: 2px gap within a sender run, 9px between different senders */
+.msg-row{display:flex;align-items:flex-end;gap:6px;margin-top:2px}
+.msg-row.grp-start{margin-top:7px}
 .msg-row.r{flex-direction:row-reverse}
-.av-sm{width:26px;height:26px;border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:#fff;flex-shrink:0;margin-bottom:12px}
-.sender-n{font-size:11px;color:#8e8e93;margin-bottom:2px;margin-left:32px}
-.bubble{padding:8px 12px;font-size:15px;line-height:1.4;max-width:76%;word-break:break-word;border-radius:18px 18px 18px 4px;background:#e9e9eb;color:#000}
-.msg-row.r .bubble{background:#007aff;color:#fff;border-radius:18px 18px 4px 18px;margin-left:auto}
+.av-sm{width:24px;height:24px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:600;color:#fff;flex-shrink:0}
+.av-sm.ghost{visibility:hidden}
+.sender-n{font-size:10.5px;color:#8e8e93;margin:6px 0 2px 42px;font-weight:400}
+/* Bubbles — iOS 16 geometry: 20px radius, tail only on last of a run */
+.bubble{position:relative;padding:7px 12px;font-size:14.5px;line-height:1.33;max-width:75%;word-break:break-word;border-radius:17px;background:#e9e9eb;color:#000;letter-spacing:-.2px}
+.msg-row.r .bubble{background:#007aff;color:#fff;margin-left:auto}
 .bubble.sms{background:#d4efda;color:#000}
-.bubble.chaos-b{background:#fff0f0;border:1px solid #ff3b30;color:#1c1c1e;border-radius:14px}
-.bubble.sys{background:none;color:#8e8e93;font-size:12px;text-align:center;width:100%;padding:2px 0}
-.delivered{text-align:right;font-size:11px;color:#8e8e93;margin-right:4px;margin-top:2px}
+/* Real iMessage tail: curved hook on the last bubble of a run */
+.msg-row.tail .bubble::before{content:'';position:absolute;z-index:0;bottom:0;left:-7px;width:20px;height:20px;background:inherit;border-bottom-right-radius:16px}
+.msg-row.tail .bubble::after{content:'';position:absolute;z-index:1;bottom:0;left:-11px;width:11px;height:20px;background:#fff;border-bottom-right-radius:12px}
+.msg-row.r.tail .bubble::before{left:auto;right:-7px;border-bottom-right-radius:0;border-bottom-left-radius:16px}
+.msg-row.r.tail .bubble::after{left:auto;right:-11px;border-bottom-right-radius:0;border-bottom-left-radius:12px}
+.bubble.chaos-b{background:#fff0f0;border:1px solid #ff3b30;color:#1c1c1e;border-radius:18px;font-size:16px}
+.bubble.sys{background:none;color:#8e8e93;font-size:12px;text-align:center;width:100%;padding:5px 0;max-width:100%;letter-spacing:0}
+.delivered{text-align:right;font-size:11px;color:#8e8e93;margin:2px 4px 0 0;letter-spacing:-.1px}
 /* Typing */
 .typing-row{display:flex;align-items:center;gap:6px;margin:3px 0}
 .typing-b{background:#e9e9eb;border-radius:18px;padding:9px 13px;display:flex;gap:4px;align-items:center}
@@ -583,7 +592,12 @@ function pick3(a){const s=[...a];const r=[];while(r.length<3&&s.length){const i=
 const delay=ms=>new Promise(r=>setTimeout(r,ms));
 function gt(){const d=new Date();let h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM';h=h%12||12;return `${h}:${m.toString().padStart(2,'0')} ${ap}`;}
 function fmtM(n){return(n<0?'-$':'$')+Math.abs(n).toLocaleString();}
-function scrollBottom(){const c=document.getElementById('chat');c.scrollTop=c.scrollHeight;}
+function scrollBottom(){
+  const c=document.getElementById('chat');
+  c.scrollTop=c.scrollHeight;
+  // run again after layout settles so the newest bubble is never left clipped
+  requestAnimationFrame(()=>{c.scrollTop=c.scrollHeight;});
+}
 function makeTag(label,cls){const s=document.createElement('span');s.className='tag '+cls;s.textContent=label;return s;}
 
 // ── Choice Emoji ──────────────────────────────────────────────────────────────
@@ -685,41 +699,78 @@ function showTyping(charKey){
 }
 function hideTyping(){if(typingEl){typingEl.remove();typingEl=null;}}
 
+// Message grouping: iMessage shows the sender name only on the first message of a
+// consecutive run, and the avatar + bubble tail only on the last one.
+let lastSender=null;
+
+// Every row is created with a tail + visible avatar, so the newest message on screen
+// always looks complete. When the same sender speaks again, the previous row gives
+// its tail and avatar up to the new one.
+function closeRun(){lastSender=null;}
+
+function addRow(charKey,text,extraClass='',isHTML=false){
+  const ch=CH[charKey];
+  const isSms=SMS_CHARS.has(charKey);
+  const chat=document.getElementById('chat');
+  const isNewRun=lastSender!==charKey;
+  if(isNewRun){
+    const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;
+    chat.appendChild(sn);
+  }else{
+    // same sender continuing: demote the previous row
+    const rows=chat.querySelectorAll('.msg-row');
+    const prev=rows[rows.length-1];
+    if(prev){
+      prev.classList.remove('tail');
+      const pav=prev.querySelector('.av-sm');
+      if(pav) pav.classList.add('ghost');
+    }
+  }
+  const row=document.createElement('div');
+  row.className='msg-row tail'+(isNewRun?' grp-start':'');
+  const av=document.createElement('div');av.className='av-sm';
+  av.style.background=ch.c;av.textContent=ch.i;
+  const b=document.createElement('div');
+  b.className='bubble'+(isSms?' sms':'')+(extraClass?' '+extraClass:'');
+  if(isHTML) b.innerHTML=text; else b.textContent=text;
+  row.appendChild(av);row.appendChild(b);
+  chat.appendChild(row);
+  lastSender=charKey;
+  scrollBottom();
+  return row;
+}
+
 async function addMsg(charKey,text,extraClass=''){
   showTyping(charKey);
   await delay(700+rand(600));
   hideTyping();
-  const ch=CH[charKey];
-  const isSms=SMS_CHARS.has(charKey);
-  const chat=document.getElementById('chat');
-  // sender name
-  const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;chat.appendChild(sn);
-  const row=document.createElement('div');row.className='msg-row';
-  const av=document.createElement('div');av.className='av-sm';av.style.background=ch.c;av.textContent=ch.i;
-  const b=document.createElement('div');
-  b.className='bubble'+(isSms?' sms':'')+(extraClass?' '+extraClass:'');
-  b.textContent=text;
-  row.appendChild(av);row.appendChild(b);
-  chat.appendChild(row);scrollBottom();
+  addRow(charKey,text,extraClass);
 }
 
 async function addMyMsg(text){
   await delay(400);
+  closeRun();
   const chat=document.getElementById('chat');
-  const row=document.createElement('div');row.className='msg-row r';
+  // only the newest outgoing message keeps its "Delivered" receipt
+  chat.querySelectorAll('.delivered').forEach(d=>d.remove());
+  const row=document.createElement('div');row.className='msg-row r grp-start tail';
   const b=document.createElement('div');b.className='bubble';b.textContent=text;
   row.appendChild(b);chat.appendChild(row);
   const d=document.createElement('div');d.className='delivered';d.textContent='Delivered '+gt();
-  chat.appendChild(d);scrollBottom();
+  chat.appendChild(d);
+  lastSender=null;
+  scrollBottom();
 }
 
 function addSysMsg(text){
+  closeRun();lastSender=null;
   const chat=document.getElementById('chat');
   const b=document.createElement('div');b.className='bubble sys';b.textContent=text;
   chat.appendChild(b);scrollBottom();
 }
 
 function addDateStamp(text){
+  closeRun();lastSender=null;
   const d=document.createElement('div');d.className='date-stamp';d.textContent=text;
   document.getElementById('chat').appendChild(d);scrollBottom();
 }
@@ -766,7 +817,7 @@ function showPromo(){
 // ── Diff Screen ───────────────────────────────────────────────────────────────
 function showDiff(){
   // reset DOM fully
-  document.getElementById('chat').innerHTML='';
+  document.getElementById('chat').innerHTML='';lastSender=null;
   setChoiceLabel('');
   clearChoices();
   const wrap=document.getElementById('choices-wrap');
@@ -817,8 +868,7 @@ function startGame(diff){
   };
   saveGame();
   updateStats();
-  document.getElementById('chat').innerHTML='';
-  addDateStamp('Monday, Day 1');
+  document.getElementById('chat').innerHTML='';lastSender=null;
   clearChoices();
   showPromo();
 }
@@ -955,17 +1005,12 @@ async function triggerChaos(isCascade=false){
   st.chaosCount++;
   // show chaos bubble
   await delay(500);
-  const chat=document.getElementById('chat');
   const tierIcon=st.chaos>=35?'💀':st.chaos>=25?'🔴':st.chaos>=15?'⚠️':'⚡';
   const chaosLabel=isCascade?'⚡ CHAOS CASCADE':(tierIcon+' CHAOS EVENT');
-  const lbl=document.createElement('div');lbl.className='date-stamp';lbl.textContent=chaosLabel;chat.appendChild(lbl);scrollBottom();
+  addDateStamp(chaosLabel);
   showTyping(ev.c);await delay(800);hideTyping();
-  const ch=CH[ev.c];
-  const sn=document.createElement('div');sn.className='sender-n';sn.textContent=ch.name;chat.appendChild(sn);
-  const row=document.createElement('div');row.className='msg-row';
-  const av=document.createElement('div');av.className='av-sm';av.style.background=ch.c;av.textContent=ch.i;
-  const b=document.createElement('div');b.className='bubble chaos-b';b.innerHTML=`<strong>${ev.title}</strong><br><br>${ev.msg}`;
-  row.appendChild(av);row.appendChild(b);chat.appendChild(row);scrollBottom();
+  addRow(ev.c,`<strong>${ev.title}</strong><br><br>${ev.msg}`,'chaos-b',true);
+  lastSender=null;
   // render choices and wait
   return await new Promise(resolve=>{
     setChoiceLabel('How do you respond?');
@@ -1068,7 +1113,7 @@ function endGame(){
 }
 
 function playAgain(){
-  document.getElementById('chat').innerHTML='';
+  document.getElementById('chat').innerHTML='';lastSender=null;
   setChoiceLabel('');clearChoices();
   st={};showDiff();
 }
