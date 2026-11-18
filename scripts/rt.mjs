@@ -70,16 +70,25 @@ for (const it of items) {
 console.log(`RT items: ${items.length}, matched: ${metas.length}`);
 if (!metas.length) { console.log("Nothing matched — keeping old files"); process.exit(1); }
 
-const manifest = {
+// Merge into one manifest so several lists (series + movie) share one addon
+import { readFile } from "node:fs/promises";
+let manifest = {
   id: `com.hotwheelz3000.${OUT}`,
-  version: "1.0.0",
-  name: NAME,
-  description: `Catalog from ${RT_URL}`,
+  version: "1.1.0",
+  name: process.env.ADDON_NAME || NAME,
+  description: "Rotten Tomatoes lists",
   resources: ["catalog"],
-  types: [type],
-  catalogs: [{ type, id: "rt-list", name: NAME }],
+  types: [],
+  catalogs: [],
   idPrefixes: ["tt"],
 };
+try {
+  const old = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
+  manifest.catalogs = (old.catalogs || []).filter(c => c.type !== type);
+} catch {}
+manifest.catalogs.push({ type, id: "rt-list", name: NAME });
+manifest.catalogs.sort((x, y) => (x.type === "series" ? -1 : 1) - (y.type === "series" ? -1 : 1));
+manifest.types = [...new Set(manifest.catalogs.map(c => c.type))];
 await mkdir(`${OUT}/catalog/${type}`, { recursive: true });
 await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
 await writeFile(`${OUT}/catalog/${type}/rt-list.json`, JSON.stringify({ metas }, null, 2));

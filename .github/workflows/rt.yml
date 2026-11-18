@@ -27,18 +27,20 @@ jobs:
           RT_URL: "https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest"
           OUT: "rt"
           NAME: "Latest Hulu"
+          ADDON_NAME: "Latest Hulu"
       - name: Hulu Movies
         run: cd site && node ../scripts/rt.mjs
         continue-on-error: true
         env:
           RT_URL: "https://www.rottentomatoes.com/browse/movies_at_home/affiliates:hulu~sort:newest"
-          OUT: "rt-movies"
+          OUT: "rt"
           NAME: "Latest Hulu"
+          ADDON_NAME: "Latest Hulu"
       - run: |
           cd site
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add rt rt-movies 2>/dev/null || git add rt
+          git add rt
           if ! git diff --cached --quiet; then
             git commit -m "Update Rotten Tomatoes JSON"
             git push origin HEAD:${{ env.PAGES_BRANCH }}
