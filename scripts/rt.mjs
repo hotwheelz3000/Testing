@@ -10,23 +10,23 @@ const isMovie = path.startsWith("movies");
 const type = isMovie ? "movie" : "series";
 
 async function rtItems() {
-  const out = [];
-  let after = "";
-  for (let p = 0; p < PAGES; p++) {
-    const api = `https://www.rottentomatoes.com/napi/browse/${path}${after ? `?after=${encodeURIComponent(after)}` : ""}`;
-    const r = await fetch(api, { headers: UA });
-    if (!r.ok) { console.log("napi failed", r.status); break; }
-    const j = await r.json();
-    out.push(...(j.grid?.list || []));
-    if (!j.pageInfo?.hasNextPage) break;
-    after = j.pageInfo.endCursor;
+  const r = await fetch(RT_URL, { headers: UA });
+  console.log("RT page status", r.status);
+  const html = await r.text();
+  const blocks = [...html.matchAll(/<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/g)];
+  for (const [, txt] of blocks) {
+    if (!txt.includes("ItemList")) continue;
+    try {
+      const j = JSON.parse(txt);
+      const list = j.itemListElement?.itemListElement || j.itemListElement || [];
+      return list.map(x => ({
+        title: x.name,
+        posterUri: x.image,
+        criticsScore: { score: x.aggregateRating?.ratingValue },
+      }));
+    } catch (e) { console.log("JSON-LD parse failed", e.message); }
   }
-  if (out.length) return out;
-  // Fallback: parse the HTML page
-  const html = await (await fetch(RT_URL, { headers: UA })).text();
-  const re = /<span[^>]*data-qa="discovery-media-list-item-title"[^>]*>\s*([^<]+?)\s*<\/span>/g;
-  let m; while ((m = re.exec(html))) out.push({ title: m[1] });
-  return out;
+  return [];
 }
 
 async function imdbFor(title) {
