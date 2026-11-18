@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       RT_URL: "https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest"
-      RT_PAGES: "3"
+      RT_MAX: "200"
       PAGES_BRANCH: "claude/maid-hotel-game-kga08a"
     steps:
       - uses: actions/checkout@v4
