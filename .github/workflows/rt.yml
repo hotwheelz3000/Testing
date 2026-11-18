@@ -1,7 +1,7 @@
 name: Rotten Tomatoes JSON
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 permissions:
   contents: write
