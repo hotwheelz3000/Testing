@@ -1,7 +1,7 @@
 {
   "id": "com.hotwheelz3000.rt",
   "version": "1.0.0",
-  "name": "RT Hulu TV",
+  "name": "Latest Hulu",
   "description": "Catalog from https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest",
   "resources": [
     "catalog"
@@ -13,7 +13,7 @@
     {
       "type": "series",
       "id": "rt-list",
-      "name": "RT Hulu TV"
+      "name": "Latest Hulu"
     }
   ],
   "idPrefixes": [
