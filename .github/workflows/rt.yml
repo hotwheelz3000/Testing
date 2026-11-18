@@ -8,9 +8,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     env:
       RT_MAX: "200"
       PAGES_BRANCH: "claude/maid-hotel-game-kga08a"
+      OUT: "rt"
+      ADDON_NAME: "Latest Streaming"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -20,22 +23,26 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Hulu TV
-        run: cd site && node ../scripts/rt.mjs
-        continue-on-error: true
-        env:
-          RT_URL: "https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest"
-          OUT: "rt"
-          NAME: "Latest Hulu"
-          ADDON_NAME: "Latest Hulu"
-      - name: Hulu Movies
-        run: cd site && node ../scripts/rt.mjs
-        continue-on-error: true
-        env:
-          RT_URL: "https://www.rottentomatoes.com/browse/movies_at_home/affiliates:hulu~sort:newest"
-          OUT: "rt"
-          NAME: "Latest Hulu"
-          ADDON_NAME: "Latest Hulu"
+      - name: Build lists
+        run: |
+          cd site
+          # slug|catalog id|display name  (Hulu keeps rt-list so existing setups don't break)
+          SERVICES="
+          hulu|rt-list|Latest Hulu
+          netflix|rt-netflix|Latest Netflix
+          apple-tv-plus|rt-apple-tv-plus|Latest Apple TV+
+          prime-video|rt-prime-video|Latest Prime
+          disney-plus|rt-disney-plus|Latest Disney+
+          paramount-plus|rt-paramount-plus|Latest Paramount+
+          "
+          echo "$SERVICES" | while IFS='|' read -r slug id name; do
+            slug=$(echo "$slug" | xargs); [ -z "$slug" ] && continue
+            for kind in tv_series_browse movies_at_home; do
+              echo "== $name ($kind)"
+              RT_URL="https://www.rottentomatoes.com/browse/$kind/affiliates:$slug~sort:newest" \
+              CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs || echo "!! $name $kind failed"
+            done
+          done
       - run: |
           cd site
           git config user.name "github-actions"

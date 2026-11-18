@@ -4,6 +4,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 const RT_URL = process.env.RT_URL;
 const OUT = process.env.OUT || "rt";
 const NAME = process.env.NAME || "Rotten Tomatoes";
+const CAT_ID = process.env.CAT_ID || "rt-list";
 const UA = { "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15" };
 
 const path = new URL(RT_URL).pathname.replace(/^\/browse\//, "");
@@ -76,7 +77,7 @@ let manifest = {
   id: `com.hotwheelz3000.${OUT}`,
   version: "1.1.0",
   name: process.env.ADDON_NAME || NAME,
-  description: "Rotten Tomatoes lists",
+  description: "Newest titles per streaming service, from Rotten Tomatoes",
   resources: ["catalog"],
   types: [],
   catalogs: [],
@@ -84,11 +85,11 @@ let manifest = {
 };
 try {
   const old = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
-  manifest.catalogs = (old.catalogs || []).filter(c => c.type !== type);
+  manifest.catalogs = (old.catalogs || []).filter(c => !(c.type === type && c.id === CAT_ID));
 } catch {}
-manifest.catalogs.push({ type, id: "rt-list", name: NAME });
+manifest.catalogs.push({ type, id: CAT_ID, name: NAME });
 manifest.catalogs.sort((x, y) => (x.type === "series" ? -1 : 1) - (y.type === "series" ? -1 : 1));
 manifest.types = [...new Set(manifest.catalogs.map(c => c.type))];
 await mkdir(`${OUT}/catalog/${type}`, { recursive: true });
 await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
-await writeFile(`${OUT}/catalog/${type}/rt-list.json`, JSON.stringify({ metas }, null, 2));
+await writeFile(`${OUT}/catalog/${type}/${CAT_ID}.json`, JSON.stringify({ metas }, null, 2));
