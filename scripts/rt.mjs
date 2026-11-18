@@ -2,6 +2,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const RT_URL = process.env.RT_URL;
+const OUT = process.env.OUT || "rt";
+const NAME = process.env.NAME || "Rotten Tomatoes";
 const UA = { "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15" };
 
 const path = new URL(RT_URL).pathname.replace(/^\/browse\//, "");
@@ -69,15 +71,15 @@ console.log(`RT items: ${items.length}, matched: ${metas.length}`);
 if (!metas.length) { console.log("Nothing matched — keeping old files"); process.exit(1); }
 
 const manifest = {
-  id: "com.hotwheelz3000.rt",
+  id: `com.hotwheelz3000.${OUT}`,
   version: "1.0.0",
-  name: "Rotten Tomatoes",
+  name: NAME,
   description: `Catalog from ${RT_URL}`,
   resources: ["catalog"],
   types: [type],
-  catalogs: [{ type, id: "rt-list", name: "Rotten Tomatoes" }],
+  catalogs: [{ type, id: "rt-list", name: NAME }],
   idPrefixes: ["tt"],
 };
-await mkdir(`rt/catalog/${type}`, { recursive: true });
-await writeFile("rt/manifest.json", JSON.stringify(manifest, null, 2));
-await writeFile(`rt/catalog/${type}/rt-list.json`, JSON.stringify({ metas }, null, 2));
+await mkdir(`${OUT}/catalog/${type}`, { recursive: true });
+await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
+await writeFile(`${OUT}/catalog/${type}/rt-list.json`, JSON.stringify({ metas }, null, 2));
