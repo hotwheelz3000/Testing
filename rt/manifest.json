@@ -1,17 +1,23 @@
 {
   "id": "com.hotwheelz3000.rt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Latest Hulu",
-  "description": "Catalog from https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest",
+  "description": "Rotten Tomatoes lists",
   "resources": [
     "catalog"
   ],
   "types": [
-    "series"
+    "series",
+    "movie"
   ],
   "catalogs": [
     {
       "type": "series",
+      "id": "rt-list",
+      "name": "Latest Hulu"
+    },
+    {
+      "type": "movie",
       "id": "rt-list",
       "name": "Latest Hulu"
     }
