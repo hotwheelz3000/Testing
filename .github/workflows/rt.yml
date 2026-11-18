@@ -11,14 +11,23 @@ jobs:
     env:
       RT_URL: "https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest"
       RT_PAGES: "3"
+      PAGES_BRANCH: "claude/maid-hotel-game-kga08a"
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.PAGES_BRANCH }}
+          path: site
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node scripts/rt.mjs
+      - run: cd site && node ../scripts/rt.mjs
       - run: |
+          cd site
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add rt
-          git diff --cached --quiet || git commit -m "Update Rotten Tomatoes JSON" && git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Rotten Tomatoes JSON"
+            git push origin HEAD:${{ env.PAGES_BRANCH }}
+          fi
