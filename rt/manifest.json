@@ -1,7 +1,7 @@
 {
   "id": "com.hotwheelz3000.rt",
   "version": "1.0.0",
-  "name": "Rotten Tomatoes",
+  "name": "RT Hulu TV",
   "description": "Catalog from https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest",
   "resources": [
     "catalog"
@@ -13,7 +13,7 @@
     {
       "type": "series",
       "id": "rt-list",
-      "name": "Rotten Tomatoes"
+      "name": "RT Hulu TV"
     }
   ],
   "idPrefixes": [

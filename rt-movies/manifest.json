@@ -1,0 +1,22 @@
+{
+  "id": "com.hotwheelz3000.rt-movies",
+  "version": "1.0.0",
+  "name": "RT Hulu Movies",
+  "description": "Catalog from https://www.rottentomatoes.com/browse/movies_at_home/affiliates:hulu~sort:newest",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "rt-list",
+      "name": "RT Hulu Movies"
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}
