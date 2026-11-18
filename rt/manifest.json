@@ -1,0 +1,1 @@
+{"id":"com.hotwheelz3000.rt","version":"1.0.0","name":"Rotten Tomatoes","resources":["catalog"],"types":["series"],"catalogs":[{"type":"series","id":"rt-list","name":"Rotten Tomatoes"}],"idPrefixes":["tt"]}
