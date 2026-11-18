@@ -40,7 +40,7 @@ jobs:
             for kind in tv_series_browse movies_at_home; do
               echo "== $name ($kind)"
               RT_URL="https://www.rottentomatoes.com/browse/$kind/affiliates:$slug~sort:newest" \
-              CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs || echo "!! $name $kind failed"
+              CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs < /dev/null || echo "!! $name $kind failed"
             done
           done
       - run: |
