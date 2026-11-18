@@ -26,14 +26,14 @@ jobs:
         env:
           RT_URL: "https://www.rottentomatoes.com/browse/tv_series_browse/affiliates:hulu~sort:newest"
           OUT: "rt"
-          NAME: "RT Hulu TV"
+          NAME: "Latest Hulu"
       - name: Hulu Movies
         run: cd site && node ../scripts/rt.mjs
         continue-on-error: true
         env:
           RT_URL: "https://www.rottentomatoes.com/browse/movies_at_home/affiliates:hulu~sort:newest"
           OUT: "rt-movies"
-          NAME: "RT Hulu Movies"
+          NAME: "Latest Hulu"
       - run: |
           cd site
           git config user.name "github-actions"
