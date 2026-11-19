@@ -8,27 +8,6 @@
       "description": ""
     },
     {
-      "id": "tt1492088",
-      "type": "series",
-      "name": "Pawn Stars",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3565439_b_v12_ax.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt26748321",
-      "type": "series",
-      "name": "Doc",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24472079_b_v12_ah.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt36885662",
-      "type": "series",
-      "name": "Best Medicine",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30194083_b_v12_ae.jpg",
-      "description": "Tomatometer 75%"
-    },
-    {
       "id": "tt0364845",
       "type": "series",
       "name": "NCIS",
@@ -50,27 +29,6 @@
       "description": ""
     },
     {
-      "id": "tt0409591",
-      "type": "series",
-      "name": "Naruto",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p194893_b_v12_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt1094229",
-      "type": "series",
-      "name": "Heartland",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185880_b_v12_bj.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt21376524",
-      "type": "series",
-      "name": "Animal Control",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23199865_b_v12_ak.jpg",
-      "description": ""
-    },
-    {
       "id": "tt32639706",
       "type": "series",
       "name": "Blue Box",
@@ -89,13 +47,6 @@
       "type": "series",
       "name": "The Great Indian Kapil Show",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26973720_b_v8_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0271894",
-      "type": "series",
-      "name": "48 Hours",
-      "poster": "https://resizing.flixster.com/D9_1pnMOVOcmeQAjUibl_YuPR2o=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNmRlMzJhYmMtNzU3NC00MDE5LWEzNGItYzY3NjE1OTdjMDdkLmpwZw==",
       "description": ""
     },
     {
@@ -127,20 +78,6 @@
       "description": ""
     },
     {
-      "id": "tt2359704",
-      "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13351521_b_v8_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt26743760",
-      "type": "series",
-      "name": "The Apothecary Diaries",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25535878_b_v8_ad.jpg",
-      "description": ""
-    },
-    {
       "id": "tt31106862",
       "type": "series",
       "name": "Happy's Place",
@@ -169,13 +106,6 @@
       "description": "Tomatometer 92%"
     },
     {
-      "id": "tt0413573",
-      "type": "series",
-      "name": "Grey's Anatomy",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185019_b_v12_bw.jpg",
-      "description": "Tomatometer 84%"
-    },
-    {
       "id": "tt13720112",
       "type": "series",
       "name": "The Empress",
@@ -194,20 +124,6 @@
       "type": "series",
       "name": "Ethos",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19088190_b_v12_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0098844",
-      "type": "series",
-      "name": "Law & Order",
-      "poster": "https://resizing.flixster.com/Ry_PJJZ0ll9oHusvAggxFU9dH2M=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183983_b_v12_cf.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0203259",
-      "type": "series",
-      "name": "Law & Order: Special Victims Unit",
-      "poster": "https://resizing.flixster.com/VVQ4oK8DsxQVF7hwn2faXQXaLyg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184536_b_v12_eb.jpg",
       "description": ""
     },
     {
@@ -384,13 +300,6 @@
       "name": "Minimum Wage",
       "poster": "https://resizing.flixster.com/0P3wnNMbCGPPR8E0UIe7t2-AHBw=/164x246/v2/https://resizing.flixster.com/7WnNKbBQYEljhZ_t5R0GrDjADM0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYjMwN2JlODctZDE4Mi00ODQ2LWFjNWMtYTkzNzNmMmJhMzFmLmpwZw==",
       "description": "Tomatometer 80%"
-    },
-    {
-      "id": "tt4508902",
-      "type": "series",
-      "name": "One Punch Man",
-      "poster": "https://resizing.flixster.com/1F1gJTDm1nuFEOcGZMwJXjFTv1A=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12178386_b_v8_aa.jpg",
-      "description": ""
     },
     {
       "id": "tt19869172",
@@ -596,13 +505,6 @@
       "description": ""
     },
     {
-      "id": "tt0388629",
-      "type": "series",
-      "name": "One Piece",
-      "poster": "https://resizing.flixster.com/SBB3HP7pLemoXP8BAoHb9huNsTw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186423_b_v8_ae.jpg",
-      "description": ""
-    },
-    {
       "id": "tt38939446",
       "type": "series",
       "name": "Sparks of Tomorrow",
@@ -670,13 +572,6 @@
       "type": "series",
       "name": "Cold as Balls",
       "poster": "https://resizing.flixster.com/GqmJ0mEQFaQRHNTft4c3LdXGPJI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15453387_b_v8_ac.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt37532356",
-      "type": "series",
-      "name": "Daemons of the Shadow Realm",
-      "poster": "https://resizing.flixster.com/dN6ziy381Kfi4KSD068k3v1EuVk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32204209_b_v12_ab.jpg",
       "description": ""
     },
     {
@@ -764,24 +659,10 @@
       "description": "Tomatometer 78%"
     },
     {
-      "id": "tt2771780",
-      "type": "series",
-      "name": "Teen Titans Go!",
-      "poster": "https://resizing.flixster.com/NNs-TphB8KqNaRMAicmAJdjUcUI=/164x246/v2/https://resizing.flixster.com/KJjQysqxDNXmGIcEGROx4DgK-J4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI3OTYwOC53ZWJw",
-      "description": ""
-    },
-    {
       "id": "tt39053780",
       "type": "series",
       "name": "Mark Rober's CrunchLabs",
       "poster": "https://resizing.flixster.com/3yKuuyhr0-295SUMT40ks8huKjo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31790655_b_v8_ad.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt4508624",
-      "type": "series",
-      "name": "My Lottery Dream Home",
-      "poster": "https://resizing.flixster.com/JJ1Oo2YsnRnCWIlwixXEcZu7J18=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11547416_b_v12_bl.jpg",
       "description": ""
     },
     {
@@ -804,20 +685,6 @@
       "name": "Fauda",
       "poster": "https://resizing.flixster.com/cY5tHtr7LxniFNWHp1divthCdMs=/164x246/v2/https://resizing.flixster.com/quWS2OKobkFLYxIRU5RQ0HT7_V8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjMwMDg5Ni53ZWJw",
       "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt4803766",
-      "type": "series",
-      "name": "Alone",
-      "poster": "https://resizing.flixster.com/RPnSqq4CrVpjHigdpQqxOdm4GnQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11768118_b_v12_cl.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt27371519",
-      "type": "series",
-      "name": "Alone Australia",
-      "poster": "https://resizing.flixster.com/ljps5KpxzPgdQQ9TqpTuABrEWLQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23887116_b_v11_au.jpg",
-      "description": ""
     },
     {
       "id": "tt20192132",
@@ -904,24 +771,10 @@
       "description": ""
     },
     {
-      "id": "tt3868860",
-      "type": "series",
-      "name": "Married at First Sight",
-      "poster": "https://resizing.flixster.com/J6wTShvwU7ID6ErPMItj9ehkouQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10835608_b_v12_aj.jpg",
-      "description": ""
-    },
-    {
       "id": "tt26675358",
       "type": "series",
       "name": "Love Is Blind: UK",
       "poster": "https://resizing.flixster.com/Oih_sEnVq5N_jtSjZiaWOlYcwTw=/164x246/v2/https://resizing.flixster.com/FTasrFFoFFdaVF1tjDfVnwWAFr0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzEwZmQ3MWItNThkZi00ZGE4LWI1NmMtMzM5M2JjOGI3ZTE5LmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt4591680",
-      "type": "series",
-      "name": "Bunk'd",
-      "poster": "https://resizing.flixster.com/315cbcIMrz8iDrf2ZOtespHNKZI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11842796_b_v7_ap.jpg",
       "description": ""
     },
     {
@@ -946,13 +799,6 @@
       "description": ""
     },
     {
-      "id": "tt10098498",
-      "type": "series",
-      "name": "The UnXplained",
-      "poster": "https://resizing.flixster.com/uPxHMAQo5hkxIsQlrPInAK7nIFs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17027962_b_v12_bu.jpg",
-      "description": ""
-    },
-    {
       "id": "tt32213668",
       "type": "series",
       "name": "Leanne",
@@ -964,13 +810,6 @@
       "type": "series",
       "name": "Beauty in Black",
       "poster": "https://resizing.flixster.com/yxBzp3m8VzcqpR6AQtoEACJEKJQ=/164x246/v2/https://resizing.flixster.com/0GE1WeGEQKfjpC6AcLdDLCXJwUc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjA5MTMwMjAtZjQzYy00NmQyLTk1MzMtNDJhODRlNTYzZWI5LmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt0423652",
-      "type": "series",
-      "name": "The First 48",
-      "poster": "https://resizing.flixster.com/7bEN6WkyB7qkVlpRaiUVo5OQ6mU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185469_b_v12_cj.jpg",
       "description": ""
     },
     {
@@ -1034,20 +873,6 @@
       "type": "series",
       "name": "S&X",
       "poster": "https://resizing.flixster.com/WhmdkVFvqK-A4as-8q87ARAVKxg=/164x246/v2/https://resizing.flixster.com/-kjkq9LyItTcpzEo0axgyRr1p6A=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWE0ZGQ4ZWQtODQ3NC00MjcyLThhMDYtZmI1ZTUxMGQzNDNmLmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt10589968",
-      "type": "series",
-      "name": "The Secret of Skinwalker Ranch",
-      "poster": "https://resizing.flixster.com/2g_Qm14d_t-0z-b1wC7axZdmL2Y=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17982762_b_v8_bw.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt3205302",
-      "type": "series",
-      "name": "Beat Bobby Flay",
-      "poster": "https://resizing.flixster.com/929T51CpBgaruh-Z87DhQ1cscJA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10148064_b_v12_bz.jpg",
       "description": ""
     },
     {

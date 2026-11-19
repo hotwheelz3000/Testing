@@ -1,24 +1,10 @@
 {
   "metas": [
     {
-      "id": "tt10752770",
-      "type": "series",
-      "name": "Tyler Perry's Sistas",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17380108_b_v13_an.jpg",
-      "description": ""
-    },
-    {
       "id": "tt13236336",
       "type": "series",
       "name": "Sacrifice",
       "poster": "https://resizing.flixster.com/e8qYQ-QS62ZC4XQ0mgK87iWSa_g=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmY1ZjdmYjEtM2NlYi00MTZkLTkwNzgtMDQ2NzAzMWJjOGM3LmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt0239195",
-      "type": "series",
-      "name": "Survivor",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p187348_b_v12_by.jpg",
       "description": ""
     },
     {
@@ -27,13 +13,6 @@
       "name": "Beyond the Gates",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28339808_b_v12_aa.jpg",
       "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt0285335",
-      "type": "series",
-      "name": "The Amazing Race",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p188109_b_v12_aq.jpg",
-      "description": ""
     },
     {
       "id": "tt0115147",
@@ -167,13 +146,6 @@
       "name": "Marshals",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30177518_b_v12_af.jpg",
       "description": "Tomatometer 48%"
-    },
-    {
-      "id": "tt13875494",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23665385_b_v12_al.jpg",
-      "description": ""
     },
     {
       "id": "tt0123338",
@@ -351,13 +323,6 @@
       "description": ""
     },
     {
-      "id": "tt10580092",
-      "type": "series",
-      "name": "Tyler Perry's The Oval",
-      "poster": "https://resizing.flixster.com/vlJF163o3maULOJJiuyqHhd5dmw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17380101_b_v12_ai.jpg",
-      "description": ""
-    },
-    {
       "id": "tt12327578",
       "type": "series",
       "name": "Star Trek: Strange New Worlds",
@@ -446,13 +411,6 @@
       "type": "series",
       "name": "Dora and Friends: Into the City!",
       "poster": "https://resizing.flixster.com/opL6KdAxab53YDYkH6woymRsXjY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10898665_b_v8_as.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt4770018",
-      "type": "series",
-      "name": "Love Island",
-      "poster": "https://resizing.flixster.com/OBfsIbhA8Eze-5WrJpyghMPBgY8=/164x246/v2/https://resizing.flixster.com/-hrjnYvDCB07US6Um0khTz-okdg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzhiOTU5ODctZTIyNS00MWFkLTk0NzgtN2JhZWQ4NGU5Njc5LmpwZw==",
       "description": ""
     },
     {
