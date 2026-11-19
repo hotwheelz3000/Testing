@@ -3,7 +3,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 const OUT = process.env.LEAKS_OUT || "movieleaks";
 const SRC = "https://e1fc7808b5de-stremio-r-movieleaks.baby-beamup.club/catalog/movie/movieleaks_movies";
 const CAT_ID = "movieleaks";
-const NAME = "Movie Leaks";
+const NAME = "r/movieleaks";
 
 const items = [];
 const seen = new Set();
