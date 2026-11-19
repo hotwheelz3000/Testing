@@ -1036,6 +1036,15 @@
       "description": ""
     },
     {
+      "id": "tt4445396",
+      "type": "series",
+      "name": "Portrait Artist of the Year",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10257319_b_v11_al.jpg",
+      "background": "https://images.metahub.space/background/medium/tt4445396/img",
+      "logo": "https://images.metahub.space/logo/medium/tt4445396/img",
+      "description": ""
+    },
+    {
       "id": "tt28453452",
       "type": "series",
       "name": "A Body in the Basement",
@@ -1045,10 +1054,19 @@
       "description": ""
     },
     {
+      "id": "tt43028109",
+      "type": "series",
+      "name": "Southern Law",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32402578_b_v12_ac.jpg",
+      "background": "https://images.metahub.space/background/medium/tt43028109/img",
+      "logo": "https://images.metahub.space/logo/medium/tt43028109/img",
+      "description": ""
+    },
+    {
       "id": "tt1454824",
       "type": "series",
       "name": "Monsters Inside Me",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3542051_b_v12_ad.jpg",
+      "poster": "https://resizing.flixster.com/errbogJWMKLk5A9tyuP9Sf5Ol3E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3542051_b_v12_ad.jpg",
       "background": "https://images.metahub.space/background/medium/tt1454824/img",
       "logo": "https://images.metahub.space/logo/medium/tt1454824/img",
       "description": ""
@@ -1057,7 +1075,7 @@
       "id": "tt31975941",
       "type": "series",
       "name": "Police 24/7",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
+      "poster": "https://resizing.flixster.com/ojEcaXWeNDUbvqpsaAnz2Yd5LPM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
       "background": "https://images.metahub.space/background/medium/tt31975941/img",
       "logo": "https://images.metahub.space/logo/medium/tt31975941/img",
       "description": ""
@@ -1066,7 +1084,7 @@
       "id": "tt7316998",
       "type": "series",
       "name": "House of Games",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "poster": "https://resizing.flixster.com/tKy6Raroqx8hHe6K8Ee1vFQjqXw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
       "background": "https://images.metahub.space/background/medium/tt7316998/img",
       "logo": "https://images.metahub.space/logo/medium/tt7316998/img",
       "description": ""
@@ -1075,7 +1093,7 @@
       "id": "tt0088512",
       "type": "series",
       "name": "EastEnders",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
+      "poster": "https://resizing.flixster.com/R4_FPmwXljT6qT-cqFHs5LFryQA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
       "background": "https://images.metahub.space/background/medium/tt0088512/img",
       "logo": "https://images.metahub.space/logo/medium/tt0088512/img",
       "description": ""
@@ -1366,42 +1384,6 @@
       "poster": "https://resizing.flixster.com/IUA1lCghEuSaIAVI6YAD31Q5RkE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p21603704_b_v12_ah.jpg",
       "background": "https://images.metahub.space/background/medium/tt18412604/img",
       "logo": "https://images.metahub.space/logo/medium/tt18412604/img",
-      "description": ""
-    },
-    {
-      "id": "tt0072562",
-      "type": "series",
-      "name": "Saturday Night Live",
-      "poster": "https://resizing.flixster.com/1kyd4yZ7JPMj_xhcahC3T6akKFE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183890_b_v12_ax.jpg",
-      "background": "https://images.metahub.space/background/medium/tt0072562/img",
-      "logo": "https://images.metahub.space/logo/medium/tt0072562/img",
-      "description": ""
-    },
-    {
-      "id": "tt9165512",
-      "type": "series",
-      "name": "Love and Marriage: Huntsville",
-      "poster": "https://resizing.flixster.com/Ihu1E7WnQUwXWM2OqzD_IYi0MME=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16294758_b_v12_ak.jpg",
-      "background": "https://images.metahub.space/background/medium/tt9165512/img",
-      "logo": "https://images.metahub.space/logo/medium/tt9165512/img",
-      "description": ""
-    },
-    {
-      "id": "tt6463374",
-      "type": "series",
-      "name": "Homicide for the Holidays",
-      "poster": "https://resizing.flixster.com/m5llDnw3FMubSAZgeaHo_VyY3FQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13490539_b_v12_au.jpg",
-      "background": "https://images.metahub.space/background/medium/tt6463374/img",
-      "logo": "https://images.metahub.space/logo/medium/tt6463374/img",
-      "description": ""
-    },
-    {
-      "id": "tt29721305",
-      "type": "series",
-      "name": "Prosecuting Evil With Kelly Siegler",
-      "poster": "https://resizing.flixster.com/q5BmSYWPtCYvHfrXfe08N0rdWk0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25707765_b_v12_ac.jpg",
-      "background": "https://images.metahub.space/background/medium/tt29721305/img",
-      "logo": "https://images.metahub.space/logo/medium/tt29721305/img",
       "description": ""
     }
   ]

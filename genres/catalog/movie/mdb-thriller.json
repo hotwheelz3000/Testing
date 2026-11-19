@@ -982,15 +982,6 @@
       "logo": "https://images.metahub.space/logo/medium/tt26657236/img"
     },
     {
-      "id": "tt33296751",
-      "type": "movie",
-      "name": "Tuner",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt33296751/img",
-      "background": "https://images.metahub.space/background/medium/tt33296751/img",
-      "logo": "https://images.metahub.space/logo/medium/tt33296751/img"
-    },
-    {
       "id": "tt30582271",
       "type": "movie",
       "name": "Love Kills",
@@ -1358,6 +1349,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt30304841/img",
       "background": "https://images.metahub.space/background/medium/tt30304841/img",
       "logo": "https://images.metahub.space/logo/medium/tt30304841/img"
+    },
+    {
+      "id": "tt23644354",
+      "type": "movie",
+      "name": "Behind the Palm Trees",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt23644354/img",
+      "background": "https://images.metahub.space/background/medium/tt23644354/img",
+      "logo": "https://images.metahub.space/logo/medium/tt23644354/img"
     },
     {
       "id": "tt36589928",
