@@ -5,52 +5,100 @@
       "id": "com.hotwheelz3000.rt",
       "version": "1.3.0",
       "name": "Latest Streaming",
-      "description": "Newest titles per streaming service: TV from TMDB network lists (journey.co.il), movies from Rotten Tomatoes",
+      "description": "Newest titles per streaming service: TV from TMDB network lists (journey.co.il) plus Rotten Tomatoes, movies from Rotten Tomatoes",
       "dedupe": {
         "priority": "rt-list"
       },
       "catalogs": [
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/453",
           "id": "rt-list",
           "name": "Latest Hulu",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/453"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "hulu"
+            }
+          ]
         },
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/213",
           "id": "rt-netflix",
           "name": "Latest Netflix",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/213"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "netflix"
+            }
+          ]
         },
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/2552",
           "id": "rt-apple-tv-plus",
           "name": "Latest Apple TV+",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/2552"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "apple-tv-plus"
+            }
+          ]
         },
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/1024",
           "id": "rt-prime-video",
           "name": "Latest Prime",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/1024"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "prime-video"
+            }
+          ]
         },
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/2739",
           "id": "rt-disney-plus",
           "name": "Latest Disney+",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/2739"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "disney-plus"
+            }
+          ]
         },
         {
-          "source": "stremio",
-          "url": "https://www.journey.co.il/stremio/catalog/network/4330",
           "id": "rt-paramount-plus",
           "name": "Latest Paramount+",
-          "type": "series"
+          "type": "series",
+          "merge": [
+            {
+              "source": "stremio",
+              "url": "https://www.journey.co.il/stremio/catalog/network/4330"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "paramount-plus"
+            }
+          ]
         },
         {
           "source": "rottentomatoes",

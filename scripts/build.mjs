@@ -20,11 +20,27 @@ for (const addon of config.addons) {
     const key = `${c.type}/${c.id}`;
     try {
       let metas;
-      try { metas = await sources[c.source](c, c.type); }
-      catch (e) {
-        if (!c.fallback) throw e;
-        console.log(`  ${c.source} failed (${e.message}), using fallback ${c.fallback.source}`);
-        metas = await sources[c.fallback.source](c.fallback, c.type);
+      if (c.merge) {
+        // Several sources in order; later ones only add titles not already listed (by id or name).
+        metas = [];
+        const names = new Set();
+        const nm = x => String(x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+        for (const part of c.merge) {
+          try {
+            const got = await sources[part.source](part, c.type);
+            const added = got.filter(m => !metas.some(x => x.id === m.id) && !names.has(nm(m.name)));
+            added.forEach(m => { metas.push(m); names.add(nm(m.name)); });
+            console.log(`  ${part.source}: ${got.length} found, ${added.length} added`);
+          } catch (e) { console.log(`  ${part.source} failed: ${e.message}`); }
+        }
+        metas = metas.slice(0, 200);
+      } else {
+        try { metas = await sources[c.source](c, c.type); }
+        catch (e) {
+          if (!c.fallback) throw e;
+          console.log(`  ${c.source} failed (${e.message}), using fallback ${c.fallback.source}`);
+          metas = await sources[c.fallback.source](c.fallback, c.type);
+        }
       }
       const unique = metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i);
       if (!unique.length) throw new Error("no items");
