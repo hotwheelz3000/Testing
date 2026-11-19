@@ -1,8 +1,8 @@
 {
   "id": "com.hotwheelz3000.rt",
   "version": "1.1.0",
-  "name": "Latest Hulu",
-  "description": "Rotten Tomatoes lists",
+  "name": "Latest Streaming",
+  "description": "Newest titles per streaming service, from Rotten Tomatoes",
   "resources": [
     "catalog"
   ],
@@ -17,9 +17,59 @@
       "name": "Latest Hulu"
     },
     {
+      "type": "series",
+      "id": "rt-netflix",
+      "name": "Latest Netflix"
+    },
+    {
+      "type": "series",
+      "id": "rt-apple-tv-plus",
+      "name": "Latest Apple TV+"
+    },
+    {
+      "type": "series",
+      "id": "rt-prime-video",
+      "name": "Latest Prime"
+    },
+    {
+      "type": "series",
+      "id": "rt-disney-plus",
+      "name": "Latest Disney+"
+    },
+    {
+      "type": "series",
+      "id": "rt-paramount-plus",
+      "name": "Latest Paramount+"
+    },
+    {
       "type": "movie",
       "id": "rt-list",
       "name": "Latest Hulu"
+    },
+    {
+      "type": "movie",
+      "id": "rt-netflix",
+      "name": "Latest Netflix"
+    },
+    {
+      "type": "movie",
+      "id": "rt-apple-tv-plus",
+      "name": "Latest Apple TV+"
+    },
+    {
+      "type": "movie",
+      "id": "rt-prime-video",
+      "name": "Latest Prime"
+    },
+    {
+      "type": "movie",
+      "id": "rt-disney-plus",
+      "name": "Latest Disney+"
+    },
+    {
+      "type": "movie",
+      "id": "rt-paramount-plus",
+      "name": "Latest Paramount+"
     }
   ],
   "idPrefixes": [
