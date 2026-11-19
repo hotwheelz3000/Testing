@@ -35,6 +35,10 @@ Add one line to the addon's `catalogs` in `addons.json`, then run the workflow.
 
 Keep existing `id`s unchanged: Nuvio folders point at them.
 
+### Cover images
+
+Images listed in `covers.json` are downloaded once into `covers/` on the Pages branch and served at `https://hotwheelz3000.github.io/Testing/covers/<file>` (handy for Nuvio folder covers).
+
 ### Notes
 
 - Latest Streaming shows each title under one service only. Hulu wins shared titles; otherwise the service where Rotten Tomatoes ranks it highest.
