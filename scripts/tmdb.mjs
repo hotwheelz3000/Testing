@@ -1,15 +1,13 @@
 // Official artwork from TMDB (needs the TMDB_KEY secret; does nothing without it).
 // Accepts either the v3 "API Key" or the v4 "Read Access Token".
-import { readJson, writeJson } from "./lib-io.mjs";
+import { fileCache } from "./util.mjs";
 
 const KEY = (process.env.TMDB_KEY || "").trim();
 export const tmdbEnabled = !!KEY;
 const isToken = KEY.startsWith("eyJ");
 const IMG = "https://image.tmdb.org/t/p";
-const CACHE_PATH = "_cache/tmdb.json";
 const WEEK = 7 * 86400 * 1000;
-let cache = null;
-let loading = null; // shared load so parallel workers use the same cache object
+const cache = fileCache("_cache/tmdb.json");
 
 async function api(path, params = {}) {
   const qs = new URLSearchParams(isToken ? params : { ...params, api_key: KEY });
@@ -37,9 +35,9 @@ function pick(list = [], langs) {
 // Returns { poster, background, logo } URLs (any may be null) for a catalog item.
 export async function tmdbArt(m) {
   if (!KEY) return {};
-  cache ??= await (loading ??= readJson(CACHE_PATH, {}));
+  const saved = await cache.load();
   const key = `${m.type}|${m.id}`;
-  const hit = cache[key];
+  const hit = saved[key];
   // Complete art is refreshed weekly; anything missing is rechecked every run.
   const complete = hit?.art?.poster && hit.art.logo && hit.art.background;
   if (hit && complete && Date.now() - hit.t < WEEK) return hit.art;
@@ -63,8 +61,8 @@ export async function tmdbArt(m) {
       poster: poster && `${IMG}/w500${poster}`,
     };
   }
-  cache[key] = { t: Date.now(), art };
+  saved[key] = { t: Date.now(), art };
   return art;
 }
 
-export const saveTmdbCache = () => cache && writeJson(CACHE_PATH, cache, false);
+export const saveTmdbCache = cache.save;

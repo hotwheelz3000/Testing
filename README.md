@@ -15,11 +15,14 @@ For apps that want a plain URL, swap `stremio://` for `https://`.
 ### Files
 
 - `addons.json`: every addon and catalog. **Edit this to add or remove lists.**
-- `scripts/build.mjs`: builds the addons listed in `addons.json`.
-- `scripts/sources.mjs`: where items come from (`rottentomatoes`, `mdblist`, `stremio`, `reddit`).
+- `scripts/build.mjs`: builds the addons in `addons.json` (load each catalog, fix artwork, remove shared titles, write files).
+- `scripts/sources.mjs`: where titles come from (`rottentomatoes`, `mdblist`, `stremio`, `reddit`).
+- `scripts/artwork.mjs`: posters, backgrounds and logos, with backups (see Notes).
 - `scripts/tmdb.mjs`: official TMDB artwork (uses the `TMDB_KEY` secret).
-- `scripts/lib.mjs`: shared helpers (requests with retries, IMDb matching with a cache, artwork, catalog paging).
-- `.github/workflows/rt.yml`: the schedule. **Run workflow** can build just one addon (e.g. `genres`).
+- `scripts/imdb.mjs`: matches titles to IMDb ids through Cinemeta.
+- `scripts/catalog.mjs`: writes catalog files (with See All paging) and manifests.
+- `scripts/util.mjs`: downloads with retries, JSON files, caches, name matching.
+- `.github/workflows/rt.yml`: the "Build addons" schedule. **Run workflow** can build just one addon (e.g. `genres`).
 
 ### Adding a list
 

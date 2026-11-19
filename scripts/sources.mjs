@@ -1,5 +1,7 @@
 // Each source returns a list of catalog items: { id, type, name, poster?, background?, logo?, description?, releaseInfo? }
-import { get, imdbMatch, art } from "./lib.mjs";
+import { get, norm } from "./util.mjs";
+import { imdbMatch } from "./imdb.mjs";
+import { metahub as art } from "./artwork.mjs";
 
 const MAX = 200;
 
@@ -71,8 +73,7 @@ async function stremio({ url }, type) {
     const year = m.year || String(m.releaseInfo || "").match(/(?:19|20)\d{2}/)?.[0] || "";
     let hit = await imdbMatch(type, m.name, year);
     // Only trust a match whose name lines up; otherwise keep the source id (e.g. tmdb:123).
-    const n = x => String(x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
-    if (hit?.name && !n(hit.name).startsWith(n(m.name))) hit = null;
+    if (hit?.name && !norm(hit.name).startsWith(norm(m.name))) hit = null;
     const id = hit?.id || m.id;
     metas.push({
       id, type, name: m.name, ...art(id),
