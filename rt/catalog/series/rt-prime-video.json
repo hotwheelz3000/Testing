@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tmdb:338547",
+      "type": "series",
+      "name": "Friz i Wersow. W drodze",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8kD3PbjgshEpcOjhXTkwahL9Dn.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8kD3PbjgshEpcOjhXTkwahL9Dn.jpg",
+      "description": "The production will follow Friz and Wersow as they embark on a new chapter in their lives—as parents of two children, business partners, and a couple ready to confront previously untold aspects of their own story. The six-part documentary series will premiere exclusively on Prime Video later this year.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:341936",
       "type": "series",
       "name": "Koba LaD : Demain j'arrête",
@@ -935,12 +944,30 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt33246591",
+      "type": "series",
+      "name": "The Assassin",
+      "poster": "https://resizing.flixster.com/OGWa5oP41XeR1OBA3QGc50n0mHw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjA1NDU1YzgtOGI1Ni00NjliLWFiY2MtZGRlYzZkMjkyNDJkLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/7EB84rTBUmjY2tPhNpGjxnKJVeo.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ptMbRJPQ1dlpNEGIJyGGqUoGWZF.png",
+      "description": "Tomatometer 72%"
+    },
+    {
       "id": "tt2815522",
       "type": "series",
       "name": "Southern Charm",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
+      "description": ""
+    },
+    {
+      "id": "tt7316998",
+      "type": "series",
+      "name": "House of Games",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
       "description": ""
     },
     {
@@ -951,15 +978,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/i1phX1JpaqSnHBBGta6LBFYVCZq.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fA1eS6rfYjS9W8AZbBVG0fpxXn1.png",
       "description": "Tomatometer 84%"
-    },
-    {
-      "id": "tt0784896",
-      "type": "series",
-      "name": "Mickey Mouse Clubhouse+",
-      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
-      "description": ""
     },
     {
       "id": "tt2805096",
@@ -1065,15 +1083,6 @@
       "name": "Police 24/7",
       "poster": "https://resizing.flixster.com/ojEcaXWeNDUbvqpsaAnz2Yd5LPM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/AlxGts16nBUiF1Y6lBJFlSt0H03.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt7316998",
-      "type": "series",
-      "name": "House of Games",
-      "poster": "https://resizing.flixster.com/tKy6Raroqx8hHe6K8Ee1vFQjqXw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
       "description": ""
     },
     {
@@ -1332,15 +1341,6 @@
       "poster": "https://resizing.flixster.com/l5_EqHnaqIqgb-STxlL57kGV2R4=/164x246/v2/https://resizing.flixster.com/c8wKlayyIvQK3aWpi_19Lrnbmb0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYzQ0MmJkN2MtZjZjMy00MTM1LWE5YzAtY2MyMjhhOTkwZGYyLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/zocidNB8qOAloS7fVVqD26ilMh5.png",
-      "description": ""
-    },
-    {
-      "id": "tt9863048",
-      "type": "series",
-      "name": "Paranormal Caught on Camera",
-      "poster": "https://resizing.flixster.com/tCcKL5MeoCgYLPvUlQmaFEvCCXI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16350735_b_v12_bf.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ykvoV2WdWwJq9CUGqLOSdlaiwOK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bhgCun22vSXVgK2FEQ4wmSJOO0q.png",
       "description": ""
     }
   ]

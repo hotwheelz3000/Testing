@@ -1,6 +1,6 @@
 {
   "id": "com.hotwheelz3000.rt",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "name": "Latest Streaming",
   "description": "Newest titles per streaming service: TV from TMDB network lists + Rotten Tomatoes, movies from TMDB Discover + Rotten Tomatoes",
   "resources": [
@@ -78,6 +78,17 @@
       ]
     },
     {
+      "type": "series",
+      "id": "rt-britbox",
+      "name": "Latest BritBox",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
       "type": "movie",
       "id": "rt-list",
       "name": "Latest Hulu",
@@ -136,6 +147,17 @@
       "type": "movie",
       "id": "rt-paramount-plus",
       "name": "Latest Paramount+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "rt-britbox",
+      "name": "Latest BritBox",
       "extra": [
         {
           "name": "skip",

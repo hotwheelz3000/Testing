@@ -821,6 +821,15 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tt0784896",
+      "type": "series",
+      "name": "Mickey Mouse Clubhouse+",
+      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
+      "description": ""
+    },
+    {
       "id": "tt9581768",
       "type": "series",
       "name": "The Circle",

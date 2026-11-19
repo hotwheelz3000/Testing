@@ -1959,16 +1959,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ab8uFG6L3gKnog7ntrUdgo28hzK.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/k13za3wUhd8uejKJ2v9XQsRjxaw.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cBAD1QuROoDQTjLxvvLKxfEahln.png"
-    },
-    {
-      "id": "tt40792117",
-      "type": "movie",
-      "name": "The Crash",
-      "releaseInfo": "",
-      "description": "A teen slams her car into a building, killing her boyfriend and his friend. What seems like a tragic accident becomes a murder case.",
-      "poster": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2iqLoDsatVBwAvHTEzI71p3qBe9.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/d5JOqqEYntVgRX3S8eMMqyEJuUo.png"
     }
   ]
 }
