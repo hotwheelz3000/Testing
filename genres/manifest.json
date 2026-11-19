@@ -1,0 +1,50 @@
+{
+  "id": "com.hotwheelz3000.genres",
+  "version": "1.0.0",
+  "name": "Latest Genres",
+  "description": "Latest releases by genre, from snoak's MDBList lists",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "mdb-comedy",
+      "name": "Latest Comedy",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "mdb-documentary",
+      "name": "Latest Documentary",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "mdb-thriller",
+      "name": "Latest Thriller",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}

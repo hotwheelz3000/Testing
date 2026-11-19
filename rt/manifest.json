@@ -14,62 +14,134 @@
     {
       "type": "series",
       "id": "rt-list",
-      "name": "Latest Hulu"
+      "name": "Latest Hulu",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "series",
       "id": "rt-netflix",
-      "name": "Latest Netflix"
+      "name": "Latest Netflix",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "series",
       "id": "rt-apple-tv-plus",
-      "name": "Latest Apple TV+"
+      "name": "Latest Apple TV+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "series",
       "id": "rt-prime-video",
-      "name": "Latest Prime"
+      "name": "Latest Prime",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "series",
       "id": "rt-disney-plus",
-      "name": "Latest Disney+"
+      "name": "Latest Disney+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "series",
       "id": "rt-paramount-plus",
-      "name": "Latest Paramount+"
+      "name": "Latest Paramount+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-list",
-      "name": "Latest Hulu"
+      "name": "Latest Hulu",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-netflix",
-      "name": "Latest Netflix"
+      "name": "Latest Netflix",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-apple-tv-plus",
-      "name": "Latest Apple TV+"
+      "name": "Latest Apple TV+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-prime-video",
-      "name": "Latest Prime"
+      "name": "Latest Prime",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-disney-plus",
-      "name": "Latest Disney+"
+      "name": "Latest Disney+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     },
     {
       "type": "movie",
       "id": "rt-paramount-plus",
-      "name": "Latest Paramount+"
+      "name": "Latest Paramount+",
+      "extra": [
+        {
+          "name": "skip",
+          "isRequired": false
+        }
+      ]
     }
   ],
   "idPrefixes": [
