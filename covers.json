@@ -1,5 +1,36 @@
 {
   "covers": [
-    { "file": "TRENDING_MOVIES.jpeg", "url": "https://8upload.com/image/eeefdf42e63a27d7/TRENDING_MOVIES.jpeg" }
+    {
+      "file": "TRENDING_MOVIES.jpeg",
+      "url": "https://8upload.com/image/eeefdf42e63a27d7/TRENDING_MOVIES.jpeg"
+    },
+    {
+      "file": "netflix.gif",
+      "url": "https://i.pinimg.com/originals/bb/74/04/bb74046420c4c992b8cabc6e667abe40.gif"
+    },
+    {
+      "file": "hulu.gif",
+      "url": "https://mir-s3-cdn-cf.behance.net/project_modules/source/5142d0197870091.66381c5e6e163.gif"
+    },
+    {
+      "file": "apple-tv.gif",
+      "url": "https://media1.tenor.com/m/1FiEEnGTgUcAAAAC/apple-appletv.gif"
+    },
+    {
+      "file": "prime-video.gif",
+      "url": "https://media1.tenor.com/m/T7L_NCdPIvAAAAAC/prime-video.gif"
+    },
+    {
+      "file": "disney-plus.gif",
+      "url": "https://lumiere-a.akamaihd.net/v1/images/disney_logo_animation_march_2024_27a0dafe.gif"
+    },
+    {
+      "file": "paramount-plus.gif",
+      "url": "https://media2.giphy.com/media/TPf5NC7iM2RYWpk5Hz/giphy.gif"
+    },
+    {
+      "file": "britbox.gif",
+      "url": "https://media1.giphy.com/media/oNnNjasnDJPX9JxJ8o/giphy.gif"
+    }
   ]
 }
