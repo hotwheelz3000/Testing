@@ -43,6 +43,6 @@ Images listed in `covers.json` are downloaded once into `covers/` on the Pages b
 
 - Latest Streaming shows each title under one service only. Hulu wins shared titles; otherwise the service where Rotten Tomatoes ranks it highest.
 - TV lists come from journey.co.il's TMDB network catalogs (`/stremio/catalog/network/<TMDB network id>.json`, 100 newest, no key). Network ids: Netflix 213, Hulu 453, Apple TV+ 2552, Prime 1024, Disney+ 2739, Paramount+ 4330.
-- TV catalogs use `merge`: the TMDB network list first, then Rotten Tomatoes titles not already listed (no duplicates, max 200). Movie catalogs merge TMDB Discover (newest released movies streaming on the service in the US; provider ids Netflix 8, Hulu 15, Apple TV+ 350, Prime 9, Disney+ 337, Paramount+ 531) with Rotten Tomatoes "newest".
+- TV catalogs use `merge`: the TMDB network list first, then Rotten Tomatoes titles not already listed (no duplicates, max 200). Movie catalogs merge TMDB Discover (newest released movies streaming on the service in the US; provider ids Netflix 8, Hulu 15, Apple TV+ 350, Prime 9, Disney+ 337, Paramount+ 531|582|1853|2303|2616) with Rotten Tomatoes "newest".
 - A catalog can have a `fallback` source, used when its main source fails. If both fail, the last good version is kept.
 - After changing names or catalogs, remove and re-add the addon in Nuvio; it caches manifests.

@@ -182,7 +182,7 @@
           "merge": [
             {
               "source": "tmdb",
-              "provider": "531"
+              "provider": "531|582|1853|2303|2616"
             },
             {
               "source": "rottentomatoes",
