@@ -34,7 +34,7 @@ for (const m of items) {
   const hit = await imdbFor(m);
   if (!hit?.id?.startsWith("tt")) { console.log("no match:", m.name); continue; }
   if (metas.some(x => x.id === hit.id)) continue;
-  metas.push({ id: hit.id, type: "movie", name: m.name, poster: m.poster || hit.poster,
+  metas.push({ id: hit.id, logo: `https://images.metahub.space/logo/medium/${hit.id}/img`, type: "movie", name: m.name, poster: m.poster || hit.poster,
                background: m.background, description: m.description || "", releaseInfo: m.year });
 }
 console.log("matched:", metas.length);

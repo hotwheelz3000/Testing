@@ -63,7 +63,7 @@ for (const it of items) {
   if (metas.some(x => x.id === hit.id)) continue;
   const score = it.score ? `Tomatometer ${it.score}%` : "";
   metas.push({
-    id: hit.id, type, name: it.title,
+    id: hit.id, type, logo: `https://images.metahub.space/logo/medium/${hit.id}/img`, name: it.title,
     poster: it.posterUri || hit.poster,
     description: score || hit.description || "",
   });
