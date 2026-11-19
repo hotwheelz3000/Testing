@@ -10,6 +10,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/52pI8oyYHiFM2FaA5GITauIVeXQ.png"
     },
     {
+      "id": "tt6611324",
+      "type": "movie",
+      "name": "Guarding Stars",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt6611324/img",
+      "background": "https://image.tmdb.org/t/p/w1280/qHvap0vpfTBIbv7cnR0OyBRqQHG.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5yB5ISzk2PaRGgE0JL2Hpt7ZgA3.png"
+    },
+    {
       "id": "tt43596156",
       "type": "movie",
       "name": "A Proud Family Wizmas",
@@ -35,6 +44,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt39313557/img",
       "background": "https://image.tmdb.org/t/p/w1280/4BsOLok9WaTTTcSpmoMtCLERScS.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/znOrr5xogCgGTAZ86hEGptTYL8v.png"
+    },
+    {
+      "id": "tt49625485",
+      "type": "movie",
+      "name": "Janelle James: How Romantic",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt49625485/img",
+      "background": "https://image.tmdb.org/t/p/w1280/okmLf17lLDfAjJdFjizyblCphrj.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cRS07KNESng8vQKP3eHOZkOPnwW.png"
     },
     {
       "id": "tt39219651",
@@ -1767,24 +1785,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt33538438/img",
       "background": "https://image.tmdb.org/t/p/w1280/gzjtbuyZo9g6JaPCf055Cmsd7fS.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt33538438/img"
-    },
-    {
-      "id": "tt32093575",
-      "type": "movie",
-      "name": "Scary Movie",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt32093575/img",
-      "background": "https://image.tmdb.org/t/p/w1280/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/yIaA4xlv9c0b5dmJgWKeHWJXpeR.png"
-    },
-    {
-      "id": "tt40815155",
-      "type": "movie",
-      "name": "Wild Sing",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt40815155/img",
-      "background": "https://image.tmdb.org/t/p/w1280/wuqlB1rgHlGKf33rMu3QpRzb15o.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gadLhb7Lpg4rctzjzlLbFk9QzGm.png"
     }
   ]
 }
