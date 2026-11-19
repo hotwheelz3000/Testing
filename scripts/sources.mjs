@@ -66,12 +66,13 @@ async function stremio({ url }, type) {
 
   const metas = [];
   for (const m of items) {
-    const hit = await imdbMatch(type, m.name, m.year);
+    const year = m.year || String(m.releaseInfo || "").match(/(?:19|20)\d{2}/)?.[0] || "";
+    const hit = await imdbMatch(type, m.name, year);
     const id = hit?.id || m.id; // no IMDb match: keep the source id (e.g. tmdb:123)
     metas.push({
       id, type, name: m.name, ...art(id),
       poster: m.poster || hit?.poster, background: m.background || art(id).background,
-      description: m.description || "", releaseInfo: m.year,
+      description: m.description || "", releaseInfo: year,
     });
   }
   return metas;

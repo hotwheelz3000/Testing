@@ -6,7 +6,7 @@ Three Stremio/Nuvio catalog addons, rebuilt every 6 hours by the **Build addons*
 
 | Addon | Install link |
 |---|---|
-| Latest Streaming (Rotten Tomatoes, per service) | `stremio://hotwheelz3000.github.io/Testing/rt/manifest.json` |
+| Latest Streaming (TV: TMDB network lists via journey.co.il; movies: Rotten Tomatoes) | `stremio://hotwheelz3000.github.io/Testing/rt/manifest.json` |
 | r/movieleaks (Reddit posts via Arctic Shift, jcdc's addon as backup) | `stremio://hotwheelz3000.github.io/Testing/movieleaks/manifest.json` |
 | Latest Genres (MDBList) | `stremio://hotwheelz3000.github.io/Testing/genres/manifest.json` |
 
@@ -34,6 +34,7 @@ Keep existing `id`s unchanged: Nuvio folders point at them.
 ### Notes
 
 - Latest Streaming shows each title under one service only. Hulu wins shared titles; otherwise the service where Rotten Tomatoes ranks it highest.
-- Rotten Tomatoes "newest" sorts by latest episode, so network shows with old seasons on Netflix (NCIS, St. Denis Medical) can appear in Latest Netflix.
+- TV lists come from journey.co.il's TMDB network catalogs (`/stremio/catalog/network/<TMDB network id>.json`, 100 newest, no key). Network ids: Netflix 213, Hulu 453, Apple TV+ 2552, Prime 1024, Disney+ 2739, Paramount+ 4330.
+- Movie lists use Rotten Tomatoes "newest".
 - A catalog can have a `fallback` source, used when its main source fails. If both fail, the last good version is kept.
 - After changing names or catalogs, remove and re-add the addon in Nuvio; it caches manifests.
