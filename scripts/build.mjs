@@ -3,9 +3,11 @@
 import { readFile } from "node:fs/promises";
 import { readJson, writeJson, writeCatalog, saveCache, fixArt, SKIP_EXTRA } from "./lib.mjs";
 import { sources } from "./sources.mjs";
+import { tmdbEnabled } from "./tmdb.mjs";
 
 const config = JSON.parse(await readFile(new URL("../addons.json", import.meta.url), "utf8"));
 const only = process.argv.slice(2);
+console.log(tmdbEnabled ? "TMDB artwork: on" : "TMDB artwork: off (no TMDB_KEY secret)");
 let failures = 0;
 
 for (const addon of config.addons) {

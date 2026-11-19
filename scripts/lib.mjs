@@ -1,6 +1,7 @@
 // Shared helpers for building the catalog addons.
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { dirname } from "node:path";
+import { readJson, writeJson } from "./lib-io.mjs";
+import { tmdbArt, saveTmdbCache } from "./tmdb.mjs";
+export { readJson, writeJson };
 
 const UA = { "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15" };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -21,22 +22,15 @@ export async function get(url, as = "json") {
   throw new Error(`gave up on ${url}`);
 }
 
-export async function readJson(path, fallback) {
-  try { return JSON.parse(await readFile(path, "utf8")); } catch { return fallback; }
-}
-
-export async function writeJson(path, data, pretty = true) {
-  await mkdir(dirname(path), { recursive: true });
-  await writeFile(path, JSON.stringify(data, null, pretty ? 2 : 0));
-}
 
 // ---- IMDb matching through Cinemeta, cached between runs ----
 const CACHE_PATH = "_cache/imdb.json"; // underscore folder: GitHub Pages doesn't serve it
 let cache = null;
+let cacheLoading = null;
 const norm = s => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 export async function imdbMatch(type, title, year = "") {
-  cache ??= await readJson(CACHE_PATH, {});
+  cache ??= await (cacheLoading ??= readJson(CACHE_PATH, {}));
   const key = `${type}|${norm(title)}|${year}`;
   if (cache[key]) return cache[key];
   let hit = null;
@@ -59,11 +53,12 @@ export async function imdbMatch(type, title, year = "") {
 // ---- image checks (working images are remembered between runs) ----
 const IMG_CACHE_PATH = "_cache/images.json";
 let imgCache = null;
+let imgLoading = null;
 
 async function imageOk(url) {
   if (!url || !/^https?:\/\//.test(url) || url.endsWith("/")) return false; // e.g. TMDB ".../bestv2/" = no image
-  imgCache ??= await readJson(IMG_CACHE_PATH, {});
-  if (imgCache[url]) return true;
+  imgCache ??= await (imgLoading ??= readJson(IMG_CACHE_PATH, {}));
+  if (imgCache[url] || url.startsWith("https://image.tmdb.org/t/p/w")) return true;
   for (const method of ["HEAD", "GET"]) {
     try {
       const r = await fetch(url, { method, headers: UA, redirect: "follow" });
@@ -125,6 +120,7 @@ async function backupPoster(m) {
 }
 
 // Makes sure every item has a working poster and background; drops items with no poster at all.
+// Order: logo and background from TMDB first (official), poster from the list first.
 export async function fixArt(metas) {
   const fixed = [];
   const queue = metas.map((m, i) => [m, i]);
@@ -132,10 +128,12 @@ export async function fixArt(metas) {
     for (let job; (job = queue.shift()); ) {
       const [m, i] = job;
       const a = art(m.id);
-      const poster = (await imageOk(m.poster)) ? m.poster : (await imageOk(a.poster)) ? a.poster : await backupPoster(m);
+      const t = await tmdbArt(m).catch(e => { console.log(`  tmdb: ${e.message}`); return {}; });
+      const first = async (...urls) => { for (const u of urls) if (await imageOk(u)) return u; return null; };
+      const poster = (await first(m.poster, a.poster, t.poster)) || (await backupPoster(m));
       if (!poster) { console.log(`  no poster, dropped: ${m.name}`); continue; }
-      const background = (await imageOk(m.background)) ? m.background : (await imageOk(a.background)) ? a.background : poster;
-      const logo = (await imageOk(m.logo)) ? m.logo : undefined;
+      const background = (await first(t.background, m.background, a.background)) || poster;
+      const logo = (await first(t.logo, m.logo)) || undefined;
       fixed[i] = { ...m, poster, background, logo };
     }
   };
@@ -144,6 +142,7 @@ export async function fixArt(metas) {
 }
 
 export const saveCache = async () => {
+  await saveTmdbCache();
   if (cache) await writeJson(CACHE_PATH, cache, false);
   if (imgCache) await writeJson(IMG_CACHE_PATH, imgCache, false);
 };

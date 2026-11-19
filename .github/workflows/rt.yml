@@ -30,6 +30,8 @@ jobs:
           node-version: 20
       - name: Build
         run: cd site && node ../scripts/build.mjs ${{ github.event.inputs.only }}
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
       - name: Publish
         run: |
           cd site
