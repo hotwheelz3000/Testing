@@ -1,6 +1,7 @@
 // Builds a separate addon from public MDBList lists (no API key needed).
 // LISTS: one per line, "user/slug|catalog id|display name|movie or series"
-import { mkdir, writeFile } from "node:fs/promises";
+import { writeFile } from "node:fs/promises";
+import { writeCatalog, SKIP_EXTRA } from "./catalog-files.mjs";
 const OUT = process.env.OUT || "genres";
 const ADDON_NAME = process.env.ADDON_NAME || "Latest Genres";
 const MAX = Number(process.env.MAX || 200);
@@ -24,9 +25,8 @@ for (const l of lists) {
       });
       if (metas.length >= MAX) break;
     }
-    await mkdir(`${OUT}/catalog/${l.type}`, { recursive: true });
-    await writeFile(`${OUT}/catalog/${l.type}/${l.id}.json`, JSON.stringify({ metas }, null, 2));
-    catalogs.push({ type: l.type, id: l.id, name: l.name });
+    await writeCatalog(`${OUT}/catalog/${l.type}/${l.id}`, metas);
+    catalogs.push({ type: l.type, id: l.id, name: l.name, extra: SKIP_EXTRA });
     console.log(`${l.name}: ${metas.length}`);
   } catch (e) { console.log(`!! ${l.name} failed: ${e.message}`); }
 }

@@ -1,5 +1,6 @@
 // Builds a manifest + catalog JSON from a Rotten Tomatoes browse page.
 import { mkdir, writeFile } from "node:fs/promises";
+import { writeCatalog, SKIP_EXTRA } from "./catalog-files.mjs";
 
 const RT_URL = process.env.RT_URL;
 const OUT = process.env.OUT || "rt";
@@ -87,9 +88,9 @@ try {
   const old = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
   manifest.catalogs = (old.catalogs || []).filter(c => !(c.type === type && c.id === CAT_ID));
 } catch {}
-manifest.catalogs.push({ type, id: CAT_ID, name: NAME });
+manifest.catalogs.push({ type, id: CAT_ID, name: NAME, extra: SKIP_EXTRA });
 manifest.catalogs.sort((x, y) => (x.type === "series" ? -1 : 1) - (y.type === "series" ? -1 : 1));
 manifest.types = [...new Set(manifest.catalogs.map(c => c.type))];
 await mkdir(`${OUT}/catalog/${type}`, { recursive: true });
 await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
-await writeFile(`${OUT}/catalog/${type}/${CAT_ID}.json`, JSON.stringify({ metas }, null, 2));
+await writeCatalog(`${OUT}/catalog/${type}/${CAT_ID}`, metas);

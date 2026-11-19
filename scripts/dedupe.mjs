@@ -2,6 +2,7 @@
 // Titles on the PRIORITY list (Hulu by default) always stay there.
 // Ties go to the service listed first in the manifest.
 import { readFile, writeFile } from "node:fs/promises";
+import { writeCatalog } from "./catalog-files.mjs";
 const OUT = process.env.OUT || "rt";
 const PRIORITY = process.env.PRIORITY || "rt-list";
 const manifest = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
@@ -22,6 +23,6 @@ for (const type of manifest.types) {
     if (!lists[c.id]) continue;
     const kept = lists[c.id].filter(m => best[m.id][2] === c.id);
     console.log(`${type} ${c.name}: ${lists[c.id].length} -> ${kept.length}`);
-    await writeFile(`${OUT}/catalog/${type}/${c.id}.json`, JSON.stringify({ metas: kept }, null, 2));
+    await writeCatalog(`${OUT}/catalog/${type}/${c.id}`, kept);
   }
 }

@@ -1,21 +1,28 @@
-// Copies the r/movieleaks addon's movie list into our addon as its own catalog.
-import { mkdir, writeFile } from "node:fs/promises";
+// Copies the r/movieleaks addon's movie list into its own addon.
+import { writeFile } from "node:fs/promises";
+import { writeCatalog, SKIP_EXTRA } from "./catalog-files.mjs";
 const OUT = process.env.LEAKS_OUT || "movieleaks";
 const SRC = "https://e1fc7808b5de-stremio-r-movieleaks.baby-beamup.club/catalog/movie/movieleaks_movies";
 const CAT_ID = "movieleaks";
 const NAME = "r/movieleaks";
+const MAX = 200;
 
+// The source pages overlap, so ask for skip = items collected so far and keep only new ones.
 const items = [];
 const seen = new Set();
-for (let skip = 0; skip < 200; ) {
-  const url = skip ? `${SRC}/skip=${skip}.json` : `${SRC}.json`;
-  const r = await fetch(url);
-  if (!r.ok) { console.log("source failed", r.status); break; }
-  const list = (await r.json()).metas || [];
+let misses = 0;
+while (items.length < MAX && misses < 3) {
+  const url = items.length ? `${SRC}/skip=${items.length}.json` : `${SRC}.json`;
+  let list = [];
+  try {
+    const r = await fetch(url, { headers: { "user-agent": "Mozilla/5.0" } });
+    if (r.ok) list = (await r.json()).metas || []; else console.log("source", r.status, url);
+  } catch (e) { console.log("source error", e.message); }
   const fresh = list.filter(m => !seen.has(m.id));
-  if (!fresh.length) break;
+  console.log(`page skip=${items.length}: ${list.length} items, ${fresh.length} new`);
+  if (!fresh.length) { misses++; continue; }
+  misses = 0;
   fresh.forEach(m => { seen.add(m.id); items.push(m); });
-  skip += list.length;
 }
 console.log("source items:", items.length);
 
@@ -32,24 +39,23 @@ async function imdbFor(m) {
 const metas = [];
 for (const m of items) {
   const hit = await imdbFor(m);
-  if (!hit?.id?.startsWith("tt")) { console.log("no match:", m.name); continue; }
-  if (metas.some(x => x.id === hit.id)) continue;
-  metas.push({ id: hit.id, logo: `https://images.metahub.space/logo/medium/${hit.id}/img`, type: "movie", name: m.name, poster: m.poster || hit.poster,
-               background: m.background, description: m.description || "", releaseInfo: m.year });
+  // No IMDb match: keep the original TMDB id so the movie still shows up.
+  const id = hit?.id?.startsWith("tt") ? hit.id : m.id;
+  if (metas.some(x => x.id === id)) continue;
+  metas.push({
+    id, type: "movie", name: m.name, poster: m.poster || hit?.poster, background: m.background,
+    logo: id.startsWith("tt") ? `https://images.metahub.space/logo/medium/${id}/img` : undefined,
+    description: m.description || "", releaseInfo: m.year,
+  });
 }
-console.log("matched:", metas.length);
+console.log("kept:", metas.length, "imdb matched:", metas.filter(m => m.id.startsWith("tt")).length);
 if (!metas.length) process.exit(1);
 
-await mkdir(`${OUT}/catalog/movie`, { recursive: true });
-await writeFile(`${OUT}/catalog/movie/${CAT_ID}.json`, JSON.stringify({ metas }, null, 2));
-const manifest = {
-  id: "com.hotwheelz3000.movieleaks",
-  version: "1.0.0",
-  name: NAME,
+await writeCatalog(`${OUT}/catalog/movie/${CAT_ID}`, metas);
+await writeFile(`${OUT}/manifest.json`, JSON.stringify({
+  id: "com.hotwheelz3000.movieleaks", version: "1.1.0", name: NAME,
   description: "Movies posted on r/movieleaks (copied from jcdc's addon every 6 hours)",
-  resources: ["catalog"],
-  types: ["movie"],
-  catalogs: [{ type: "movie", id: CAT_ID, name: "Movies - r/movieleaks" }],
-  idPrefixes: ["tt"],
-};
-await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
+  resources: ["catalog"], types: ["movie"],
+  catalogs: [{ type: "movie", id: CAT_ID, name: "Movies - r/movieleaks", extra: SKIP_EXTRA }],
+  idPrefixes: ["tt", "tmdb"],
+}, null, 2));
