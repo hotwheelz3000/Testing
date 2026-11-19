@@ -19,7 +19,13 @@ for (const addon of config.addons) {
   for (const c of cats) {
     const key = `${c.type}/${c.id}`;
     try {
-      const metas = await sources[c.source](c, c.type);
+      let metas;
+      try { metas = await sources[c.source](c, c.type); }
+      catch (e) {
+        if (!c.fallback) throw e;
+        console.log(`  ${c.source} failed (${e.message}), using fallback ${c.fallback.source}`);
+        metas = await sources[c.fallback.source](c.fallback, c.type);
+      }
       const unique = metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i);
       if (!unique.length) throw new Error("no items");
       results[key] = unique;

@@ -11,7 +11,7 @@ export async function get(url, as = "json") {
     try {
       const r = await fetch(url, { headers: UA });
       if (r.ok) return as === "text" ? r.text() : r.json();
-      if (r.status !== 429 && r.status < 500) throw new Error(`HTTP ${r.status}`);
+      if (![422, 429].includes(r.status) && r.status < 500) throw new Error(`HTTP ${r.status}`); // 422 = Arctic Shift timeout
       console.log(`  retry ${attempt} (${r.status}) ${url}`);
     } catch (e) {
       if (attempt === 3 || /HTTP 4/.test(e.message)) throw e;
@@ -43,10 +43,14 @@ export async function imdbMatch(type, title, year = "") {
   try {
     const { metas = [] } = await get(`https://v3-cinemeta.strem.io/catalog/${type}/top/search=${encodeURIComponent(title)}.json`);
     const same = metas.filter(m => norm(m.name) === norm(title));
-    hit = (year && same.find(m => String(m.releaseInfo || "").startsWith(String(year)))) || same[0] || (type === "series" ? metas[0] : null);
+    const sameYear = m => year && String(m.releaseInfo || "").startsWith(String(year));
+    hit = same.find(sameYear) || same[0]
+      // "Rolling Loud" (2026) -> "Rolling Loud: The Movie" (2026): prefix match only when the year agrees
+      || metas.find(m => sameYear(m) && norm(m.name).startsWith(norm(title)))
+      || (type === "series" ? metas[0] : null);
   } catch (e) { console.log(`  cinemeta error for "${title}": ${e.message}`); }
   if (hit?.id?.startsWith("tt")) {
-    cache[key] = { id: hit.id, poster: hit.poster, description: hit.description };
+    cache[key] = { id: hit.id, name: hit.name, poster: hit.poster, description: hit.description };
     return cache[key];
   }
   return null;
