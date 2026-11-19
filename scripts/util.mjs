@@ -28,17 +28,21 @@ export function fileCache(path) {
 }
 
 // fetch with a browser user agent; retries on network errors, 422 (Arctic Shift timeout), 429 and 5xx.
-export async function get(url, as = "json") {
+// retry404: also retry "not found" (Rotten Tomatoes sometimes answers 404 to automated requests).
+export async function get(url, as = "json", { retry404 = false } = {}) {
+  const retryable = [422, 429, ...(retry404 ? [404] : [])];
+  const wait = retry404 ? 4000 : 1500;
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
       const r = await fetch(url, { headers: UA });
       if (r.ok) return as === "text" ? r.text() : r.json();
-      if (![422, 429].includes(r.status) && r.status < 500) throw new Error(`HTTP ${r.status}`);
+      if (!retryable.includes(r.status) && r.status < 500) throw new Error(`HTTP ${r.status}`);
+      if (attempt === 3) throw new Error(`HTTP ${r.status} after 3 tries`);
       console.log(`  retry ${attempt} (${r.status}) ${url}`);
     } catch (e) {
-      if (attempt === 3 || /HTTP 4/.test(e.message)) throw e;
+      if (attempt === 3 || /^HTTP 4\d\d$/.test(e.message)) throw e;
     }
-    await sleep(1500 * attempt);
+    await sleep(wait * attempt);
   }
   throw new Error(`gave up on ${url}`);
 }

@@ -21,10 +21,11 @@ async function rottenTomatoes({ service }, type) {
     break;
   }
   let after = Buffer.from(String(items.length - 1)).toString("base64");
+  let partial = false;
   while (items.length && items.length < MAX) {
     let j;
-    try { j = await get(`https://www.rottentomatoes.com/cnapi/browse/${path}?after=${encodeURIComponent(after)}`); }
-    catch (e) { console.log(`  stopped paging at ${items.length} (${e.message})`); break; } // keep what we have
+    try { j = await get(`https://www.rottentomatoes.com/cnapi/browse/${path}?after=${encodeURIComponent(after)}`, "json", { retry404: true }); }
+    catch (e) { console.log(`  stopped paging at ${items.length} (${e.message})`); partial = true; break; } // keep what we have
     const list = j.grid?.list || [];
     items.push(...list.map(x => ({ title: x.title, poster: x.posterUri, score: x.criticsScore?.scorePercent?.replace("%", "") })));
     if (!list.length || !j.pageInfo?.hasNextPage) break;
@@ -41,6 +42,7 @@ async function rottenTomatoes({ service }, type) {
       description: it.score ? `Tomatometer ${it.score}%` : hit.description || "",
     });
   }
+  metas.partial = partial; // build.mjs tops a partial list up from the previous run
   return metas;
 }
 

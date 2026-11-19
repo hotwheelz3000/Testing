@@ -13,8 +13,18 @@ const config = JSON.parse(await readFile(new URL("../addons.json", import.meta.u
 const only = process.argv.slice(2);
 let failures = 0;
 
-// One catalog's items from its source(s).
-async function loadCatalog(c) {
+// One catalog's items from its source(s). A list cut short by a source hiccup is
+// topped up with the previous run's titles (not already listed) so it doesn't shrink.
+async function loadCatalog(c, previousPath) {
+  const metas = await loadSources(c);
+  if (!metas.partial) return metas;
+  const seen = new Set(metas.flatMap(m => [m.id, norm(m.name)]));
+  const previous = (await readJson(previousPath, { metas: [] })).metas.filter(m => !seen.has(m.id) && !seen.has(norm(m.name)));
+  console.log(`  partial list (${metas.length}), topped up with ${Math.min(previous.length, MAX - metas.length)} from last run`);
+  return [...metas, ...previous].slice(0, MAX);
+}
+
+async function loadSources(c) {
   if (c.merge) {
     // Several sources in order; later ones only add titles not already listed (by id or name).
     const metas = [];
@@ -22,12 +32,15 @@ async function loadCatalog(c) {
     for (const part of c.merge) {
       try {
         const got = await sources[part.source](part, c.type);
+        if (got.partial) metas.partial = true;
         const added = got.filter(m => !seen.has(m.id) && !seen.has(norm(m.name)));
         added.forEach(m => { metas.push(m); seen.add(m.id); seen.add(norm(m.name)); });
         console.log(`  ${part.source}: ${got.length} found, ${added.length} added`);
       } catch (e) { console.log(`  ${part.source} failed: ${e.message}`); }
     }
-    return metas.slice(0, MAX);
+    const out = metas.slice(0, MAX);
+    out.partial = metas.partial;
+    return out;
   }
   try { return await sources[c.source](c, c.type); }
   catch (e) {
@@ -70,7 +83,7 @@ for (const addon of config.addons) {
   for (const c of cats) {
     const key = `${c.type}/${c.id}`;
     try {
-      const metas = await loadCatalog(c);
+      const metas = await loadCatalog(c, `${addon.folder}/catalog/${key}.json`);
       const unique = await fixArt(metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i));
       if (!unique.length) throw new Error("no items");
       results[key] = unique;
