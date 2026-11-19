@@ -43,6 +43,8 @@ jobs:
               CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs < /dev/null || echo "!! $name $kind failed"
             done
           done
+      - name: Remove titles shared between services
+        run: cd site && node ../scripts/dedupe.mjs
       - run: |
           cd site
           git config user.name "github-actions"
