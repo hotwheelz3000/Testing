@@ -1,6 +1,6 @@
 // Copies the r/movieleaks addon's movie list into our addon as its own catalog.
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-const OUT = process.env.OUT || "rt";
+import { mkdir, writeFile } from "node:fs/promises";
+const OUT = process.env.LEAKS_OUT || "movieleaks";
 const SRC = "https://e1fc7808b5de-stremio-r-movieleaks.baby-beamup.club/catalog/movie/movieleaks_movies";
 const CAT_ID = "movieleaks";
 const NAME = "Movie Leaks";
@@ -42,8 +42,14 @@ if (!metas.length) process.exit(1);
 
 await mkdir(`${OUT}/catalog/movie`, { recursive: true });
 await writeFile(`${OUT}/catalog/movie/${CAT_ID}.json`, JSON.stringify({ metas }, null, 2));
-const manifest = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
-manifest.catalogs = manifest.catalogs.filter(c => c.id !== CAT_ID);
-manifest.catalogs.push({ type: "movie", id: CAT_ID, name: NAME });
-if (!manifest.types.includes("movie")) manifest.types.push("movie");
+const manifest = {
+  id: "com.hotwheelz3000.movieleaks",
+  version: "1.0.0",
+  name: NAME,
+  description: "Movies posted on r/movieleaks (copied from jcdc's addon every 6 hours)",
+  resources: ["catalog"],
+  types: ["movie"],
+  catalogs: [{ type: "movie", id: CAT_ID, name: NAME }],
+  idPrefixes: ["tt"],
+};
 await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
