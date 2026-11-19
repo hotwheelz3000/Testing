@@ -49,7 +49,7 @@ const manifest = {
   description: "Movies posted on r/movieleaks (copied from jcdc's addon every 6 hours)",
   resources: ["catalog"],
   types: ["movie"],
-  catalogs: [{ type: "movie", id: CAT_ID, name: NAME }],
+  catalogs: [{ type: "movie", id: CAT_ID, name: "Movies - r/movieleaks" }],
   idPrefixes: ["tt"],
 };
 await writeFile(`${OUT}/manifest.json`, JSON.stringify(manifest, null, 2));
