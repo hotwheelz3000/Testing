@@ -20,7 +20,9 @@ async function rottenTomatoes({ service }, type) {
   }
   let after = Buffer.from(String(items.length - 1)).toString("base64");
   while (items.length && items.length < MAX) {
-    const j = await get(`https://www.rottentomatoes.com/cnapi/browse/${path}?after=${encodeURIComponent(after)}`);
+    let j;
+    try { j = await get(`https://www.rottentomatoes.com/cnapi/browse/${path}?after=${encodeURIComponent(after)}`); }
+    catch (e) { console.log(`  stopped paging at ${items.length} (${e.message})`); break; } // keep what we have
     const list = j.grid?.list || [];
     items.push(...list.map(x => ({ title: x.title, poster: x.posterUri, score: x.criticsScore?.scorePercent?.replace("%", "") })));
     if (!list.length || !j.pageInfo?.hasNextPage) break;

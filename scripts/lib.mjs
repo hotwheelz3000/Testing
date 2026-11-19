@@ -75,6 +75,55 @@ async function imageOk(url) {
   return false;
 }
 
+// ---- backup artwork when the usual sources have none ----
+const nm = x => String(x || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+
+// Rotten Tomatoes search: exact name (and year when known), skipping RT's blank default poster.
+async function rtPoster(m) {
+  try {
+    const html = await get(`https://www.rottentomatoes.com/search?search=${encodeURIComponent(m.name)}`, "text");
+    for (const [, row] of html.matchAll(/<search-page-media-row([\s\S]*?)<\/search-page-media-row>/g)) {
+      const name = row.match(/<img[^>]*?alt="([^"]*)"/)?.[1]?.replace(/&amp;/g, "&").replace(/&#39;/g, "'");
+      const src = row.match(/<img[^>]*?src="([^"]+)"/)?.[1];
+      const year = row.match(/(?:release|start)-year="(\d{4})"/)?.[1];
+      if (!src || nm(name) !== nm(m.name)) continue;
+      if (m.releaseInfo && year && !String(m.releaseInfo).includes(year)) continue;
+      const full = src.split("/v2/")[1] || src;            // drop the 80px thumbnail resize
+      if (!full.includes("/ems.")) continue;               // RT's placeholder isn't an "ems" image
+      if (await imageOk(full)) return full;
+    }
+  } catch {}
+  return null;
+}
+
+// TMDB website page (works without an API key): its share image is the poster or a wide backdrop.
+async function tmdbPageImage(m) {
+  const id = m.id.match(/^tmdb:(\d+)$/)?.[1];
+  if (!id) return null;
+  try {
+    const html = await get(`https://www.themoviedb.org/${m.type === "movie" ? "movie" : "tv"}/${id}`, "text");
+    const img = html.match(/property="og:image" content="([^"]+)"/)?.[1];
+    return (await imageOk(img)) ? img : null;
+  } catch { return null; }
+}
+
+// TVmaze: shows only, exact name match.
+async function tvmazePoster(m) {
+  if (m.type !== "series") return null;
+  try {
+    const j = await get(`https://api.tvmaze.com/singlesearch/shows?q=${encodeURIComponent(m.name)}`);
+    return nm(j?.name) === nm(m.name) && (await imageOk(j.image?.original)) ? j.image.original : null;
+  } catch { return null; }
+}
+
+async function backupPoster(m) {
+  for (const find of [rtPoster, tmdbPageImage, tvmazePoster]) {
+    const url = await find(m);
+    if (url) { console.log(`  backup art (${find.name}): ${m.name}`); return url; }
+  }
+  return null;
+}
+
 // Makes sure every item has a working poster and background; drops items with no poster at all.
 export async function fixArt(metas) {
   const fixed = [];
@@ -83,7 +132,7 @@ export async function fixArt(metas) {
     for (let job; (job = queue.shift()); ) {
       const [m, i] = job;
       const a = art(m.id);
-      const poster = (await imageOk(m.poster)) ? m.poster : (await imageOk(a.poster)) ? a.poster : null;
+      const poster = (await imageOk(m.poster)) ? m.poster : (await imageOk(a.poster)) ? a.poster : await backupPoster(m);
       if (!poster) { console.log(`  no poster, dropped: ${m.name}`); continue; }
       const background = (await imageOk(m.background)) ? m.background : (await imageOk(a.background)) ? a.background : poster;
       const logo = (await imageOk(m.logo)) ? m.logo : undefined;
