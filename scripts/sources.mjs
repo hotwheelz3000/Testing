@@ -138,18 +138,22 @@ async function reddit({ subreddit, days = 60 }, type) {
   return metas;
 }
 
-// ---- TMDB Discover: newest released movies available to stream on a service (US) ----
-// provider = TMDB watch-provider id(s), e.g. "8" Netflix; "a|b" means either.
-async function tmdbDiscover({ provider, region = "US" }, type) {
+// ---- TMDB Discover: newest released titles, by streaming service (US) or by network ----
+// provider = TMDB watch-provider id(s), e.g. "8" Netflix; network = TMDB TV network id(s) (shows only).
+// "a|b" means either.
+async function tmdbDiscover({ provider, network, region = "US" }, type) {
   if (!tmdbEnabled) throw new Error("needs the TMDB_KEY secret");
   const kind = type === "movie" ? "movie" : "tv";
   const today = new Date().toISOString().slice(0, 10);
   const dateField = kind === "movie" ? "primary_release_date" : "first_air_date";
   const results = [];
   for (let page = 1; page <= 10 && results.length < MAX; page++) {
+    if (network && kind !== "tv") throw new Error("network lists are for shows only");
+    const filter = network
+      ? { with_networks: network }
+      : { watch_region: region, with_watch_providers: provider, with_watch_monetization_types: "flatrate" };
     const j = await tmdbApi(`/discover/${kind}`, {
-      watch_region: region, with_watch_providers: provider, with_watch_monetization_types: "flatrate",
-      sort_by: `${dateField}.desc`, [`${dateField}.lte`]: today, include_adult: "false", page: String(page),
+      ...filter, sort_by: `${dateField}.desc`, [`${dateField}.lte`]: today, include_adult: "false", page: String(page),
     });
     if (!j?.results?.length) break;
     results.push(...j.results);

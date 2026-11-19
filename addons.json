@@ -3,7 +3,7 @@
     {
       "folder": "rt",
       "id": "com.hotwheelz3000.rt",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "name": "Latest Streaming",
       "description": "Newest titles per streaming service: TV from TMDB network lists + Rotten Tomatoes, movies from TMDB Discover + Rotten Tomatoes",
       "dedupe": {
@@ -101,6 +101,25 @@
           ]
         },
         {
+          "id": "rt-britbox",
+          "name": "Latest BritBox",
+          "type": "series",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "151|87"
+            },
+            {
+              "source": "tmdb",
+              "network": "4025|2697|4|332|3|100|3156"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "acorn-tv"
+            }
+          ]
+        },
+        {
           "id": "rt-list",
           "name": "Latest Hulu",
           "type": "movie",
@@ -187,6 +206,21 @@
             {
               "source": "rottentomatoes",
               "service": "paramount-plus"
+            }
+          ]
+        },
+        {
+          "id": "rt-britbox",
+          "name": "Latest BritBox",
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "151|87"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "acorn-tv"
             }
           ]
         }
