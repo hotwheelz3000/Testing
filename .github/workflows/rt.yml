@@ -1,19 +1,24 @@
-name: Rotten Tomatoes JSON
+name: Build addons
 on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
+    inputs:
+      only:
+        description: "Only build these addon folders (space-separated, e.g. genres). Leave empty for all."
+        required: false
+        default: ""
 permissions:
   contents: write
+concurrency:
+  group: build-addons
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
-      RT_MAX: "200"
       PAGES_BRANCH: "claude/maid-hotel-game-kga08a"
-      OUT: "rt"
-      ADDON_NAME: "Latest Streaming"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
@@ -23,47 +28,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Build lists
+      - name: Build
+        run: cd site && node ../scripts/build.mjs ${{ github.event.inputs.only }}
+      - name: Publish
         run: |
-          cd site
-          # slug|catalog id|display name  (Hulu keeps rt-list so existing setups don't break)
-          SERVICES="
-          hulu|rt-list|Latest Hulu
-          netflix|rt-netflix|Latest Netflix
-          apple-tv-plus|rt-apple-tv-plus|Latest Apple TV+
-          prime-video|rt-prime-video|Latest Prime
-          disney-plus|rt-disney-plus|Latest Disney+
-          paramount-plus|rt-paramount-plus|Latest Paramount+
-          "
-          echo "$SERVICES" | while IFS='|' read -r slug id name; do
-            slug=$(echo "$slug" | xargs); [ -z "$slug" ] && continue
-            for kind in tv_series_browse movies_at_home; do
-              echo "== $name ($kind)"
-              RT_URL="https://www.rottentomatoes.com/browse/$kind/affiliates:$slug~sort:newest" \
-              CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs < /dev/null || echo "!! $name $kind failed"
-            done
-          done
-      - name: Movie Leaks
-        run: cd site && node ../scripts/leaks.mjs
-        continue-on-error: true
-      - name: Latest Genres (MDBList)
-        run: cd site && node ../scripts/mdblist.mjs
-        continue-on-error: true
-        env:
-          OUT: "genres"
-          ADDON_NAME: "Latest Genres"
-          LISTS: |
-            snoak/latest-comedy-movies|mdb-comedy|Latest Comedy|movie
-            snoak/latest-documentary-movies|mdb-documentary|Latest Documentary|movie
-            snoak/latest-thriller-movies|mdb-thriller|Latest Thriller|movie
-      - name: Remove titles shared between services
-        run: cd site && node ../scripts/dedupe.mjs
-      - run: |
           cd site
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add rt movieleaks genres
+          git add -A rt movieleaks genres _cache
           if ! git diff --cached --quiet; then
-            git commit -m "Update Rotten Tomatoes JSON"
+            git commit -m "Update addon catalogs"
             git push origin HEAD:${{ env.PAGES_BRANCH }}
           fi
