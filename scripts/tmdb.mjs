@@ -8,8 +8,9 @@ const isToken = KEY.startsWith("eyJ");
 const IMG = "https://image.tmdb.org/t/p";
 const WEEK = 7 * 86400 * 1000;
 const cache = fileCache("_cache/tmdb.json");
+const imdbIds = fileCache("_cache/tmdb-imdb.json"); // TMDB id -> IMDb id never changes, kept forever
 
-async function api(path, params = {}) {
+export async function api(path, params = {}) {
   const qs = new URLSearchParams(isToken ? params : { ...params, api_key: KEY });
   for (let attempt = 1; attempt <= 3; attempt++) {
     const r = await fetch(`https://api.themoviedb.org/3${path}?${qs}`, {
@@ -65,4 +66,14 @@ export async function tmdbArt(m) {
   return art;
 }
 
-export const saveTmdbCache = cache.save;
+// IMDb id for a TMDB movie/show (null if TMDB doesn't know it).
+export async function imdbIdFor(kind, id) {
+  const saved = await imdbIds.load();
+  const key = `${kind}:${id}`;
+  if (key in saved) return saved[key];
+  const ext = await api(`/${kind}/${id}/external_ids`);
+  if (!ext) return null; // lookup failed: try again next run
+  return (saved[key] = ext.imdb_id || null);
+}
+
+export const saveTmdbCache = async () => { await cache.save(); await imdbIds.save(); };

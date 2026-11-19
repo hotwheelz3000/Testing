@@ -3,9 +3,9 @@
     {
       "folder": "rt",
       "id": "com.hotwheelz3000.rt",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "name": "Latest Streaming",
-      "description": "Newest titles per streaming service: TV from TMDB network lists (journey.co.il) plus Rotten Tomatoes, movies from Rotten Tomatoes",
+      "description": "Newest titles per streaming service: TV from TMDB network lists + Rotten Tomatoes, movies from TMDB Discover + Rotten Tomatoes",
       "dedupe": {
         "priority": "rt-list"
       },
@@ -101,46 +101,94 @@
           ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "hulu",
           "id": "rt-list",
           "name": "Latest Hulu",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "15"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "hulu"
+            }
+          ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "netflix",
           "id": "rt-netflix",
           "name": "Latest Netflix",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "8"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "netflix"
+            }
+          ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "apple-tv-plus",
           "id": "rt-apple-tv-plus",
           "name": "Latest Apple TV+",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "350"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "apple-tv-plus"
+            }
+          ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "prime-video",
           "id": "rt-prime-video",
           "name": "Latest Prime",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "9"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "prime-video"
+            }
+          ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "disney-plus",
           "id": "rt-disney-plus",
           "name": "Latest Disney+",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "337"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "disney-plus"
+            }
+          ]
         },
         {
-          "source": "rottentomatoes",
-          "service": "paramount-plus",
           "id": "rt-paramount-plus",
           "name": "Latest Paramount+",
-          "type": "movie"
+          "type": "movie",
+          "merge": [
+            {
+              "source": "tmdb",
+              "provider": "531"
+            },
+            {
+              "source": "rottentomatoes",
+              "service": "paramount-plus"
+            }
+          ]
         }
       ],
       "idPrefixes": [

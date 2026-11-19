@@ -2,6 +2,7 @@
 import { get, norm } from "./util.mjs";
 import { imdbMatch } from "./imdb.mjs";
 import { metahub as art } from "./artwork.mjs";
+import { api as tmdbApi, imdbIdFor, tmdbEnabled } from "./tmdb.mjs";
 
 const MAX = 200;
 
@@ -137,4 +138,38 @@ async function reddit({ subreddit, days = 60 }, type) {
   return metas;
 }
 
-export const sources = { rottentomatoes: rottenTomatoes, mdblist, stremio, reddit };
+// ---- TMDB Discover: newest released movies available to stream on a service (US) ----
+// provider = TMDB watch-provider id(s), e.g. "8" Netflix; "a|b" means either.
+async function tmdbDiscover({ provider, region = "US" }, type) {
+  if (!tmdbEnabled) throw new Error("needs the TMDB_KEY secret");
+  const kind = type === "movie" ? "movie" : "tv";
+  const today = new Date().toISOString().slice(0, 10);
+  const dateField = kind === "movie" ? "primary_release_date" : "first_air_date";
+  const results = [];
+  for (let page = 1; page <= 10 && results.length < MAX; page++) {
+    const j = await tmdbApi(`/discover/${kind}`, {
+      watch_region: region, with_watch_providers: provider, with_watch_monetization_types: "flatrate",
+      sort_by: `${dateField}.desc`, [`${dateField}.lte`]: today, include_adult: "false", page: String(page),
+    });
+    if (!j?.results?.length) break;
+    results.push(...j.results);
+    if (page >= j.total_pages) break;
+  }
+  const IMG = "https://image.tmdb.org/t/p";
+  const metas = [];
+  for (const r of results.slice(0, MAX)) {
+    const imdb = await imdbIdFor(kind, r.id);
+    const id = imdb || `tmdb:${r.id}`;
+    metas.push({
+      id, type, name: r.title || r.name,
+      releaseInfo: String(r[dateField] || "").slice(0, 4),
+      description: r.overview || "",
+      poster: r.poster_path ? `${IMG}/w500${r.poster_path}` : undefined,
+      background: r.backdrop_path ? `${IMG}/w1280${r.backdrop_path}` : undefined,
+      ...(imdb ? { logo: art(imdb).logo } : {}),
+    });
+  }
+  return metas;
+}
+
+export const sources = { rottentomatoes: rottenTomatoes, mdblist, stremio, reddit, tmdb: tmdbDiscover };
