@@ -35,7 +35,7 @@
       "type": "movie",
       "name": "Clown Panic",
       "releaseInfo": "",
-      "description": "Revisits the bizarre nationwide hysteria of 2016, which began with reports of creepy clowns hiding near woods in South Carolina and quickly spiraled into widespread panic, school lockdowns, and police interventions across the United States. This in-depth documentary features interviews with eyewitnesses, law enforcement officials, cultural commentators, and professional clowns whose livelihoods were impacted by the craze.",
+      "description": "In 2016, South Carolina children spotted clowns in woods. Reports spread across America, causing lockdowns and probes. Using archival content, and interviews, examines how fear and social media transformed a strange myth into hysteria.",
       "poster": "https://image.tmdb.org/t/p/w500/pZ15WSO7UzzJ297SLBMvxHNQDC1.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/51M331d6lEMidnZlAEbTKox5ih4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eJwnd2R9AQApzzUruDJqmJ8ptMK.png"
@@ -1199,7 +1199,7 @@
       "name": "Code 3",
       "releaseInfo": "",
       "description": "A burned-out paramedic tries to survive his last 24 hours on the job while training a new recruit.",
-      "poster": "https://image.tmdb.org/t/p/w500/gIAYMDb5mIAeCAj76q1sRsKjkzo.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/4PeJrEYkngzkksUCGHr1b6bEAa0.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/b4uAD5kqB3cJ9Wdka5qlod5BHwW.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/sXmZNfH6IpWr7kdfSg5fgZLA3Js.png"
     },
@@ -1899,16 +1899,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/clqBi9clFgz7YS58yDiC3rd7MQf.svg"
     },
     {
-      "id": "tt34915705",
-      "type": "movie",
-      "name": "Tourist Family",
-      "releaseInfo": "",
-      "description": "A quirky Sri Lankan family seeking a fresh start in India transforms a disconnected neighborhood into a vibrant community with their infectious love and kindness.",
-      "poster": "https://image.tmdb.org/t/p/w500/rEffPihtdQXiXfRdfq7pPM5JDqa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/9aecROz2WTJVxO0MMKrMDQsx7F6.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/louyX0yw9g4zqgj2KaLg676AWBi.png"
-    },
-    {
       "id": "tt35699057",
       "type": "movie",
       "name": "Jessica Kirson: I'm the Man",
@@ -1977,16 +1967,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/jgGSqe1YgSot6Y1zDVTVkbsZ46z.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7vGWPw9y9uJ8SZ17oyy2Ts3EmdD.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uEBFE1A0ABeOiaHnw2gZPgj4mKd.png"
-    },
-    {
-      "id": "tt19403516",
-      "type": "movie",
-      "name": "Hallow Road",
-      "releaseInfo": "",
-      "description": "Two parents enter a race against time when they receive a distressing late-night phone call from their daughter after she caused a tragic car accident.",
-      "poster": "https://image.tmdb.org/t/p/w500/dVsgV7ak6vR5xyXFggooJQinXBg.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yPU89i5KvCrfPkbgsUqYjRycPaY.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/quJcgk3GEgg09NFApRu5hwEYK7Z.png"
     }
   ]
 }

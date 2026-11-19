@@ -311,6 +311,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/jlZVZLY6iWY3Nw7txy2eVc8YdmO.png"
     },
     {
+      "id": "tt38588963",
+      "type": "movie",
+      "name": "Monster in the Family: The Stacey Kananen Story",
+      "releaseInfo": "",
+      "description": "Stacey survives a childhood of abuse and fear, only to face a shocking twist when her brother Rickie confesses to her that he killed their parents. She is further betrayed when Rickie claims she helped him commit the crimes.",
+      "poster": "https://image.tmdb.org/t/p/w500/5H4fdm6YjdoIwMMCRYcABVYjAQC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jnRxzI0hv4QaNXXxWcfuZ6gdqCN.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt38588963/img"
+    },
+    {
       "id": "tt6604188",
       "type": "movie",
       "name": "TRON: Ares",
@@ -319,6 +329,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7ZUfeMOiFrtBaI7D5hYWnI39nfg.png"
+    },
+    {
+      "id": "tt38605827",
+      "type": "movie",
+      "name": "Surviving My Father: The Rachel Jeffs Story",
+      "releaseInfo": "",
+      "description": "Warren Jeffs becomes the notorious leader of a polygamous sect known as the FLDS Church. Subjected to her father's abuse and manipulation, Rachel Jeffs plans a daring escape from the heavily guarded community, then returns to rescue her children.",
+      "poster": "https://image.tmdb.org/t/p/w500/1TPloiGjelsKwDAgtTUOQyKq19F.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xH31sQ0K0G27pCOvO5I47oVywOE.jpg"
     },
     {
       "id": "tt8503618",
@@ -459,26 +478,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kIQPQXeON2RsCCyVR5JDEIn6ps3.png"
-    },
-    {
-      "id": "tt36372021",
-      "type": "movie",
-      "name": "Guardians of the Galapagos",
-      "releaseInfo": "",
-      "description": "Go behind the scenes with the crew of Sea Lions of the Galapagos to showcase not just the production of a film, but the world that inspired it.",
-      "poster": "https://image.tmdb.org/t/p/w500/tXAkfo2DKu3SwoXZ6zLVUUOHGk5.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/fUtZAm7ht0YTWVD02gnEGEQjFoW.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7SdFPewGioLPF80Q9lBohj0AeKc.png"
-    },
-    {
-      "id": "tt36367119",
-      "type": "movie",
-      "name": "Sea Lions of the Galapagos",
-      "releaseInfo": "",
-      "description": "Follow Leo, a handsome sea lion pup who's learning how to navigate life alongside his mother, Luna.",
-      "poster": "https://image.tmdb.org/t/p/w500/mvL8P5lTIlrNdi20xQKZgez1NAP.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/h4xi19UruYzqQUVSwOMQIVArGhs.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8PwSs4rjaf04W2pztZG6q3fo9RU.png"
     },
     {
       "id": "tt37976405",
@@ -1046,26 +1045,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/o7AkATnfNOzuDgdpH2BVazCT1VM.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1vy6QObLvcjnr6aTBHzWgIC3PbV.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3cJgsU1AVub7aUrPr5lBcp2CQE5.png"
-    },
-    {
-      "id": "tt32568049",
-      "type": "movie",
-      "name": "D.I.Y. Duck",
-      "releaseInfo": "",
-      "description": "Donald Duck's efforts to replace a light bulb end in comic and catastrophic results.",
-      "poster": "https://image.tmdb.org/t/p/w500/2n5AI9Rt1NqjfshQ2j1kLXpDBMq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3ziHBm9NazFn7oP06zdzG8Y8ucG.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/j2HdWCj4hanwMAwQBuvFAZn9W6e.png"
-    },
-    {
-      "id": "tt32421420",
-      "type": "movie",
-      "name": "Protecting Paradise: The Story of Niue",
-      "releaseInfo": "",
-      "description": "The documentary follows leaders and community members from the tropical Pacific island nation who are making bold changes to move the needle on marine protection. With a population of under 2,000 people and a marine reserve covering 40% of its waters, Niue has demonstrated the ways in which traditional knowledge and contemporary science can live in harmony for the benefit of people and the planet.",
-      "poster": "https://image.tmdb.org/t/p/w500/20PYG5ncHh6qiAw1e2MoVuEISrn.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vwRSdopcxvafVz34tPUoXq47nuO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ijg03ixt2e4tdQFYd4ao8gQrEC.png"
     },
     {
       "id": "tt15823728",

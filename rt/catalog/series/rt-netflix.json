@@ -14,7 +14,7 @@
       "id": "tt41559886",
       "type": "series",
       "name": "Gordon",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8oRI8QXgSnz9CVQWWufiaE9DQ2l.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wzY5EjF8X1plKUWHwIRW6eNCqFU.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/o8wVY0c4v54KsFQ5IdU2uvOves1.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3H0qNU2GN1OqE5zbn84fUvUqVhC.png",
       "description": "Aníbal Gordon rises from a small-time thief to a convicted murderer in Argentina during the '70s.",
@@ -34,7 +34,7 @@
       "id": "tt44079238",
       "type": "series",
       "name": "The Law of Beasts",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//KnhUSXgKqiG96mf4GofisAhhS2.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/tyHxcXqXV8qCFRwMFoKSL1yxjN7.png",
       "description": "When the case of a child serial killer resurfaces after 25 years as an unresolved legal and social problem, two former friends are forced to confront the choices that broke their friendship and shaped their lives.",
@@ -46,7 +46,7 @@
       "name": "Valentina and the 12 Signs",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/wf8UcYFLgo6QYi49O13lMMaZrod.jpg",
-      "description": "Valentina is a young woman who, after being betrayed by her boyfriend—and blaming astrology for the end of their relationship—decides to take revenge in an unusual way: she sets out on a mission to hook up with a guy from every sign of the zodiac. Her plan is to document all these encounters and experiences in a videocast, but things get complicated when she falls for a guy who has \"no sign.\"",
+      "description": "After a devastating breakup, Valentina decides to date one man from every zodiac sign. But the universe has other plans.",
       "releaseInfo": "2026",
       "logo": "https://image.tmdb.org/t/p/w500/2rz2oWWCGXFhdiFirEhtKvVLZVG.png"
     },
@@ -89,6 +89,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tmdb:342323",
+      "type": "series",
+      "name": "The goop Guide with Gwyneth Paltrow",
+      "poster": "https://image.tmdb.org/t/p/w500/23NYIFT4qlReCE24eVTpp08lAHB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kQsOAVdgXLmqid0vwwQGM3SH2Nf.jpg",
+      "description": "Gwyneth Paltrow welcomes celebrities, artists, entrepreneurs and experts for candid conversations about wellness, relationships, personal growth and everyday life, exploring fresh perspectives and the experiences that shape us.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tt39390491",
       "type": "series",
       "name": "Alicia's Law",
@@ -125,16 +134,6 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bhFbiSXg7KrwfXkpZfiLDq4QFCt.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/s0QcyTh2EPq53MhunhnsP91uKQl.jpg",
       "description": "Make it a doghouse day! Dog-loving Doozie uses her creativity and imagination during playtime with her puppy pals.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tt39044730",
-      "type": "series",
-      "name": "Oxytoxin",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//mcjgiKrhHldOqRs7bmfIyCc3cfJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
-      "description": "The elite, popular girls known as Toxxxxin rule the school, but an unexpected bond with a scholarship student could unravel their carefully kept secrets.",
       "releaseInfo": "2026"
     },
     {
@@ -362,6 +361,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/2wjP481Z3G6NlXoUFutN5vcnqzC.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/A4YDllXwK8ZOlpPlW57yK4YRXWx.png",
       "description": "Class is in session at Hollywood Arts! Self-proclaimed icon Trina Vega returns to steer gifted teens toward stardom, status and hilarious havoc.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338973",
+      "type": "series",
+      "name": "Alas Roban: The Series",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wi5ydBPkfjI7p0fFRqaRLwMG1Wo.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wi5ydBPkfjI7p0fFRqaRLwMG1Wo.jpg",
+      "description": "When her husband vanishes on a perilous road, a mortuary worker uncovers a sinister pattern of deaths while working to secure her daughter's eye surgery.",
       "releaseInfo": "2026"
     },
     {
@@ -1006,6 +1014,15 @@
       "description": ""
     },
     {
+      "id": "tt39044730",
+      "type": "series",
+      "name": "Oxytoxin",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
+      "description": ""
+    },
+    {
       "id": "tt16098700",
       "type": "series",
       "name": "Fire Country",
@@ -1238,6 +1255,15 @@
       "description": ""
     },
     {
+      "id": "tt4508902",
+      "type": "series",
+      "name": "One Punch Man",
+      "poster": "https://resizing.flixster.com/1F1gJTDm1nuFEOcGZMwJXjFTv1A=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12178386_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/s0w8JbuNNxL1YgaHeDWih12C3jG.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/s4c20xXgSDjbYAcpKchuWRU3zuR.png",
+      "description": ""
+    },
+    {
       "id": "tt19869172",
       "type": "series",
       "name": "My Happy Marriage",
@@ -1254,15 +1280,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/jgAZYiuRV37pCxmhx8NTdhE36RL.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/o01qTKBWHyYmXDaszRoDoKyA4Is.png",
       "description": "Tomatometer 98%"
-    },
-    {
-      "id": "tt0075529",
-      "type": "series",
-      "name": "The Love Boat",
-      "poster": "https://resizing.flixster.com/jSN8o52rV77IHxP5voZGuGsufE8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184206_b_v8_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2XtfGULDOvBiPByLscc9UEqrf0z.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/kLPWewG6W9WCWrskNUEo3EC7PoK.png",
-      "description": ""
     },
     {
       "id": "tt26933824",
@@ -1666,15 +1683,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/yG1wltFmkX5c5ocACKfpX0tp3SY.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aenHDWwRK2d1b5LLtAP8ANKfsma.png",
       "description": "Tomatometer 81%"
-    },
-    {
-      "id": "tt27502465",
-      "type": "series",
-      "name": "Lego Ninjago Dragons Rising",
-      "poster": "https://resizing.flixster.com/mpBhYFixr566xPKZtTNR17OGhuY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24653588_b_v8_at.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/4vubgrPvqDKNFP1kNvHpd3do9hd.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/nxM93qk5YP52zUxJCAv3MQ6ie55.png",
-      "description": ""
     }
   ]
 }

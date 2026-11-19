@@ -153,14 +153,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/tXwK1k2mQNQWFoliXDXoUhzT55m.png"
     },
     {
-      "id": "tt36069890",
-      "type": "movie",
-      "name": "Stream of Terror",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt36069890/img",
-      "background": "https://image.tmdb.org/t/p/w1280/AnQT4b4GVupQ8D7frNORto12qLR.jpg"
-    },
-    {
       "id": "tt32261958",
       "type": "movie",
       "name": "Verity",
@@ -339,14 +331,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt36073210/img",
       "background": "https://image.tmdb.org/t/p/w1280/i65y7cMae36K0giN0GRaMjAHUru.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/AbFVWXxZ76enpA1GHCq13CN8xGu.png"
-    },
-    {
-      "id": "tt34992230",
-      "type": "movie",
-      "name": "The Militia",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt34992230/img",
-      "background": "https://image.tmdb.org/t/p/w1280/twI5fNZrX4UnUVu8mAeO1P7VAUk.jpg"
     },
     {
       "id": "tt31349844",
@@ -1773,6 +1757,23 @@
       "poster": "https://images.metahub.space/poster/medium/tt6374142/img",
       "background": "https://image.tmdb.org/t/p/w1280/pgVvGaqM77sQR90OeMMVNvQAxbg.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/gaezslYxaWPTnHzuseMTplDwy3G.png"
+    },
+    {
+      "id": "tt39369643",
+      "type": "movie",
+      "name": "State of Fear",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt39369643/img",
+      "background": "https://image.tmdb.org/t/p/w1280/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cPDjPWNs5fVWwZHahXAcIYLHmUA.png"
+    },
+    {
+      "id": "tt34706535",
+      "type": "movie",
+      "name": "Reckless",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt34706535/img",
+      "background": "https://image.tmdb.org/t/p/w1280/v82syfG9jrap5k7A82xuQzLssCJ.jpg"
     }
   ]
 }

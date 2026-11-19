@@ -146,7 +146,7 @@
       "type": "series",
       "name": "Love Transit 35+",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//74nvScSgmgO5LaLFMyiVAbSSTK8.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2m0SVxkqeJnbm9VoctV8k7QsBYu.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//74nvScSgmgO5LaLFMyiVAbSSTK8.jpg",
       "description": "",
       "releaseInfo": "2026"
     },
@@ -944,6 +944,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt33270224",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rWpDBJIePBvmMD2GQk0BHRw8xgr.png",
+      "description": "Tomatometer 100%"
+    },
+    {
       "id": "tt33246591",
       "type": "series",
       "name": "The Assassin",
@@ -971,6 +980,33 @@
       "description": ""
     },
     {
+      "id": "tt27954448",
+      "type": "series",
+      "name": "Law & Order Toronto: Criminal Intent",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26603650_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zxMi43DtThzaQhPb4qn9nXSC0GA.png",
+      "description": ""
+    },
+    {
+      "id": "tt0078701",
+      "type": "series",
+      "name": "This Old House",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184111_b_v12_aj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5tptnb4V4tLhzBp3GtK7ONHXcH9.png",
+      "description": ""
+    },
+    {
+      "id": "tt0795129",
+      "type": "series",
+      "name": "House Hunters International",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185817_b_v12_db.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/q0zY5AbqOhCghYWWwzpfT7dhcfb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3ClRDwDNP8OOID7MCbZOvcyYKpv.png",
+      "description": ""
+    },
+    {
       "id": "tt7316998",
       "type": "series",
       "name": "House of Games",
@@ -986,7 +1022,7 @@
       "poster": "https://resizing.flixster.com/Njc1wi8WgXh2uhJ6nx-6XPBgo_Q=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2M3YzNlMDItYmQ1Yy00NGIzLWEwYzctZDc3MDlmMWZmZDhhLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/i1phX1JpaqSnHBBGta6LBFYVCZq.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fA1eS6rfYjS9W8AZbBVG0fpxXn1.png",
-      "description": "Tomatometer 84%"
+      "description": "Tomatometer 85%"
     },
     {
       "id": "tt2805096",
@@ -1028,7 +1064,7 @@
       "id": "tt32374361",
       "type": "series",
       "name": "Harry Potter: Wizards of Baking",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28440858_b_v12_bd.jpg",
+      "poster": "https://resizing.flixster.com/QuaPGPabJ4T9Q1a_DazMF2ZfPE4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28440858_b_v12_bd.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6UyNPkN149yMyLANdSnYTvvIczI.png",
       "description": ""
@@ -1037,7 +1073,7 @@
       "id": "tt1286677",
       "type": "series",
       "name": "Forbidden Love",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27707587_b_v12_aa.jpg",
+      "poster": "https://resizing.flixster.com/IJLZ0PIoOctKCkr2OziJuAL1ojY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27707587_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zcEKO2vdfXAJoAnlgARyhGthLvK.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt1286677/img",
       "description": ""
@@ -1046,7 +1082,7 @@
       "id": "tt20978970",
       "type": "series",
       "name": "The Wingfeather Saga",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23592432_b_v12_aj.jpg",
+      "poster": "https://resizing.flixster.com/72rxAxX_DafMh32q2H0-avwxR9Q=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23592432_b_v12_aj.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/qe7sa1gl4CW4yJaDQ0qmwKUlxSn.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bMPAPkNx7aTDyXBc7ryz2J3HBuQ.png",
       "description": ""
@@ -1055,7 +1091,7 @@
       "id": "tt4445396",
       "type": "series",
       "name": "Portrait Artist of the Year",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10257319_b_v11_al.jpg",
+      "poster": "https://resizing.flixster.com/DwAWgXIx3ZNWnjtVnbggCyonxCU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10257319_b_v11_al.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kowuqNLsxuNR1yjOq45BoKGK6g4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/KlA499uPRcumZXbow9zNq2FM1W.png",
       "description": ""
@@ -1064,7 +1100,7 @@
       "id": "tt28453452",
       "type": "series",
       "name": "A Body in the Basement",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25079463_b_v12_ak.jpg",
+      "poster": "https://resizing.flixster.com/bFhNFfB86L3Y-Z9z1938IiaiycA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25079463_b_v12_ak.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/m4XRxZu4c0ImDwpRB2vPtsMdypd.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ys9UivfpcWsVUqUeBrzMcJ4NKN1.png",
       "description": ""
@@ -1163,15 +1199,6 @@
       "poster": "https://resizing.flixster.com/pqq9iN8kFQBBaue1VkZqu-wQag0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p379352_b_v11_bp.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kIzJRfta77wxKOlefyfkBE68kOe.png",
-      "description": ""
-    },
-    {
-      "id": "tt0795129",
-      "type": "series",
-      "name": "House Hunters International",
-      "poster": "https://resizing.flixster.com/Lk9XEfIdEImaiXT-qG_rMf5Y5Ug=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185817_b_v12_cx.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/q0zY5AbqOhCghYWWwzpfT7dhcfb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/3ClRDwDNP8OOID7MCbZOvcyYKpv.png",
       "description": ""
     },
     {
@@ -1315,24 +1342,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/2qhLtfvE4wlBxTVECT90xxYCX8d.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6XR9NSDWhDu5lwOs1CrFaHwEOii.png",
       "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt38866811",
-      "type": "series",
-      "name": "Tournament of Champions: All-Star Christmas",
-      "poster": "https://resizing.flixster.com/eYMbsthsIemEcmRfZxNlxkyvT6s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31391291_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bXF0Vjk9AZwQJOd4VjzXt4fRXa1.png",
-      "description": ""
-    },
-    {
-      "id": "tt5327970",
-      "type": "series",
-      "name": "The Real Housewives of Potomac",
-      "poster": "https://resizing.flixster.com/0bTlEvr9utp_1RDA7IsJUKXFgUA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12332017_b_v12_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ou0EEKgRjWjjkEgpUK5LNWXCH3o.png",
-      "description": ""
     }
   ]
 }
