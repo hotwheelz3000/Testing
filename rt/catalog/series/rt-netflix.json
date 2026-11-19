@@ -925,6 +925,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt47021035",
+      "type": "series",
+      "name": "Cunk on Cinema",
+      "poster": "https://resizing.flixster.com/J08uSEoCQqhYCdMK8wnR9OQwgQA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWFiZWQ3ZjEtOGVkMS00NzY4LWE4MzEtZmJhOGNiYzIxMzg5LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qdMRREpBz0nTx6IxEy3U4TiHF5y.png",
+      "description": "Tomatometer 92%"
+    },
+    {
       "id": "tt20859904",
       "type": "series",
       "name": "Mike Judge's Beavis and Butt-Head",
@@ -1038,15 +1047,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/4ROhs4WEFyLn68mjrF9TkFrGzyH.png",
       "description": ""
-    },
-    {
-      "id": "tt47021035",
-      "type": "series",
-      "name": "Cunk on Cinema",
-      "poster": "https://resizing.flixster.com/J08uSEoCQqhYCdMK8wnR9OQwgQA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWFiZWQ3ZjEtOGVkMS00NzY4LWE4MzEtZmJhOGNiYzIxMzg5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/3NA7FxkqAaG1buZC1WtdPDpMlZg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qdMRREpBz0nTx6IxEy3U4TiHF5y.png",
-      "description": "Tomatometer 92%"
     },
     {
       "id": "tt13720112",
