@@ -70,11 +70,6 @@
       "type": "movie",
       "id": "rt-paramount-plus",
       "name": "Latest Paramount+"
-    },
-    {
-      "type": "movie",
-      "id": "movieleaks",
-      "name": "Movie Leaks"
     }
   ],
   "idPrefixes": [

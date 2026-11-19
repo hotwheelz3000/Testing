@@ -1,0 +1,22 @@
+{
+  "id": "com.hotwheelz3000.movieleaks",
+  "version": "1.0.0",
+  "name": "Movie Leaks",
+  "description": "Movies posted on r/movieleaks (copied from jcdc's addon every 6 hours)",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "movieleaks",
+      "name": "Movie Leaks"
+    }
+  ],
+  "idPrefixes": [
+    "tt"
+  ]
+}
