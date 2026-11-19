@@ -953,6 +953,15 @@
       "description": "Tomatometer 72%"
     },
     {
+      "id": "tt2396135",
+      "type": "series",
+      "name": "Shetland",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v11_ap.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/t3YeSQyOIrQquSBrEQfeWkAuaM0.png",
+      "description": ""
+    },
+    {
       "id": "tt2815522",
       "type": "series",
       "name": "Southern Charm",
@@ -1064,7 +1073,7 @@
       "id": "tt43028109",
       "type": "series",
       "name": "Southern Law",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32402578_b_v12_ac.jpg",
+      "poster": "https://resizing.flixster.com/59FSrFFE_vsCrChM-xJckgSsSBA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32402578_b_v12_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/tdU51aEV7oJyNHpVyu9ouRJNV6e.jpg",
       "description": ""
     },
@@ -1323,24 +1332,6 @@
       "poster": "https://resizing.flixster.com/0bTlEvr9utp_1RDA7IsJUKXFgUA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12332017_b_v12_aq.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ou0EEKgRjWjjkEgpUK5LNWXCH3o.png",
-      "description": ""
-    },
-    {
-      "id": "tt31975847",
-      "type": "series",
-      "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
-      "poster": "https://resizing.flixster.com/_BB-V_aj0hGut4DwfNKbsAsh-II=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26845997_i_v8_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/n493br0MLJHASsqEsUwG5PvxDkN.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aQiYM1K2rIbiblU9vnZNVBrWj7I.png",
-      "description": ""
-    },
-    {
-      "id": "tt3530232",
-      "type": "series",
-      "name": "Last Week Tonight With John Oliver",
-      "poster": "https://resizing.flixster.com/l5_EqHnaqIqgb-STxlL57kGV2R4=/164x246/v2/https://resizing.flixster.com/c8wKlayyIvQK3aWpi_19Lrnbmb0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYzQ0MmJkN2MtZjZjMy00MTM1LWE5YzAtY2MyMjhhOTkwZGYyLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/q31EEBycbOyX7GGJP4GTPI5WJRO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zocidNB8qOAloS7fVVqD26ilMh5.png",
       "description": ""
     }
   ]

@@ -1,15 +1,6 @@
 {
   "metas": [
     {
-      "id": "tt35130168",
-      "type": "movie",
-      "name": "Royal Carols: Together at Christmas",
-      "releaseInfo": "",
-      "description": "",
-      "poster": "https://image.tmdb.org/t/p/w500/ic9sFlRbyXziCKnHxcGrC5CMXAI.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/ic9sFlRbyXziCKnHxcGrC5CMXAI.jpg"
-    },
-    {
       "id": "tt30321095",
       "type": "movie",
       "name": "Ghostlight",
@@ -18,70 +9,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aqSuuJdNYmx1Gsd0J8lqfzMADfE.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/b4WIBVLsVWYP74zOxVUVN3xEErz.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6CmGeV2tg4OiNDUjQbW3jPDXdPL.png"
-    },
-    {
-      "id": "tt31712206",
-      "type": "movie",
-      "name": "The Murder of Sandra Rivett",
-      "releaseInfo": "",
-      "description": "While the hunt for Lord Lucan has dominated the media for half a century, the name of the victim, Sandra Rivett, has been forgotten.",
-      "poster": "https://image.tmdb.org/t/p/w500/yzALelVt5515nNh2XkXtssGGUEc.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/jUDGdRRzTRdFl5gEI3HSaEuVKRi.jpg"
-    },
-    {
-      "id": "tt30791141",
-      "type": "movie",
-      "name": "Charles III: The Coronation Year",
-      "releaseInfo": "",
-      "description": "Follows King Charles III and Queen Camilla in the aftermath of the death and state funeral of Queen Elizabeth II, and the start of his reign.",
-      "poster": "https://image.tmdb.org/t/p/w500/itU7pc5QFXP5LeKWlupIEPx3mA1.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/axPeaJtEidQrhQR2iB8cAZOFRwJ.jpg"
-    },
-    {
-      "id": "tmdb:1145151",
-      "type": "movie",
-      "name": "Princess Anne: The Plot to Kidnap a Royal",
-      "releaseInfo": "",
-      "description": "The forgotten story of the daring and bloody criminal plot to kidnap Princess Anne in March 1974, which led to an extraordinary shootout in the shadow of Buckingham Palace.",
-      "poster": "https://image.tmdb.org/t/p/w500/7Ga3Za8fmG0qxRXA9RfsbQqYg1o.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/pEJUMOdYtmblgsgYaY7pRCYpBzv.jpg"
-    },
-    {
-      "id": "tmdb:1112164",
-      "type": "movie",
-      "name": "An Interview with Brian Cox",
-      "releaseInfo": "",
-      "description": "Award-winning actor Brian Cox (Succession, King Lear) sits down for an exclusive, in-depth interview on his life and career.",
-      "poster": "https://image.tmdb.org/t/p/w500/1tCCdUocrVOfwC36CN7sJGE8fZK.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/1tCCdUocrVOfwC36CN7sJGE8fZK.jpg"
-    },
-    {
-      "id": "tt27301465",
-      "type": "movie",
-      "name": "The Mormons Are Coming",
-      "releaseInfo": "",
-      "description": "Three newly trained Mormon missionaries in Lancashire search for new converts. But in an increasingly secular Britain, how do you convince people that the Book of Mormon is true?",
-      "poster": "https://image.tmdb.org/t/p/w500/yewtE4h2gut9OCV4DRh3io018a5.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m9sEwnTRVgtRH80VwCoL94hpmoy.jpg"
-    },
-    {
-      "id": "tt32730090",
-      "type": "movie",
-      "name": "Wagspiracy: Vardy v Rooney",
-      "releaseInfo": "",
-      "description": "With access to key individuals who didn’t give evidence at the trial, this documentary explores the hidden workings of the tabloids, PRs and agents connected to ‘Wagatha Christie'.",
-      "poster": "https://image.tmdb.org/t/p/w500/qTr5E0Ux85jdQNlxP4qwK4PjnnD.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/naLCn0bIWZFiuj7c5KFRp2MZMl2.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9ZiRVsrXKeipO2Iu64aeX7zGieR.png"
-    },
-    {
-      "id": "tt23137330",
-      "type": "movie",
-      "name": "Farewell Doc Martin",
-      "releaseInfo": "",
-      "description": "Doc Martin, one of UK's iconic TV characters, hangs up his stethoscope for the final time as the long-running titular series comes to an end. This one-hour retrospective spotlights the longevity and impact locally and around the world of Doc Martin over the years, as well as offering behind the scenes of the final season with the cast and crew. From scripting and pre-production to shooting and delivery, meet the regular characters that live and work in the picturesque Cornish town of Portwenn, the key crew behind the camera, the residents of Port Isaac, the show's real-life setting, and the visitors who come solely because Doc Martin films there.",
-      "poster": "https://image.tmdb.org/t/p/w500/oD4dd0qTSsbpSFo0GCBmpzikClZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/oD4dd0qTSsbpSFo0GCBmpzikClZ.jpg"
     },
     {
       "id": "tt21288074",
@@ -94,33 +21,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/vHdOxK9FS3ZqRKDwVfI7dmUyZnl.png"
     },
     {
-      "id": "tt19850910",
-      "type": "movie",
-      "name": "The Ghost of Richard Harris",
-      "releaseInfo": "",
-      "description": "A candid and revealing insight into the private life and public career of Richard Harris. One of the most remarkable actors of his generation, the documentary explores Harris’s complex and, at times, contradictory character. Each of his three sons — Jared, Jamie and Damian — brings their own perspective to bear as they summon the ghost of their late father to the screen.",
-      "poster": "https://image.tmdb.org/t/p/w500/vZK3dBXKGvSKTrGKtM4ghVy93EI.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ugEpAy4ZoH6qp6GVpB99z0zG4Qm.jpg"
-    },
-    {
-      "id": "tt20874860",
-      "type": "movie",
-      "name": "Making Sense of Cancer with Hannah Fry",
-      "releaseInfo": "",
-      "description": "Hannah Fry, a professor of math, is used to investigating the world around her through numbers. When she's diagnosed with cervical cancer at the age of 36, she starts to interrogate the way we diagnose and treat cancer by digging into the statistics to ask whether we are making the right choices in how we treat this disease. Are we sometimes too quick to screen and treat cancer? Do doctors always speak to us honestly about the subject? It may seem like a dangerous question to ask, but are we at risk of overmedicalizing cancer? At the same time, Hannah records her own cancer journey in raw and emotional personal footage, where the realities of life after a cancer diagnosis are laid bare.",
-      "poster": "https://image.tmdb.org/t/p/w500/zKN6CIU6BS9vJVta0GdIiyh1dQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vLgCunyVCPYr0DzOODybHAtBuR3.jpg"
-    },
-    {
-      "id": "tt22035506",
-      "type": "movie",
-      "name": "Midsomer Murders: 25 Years of Mayhem",
-      "releaseInfo": "",
-      "description": "This documentary explores the enduring popularity of one of Britain's best loved crime dramas, Midsomer Murders, as it celebrates its 25th anniversary.",
-      "poster": "https://image.tmdb.org/t/p/w500/j2thasT7DjXGpKOJGF5rP5avoF0.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/p7X8tpo1nKd0j8O2IgFlgxWh0nx.jpg"
-    },
-    {
       "id": "tt16966522",
       "type": "movie",
       "name": "This Is Joan Collins",
@@ -129,15 +29,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lfU7vCs67D2edlJpNwuWyRjR0lD.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ak6jKtkyRWHx0U1duQRWGxq1OQG.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2qzqEAb1Sw698LCCeZkoWfmOG9I.png"
-    },
-    {
-      "id": "tt15079062",
-      "type": "movie",
-      "name": "The Wedding of the Century",
-      "releaseInfo": "",
-      "description": "This feature-length documentary reframes one of the most iconic days in history like never before, with beautifully restored original film of Prince Charles and Lady Diana Spencer's wedding, now presented in full 4K resolution.",
-      "poster": "https://image.tmdb.org/t/p/w500/8QkFVqoIZLfM9vrzC4w9VrQ7RN4.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/8QkFVqoIZLfM9vrzC4w9VrQ7RN4.jpg"
     },
     {
       "id": "tt13649036",
@@ -198,15 +89,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/6V63jDACal2UVLQ14GwvvMQ9lYL.png"
     },
     {
-      "id": "tt10209130",
-      "type": "movie",
-      "name": "Spy in the Snow",
-      "releaseInfo": "",
-      "description": "The franchise returns with a brand new wintertime entry about animals that live in the coldest places in the world.",
-      "poster": "https://image.tmdb.org/t/p/w500/eFTUpL4TJOvouKll6y1vNbwqK97.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/mJteIFaRT33FXiO8VfWqTZkmf9G.jpg"
-    },
-    {
       "id": "tt9381998",
       "type": "movie",
       "name": "Agatha and the Truth of Murder",
@@ -245,15 +127,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/97Sa893QJNfT5WGkewPzBv3usfK.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/t78HrtjSjLYPPgdvBYYaPoTgk4r.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bZeVDMcyziFpgHWfDuGWA1yXsCz.png"
-    },
-    {
-      "id": "tt7772294",
-      "type": "movie",
-      "name": "300 Years of French & Saunders",
-      "releaseInfo": "",
-      "description": "Dragged up all the way from the ocean bed, national treasures Dawn French and Jennifer Saunders are back together this festive season with a special 30th anniversary clip show that's bursting with brand new material, greatest hits, hilarious rarities, and even some never-before-seen footage.",
-      "poster": "https://image.tmdb.org/t/p/w500/mGcvFM6TQdQywMbl4HCo8N0ZKm1.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/mA7rAmrvhGW0oIO5rMJlmzG6FEK.jpg"
     },
     {
       "id": "tt7444400",
@@ -304,24 +177,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/dDnBmZhBtqgEYaNhBgIjynYUIyz.jpg"
     },
     {
-      "id": "tt5527002",
-      "type": "movie",
-      "name": "You Can't Teach a New Dog Old Tricks",
-      "releaseInfo": "",
-      "description": "Picking up where Jeremy Lloyd and David Croft's classic comedy left off, it's 1988 and Young Mr Grace is determined to drag Grace Brothers into, well 1988, but he has a problem on his hands. Mr Humphries, Captain Peacock, Mr Rumbold and Mrs Slocombe all seem to be stuck in another era. A new member of staff, Mr Conway, joins the team but will he help shake things up or will he just put a cat amongst the pigeons?",
-      "poster": "https://image.tmdb.org/t/p/w500/ngu35VCMVc0xAJYewnuU2FF7zh0.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/g0kS2B3gr8hYrgGQl9xypkfY3Lw.jpg"
-    },
-    {
-      "id": "tt4519836",
-      "type": "movie",
-      "name": "Mandela, My Dad and Me",
-      "releaseInfo": "",
-      "description": "While in the middle of preparing to play Nelson Mandela, Hollywood star Idris Elba embarks on a South African odyssey to record a studio album, connect, and open up about his roots.",
-      "poster": "https://image.tmdb.org/t/p/w500/o0XQUoI4LdKiSo2kICMEqNv2N1b.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/o0XQUoI4LdKiSo2kICMEqNv2N1b.jpg"
-    },
-    {
       "id": "tt4271918",
       "type": "movie",
       "name": "An Inspector Calls",
@@ -340,15 +195,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vogRAk91jydEuP11xRJSVbaVBnr.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/y7Hl129EQtxvAS3ERMUvcojpAc9.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt4660980/img"
-    },
-    {
-      "id": "tmdb:1508908",
-      "type": "movie",
-      "name": "Caligula: Paranoia and Brutality in Ancient Rome",
-      "releaseInfo": "",
-      "description": "Known as Rome's most capricious tyrant, Caligula, was said to have proclaimed himself a living God before building vast bridges and killing half the Roman elite on a whim. The son of a great military leader, his personal and fiscal excesses led him to be the first Roman emperor to be assassinated. In this film, Mary Beard reveals a more intriguing portrait of not just the monster, but the man.",
-      "poster": "https://image.tmdb.org/t/p/w500/a0EWiGm0VHmDtsFPEFJr7io7sGX.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/a0EWiGm0VHmDtsFPEFJr7io7sGX.jpg"
     },
     {
       "id": "tt3567158",
@@ -398,15 +244,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/ySCiqWXL2taPmpNJv36FO0gGTxo.png"
     },
     {
-      "id": "tt2944160",
-      "type": "movie",
-      "name": "The Last Days of Anne Boleyn",
-      "releaseInfo": "",
-      "description": "Writers and historians including Hilary Mantel and Philippa Gregory revisit the last days of Anne Boleyn, who in 1536 became the first queen in British history to be executed.",
-      "poster": "https://image.tmdb.org/t/p/w500/8adlC9RNIuVBhhoxcwMZS30Klix.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/6362fBXEJw0aE5IH0XVJaNXZRNH.jpg"
-    },
-    {
       "id": "tt2919798",
       "type": "movie",
       "name": "The Murder in Angel Lane",
@@ -453,16 +290,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/lFHhzl0bSOkEE77Trztkm9OHwHs.jpg"
     },
     {
-      "id": "tt1286742",
-      "type": "movie",
-      "name": "Clash of the Santas",
-      "releaseInfo": "",
-      "description": "Christmas sequel to hit comedies, City Lights and Northern Lights. Follow the ups-and-downs of bickering best friends Colin and Howie at the World Santa Championships.",
-      "poster": "https://image.tmdb.org/t/p/w500/rj7sn9iRpT1P4DqZGuUh5UcnjN5.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tm1mI60DfpuTQPpvuTUrS9ua9SE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/iWvrbIq4QWui8dsW0sWSdBbgvdK.png"
-    },
-    {
       "id": "tt1076240",
       "type": "movie",
       "name": "Miss Austen Regrets",
@@ -471,15 +298,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/5r5xDvKTFAlkmwjoghkgVozNR1Z.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jCbjEZd7g0uDnSHFaMRtPAS6Uh0.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/pbiGdG4NzvRImc1B3Z9Gf8HJ0sv.png"
-    },
-    {
-      "id": "tt0969270",
-      "type": "movie",
-      "name": "Goth Girls: The Return",
-      "releaseInfo": "",
-      "description": "The Hotties of Horror are back in three more spicy chillers! Don't miss these goth girls doing some scary things to each other, it's the best horror porn around! Enjoy!",
-      "poster": "https://image.tmdb.org/t/p/w500/6LLKFR5WEGHeGWD6C27Fr2TDway.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/6LLKFR5WEGHeGWD6C27Fr2TDway.jpg"
     },
     {
       "id": "tt0844330",
@@ -492,15 +310,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/e4E2khGA3GTlka02TIquanjst4s.png"
     },
     {
-      "id": "tt0934452",
-      "type": "movie",
-      "name": "The Grey Man",
-      "releaseInfo": "",
-      "description": "Kevin Dodds is a browbeaten deputy bank manager who devises a cunning plan to rob his own bank. Based on the Andy McNab novel.",
-      "poster": "https://image.tmdb.org/t/p/w500/pQty79Yi0tpDHNrMftAy6O9YXpS.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/pQty79Yi0tpDHNrMftAy6O9YXpS.jpg"
-    },
-    {
       "id": "tt0433442",
       "type": "movie",
       "name": "The Return",
@@ -509,15 +318,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ywBeNqMJKBowfwrv274blsVXCB5.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yz0puYEAPgfBus2GtKU3LJpkSge.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt0433442/img"
-    },
-    {
-      "id": "tt0867178",
-      "type": "movie",
-      "name": "Mysterious Creatures",
-      "releaseInfo": "",
-      "description": "Feature-length ITV drama based on real events. Bill and Wendy Ainscow (Timothy Spall and Brenda Blethyn) are a middle class, middle-aged Birmingham couple locked in a deeply dysfunctional relationship with their 32-year-old daughter Lisa (Rebekah Staton). In a culmination of years spent unsuccessfully trying to obtain a diagnosis and get state help to deal with with Lisa's condition - which eventually turns out to be Asperger's syndrome - Bill and Wendy are ultimately driven to desperate measures with tragic consequences.",
-      "poster": "https://image.tmdb.org/t/p/w500/tfsbGEtbRvWmw4n86ohOxvDashv.jpg",
-      "background": "https://image.tmdb.org/t/p/w500/tfsbGEtbRvWmw4n86ohOxvDashv.jpg"
     },
     {
       "id": "tt0460989",
@@ -546,15 +346,6 @@
       "description": "Based on the controversial novel by Philippa Gregory, \"The Other Boleyn Girl\" is a fictionalised account of the life of Lady Mary Boleyn who becomes mistress to England's king, Henry VIII, before being ousted by her younger sister, Anne. Mary leaves the Court to marry a commoner, but returns when Anne embarks on a reckless policy to save herself from ruin.",
       "poster": "https://image.tmdb.org/t/p/w500/70pAJXRmqr6hab23aimtA43NLSp.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/djuj8QnYv7fw6SL3mZvFhnUQNYh.jpg"
-    },
-    {
-      "id": "tt0253247",
-      "type": "movie",
-      "name": "Mind Games",
-      "releaseInfo": "",
-      "description": "A former nun turned criminal profiler is called in to investigate the horrific ritualistic murders of two middle aged women. Her unorthodox approach means that she has to deal not only with solving a murder but also winning the trust of her sceptical colleagues.",
-      "poster": "https://image.tmdb.org/t/p/w500/5MNXeMmlqxdLQblCGtgE4oStYOK.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/akCHyTNl3ZqwIGcC9Q4OEi55TzM.jpg"
     },
     {
       "id": "tt0209440",
@@ -593,24 +384,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/10hycdhFLq3M3y0ONxIMSiY8Mrs.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/evCHYeumw4Y4hikG4AG9o5yZXUW.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/63LZ1dzrlsztBlksmnuBVJbWGLb.png"
-    },
-    {
-      "id": "tt1718186",
-      "type": "movie",
-      "name": "The Trial of Lord Lucan",
-      "releaseInfo": "",
-      "description": "An imagined trial of a man who, in 1974 London, is thought to have killed a woman he mistook for his wife in order to regain custody of his children. He disappeared the day after the killing and was never found.",
-      "poster": "https://image.tmdb.org/t/p/w500/9AGmb68mzgJH6JW2OgkoLIoKq7Q.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/d5stzjwNNU4yPQL8CqI3xP0CdiA.jpg"
-    },
-    {
-      "id": "tt7713064",
-      "type": "movie",
-      "name": "Agatha Christie - Unfinished Portrait",
-      "releaseInfo": "",
-      "description": "Profile celebrating the centenary of the famous author Agatha Christie’s birth. Looking at her life, her character and the key moments in her childhood that influenced her writing.",
-      "poster": "https://image.tmdb.org/t/p/w500/1Hr8vIcwVKJxpcfeBfc62zMyhOc.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/xKDIYsXEn13hJGXl0UUVPe1oMPn.jpg"
     },
     {
       "id": "tt0097352",

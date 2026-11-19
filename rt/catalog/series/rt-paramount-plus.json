@@ -229,7 +229,7 @@
       "type": "series",
       "name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nDjWGDTbrdyA6a2nnUEMFf2nUET.jpg",
-      "background": "https://images.metahub.space/background/medium/tt37968290/img",
+      "background": "https://image.tmdb.org/t/p/w1280/3k5QdiQmlT5SqxypIS9gVoP7sQQ.jpg",
       "description": "When 21-year-old William White posted a lip-synching video to TikTok, he hardly expected to become an internet sensation overnight. Sparking a \"thirst trap\" obsession with lovesick fans, the line between real connection and online fantasy was blurred as gained millions of fans. What first seemed like innocent interactions with self-formed fan-clubs for White, turned into jealousy, blackmail and betrayal by the fans who were determined to watch his every move online.",
       "releaseInfo": "2025"
     },
@@ -979,6 +979,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tt31589662",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
+      "description": ""
+    },
+    {
       "id": "tt0115147",
       "type": "series",
       "name": "The Daily Show",
@@ -1158,7 +1167,7 @@
       "id": "tt0123338",
       "type": "series",
       "name": "60 Minutes",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184224_b_v12_ar.jpg",
+      "poster": "https://resizing.flixster.com/yytcLqa-UJY9-p8PuFMx0CFlSfI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184224_b_v12_ar.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/s4jP2FlmBlFn3BgQJ0tWACl4bZN.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/oymXh0PRTAHhi7utBQzCgqBHqBn.png",
       "description": ""
@@ -1258,15 +1267,6 @@
       "name": "The Jigsaw Puzzle Murder",
       "poster": "https://resizing.flixster.com/lynYp_st6c7umlcAkj0Xv-R9q6w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34512625_b_v11_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pA12JxsM7KppNLeQq5CU7G2aU7L.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt31589662",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://resizing.flixster.com/sIw2xMtkR87kfyGk2RaFK031wjw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
       "description": ""
     },
     {
