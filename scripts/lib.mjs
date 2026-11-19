@@ -91,17 +91,6 @@ async function rtPoster(m) {
   return null;
 }
 
-// TMDB website page (works without an API key): its share image is the poster or a wide backdrop.
-async function tmdbPageImage(m) {
-  const id = m.id.match(/^tmdb:(\d+)$/)?.[1];
-  if (!id) return null;
-  try {
-    const html = await get(`https://www.themoviedb.org/${m.type === "movie" ? "movie" : "tv"}/${id}`, "text");
-    const img = html.match(/property="og:image" content="([^"]+)"/)?.[1];
-    return (await imageOk(img)) ? img : null;
-  } catch { return null; }
-}
-
 // TVmaze: shows only, exact name match.
 async function tvmazePoster(m) {
   if (m.type !== "series") return null;
@@ -112,7 +101,8 @@ async function tvmazePoster(m) {
 }
 
 async function backupPoster(m) {
-  for (const find of [rtPoster, tmdbPageImage, tvmazePoster]) {
+  // Posters only: a wide image is never used as a poster.
+  for (const find of [rtPoster, tvmazePoster]) {
     const url = await find(m);
     if (url) { console.log(`  backup art (${find.name}): ${m.name}`); return url; }
   }

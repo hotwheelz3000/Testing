@@ -40,7 +40,9 @@ export async function tmdbArt(m) {
   cache ??= await (loading ??= readJson(CACHE_PATH, {}));
   const key = `${m.type}|${m.id}`;
   const hit = cache[key];
-  if (hit && Date.now() - hit.t < WEEK) return hit.art;
+  // Complete art is refreshed weekly; anything missing is rechecked every run.
+  const complete = hit?.art?.poster && hit.art.logo && hit.art.background;
+  if (hit && complete && Date.now() - hit.t < WEEK) return hit.art;
 
   let kind = m.type === "movie" ? "movie" : "tv";
   let id = m.id.match(/^tmdb:(\d+)$/)?.[1];
