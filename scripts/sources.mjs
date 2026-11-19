@@ -141,7 +141,8 @@ async function reddit({ subreddit, days = 60 }, type) {
 // ---- TMDB Discover: newest released titles, by streaming service (US) or by network ----
 // provider = TMDB watch-provider id(s), e.g. "8" Netflix; network = TMDB TV network id(s) (shows only).
 // "a|b" means either.
-async function tmdbDiscover({ provider, network, region = "US" }, type) {
+// minVotes skips titles almost nobody has rated (tiny releases), leaving room for better-known ones.
+async function tmdbDiscover({ provider, network, region = "US", minVotes = 5 }, type) {
   if (!tmdbEnabled) throw new Error("needs the TMDB_KEY secret");
   const kind = type === "movie" ? "movie" : "tv";
   const today = new Date().toISOString().slice(0, 10);
@@ -154,6 +155,7 @@ async function tmdbDiscover({ provider, network, region = "US" }, type) {
       : { watch_region: region, with_watch_providers: provider, with_watch_monetization_types: "flatrate" };
     const j = await tmdbApi(`/discover/${kind}`, {
       ...filter, sort_by: `${dateField}.desc`, [`${dateField}.lte`]: today, include_adult: "false", page: String(page),
+      "vote_count.gte": String(minVotes),
     });
     if (!j?.results?.length) break;
     results.push(...j.results);
