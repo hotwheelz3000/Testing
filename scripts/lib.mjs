@@ -56,7 +56,48 @@ export async function imdbMatch(type, title, year = "") {
   return null;
 }
 
-export const saveCache = () => cache && writeJson(CACHE_PATH, cache, false);
+// ---- image checks (working images are remembered between runs) ----
+const IMG_CACHE_PATH = "_cache/images.json";
+let imgCache = null;
+
+async function imageOk(url) {
+  if (!url || !/^https?:\/\//.test(url) || url.endsWith("/")) return false; // e.g. TMDB ".../bestv2/" = no image
+  imgCache ??= await readJson(IMG_CACHE_PATH, {});
+  if (imgCache[url]) return true;
+  for (const method of ["HEAD", "GET"]) {
+    try {
+      const r = await fetch(url, { method, headers: UA, redirect: "follow" });
+      if (method === "GET") r.body?.cancel();
+      if (r.ok && (r.headers.get("content-type") || "image").startsWith("image")) return (imgCache[url] = true);
+      if (r.status !== 405) break; // HEAD not allowed -> try GET
+    } catch {}
+  }
+  return false;
+}
+
+// Makes sure every item has a working poster and background; drops items with no poster at all.
+export async function fixArt(metas) {
+  const fixed = [];
+  const queue = metas.map((m, i) => [m, i]);
+  const worker = async () => {
+    for (let job; (job = queue.shift()); ) {
+      const [m, i] = job;
+      const a = art(m.id);
+      const poster = (await imageOk(m.poster)) ? m.poster : (await imageOk(a.poster)) ? a.poster : null;
+      if (!poster) { console.log(`  no poster, dropped: ${m.name}`); continue; }
+      const background = (await imageOk(m.background)) ? m.background : (await imageOk(a.background)) ? a.background : poster;
+      const logo = (await imageOk(m.logo)) ? m.logo : undefined;
+      fixed[i] = { ...m, poster, background, logo };
+    }
+  };
+  await Promise.all(Array.from({ length: 16 }, worker));
+  return fixed.filter(Boolean);
+}
+
+export const saveCache = async () => {
+  if (cache) await writeJson(CACHE_PATH, cache, false);
+  if (imgCache) await writeJson(IMG_CACHE_PATH, imgCache, false);
+};
 
 // ---- artwork ----
 export const art = id => id.startsWith("tt") ? {

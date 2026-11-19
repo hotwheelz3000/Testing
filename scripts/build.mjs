@@ -1,7 +1,7 @@
 // Builds every addon listed in addons.json into the current folder (the Pages branch checkout).
 // Usage: node build.mjs [addon folder ...]   (no arguments = build all)
 import { readFile } from "node:fs/promises";
-import { readJson, writeJson, writeCatalog, saveCache, SKIP_EXTRA } from "./lib.mjs";
+import { readJson, writeJson, writeCatalog, saveCache, fixArt, SKIP_EXTRA } from "./lib.mjs";
 import { sources } from "./sources.mjs";
 
 const config = JSON.parse(await readFile(new URL("../addons.json", import.meta.url), "utf8"));
@@ -42,7 +42,7 @@ for (const addon of config.addons) {
           metas = await sources[c.fallback.source](c.fallback, c.type);
         }
       }
-      const unique = metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i);
+      const unique = await fixArt(metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i));
       if (!unique.length) throw new Error("no items");
       results[key] = unique;
       console.log(`${c.name} (${c.type}): ${unique.length}`);
