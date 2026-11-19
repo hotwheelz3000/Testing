@@ -37,7 +37,7 @@ Keep existing `id`s unchanged: Nuvio folders point at them.
 
 ### Cover images
 
-Images listed in `covers.json` are downloaded once into `covers/` on the Pages branch and served at `https://hotwheelz3000.github.io/Testing/covers/<file>` (handy for Nuvio folder covers).
+Images listed in `covers.json` are downloaded automatically (the "Save covers" workflow runs whenever `covers.json` changes) into `covers/` on the Pages branch and served at `https://hotwheelz3000.github.io/Testing/covers/<file>` (handy for Nuvio folder covers).
 
 ### Notes
 

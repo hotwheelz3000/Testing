@@ -32,22 +32,12 @@ jobs:
         run: cd site && node ../scripts/build.mjs ${{ github.event.inputs.only }}
         env:
           TMDB_KEY: ${{ secrets.TMDB_KEY }}
-      - name: Save cover images
-        run: |
-          cd site && mkdir -p covers
-          node -e '
-            const { covers } = require("../covers.json");
-            for (const c of covers) console.log(c.file + "\t" + c.url);
-          ' | while IFS="$(printf "\t")" read -r file url; do
-            [ -s "covers/$file" ] && continue
-            curl -fsSL -A "Mozilla/5.0" "$url" -o "covers/$file" && echo "saved covers/$file" || echo "!! could not save $file"
-          done
       - name: Publish
         run: |
           cd site
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -A rt movieleaks genres _cache covers
+          git add -A rt movieleaks genres _cache
           if ! git diff --cached --quiet; then
             git commit -m "Update addon catalogs"
             git push origin HEAD:${{ env.PAGES_BRANCH }}
