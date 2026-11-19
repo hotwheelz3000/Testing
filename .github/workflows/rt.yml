@@ -43,6 +43,9 @@ jobs:
               CAT_ID="$id" NAME="$name" node ../scripts/rt.mjs < /dev/null || echo "!! $name $kind failed"
             done
           done
+      - name: Movie Leaks
+        run: cd site && node ../scripts/leaks.mjs
+        continue-on-error: true
       - name: Remove titles shared between services
         run: cd site && node ../scripts/dedupe.mjs
       - run: |

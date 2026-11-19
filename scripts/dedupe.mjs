@@ -6,7 +6,7 @@ const OUT = process.env.OUT || "rt";
 const PRIORITY = process.env.PRIORITY || "rt-list";
 const manifest = JSON.parse(await readFile(`${OUT}/manifest.json`, "utf8"));
 for (const type of manifest.types) {
-  const cats = manifest.catalogs.filter(c => c.type === type);
+  const cats = manifest.catalogs.filter(c => c.type === type && c.id.startsWith("rt-"));
   const lists = {};
   for (const c of cats) {
     try { lists[c.id] = JSON.parse(await readFile(`${OUT}/catalog/${type}/${c.id}.json`, "utf8")).metas; }
