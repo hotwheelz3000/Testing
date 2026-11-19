@@ -384,7 +384,6 @@
       "name": "Downwind",
       "poster": "https://resizing.flixster.com/0Yen-6AT2rys2ZSlnbB3v5BjoS4=/164x246/v2/https://resizing.flixster.com/XqccsWKOlzYdy16fpy8dIe0ULKY=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Q2ZDJhZTZjLTg0MTYtNDU4My1iNWVlLTk2NzM1YWFhMzU1OC5qcGc=",
       "background": "https://images.metahub.space/background/medium/tt16036344/img",
-      "logo": "https://images.metahub.space/logo/medium/tt16036344/img",
       "description": "Tomatometer 100%"
     },
     {
@@ -402,7 +401,6 @@
       "name": "With This Light",
       "poster": "https://resizing.flixster.com/wsgIWhSv5wb0PDFNoB3bH6A9caQ=/164x246/v2/https://resizing.flixster.com/2QVECZx7acCFqnezGT_AqthBdrU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2QzNjNkZDg1LWM0M2ItNDA5Ny1hOThiLTNjYmYxYTk0YzQ1ZS5qcGc=",
       "background": "https://images.metahub.space/background/medium/tt26776702/img",
-      "logo": "https://images.metahub.space/logo/medium/tt26776702/img",
       "description": ""
     },
     {
@@ -411,7 +409,6 @@
       "name": "The Furry Fortune",
       "poster": "https://resizing.flixster.com/swevlgwaMhUkPVVj9-5X4Qd0Mc0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24708332_v_v12_ab.jpg",
       "background": "https://images.metahub.space/background/medium/tt11237838/img",
-      "logo": "https://images.metahub.space/logo/medium/tt11237838/img",
       "description": ""
     },
     {
@@ -446,8 +443,7 @@
       "type": "movie",
       "name": "The Last Autumn",
       "poster": "https://resizing.flixster.com/mwibYvy49vrL0O0ezNVPmOQx3Qc=/164x246/v2/https://resizing.flixster.com/QVMuXX6gkxpWEmPW2QDzhBLTz3g=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzEzZTY5NzkxLTk2MTEtNGE5MC1hOTlkLTU5MDM5ZmJiMDRkMi5qcGc=",
-      "background": "https://images.metahub.space/background/medium/tt11119412/img",
-      "logo": "https://images.metahub.space/logo/medium/tt11119412/img",
+      "background": "https://resizing.flixster.com/mwibYvy49vrL0O0ezNVPmOQx3Qc=/164x246/v2/https://resizing.flixster.com/QVMuXX6gkxpWEmPW2QDzhBLTz3g=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzEzZTY5NzkxLTk2MTEtNGE5MC1hOTlkLTU5MDM5ZmJiMDRkMi5qcGc=",
       "description": "Tomatometer 100%"
     },
     {
@@ -456,7 +452,6 @@
       "name": "Barbie Nation: An Unauthorized Tour",
       "poster": "https://resizing.flixster.com/sYu_HIUM0ESAL9XIRtZITQzrB2Y=/164x246/v2/https://resizing.flixster.com/6RHUBW28gqDIBdYaRan6f20b6gQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2UxYmZlM2Q2LTI0MmItNDViZS1hMGVmLTUxNTJlNjNlZjFjMC5qcGc=",
       "background": "https://images.metahub.space/background/medium/tt0149791/img",
-      "logo": "https://images.metahub.space/logo/medium/tt0149791/img",
       "description": "Tomatometer 100%"
     },
     {
@@ -600,7 +595,6 @@
       "name": "When I Consume You",
       "poster": "https://resizing.flixster.com/1yeVde6G0fLTHtJ9kv15Ct7oiBs=/164x246/v2/https://resizing.flixster.com/WhKtaxeE5TekynHHO3xWY1v2DKU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzk3MTBhNjhiLTYyMzQtNDY1NC1iNTkzLTg1Mjg1MWE2N2U3Mi5qcGc=",
       "background": "https://images.metahub.space/background/medium/tt11454278/img",
-      "logo": "https://images.metahub.space/logo/medium/tt11454278/img",
       "description": "Tomatometer 89%"
     },
     {
@@ -818,15 +812,6 @@
       "background": "https://images.metahub.space/background/medium/tt6722976/img",
       "logo": "https://images.metahub.space/logo/medium/tt6722976/img",
       "description": "Tomatometer 91%"
-    },
-    {
-      "id": "tt1756815",
-      "type": "movie",
-      "name": "The Last First Comic",
-      "poster": "none",
-      "background": "https://images.metahub.space/background/medium/tt1756815/img",
-      "logo": "https://images.metahub.space/logo/medium/tt1756815/img",
-      "description": ""
     },
     {
       "id": "tt2543164",

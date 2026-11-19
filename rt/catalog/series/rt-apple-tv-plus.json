@@ -106,7 +106,6 @@
       "name": "Circuits in Focus",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oZv6dtjBfu18spLsBLaOeqgBeJG.jpg",
       "background": "https://images.metahub.space/background/medium/tt43343891/img",
-      "logo": "https://images.metahub.space/logo/medium/tt43343891/img",
       "description": "World champion Nico Rosberg and Formula E driver Emelia Hartford reveal F1 track insights.",
       "releaseInfo": "2026"
     },
@@ -346,7 +345,6 @@
       "name": "Time Is Out Of Mind",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//y1gBf0junc1vaBqlxtefGlBKELe.jpg",
       "background": "https://images.metahub.space/background/medium/tt37017233/img",
-      "logo": "https://images.metahub.space/logo/medium/tt37017233/img",
       "description": "Time Is Out Of Mind is a captivating documentary series that chronicles an 18-month deployment at the Rothera Research Station, providing a rare and immersive look into life and work on the frozen continent. Narrated by the station's crew, the film offers an intimate perspective on the groundbreaking scientific research and day to day life in one of the planet's most remote and extreme environments.",
       "releaseInfo": "2025"
     },
@@ -435,6 +433,7 @@
       "type": "series",
       "name": "Berlin ER",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//pNKkxCtuwBYYx3JtzO9Nq41izuD.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//pNKkxCtuwBYYx3JtzO9Nq41izuD.jpg",
       "description": "After her private life falls apart, a young doctor seeking a fresh start takes over the emergency room in Berlin's toughest, most chaotic hospital. Battling staff resistance and a run-down system, she must unite her maverick team to save lives.",
       "releaseInfo": "2025"
     },
@@ -643,6 +642,7 @@
       "type": "series",
       "name": "Me",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zYE9357q2thkuiRAsMA60H0eKiB.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zYE9357q2thkuiRAsMA60H0eKiB.jpg",
       "description": "New school. New family. New superpower. It's a season of change for 12-year-old Ben Vasani when he discovers that he can transform into anyone he meets. As a shapeshifter, Ben must figure out who he is and who he wants to be.",
       "releaseInfo": "2024"
     },
@@ -1155,7 +1155,6 @@
       "name": "Platonic",
       "poster": "https://resizing.flixster.com/2u1sQi7Waf5DG7A3f_z--VoVlo4=/164x246/v2/https://resizing.flixster.com/p1yOo7GdgrKGEuq9zvKQED92HQQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmMwYTMzMmUtNTRjNS00NWI2LWFiZDktNTc5NzYwMGIxODIxLnBuZw==",
       "background": "https://images.metahub.space/background/medium/tt34692112/img",
-      "logo": "https://images.metahub.space/logo/medium/tt34692112/img",
       "description": "Tomatometer 96%"
     },
     {
@@ -1253,8 +1252,7 @@
       "type": "series",
       "name": "MLS Cup Matches",
       "poster": "https://resizing.flixster.com/vVsjoMRxvWEDpCF4MxXsDarYw3w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24091131_b_v13_ad.jpg",
-      "background": "https://images.metahub.space/background/medium/tt3780534/img",
-      "logo": "https://images.metahub.space/logo/medium/tt3780534/img",
+      "background": "https://resizing.flixster.com/vVsjoMRxvWEDpCF4MxXsDarYw3w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24091131_b_v13_ad.jpg",
       "description": ""
     },
     {
@@ -1307,8 +1305,7 @@
       "type": "series",
       "name": "Prehistoric Planet Immersive",
       "poster": "https://resizing.flixster.com/lnlbNTJOaMO3NeAQYZ8MU5OokKI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26554682_b_v12_ai.jpg",
-      "background": "https://images.metahub.space/background/medium/tt31638292/img",
-      "logo": "https://images.metahub.space/logo/medium/tt31638292/img",
+      "background": "https://resizing.flixster.com/lnlbNTJOaMO3NeAQYZ8MU5OokKI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26554682_b_v12_ai.jpg",
       "description": ""
     },
     {
@@ -1460,8 +1457,7 @@
       "type": "series",
       "name": "Every Goal!",
       "poster": "https://resizing.flixster.com/KXgge-lapNQA9Ju-3-GQqe6fGx0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24191486_b_v12_ac.jpg",
-      "background": "https://images.metahub.space/background/medium/tt22897970/img",
-      "logo": "https://images.metahub.space/logo/medium/tt22897970/img",
+      "background": "https://resizing.flixster.com/KXgge-lapNQA9Ju-3-GQqe6fGx0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24191486_b_v12_ac.jpg",
       "description": ""
     },
     {
@@ -1793,8 +1789,7 @@
       "type": "series",
       "name": "Now & Then",
       "poster": "https://resizing.flixster.com/wqh-Ojq4bxAGDwKeauMeTWNQet4=/164x246/v2/https://resizing.flixster.com/CF6Ulbi9ck_yfv27pwNPVS7GkT0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTZiYzk4NDItZTQ5OS00ZDFiLWE5ZDYtOWFmOWNkZTBkOWFmLnBuZw==",
-      "background": "https://images.metahub.space/background/medium/tt13839292/img",
-      "logo": "https://images.metahub.space/logo/medium/tt13839292/img",
+      "background": "https://resizing.flixster.com/wqh-Ojq4bxAGDwKeauMeTWNQet4=/164x246/v2/https://resizing.flixster.com/CF6Ulbi9ck_yfv27pwNPVS7GkT0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTZiYzk4NDItZTQ5OS00ZDFiLWE5ZDYtOWFmOWNkZTBkOWFmLnBuZw==",
       "description": "Tomatometer 71%"
     },
     {

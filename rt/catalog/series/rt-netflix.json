@@ -36,7 +36,6 @@
       "name": "The Law of Beasts",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u7hQSvHz05x3Z6avbLDDhGuKgE8.jpg",
       "background": "https://images.metahub.space/background/medium/tt44079238/img",
-      "logo": "https://images.metahub.space/logo/medium/tt44079238/img",
       "description": "When the case of a child serial killer resurfaces after 25 years as an unresolved legal and social problem, two former friends are forced to confront the choices that broke their friendship and shaped their lives.",
       "releaseInfo": "2026"
     },
@@ -45,6 +44,7 @@
       "type": "series",
       "name": "Valentina and the 12 Signs",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ihjonCRR5gEUEH8RG2Qbk4Fy3HB.jpg",
       "description": "Valentina is a young woman who, after being betrayed by her boyfriend—and blaming astrology for the end of their relationship—decides to take revenge in an unusual way: she sets out on a mission to hook up with a guy from every sign of the zodiac. Her plan is to document all these encounters and experiences in a videocast, but things get complicated when she falls for a guy who has \"no sign.\"",
       "releaseInfo": "2026"
     },
@@ -54,7 +54,6 @@
       "name": "Alan's Universe",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sjDSfy47Hafgt8qxj9ebfJtl5AG.jpg",
       "background": "https://images.metahub.space/background/medium/tt37179376/img",
-      "logo": "https://images.metahub.space/logo/medium/tt37179376/img",
       "description": "Alan and his friends navigate a world of friendship, romance, rivalry, and extraordinary adventures. From high school bullies and secret pop star identities to supernatural encounters and unexpected love stories, every episode transports the group into a new universe where they discover that love and friendship can overcome even the wildest challenges.",
       "releaseInfo": "2026"
     },
@@ -64,7 +63,6 @@
       "name": "Stars and Vows: Anele & Buzza",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//lcCadlmIDtTdYbYfM2UlkCXhxEO.jpg",
       "background": "https://images.metahub.space/background/medium/tt45857574/img",
-      "logo": "https://images.metahub.space/logo/medium/tt45857574/img",
       "description": "Follow media darling Anele Mdoda and her royal fiance Buzza James from pre-wedding celebrations and tense family moments to their long-awaited \"I do.\"",
       "releaseInfo": "2026"
     },
@@ -86,14 +84,6 @@
       "background": "https://images.metahub.space/background/medium/tt39494650/img",
       "logo": "https://images.metahub.space/logo/medium/tt39494650/img",
       "description": "A bold decision brings an average med student to an elite ER team, where he encounters medical crises, ethical dilemmas, and personal growth.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:342323",
-      "type": "series",
-      "name": "The goop Guide with Gwyneth Paltrow",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/",
-      "description": "Gwyneth Paltrow welcomes celebrities, artists, entrepreneurs and experts for candid conversations about wellness, relationships, personal growth and everyday life, exploring fresh perspectives and the experiences that shape us.",
       "releaseInfo": "2026"
     },
     {
@@ -132,7 +122,6 @@
       "name": "Doozie's Doghouse",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bhFbiSXg7KrwfXkpZfiLDq4QFCt.jpg",
       "background": "https://images.metahub.space/background/medium/tt47596905/img",
-      "logo": "https://images.metahub.space/logo/medium/tt47596905/img",
       "description": "Make it a doghouse day! Dog-loving Doozie uses her creativity and imagination during playtime with her puppy pals.",
       "releaseInfo": "2026"
     },
@@ -187,20 +176,11 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt50522700",
-      "type": "series",
-      "name": "KPop Demon Hunters PLAYlist",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/",
-      "background": "https://images.metahub.space/background/medium/tt50522700/img",
-      "logo": "https://images.metahub.space/logo/medium/tt50522700/img",
-      "description": "Play along with your favorite \"KPop Demon Hunters\" characters in this imaginative series of short-form stories, stop-motion fun and hands-on adventures.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tmdb:336241",
       "type": "series",
       "name": "How to Ruin Diwali: Meet the Parents",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8HhaOOJGqXCpU0RgzJvLZInD4Go.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8HhaOOJGqXCpU0RgzJvLZInD4Go.jpg",
       "description": "When overachieving perfectionist Mmabatho Nkomo meets her fiancé’s traditional Indian family for the first time, her desperate attempt to make a good impression goes badly wrong. She accidentally exposes her future father-in-law’s secret affair. With Diwali only days away, Mmabatho must navigate unfamiliar cultural territory and try to reunite the family she has torn apart — without creating even more chaos.",
       "releaseInfo": "2026"
     },
@@ -309,6 +289,7 @@
       "type": "series",
       "name": "Couldn't Agree Less with Allison & Isaac",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bm5X8IbXWEfxtYFUEOazKTJ1UhG.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bm5X8IbXWEfxtYFUEOazKTJ1UhG.jpg",
       "description": "Real-life couple Allison Kuch and Isaac Rochell invite viewers into their messiest, most honest disagreements — tackling everything from money and parenting to jealousy and in-laws through audience submissions, guest perspectives, and pop culture debates.",
       "releaseInfo": "2026"
     },
@@ -343,14 +324,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:339010",
-      "type": "series",
-      "name": "Madam Inspector",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/",
-      "description": "When brides preparing to remarry begin dying in eerily similar ways, Inspector Chitra races to find the hidden link connecting their deaths.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tt49319437",
       "type": "series",
       "name": "Socorro",
@@ -375,6 +348,7 @@
       "type": "series",
       "name": "The Great Hang-jun",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v3pow3iUzvW4WFk2du4qEbgdJNv.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v3pow3iUzvW4WFk2du4qEbgdJNv.jpg",
       "description": "Acclaimed director Jang Hang-jun secretly auditions top Korean actors for a film about his own life in this cheeky cinematic talk show.",
       "releaseInfo": "2026"
     },
@@ -423,6 +397,7 @@
       "type": "series",
       "name": "A Day Like No Other",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jjFBXF8HNKAEoWNQ6Nm6YDWIdrH.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jjFBXF8HNKAEoWNQ6Nm6YDWIdrH.jpg",
       "description": "The origins, career and music of Spanish singer Raphael inspire this intimate biopic series about his remarkable journey to 60 years of global success.",
       "releaseInfo": "2026"
     },
@@ -462,7 +437,6 @@
       "name": "#Love",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cyJKP6Fsg8ds4O4g1Q1SCOKJQdn.jpg",
       "background": "https://images.metahub.space/background/medium/tt38674953/img",
-      "logo": "https://images.metahub.space/logo/medium/tt38674953/img",
       "description": "The pragmatic creator of a dating app and her adventurous competitor test their theories about love in a 60-day challenge to find their ideal partner.",
       "releaseInfo": "2026"
     },
@@ -471,6 +445,7 @@
       "type": "series",
       "name": "Sam and Colby: Paranormal Investigators",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//htpwxP4F3Zi3eHRHugWCz1KkKIO.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//htpwxP4F3Zi3eHRHugWCz1KkKIO.jpg",
       "description": "Best friends Sam and Colby visit some of the world’s most haunted locations in search of paranormal evidence, trying to answer one question: Are ghosts real?",
       "releaseInfo": "2026"
     },
@@ -510,7 +485,6 @@
       "name": "Love Is Blind: Netherlands",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6zRBZpedwwbXmmPZbINZjVIyqBi.jpg",
       "background": "https://images.metahub.space/background/medium/tt38681829/img",
-      "logo": "https://images.metahub.space/logo/medium/tt38681829/img",
       "description": "The hit dating experiment lands in the Netherlands, where a group of Dutch singles date, fall in love and get engaged, all before meeting face-to-face.",
       "releaseInfo": "2026"
     },
@@ -539,6 +513,7 @@
       "type": "series",
       "name": "Last Trace with Kaelyn Moore",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8hgF7UAoshScIhzc6aoaAQpxkc.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8hgF7UAoshScIhzc6aoaAQpxkc.jpg",
       "description": "Every case leaves something behind: a grainy frame, a timestamp, a witness who swears they saw something. Last Trace is a weekly show that follows the record to the precise point where it goes cold, and asks what got missed the first time.",
       "releaseInfo": "2026"
     },
@@ -557,6 +532,7 @@
       "type": "series",
       "name": "OUTLORE with Eleanor Neale",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8tlYfhkJ3A3bxGeoC7nS9GF9i7v.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8tlYfhkJ3A3bxGeoC7nS9GF9i7v.jpg",
       "description": "British storyteller Eleanor Neale unpacks the world’s most compelling true-crime cases, while raising awareness and building a community around the stories that matter.",
       "releaseInfo": "2026"
     },
@@ -576,7 +552,6 @@
       "name": "Delusion",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9Z7Jsj6woszXLpXcs9TZtU4Fibr.jpg",
       "background": "https://images.metahub.space/background/medium/tt39749747/img",
-      "logo": "https://images.metahub.space/logo/medium/tt39749747/img",
       "description": "When her father's worsening dementia makes him a prime suspect in a murder case, a small-town school teacher races to uncover the truth amid dark rumors.",
       "releaseInfo": "2026"
     },
@@ -586,7 +561,6 @@
       "name": "My Sad Dead",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7FEUvXEgpsevAse8gNFk1h1RPRd.jpg",
       "background": "https://images.metahub.space/background/medium/tt37158600/img",
-      "logo": "https://images.metahub.space/logo/medium/tt37158600/img",
       "description": "A reclusive doctor with supernatural abilities faces a disruption when her young niece visits, bringing a different and more intense approach to their shared gift of communicating with spirits.",
       "releaseInfo": "2026"
     },
@@ -596,7 +570,6 @@
       "name": "A Different World",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//mmE4RNbsPOwwRo5rnVRd1IXzgcZ.jpg",
       "background": "https://images.metahub.space/background/medium/tt33081352/img",
-      "logo": "https://images.metahub.space/logo/medium/tt33081352/img",
       "description": "Deborah Wayne enters her freshman year at her parents' HBCU alma mater and finds their shadow difficult to escape. She sets out to build her own legacy – while having the time of her life – alongside a whole new generation of Hillman’s best and brightest.",
       "releaseInfo": "2026"
     },
@@ -645,8 +618,7 @@
       "type": "series",
       "name": "SML",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//i3FzKk66Qj42rvYCO0qkk5WDIQ3.jpg",
-      "background": "https://images.metahub.space/background/medium/tt33503513/img",
-      "logo": "https://images.metahub.space/logo/medium/tt33503513/img",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//i3FzKk66Qj42rvYCO0qkk5WDIQ3.jpg",
       "description": "SML, formerly SuperMarioLogan, offers funny puppet comedy, wild characters, and entertaining stories for comedy fans.",
       "releaseInfo": "2026"
     },
@@ -655,8 +627,7 @@
       "type": "series",
       "name": "Pote",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//960mXljpnEn8OBgW2M5YWEjhUG9.jpg",
-      "background": "https://images.metahub.space/background/medium/tt49766941/img",
-      "logo": "https://images.metahub.space/logo/medium/tt49766941/img",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//960mXljpnEn8OBgW2M5YWEjhUG9.jpg",
       "description": "A young medical team is sent to Marunda Island to investigate a mysterious skin disease that has terrified the locals. However, the deeper they delve, the more they realize the outbreak is merely a symptom of an ancient curse linked to the Forbidden Lake and a terrifying entity known as Oreng Pote. As human transgressions reawaken a long-dormant terror, the team must choose between logic, guilt, and the supernatural forces that target anyone who witnesses death.",
       "releaseInfo": "2026"
     },
@@ -675,6 +646,7 @@
       "type": "series",
       "name": "Rescapé : La Série",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//uvwbWBqk4mZibIsqKjqakRGHAKP.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//uvwbWBqk4mZibIsqKjqakRGHAKP.jpg",
       "description": "In the northern districts of Marseille, Soso navigates the world of drug trafficking amidst friendships, rivalries, and betrayals. Inspired by the early life of Soso Maness—who plays the lead role—the series chronicles the choices and trials that shaped his journey.",
       "releaseInfo": "2026"
     },
@@ -703,6 +675,7 @@
       "type": "series",
       "name": "Monster: The Lizzie Borden Story",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
       "description": "Trapped in a cruel Victorian-era household, Lizzie Borden kills her parents in a gory ax murder that shocks the nation.",
       "releaseInfo": "2026"
     },
@@ -741,6 +714,7 @@
       "type": "series",
       "name": "Istri Satu-Satunya",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4Thm72yetd2xyzJs1kn0iNQ1nyV.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4Thm72yetd2xyzJs1kn0iNQ1nyV.jpg",
       "description": "The story follows Soraya (Clara Bernadeth), a young woman living a simple life with her mother, Nina (Unique Priscilla). Everything changes on Nina’s birthday when a wealthy, powerful businessman named Pierre (Adipura) unexpectedly resurfaces. Pierre was long presumed dead by Soraya, but he suddenly appears claiming to be Nina's husband. Shocked by his return, Nina collapses and suffers medical trauma, losing parts of her memory.",
       "releaseInfo": "2026"
     },
@@ -779,8 +753,7 @@
       "type": "series",
       "name": "Mythical Kitchen",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iWB6WVJZEDUpPsZkl1bo62qEZGs.jpg",
-      "background": "https://images.metahub.space/background/medium/tt26597275/img",
-      "logo": "https://images.metahub.space/logo/medium/tt26597275/img",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iWB6WVJZEDUpPsZkl1bo62qEZGs.jpg",
       "description": "Mythical Chef Josh and his team of Kitcheneers cook unexpected dishes, share meals with celebrity guests, tackle crazy culinary challenges and more.",
       "releaseInfo": "2026"
     },
@@ -819,23 +792,8 @@
       "type": "series",
       "name": "Unveil &TEAM",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//lFFFSHSW52KWAcujmyHJG5DB2U1.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//lFFFSHSW52KWAcujmyHJG5DB2U1.jpg",
       "description": "",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:341259",
-      "type": "series",
-      "name": "Sibling Revelry with Kate Hudson & Oliver Hudson",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/",
-      "description": "Kate and Oliver Hudson invite guests for candid, funny and unpredictable conversations about siblings, family, life and everything in between.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:334704",
-      "type": "series",
-      "name": "The Pivot Podcast",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/",
-      "description": "Former NFL stars Ryan Clark, Fred Taylor and Channing Crowder host weekly sit-down conversations with A-list stars, delivering timely discussions on important topics.",
       "releaseInfo": "2026"
     },
     {
@@ -853,6 +811,7 @@
       "type": "series",
       "name": "Таксі для опера",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//j3VV3qRW2ASMOQiV25fPEfBlpMO.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//j3VV3qRW2ASMOQiV25fPEfBlpMO.jpg",
       "description": "",
       "releaseInfo": "2026"
     },
@@ -861,6 +820,7 @@
       "type": "series",
       "name": "KL2",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7V5Y8wpk0mA3PnMNoDuokD3ke8B.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7V5Y8wpk0mA3PnMNoDuokD3ke8B.jpg",
       "description": "Kevin Langue and his friends turn childish games into pure, chaotic fun.",
       "releaseInfo": "2026"
     },
@@ -869,8 +829,7 @@
       "type": "series",
       "name": "The Kevin Langue Show",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6CCQfFSnboP9ZqIugqtbYL4VQ7t.jpg",
-      "background": "https://images.metahub.space/background/medium/tt36789137/img",
-      "logo": "https://images.metahub.space/logo/medium/tt36789137/img",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6CCQfFSnboP9ZqIugqtbYL4VQ7t.jpg",
       "description": "Kevin Langue and his friends put their people-reading skills to the test, questioning a lineup of contestants to try and find the secret liar.",
       "releaseInfo": "2026"
     },
@@ -879,6 +838,7 @@
       "type": "series",
       "name": "On Campus: Game of the Week",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//o213ET8xrxoj5rX4Jzj7dUPyIBE.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//o213ET8xrxoj5rX4Jzj7dUPyIBE.jpg",
       "description": "Every week at a different school, go inside campus life with real college students from the lead-up to the aftermath of college football's biggest games.",
       "releaseInfo": "2026"
     },
@@ -927,6 +887,7 @@
       "type": "series",
       "name": "The Martha Stewart Podcast",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gTv5Vnk7xndzkMkRfRBAAPeY4Jn.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gTv5Vnk7xndzkMkRfRBAAPeY4Jn.jpg",
       "description": "Martha Stewart talks with leaders, entertainers and visionaries at the top of their game — and they've never encountered an interviewer quite like her.",
       "releaseInfo": "2026"
     },
@@ -955,6 +916,7 @@
       "type": "series",
       "name": "Wishbone Kitchen",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//n1AVpdC74p2Nz7K4d6meEVrOBYA.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//n1AVpdC74p2Nz7K4d6meEVrOBYA.jpg",
       "description": "Pull up a kitchen stool and press play. Each week, Meredith Hayden — the voice behind Wishbone Kitchen — sits down to talk cozy, crave-worthy recipes, real kitchen tips, and the small rituals that turn a house into a home. It's the kind of podcast that makes you want to light a candle, pour a glass of wine, and press record on your own kitchen story.",
       "releaseInfo": "2026"
     },
@@ -981,8 +943,7 @@
       "type": "series",
       "name": "The Great British Bake Off",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
-      "background": "https://images.metahub.space/background/medium/tt50205220/img",
-      "logo": "https://images.metahub.space/logo/medium/tt50205220/img",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
       "description": "Tomatometer 87%"
     },
     {
@@ -1044,8 +1005,7 @@
       "type": "series",
       "name": "Miraculous: Tales of Ladybug and Cat Noir",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12274735_b_v12_aq.jpg",
-      "background": "https://images.metahub.space/background/medium/tt39906446/img",
-      "logo": "https://images.metahub.space/logo/medium/tt39906446/img",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12274735_b_v12_aq.jpg",
       "description": ""
     },
     {
@@ -1256,12 +1216,20 @@
       "description": ""
     },
     {
+      "id": "tt3121722",
+      "type": "series",
+      "name": "PAW Patrol",
+      "poster": "https://resizing.flixster.com/iHos2xsU2_fWo6J_61LDzvGzk7k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10077400_b_v12_db.jpg",
+      "background": "https://images.metahub.space/background/medium/tt3121722/img",
+      "logo": "https://images.metahub.space/logo/medium/tt3121722/img",
+      "description": ""
+    },
+    {
       "id": "tt3900614",
       "type": "series",
       "name": "Odd Squad",
       "poster": "https://resizing.flixster.com/xiGQjxN6RVuxPLttpOrnOaTm4Aw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11086138_b_v12_bi.jpg",
       "background": "https://images.metahub.space/background/medium/tt3900614/img",
-      "logo": "https://images.metahub.space/logo/medium/tt3900614/img",
       "description": ""
     },
     {
@@ -1281,6 +1249,15 @@
       "background": "https://images.metahub.space/background/medium/tt2531336/img",
       "logo": "https://images.metahub.space/logo/medium/tt2531336/img",
       "description": "Tomatometer 98%"
+    },
+    {
+      "id": "tt0075529",
+      "type": "series",
+      "name": "The Love Boat",
+      "poster": "https://resizing.flixster.com/jSN8o52rV77IHxP5voZGuGsufE8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184206_b_v8_ab.jpg",
+      "background": "https://images.metahub.space/background/medium/tt0075529/img",
+      "logo": "https://images.metahub.space/logo/medium/tt0075529/img",
+      "description": ""
     },
     {
       "id": "tt26933824",
@@ -1351,7 +1328,6 @@
       "name": "Unicorn Academy: Secrets Revealed",
       "poster": "https://resizing.flixster.com/I5fpIBYtmAjhpONhGHCGoipmDBA=/164x246/v2/https://resizing.flixster.com/Qb2qpmpbWB_zJ0-jxGMTeb26bFA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzI5Yjk5NWYtZTlkMC00MGIyLTk3OTQtY2FhYmM5YWUyZjk4LmpwZw==",
       "background": "https://images.metahub.space/background/medium/tt40029087/img",
-      "logo": "https://images.metahub.space/logo/medium/tt40029087/img",
       "description": ""
     },
     {
@@ -1493,7 +1469,7 @@
       "id": "tt0315008",
       "type": "series",
       "name": "Great Teacher Onizuka",
-      "poster": "none",
+      "poster": "https://images.metahub.space/poster/medium/tt0315008/img",
       "background": "https://images.metahub.space/background/medium/tt0315008/img",
       "logo": "https://images.metahub.space/logo/medium/tt0315008/img",
       "description": ""
@@ -1504,7 +1480,6 @@
       "name": "Cold as Balls",
       "poster": "https://resizing.flixster.com/GqmJ0mEQFaQRHNTft4c3LdXGPJI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15453387_b_v8_ac.jpg",
       "background": "https://images.metahub.space/background/medium/tt7350428/img",
-      "logo": "https://images.metahub.space/logo/medium/tt7350428/img",
       "description": ""
     },
     {
