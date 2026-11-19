@@ -31,6 +31,22 @@ jobs:
             [ -s "covers/$file" ] && continue
             curl -fsSL -A "Mozilla/5.0" "$url" -o "covers/$file" && echo "saved covers/$file" || echo "!! could not save $file"
           done
+      - name: Shrink covers (same width and height)
+        run: |
+          sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq gifsicle jpegoptim >/dev/null
+          cd site/covers
+          touch .optimized
+          for f in *; do
+            grep -qxF "$f" .optimized && continue
+            before=$(stat -c %s "$f")
+            case "$f" in
+              *.gif)  gifsicle -O3 --lossy=60 -b "$f" ;;                          # lossy compression, keeps size and animation
+              *.jpg|*.jpeg|*.JPG|*.JPEG) jpegoptim -q --strip-all --max=82 "$f" ;;
+              *) continue ;;
+            esac
+            echo "$f" >> .optimized
+            echo "shrunk $f: $before -> $(stat -c %s "$f") bytes"
+          done
       - name: Publish
         run: |
           cd site
