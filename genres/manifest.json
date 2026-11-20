@@ -1,6 +1,6 @@
 {
   "id": "com.hotwheelz3000.genres",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "Latest Genres",
   "description": "Latest releases by genre, from snoak's MDBList lists",
   "resources": [

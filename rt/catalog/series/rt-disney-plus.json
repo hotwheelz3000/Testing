@@ -117,7 +117,7 @@
       "type": "series",
       "name": "Addicted",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//89uZ2R7XQ0oZbHVBPySRjWkHUzi.jpg",
-      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//89uZ2R7XQ0oZbHVBPySRjWkHUzi.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/v72KNIc87dytEEC3EaZJvp5VPdr.jpg",
       "description": "Each character’s unbreakable addiction stems from unresolved life issues. To avenge herself against the scumbag WANG Fei-Peng, Casey ZHANG quietly approaches his alcohol-addicted wife, YANG Man-ru. Unexpectedly, they become close friends despite their age difference and embark on a path of drug abuse. Anti-narcotics officer CHEN Qi-ming, while investigating the case, reunites with his first love, YANG Man-ru. Their unresolved feelings lead to his guilt and struggle. Their obsessive attachments, akin to addiction, drag them into their own abysses.",
       "releaseInfo": "2026"
     },
@@ -821,15 +821,6 @@
       "releaseInfo": "2025"
     },
     {
-      "id": "tt0784896",
-      "type": "series",
-      "name": "Mickey Mouse Clubhouse+",
-      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
-      "description": ""
-    },
-    {
       "id": "tt9581768",
       "type": "series",
       "name": "The Circle",
@@ -845,6 +836,15 @@
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27267773_b_v12_ar.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/thjmZJ1gIGi5v5emyxGFjWZvtoZ.png",
+      "description": ""
+    },
+    {
+      "id": "tt0784896",
+      "type": "series",
+      "name": "Mickey Mouse Clubhouse+",
+      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
       "description": ""
     },
     {
@@ -898,15 +898,6 @@
       "poster": "https://resizing.flixster.com/WN_uPxzIod6FLxw-2nNbW4T9mY4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12536766_b_v8_aq.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/4yFC6KpX7bq45qNulUgP57wWP3r.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7Wsch05A5e5n0CdXW8jacLlptcE.png",
-      "description": ""
-    },
-    {
-      "id": "tt39380586",
-      "type": "series",
-      "name": "Saban",
-      "poster": "https://resizing.flixster.com/uvXKPiCLZ0-xNrxsHYCS-qwmO9I=/164x246/v2/https://resizing.flixster.com/EsqtGvcrrpGoakhbj8wRdKSP_io=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjFmYzhhNTMtYTRiOC00OTdiLTk5YTEtZTNhZjk1NDZmNjVjLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/rPbTluocmNkA5DRpD3zBiTuGU73.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9TCr3hJTSuoJNOuxmosYUm793Yx.png",
       "description": ""
     }
   ]

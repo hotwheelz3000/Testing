@@ -996,6 +996,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/dsuvytRR4AbvTAAF4eVXKouZ02a.png"
     },
     {
+      "id": "tt38588963",
+      "type": "movie",
+      "name": "Monster in the Family: The Stacey Kananen Story",
+      "releaseInfo": "",
+      "description": "Stacey survives a childhood of abuse and fear, only to face a shocking twist when her brother Rickie confesses to her that he killed their parents. She is further betrayed when Rickie claims she helped him commit the crimes.",
+      "poster": "https://image.tmdb.org/t/p/w500/5H4fdm6YjdoIwMMCRYcABVYjAQC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jnRxzI0hv4QaNXXxWcfuZ6gdqCN.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt38588963/img"
+    },
+    {
       "id": "tt38202962",
       "type": "movie",
       "name": "Avihitham",
@@ -1032,6 +1042,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/bKHjKhxBuybPPOUVnbHRQLX9L6z.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yo1DleICj1CLlUjXymo5pNMJDFd.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qrw30uSZBgoslPA3A4ixrgZHDDn.png"
+    },
+    {
+      "id": "tt38605827",
+      "type": "movie",
+      "name": "Surviving My Father: The Rachel Jeffs Story",
+      "releaseInfo": "",
+      "description": "Warren Jeffs becomes the notorious leader of a polygamous sect known as the FLDS Church. Subjected to her father's abuse and manipulation, Rachel Jeffs plans a daring escape from the heavily guarded community, then returns to rescue her children.",
+      "poster": "https://image.tmdb.org/t/p/w500/1TPloiGjelsKwDAgtTUOQyKq19F.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xH31sQ0K0G27pCOvO5I47oVywOE.jpg"
     },
     {
       "id": "tt35715953",

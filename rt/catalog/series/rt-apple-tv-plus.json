@@ -1481,15 +1481,6 @@
       "description": "Tomatometer 55%"
     },
     {
-      "id": "tt10366552",
-      "type": "series",
-      "name": "Boom! Boom! The World vs. Boris Becker",
-      "poster": "https://resizing.flixster.com/zWwT8d4ZjtGHg4xRMvOeUNIRwUM=/164x246/v2/https://resizing.flixster.com/NaBtoqRL1IDImkfRmDdttSgSSEI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWRmZjAzNDktYjYyNC00MTVjLWE3YjgtNGJkM2JmYzExZGFlLnBuZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/rWsaP6gaMfsI7kVfkMjtDmEHPp4.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/yC80imON7px4FLa5oNm3bxlwlj6.png",
-      "description": "Tomatometer 94%"
-    },
-    {
       "id": "tt12916182",
       "type": "series",
       "name": "My Kind of Country",
@@ -1497,6 +1488,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/8KGaXMM86IJj8hmrTGQvy3ryE4v.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cFBWfUXOmKI9FX0wdo6pPhkPngx.png",
       "description": "Tomatometer 100%"
+    },
+    {
+      "id": "tt10366552",
+      "type": "series",
+      "name": "Boom! Boom! The World vs. Boris Becker",
+      "poster": "https://resizing.flixster.com/zWwT8d4ZjtGHg4xRMvOeUNIRwUM=/164x246/v2/https://resizing.flixster.com/NaBtoqRL1IDImkfRmDdttSgSSEI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWRmZjAzNDktYjYyNC00MTVjLWE3YjgtNGJkM2JmYzExZGFlLnBuZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/rWsaP6gaMfsI7kVfkMjtDmEHPp4.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/yC80imON7px4FLa5oNm3bxlwlj6.png",
+      "description": "Tomatometer 94%"
     },
     {
       "id": "tt15084142",

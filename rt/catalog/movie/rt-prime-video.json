@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt24818230",
+      "type": "movie",
+      "name": "Madden",
+      "releaseInfo": "",
+      "description": "Chronicles John Madden's incredible journey alongside best friend and true original Al Davis—from a Super Bowl-winning partnership with the Raiders, to becoming football's most recognizable voice, to building the worldwide Madden NFL video game.",
+      "poster": "https://image.tmdb.org/t/p/w500/bRa83oPFFPqaAF3wrpVWPqqfFel.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jNbyhCjMpaTuofzIGiUvsjJs2eI.png"
+    },
+    {
       "id": "tt32880540",
       "type": "movie",
       "name": "Agent Zeta",
@@ -121,16 +131,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/z40xIF1yUFjT3sdtRg8BlyWJ53n.png"
     },
     {
-      "id": "tt40856286",
-      "type": "movie",
-      "name": "Vibe",
-      "releaseInfo": "",
-      "description": "Two inseparable friends' ordinary, unassuming lives spiral into an unpredictable, high-energy adventure that pushes their survival instincts and friendship to the limit.",
-      "poster": "https://image.tmdb.org/t/p/w500/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9OhWVgLsoVVB7WmOg4B0pECkBoC.png"
-    },
-    {
       "id": "tt43617372",
       "type": "movie",
       "name": "You+Me - Against the World",
@@ -139,6 +139,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/bAbBNVplg7h79sm94OyHeKk8Phz.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/nkEhDomjmPHJSA4Tx8pxv0NlKEy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aXWC2XPcpn7Ta8KHzt1NCKXxJBi.png"
+    },
+    {
+      "id": "tt40856286",
+      "type": "movie",
+      "name": "Vibe",
+      "releaseInfo": "",
+      "description": "Two inseparable friends' ordinary, unassuming lives spiral into an unpredictable, high-energy adventure that pushes their survival instincts and friendship to the limit.",
+      "poster": "https://image.tmdb.org/t/p/w500/1K2cYaK42vcQkg1iITxF6xcbJrs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9OhWVgLsoVVB7WmOg4B0pECkBoC.png"
     },
     {
       "id": "tt28541577",
@@ -375,6 +385,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/qdSB8vvIb4VHqmWBgliOcJZ5rd1.png"
     },
     {
+      "id": "tt27986547",
+      "type": "movie",
+      "name": "Night of Blood",
+      "releaseInfo": "",
+      "description": "Six strangers enter a cash-prize endurance challenge at the Val Verde Hotel, a location infamous for a fatal explosion and rumors of being haunted. Instead of being stalked by a physical, masked serial killer, the contestants face immersive, supernatural scares when the hauntings at the hotel turn out to be all too real.",
+      "poster": "https://image.tmdb.org/t/p/w500/sa7Ko9iXItGwtBmsBSehSyz6mk3.jpg",
+      "background": "https://image.tmdb.org/t/p/w500/sa7Ko9iXItGwtBmsBSehSyz6mk3.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rr1KbLg1crA1S0KQmq7dzaxnBlG.png"
+    },
+    {
       "id": "tt36956284",
       "type": "movie",
       "name": "Still Sexy",
@@ -502,6 +522,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/456FlpiU1iOBnaOxSd783QhZKWw.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/enwc2Acl38mvX33QffmTzDSV89D.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6PC8lhh3Fsp2lLEpCx0C374WxBh.png"
+    },
+    {
+      "id": "tt38517457",
+      "type": "movie",
+      "name": "Undercurrent",
+      "releaseInfo": "",
+      "description": "An ambitious ecologist returning to her childhood home on the Dutch island of Ameland discovers a dangerous drug smuggling route, forcing her to choose between exposing the truth and protecting those she loves.",
+      "poster": "https://image.tmdb.org/t/p/w500/aUUQXiiGA3LFHHemf3UgHVF4y5C.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vdGafAruKcmtR8jNjk5OpVDXUpX.jpg"
     },
     {
       "id": "tt29594919",
@@ -947,6 +976,26 @@
       "background": "https://image.tmdb.org/t/p/w1280/vtGIHr02BazvGmUUsdmcMrc7diK.jpg"
     },
     {
+      "id": "tt35677327",
+      "type": "movie",
+      "name": "Idiotka",
+      "releaseInfo": "",
+      "description": "In West Hollywood’s Russian district, Margarita lives out the American Dream: competing on a reality show. Will she slay, serve, or survive?",
+      "poster": "https://image.tmdb.org/t/p/w500/4qad2d5lrrZsni5n8tzm82CpyOX.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/oiPQOyHuTA84crxarTkVTObbRz4.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/mUopdKufwd3vOmhfd99VHiIAUEM.png"
+    },
+    {
+      "id": "tt31590095",
+      "type": "movie",
+      "name": "For Worse",
+      "releaseInfo": "",
+      "description": "Lauren, a newly divorced, sober mom, feels like she has a new lease on life after joining her first acting class and starting a fling with her hot, young scene partner. However, when they attend their Gen Z classmate's wedding together, things begin to fall apart, and Lauren finds herself behaving like a drunk 25-year-old bridesmaid. Luckily after a disastrous night she stumbles into a new day and a new beginning.",
+      "poster": "https://image.tmdb.org/t/p/w500/4ZvIRyfGADA3x5RnankHEtTMLE7.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kIEuiMepZ8gPjxQdplwZ7vf3pNG.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eC6L6tONCTziw310yWEDq357AbD.png"
+    },
+    {
       "id": "tt31707271",
       "type": "movie",
       "name": "Bring the Law",
@@ -1307,6 +1356,25 @@
       "description": "A brother and sister are terrorized by what seems to be their late-author mother's most sinister literary creation -– The Calling Witch.",
       "poster": "https://image.tmdb.org/t/p/w500/q8o2NzIH4ze28NAVs1eRkejAJIk.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3ihuzorgMXhExPOlIiVirnLIS4s.jpg"
+    },
+    {
+      "id": "tt31050594",
+      "type": "movie",
+      "name": "Mercy",
+      "releaseInfo": "",
+      "description": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
+      "poster": "https://image.tmdb.org/t/p/w500/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gIClklFGYBe0uiOoiP2vtocJbss.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/14xhLGYXLjMW20dUvTBDynBrokp.png"
+    },
+    {
+      "id": "tt36734810",
+      "type": "movie",
+      "name": "Sleeping Beauty Next Door",
+      "releaseInfo": "",
+      "description": "Sydney's rare condition makes her collapse whenever emotions run high-especially in love. When her charming new neighbor Taylor steals her heart, she must fight to stay awake long enough to turn her dream romance into reality.",
+      "poster": "https://image.tmdb.org/t/p/w500/fpjjF8rBI071HMZfLYXdoQHYxYk.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lvCePLvpk7DIrxgWqusZCetjwT7.jpg"
     },
     {
       "id": "tt9525878",
