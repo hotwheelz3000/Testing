@@ -9,6 +9,7 @@ const IMG = "https://image.tmdb.org/t/p";
 const WEEK = 7 * 86400 * 1000;
 const cache = fileCache("_cache/tmdb.json");
 const imdbIds = fileCache("_cache/tmdb-imdb.json"); // TMDB id -> IMDb id never changes, kept forever
+const genreCache = fileCache("_cache/tmdb-genres.json"); // item -> TMDB genre ids, kept forever
 
 export async function api(path, params = {}) {
   const qs = new URLSearchParams(isToken ? params : { ...params, api_key: KEY });
@@ -76,4 +77,23 @@ export async function imdbIdFor(kind, id) {
   return (saved[key] = ext.imdb_id || null);
 }
 
-export const saveTmdbCache = async () => { await cache.save(); await imdbIds.save(); };
+// TMDB genre ids for a catalog item (movie Horror = 27). null if unknown.
+export async function tmdbGenres(m) {
+  if (!KEY) return null;
+  const saved = await genreCache.load();
+  const key = `${m.type}|${m.id}`;
+  if (key in saved) return saved[key];
+  const kind = m.type === "movie" ? "movie" : "tv";
+  let genres = null;
+  const tmdbId = m.id.match(/^tmdb:(\d+)$/)?.[1];
+  if (tmdbId) genres = (await api(`/${kind}/${tmdbId}`))?.genres?.map(g => g.id) ?? null;
+  else if (m.id.startsWith("tt")) {
+    const found = await api(`/find/${m.id}`, { external_source: "imdb_id" });
+    const res = found?.[`${kind}_results`]?.[0];
+    genres = res?.genre_ids ?? null;
+  }
+  if (genres) saved[key] = genres; // unknown: ask again next run
+  return genres;
+}
+
+export const saveTmdbCache = async () => { await cache.save(); await imdbIds.save(); await genreCache.save(); };

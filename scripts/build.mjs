@@ -3,7 +3,7 @@
 import { readFile } from "node:fs/promises";
 import { readJson, norm } from "./util.mjs";
 import { sources } from "./sources.mjs";
-import { tmdbEnabled } from "./tmdb.mjs";
+import { tmdbEnabled, tmdbGenres } from "./tmdb.mjs";
 import { fixArt, saveArtCache } from "./artwork.mjs";
 import { saveImdbCache } from "./imdb.mjs";
 import { writeCatalog, writeManifest } from "./catalog.mjs";
@@ -70,6 +70,21 @@ function removeSharedTitles(cats, results, priority) {
   }
 }
 
+// "excludeGenres": ["Horror"] on a catalog drops titles TMDB tags with that genre.
+const GENRE_IDS = { Horror: 27 };
+async function dropGenres(c, metas) {
+  if (!c.excludeGenres?.length) return metas;
+  if (!tmdbEnabled) { console.log("  genre filter skipped (needs TMDB_KEY)"); return metas; }
+  const banned = c.excludeGenres.map(g => GENRE_IDS[g]).filter(Boolean);
+  const kept = [];
+  for (const m of metas) {
+    const genres = await tmdbGenres(m);
+    if (genres?.some(id => banned.includes(id))) { console.log(`  ${c.excludeGenres.join("/")} removed: ${m.name}`); continue; }
+    kept.push(m);
+  }
+  return kept;
+}
+
 console.log(tmdbEnabled ? "TMDB artwork: on" : "TMDB artwork: off (no TMDB_KEY secret)");
 
 for (const addon of config.addons) {
@@ -83,7 +98,7 @@ for (const addon of config.addons) {
   for (const c of cats) {
     const key = `${c.type}/${c.id}`;
     try {
-      const metas = await loadCatalog(c, `${addon.folder}/catalog/${key}.json`);
+      const metas = await dropGenres(c, await loadCatalog(c, `${addon.folder}/catalog/${key}.json`));
       const unique = await fixArt(metas.filter((m, i) => metas.findIndex(x => x.id === m.id) === i));
       if (!unique.length) throw new Error("no items");
       results[key] = unique;

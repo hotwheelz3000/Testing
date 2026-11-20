@@ -258,7 +258,7 @@
     {
       "folder": "genres",
       "id": "com.hotwheelz3000.genres",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "name": "Latest Genres",
       "description": "Latest releases by genre, from snoak's MDBList lists",
       "catalogs": [
@@ -267,21 +267,30 @@
           "list": "snoak/latest-comedy-movies",
           "id": "mdb-comedy",
           "name": "Latest Comedy",
-          "type": "movie"
+          "type": "movie",
+          "excludeGenres": [
+            "Horror"
+          ]
         },
         {
           "source": "mdblist",
           "list": "snoak/latest-documentary-movies",
           "id": "mdb-documentary",
           "name": "Latest Documentary",
-          "type": "movie"
+          "type": "movie",
+          "excludeGenres": [
+            "Horror"
+          ]
         },
         {
           "source": "mdblist",
           "list": "snoak/latest-thriller-movies",
           "id": "mdb-thriller",
           "name": "Latest Thriller",
-          "type": "movie"
+          "type": "movie",
+          "excludeGenres": [
+            "Horror"
+          ]
         }
       ]
     }
