@@ -10,6 +10,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/52pI8oyYHiFM2FaA5GITauIVeXQ.png"
     },
     {
+      "id": "tt24818230",
+      "type": "movie",
+      "name": "Madden",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt24818230/img",
+      "background": "https://image.tmdb.org/t/p/w1280/lRsapglJZIyMfGl8oQyNASlZqDC.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jNbyhCjMpaTuofzIGiUvsjJs2eI.png"
+    },
+    {
       "id": "tt6611324",
       "type": "movie",
       "name": "Guarding Stars",
@@ -484,6 +493,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/tNBIV77HHlM7rJzmZE5VqA1ciEA.jpg"
     },
     {
+      "id": "tt42655940",
+      "type": "movie",
+      "name": "Happy Journey",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt42655940/img",
+      "background": "https://image.tmdb.org/t/p/w1280/z5LNU5zbxDDTlhEzhubUXPXgio.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt42655940/img"
+    },
+    {
       "id": "tt36841161",
       "type": "movie",
       "name": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -873,6 +891,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt36590417/img",
       "background": "https://image.tmdb.org/t/p/w1280/yzdMGn8IRHSGuV8AIzw19wkRU2W.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qXq4ZQXBUXigx151RfdXlGLyXSA.png"
+    },
+    {
+      "id": "tt32212403",
+      "type": "movie",
+      "name": "Sunny Dancer",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt32212403/img",
+      "background": "https://image.tmdb.org/t/p/w1280/hRsl1RMijpUCtLH3nZzRMnTjFYl.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/gaBt8DcniHM3OZZ1y63cUiqyG3C.png"
     },
     {
       "id": "tt32268992",
@@ -1616,24 +1643,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt39308444/img",
       "background": "https://image.tmdb.org/t/p/w1280/lEf2iA8635KtQsQHMMtuXKbXTFy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rCCJ7Aw42uIF62qs9GqVFSVt41L.png"
-    },
-    {
-      "id": "tt30447822",
-      "type": "movie",
-      "name": "Hai Jawani Toh Ishq Hona Hai",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt30447822/img",
-      "background": "https://image.tmdb.org/t/p/w1280/l5QgEvlfK6eHPM4YPEk7AArXmh8.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt30447822/img"
-    },
-    {
-      "id": "tt33397980",
-      "type": "movie",
-      "name": "Office Romance",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt33397980/img",
-      "background": "https://image.tmdb.org/t/p/w1280/1N5yz1IDw6Ci8le1YgeM6xtBijA.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tyCkFuocklvcHUhJHpCb6b81zI1.png"
     }
   ]
 }

@@ -11,6 +11,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/3iWhf5rCvpwxyMVBG8DYPQCyOk4.png"
     },
     {
+      "id": "tt50806490",
+      "type": "movie",
+      "name": "The Invisible Horse",
+      "releaseInfo": "",
+      "description": "Just when Jack begins to think he’s too old for Christmas, he ends up befriending an invisible creature that reminds him of what makes Christmas so magical.",
+      "poster": "https://image.tmdb.org/t/p/w500/r8hrwq16pdEp8z8QshG0994SY8k.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/opl2UOLSj7IiHidHm9NuIj2usla.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hJm8SgrJJlwQMM0YFu4OaFSjfxX.png"
+    },
+    {
       "id": "tt37850679",
       "type": "movie",
       "name": "Spidey and the Avengers: Halloween Team-Up!",
@@ -1633,16 +1643,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/A9VIIks5Mw3mjWStOj7FvIOGtmW.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/bsesTngzYDZiHiYpsq12av3bkk2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/m7wBCntCJluSknFNJGxu8XK8kqN.png"
-    },
-    {
-      "id": "tt21376900",
-      "type": "movie",
-      "name": "Bobi Wine: The People's President",
-      "releaseInfo": "",
-      "description": "Uganda has one the youngest populations in the world and one of its most flagrantly anti-democratic governments. These are ingredients for revolution, and Bobi Wine and his wife Barbie Kyagulanyi are stirring the pot. When the charismatic Bobi, a musician and member of parliament, announces his campaign for president, Uganda’s youth are ecstatic, filling parks and streets for every speech, and singing Bobi’s anthems of peace and freedom. But then comes the crackdown, orchestrated by Yoweri Museveni, a brutal dictator who has ruled Uganda for 36 years. Bobi and his crew survive arrests, beatings, torture, riots and raids.",
-      "poster": "https://image.tmdb.org/t/p/w500/gehzAC8zE85Qiyn5HcXgiky7W1W.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/eBWByfYdAY4Gcch07TIJ0WjpTbB.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/685AqOrB4yPpldKfV8iqUzb64cX.png"
     }
   ]
 }

@@ -4,7 +4,7 @@
       "id": "tt49910378",
       "type": "series",
       "name": "The Circle",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//aucWDMwWY2H6XDRaV68BZUvuDHt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//2y0LB12EE1QMu6nuFVgGjj6dVAb.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/aNaj93R2XE6FAmFbtYcG85aEWqS.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aoIibiG3Y1Wf5qkaeySMY6twLwE.png",
       "description": "This social experiment brings together everyday players and celebrities to compete side by side in a game of popularity where identity is ever-changing, and anyone can be anyone. Filmed in real time, the series gives viewers exclusive access as twists and player ratings unfold, with audience votes shaping the game. This fresh take supercharges the original's signature mix of strategy and deception into an addictive experience built for today's always-on audience.",
@@ -971,6 +971,51 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt12324366",
+      "type": "series",
+      "name": "Percy Jackson and the Olympians",
+      "poster": "https://resizing.flixster.com/oWwlqDkdwBdh9j24XDy2l53TILo=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDMzMGQ3ODgtM2UxYi00YWMxLTk2NDgtNWI5NWE2NmQzYWRlLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/iYxjFCbqSJyDDmAytShRw2n5ZgF.png",
+      "description": "Tomatometer 97%"
+    },
+    {
+      "id": "tt26743760",
+      "type": "series",
+      "name": "The Apothecary Diaries",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25535878_b_v8_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6JpmIe9cJcbG6hecyN6ml8AG6RC.png",
+      "description": ""
+    },
+    {
+      "id": "tt0123366",
+      "type": "series",
+      "name": "The View",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184466_b_v12_ah.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tHZsAFdtNsKNxE58jopl9Eh4f7a.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hGpt0llXFh5T3qDKxzeMNNh4TOB.png",
+      "description": ""
+    },
+    {
+      "id": "tt0056758",
+      "type": "series",
+      "name": "General Hospital",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
+      "description": ""
+    },
+    {
+      "id": "tt0159881",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
+      "description": ""
+    },
+    {
       "id": "tt0413573",
       "type": "series",
       "name": "Grey's Anatomy",
@@ -1025,12 +1070,12 @@
       "description": ""
     },
     {
-      "id": "tt0123366",
+      "id": "tt0072584",
       "type": "series",
-      "name": "The View",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184466_b_v12_ah.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tHZsAFdtNsKNxE58jopl9Eh4f7a.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hGpt0llXFh5T3qDKxzeMNNh4TOB.png",
+      "name": "Wheel of Fortune",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
       "description": ""
     },
     {
@@ -1043,21 +1088,20 @@
       "description": ""
     },
     {
-      "id": "tt0056758",
+      "id": "tt43677373",
       "type": "series",
-      "name": "General Hospital",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
+      "name": "Killer Investigations",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30247259_b_v12_al.jpg",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30247259_b_v12_al.jpg",
       "description": ""
     },
     {
-      "id": "tt0159881",
+      "id": "tt38642046",
       "type": "series",
-      "name": "Jeopardy!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
+      "name": "Next Level Baker",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29607199_b_v12_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zssSmaV1VF0l7GHiVCsRctMK50v.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt38642046/img",
       "description": ""
     },
     {
@@ -1132,15 +1176,6 @@
       "description": ""
     },
     {
-      "id": "tt0072584",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
-      "description": ""
-    },
-    {
       "id": "tt35257695",
       "type": "series",
       "name": "Ozark Law",
@@ -1170,7 +1205,7 @@
       "id": "tt50623990",
       "type": "series",
       "name": "True Tales of the Mob",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34316297_b_v12_ab.jpg",
+      "poster": "https://resizing.flixster.com/kac0mIACYGGhvf4Zo66zIziBP44=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34316297_b_v12_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3CttqwZMPDICm4aheq1PrLnrV3W.jpg",
       "description": ""
     },
@@ -1178,7 +1213,7 @@
       "id": "tt31844371",
       "type": "series",
       "name": "Vienna Game",
-      "poster": "https://resizing.flixster.com/iAoSluqqTw2FLkUAicHMXKl2LRM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNWI5ZWNmN2EtNjFlZC00YjI2LTkyZDctZWJiZjFmNDlhMDhhLnBuZw==",
+      "poster": "https://resizing.flixster.com/KCUHaHTKUzsFI2te5YPmeCmUMK0=/164x246/v2/https://resizing.flixster.com/iAoSluqqTw2FLkUAicHMXKl2LRM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNWI5ZWNmN2EtNjFlZC00YjI2LTkyZDctZWJiZjFmNDlhMDhhLnBuZw==",
       "background": "https://image.tmdb.org/t/p/w1280/hQ7pzPFt7HiwAnsTwTsUadwHu6A.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt31844371/img",
       "description": ""
@@ -1187,7 +1222,7 @@
       "id": "tt38027690",
       "type": "series",
       "name": "Sin City Rehab",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30859304_b_v12_ag.jpg",
+      "poster": "https://resizing.flixster.com/v0WwKo_hFXNHEOSzGSXVzn-GqUI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30859304_b_v12_ag.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jJKEyjK2rW4Bh8H5A08PAbJ4JmX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/gsRPlaVfdcqYBiIqLKikcdZFxQq.png",
       "description": ""
@@ -1196,7 +1231,7 @@
       "id": "tt1492088",
       "type": "series",
       "name": "Pawn Stars",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3565439_b_v12_ax.jpg",
+      "poster": "https://resizing.flixster.com/H4dJetffV67sHXqGFtpuEwOYZ-g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3565439_b_v12_ax.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eNOtlAJX7ISkgy7ABJ9HtJH5OAk.png",
       "description": ""
@@ -1549,15 +1584,6 @@
       "description": ""
     },
     {
-      "id": "tt26743760",
-      "type": "series",
-      "name": "The Apothecary Diaries",
-      "poster": "https://resizing.flixster.com/dho0sld55YiT7Va6xjBQNTUbRJE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25535878_b_v8_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/6JpmIe9cJcbG6hecyN6ml8AG6RC.png",
-      "description": ""
-    },
-    {
       "id": "tt13438882",
       "type": "series",
       "name": "Celebrity Wheel of Fortune",
@@ -1644,7 +1670,7 @@
       "poster": "https://resizing.flixster.com/fo4N0G72XtC94-9ZNt02R1DXfBU=/164x246/v2/https://resizing.flixster.com/HoycBkxX__qJYfoOAYIutqMasbY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODFlY2RmNWEtZTNjMy00ODA1LWE4N2ItNDYyMjVhZDUwMzViLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/kaugQAtftkyTmZe9DxZOu01AIA3.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/hJY5ujLN1bCiFBak8jPnUfBDs8L.png",
-      "description": ""
+      "description": "Tomatometer 20%"
     },
     {
       "id": "tt2964642",
@@ -1823,24 +1849,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/oyF43S8V9Vq2Q1EkDz08ldRLZpJ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qOd5TM3391sM7LWJshcN1DgInQT.png",
       "description": ""
-    },
-    {
-      "id": "tt36210894",
-      "type": "series",
-      "name": "The Drop: A Snowfall Saga",
-      "poster": "https://resizing.flixster.com/NXbvJQacsc-BPV7fRNabsYJmHZY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33473753_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ycLQYTgWfBq53fIkws0qIQOp62g.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/43wNg4tLfZFtiAYkzw7NoTa9Odp.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt37063558",
-      "type": "series",
-      "name": "R.J. Decker",
-      "poster": "https://resizing.flixster.com/G05YDgW2p1ZPSVFpJnvu7i7vBGE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32192609_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zOSuKcBjugAMLCKB1JulrXbNm7X.png",
-      "description": "Tomatometer 80%"
     }
   ]
 }

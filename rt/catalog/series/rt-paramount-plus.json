@@ -979,6 +979,24 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tt10827252",
+      "type": "series",
+      "name": "The Drew Barrymore Show",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
+      "description": ""
+    },
+    {
+      "id": "tt33270224",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rWpDBJIePBvmMD2GQk0BHRw8xgr.png",
+      "description": "Tomatometer 100%"
+    },
+    {
       "id": "tt33078239",
       "type": "series",
       "name": "Eternally Yours",
@@ -1033,15 +1051,6 @@
       "description": ""
     },
     {
-      "id": "tt10827252",
-      "type": "series",
-      "name": "The Drew Barrymore Show",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
-      "description": ""
-    },
-    {
       "id": "tt0069658",
       "type": "series",
       "name": "The Young and the Restless",
@@ -1069,21 +1078,21 @@
       "description": ""
     },
     {
-      "id": "tt13236336",
-      "type": "series",
-      "name": "Sacrifice",
-      "poster": "https://resizing.flixster.com/e8qYQ-QS62ZC4XQ0mgK87iWSa_g=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmY1ZjdmYjEtM2NlYi00MTZkLTkwNzgtMDQ2NzAzMWJjOGM3LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/5tMQYIpLEnzzCtEybLY9LdSlqnP.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/iF26hkMivqZyZhTKIKMx6621xAZ.png",
-      "description": ""
-    },
-    {
       "id": "tt0068120",
       "type": "series",
       "name": "The Price Is Right",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183911_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/o6q4702ze6nvWJUn9nMWEkQZdWY.png",
+      "description": ""
+    },
+    {
+      "id": "tt13236336",
+      "type": "series",
+      "name": "Sacrifice",
+      "poster": "https://resizing.flixster.com/e8qYQ-QS62ZC4XQ0mgK87iWSa_g=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmY1ZjdmYjEtM2NlYi00MTZkLTkwNzgtMDQ2NzAzMWJjOGM3LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/5tMQYIpLEnzzCtEybLY9LdSlqnP.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/iF26hkMivqZyZhTKIKMx6621xAZ.png",
       "description": ""
     },
     {
@@ -1134,7 +1143,7 @@
       "id": "tt7491982",
       "type": "series",
       "name": "FBI",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15528073_b_v12_bf.jpg",
+      "poster": "https://resizing.flixster.com/mlXk0-JZAUETnHQWFya3gfxRxSw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15528073_b_v12_bf.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/j9nU0GHNakbQhoFCDE61OrvMjTC.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uGbXiqbgvxpz33n1jJn4AfctFgV.png",
       "description": ""
@@ -1143,7 +1152,7 @@
       "id": "tt35515227",
       "type": "series",
       "name": "CIA",
-      "poster": "https://resizing.flixster.com/cJ3ojqRz5ljsh5DfuHd8JiOTIj4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZWNiNjdhZTYtODFhNy00NGY1LWE2ODYtMmU2ZGJmMjIwZGJjLmpwZw==",
+      "poster": "https://resizing.flixster.com/xWDUkbZGycqutXkVTrGQB9iSCW0=/164x246/v2/https://resizing.flixster.com/cJ3ojqRz5ljsh5DfuHd8JiOTIj4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZWNiNjdhZTYtODFhNy00NGY1LWE2ODYtMmU2ZGJmMjIwZGJjLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/faxI8ewOUkQRy4z4vwP6kci8Ilk.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/enUFBYILCUcrvtEg6EJXu37V0vR.png",
       "description": "Tomatometer 63%"
@@ -1152,7 +1161,7 @@
       "id": "tt36852013",
       "type": "series",
       "name": "Harlan Coben's Final Twist",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30177542_b_v12_aa.jpg",
+      "poster": "https://resizing.flixster.com/iZiwVXP7wbXYz2Y741C8oXuq9iA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30177542_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/cWpmxJNlQWOVF2wPH4TjzIozRZ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/32rj9BlkFpMSLwpbbwHQulXzEiW.png",
       "description": ""
@@ -1161,7 +1170,7 @@
       "id": "tt4458594",
       "type": "series",
       "name": "Blaze and the Monster Machines",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11129231_b_v11_cb.jpg",
+      "poster": "https://resizing.flixster.com/f5mZuKvwJgTp3Rq0eWwNqZRyvwk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11129231_b_v11_cb.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5KrC0kondGLZ6cgZNrOazPYSXGb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aW0PfdOZyf9JVh06Nee6DBikhjw.png",
       "description": ""
@@ -1215,15 +1224,6 @@
       "poster": "https://resizing.flixster.com/zXmpP_YA0-3nmlI2ZY98_3l5kTs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18864180_b_v10_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1h7eJs3UweHGQUGLKn6CixrAlEn.jpg",
       "description": ""
-    },
-    {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://resizing.flixster.com/IXQYxYQthurjfL8Cd4OSMw6UdVo=/164x246/v2/https://resizing.flixster.com/V3LduWMbAlkjqAUGqT_WXXcRNgY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTk3ODYyOWEtZDZiNi00NGIxLWE2YWEtZDdhM2JhMDliZjE1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zmSrXguBz56KTnCR7Tvi5vLjjI1.png",
-      "description": "Tomatometer 90%"
     },
     {
       "id": "tt32268630",
