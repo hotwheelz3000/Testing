@@ -979,60 +979,6 @@
       "releaseInfo": "2022"
     },
     {
-      "id": "tt10827252",
-      "type": "series",
-      "name": "The Drew Barrymore Show",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
-      "description": ""
-    },
-    {
-      "id": "tt33270224",
-      "type": "series",
-      "name": "Cupertino",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/rWpDBJIePBvmMD2GQk0BHRw8xgr.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt33078239",
-      "type": "series",
-      "name": "Eternally Yours",
-      "poster": "https://resizing.flixster.com/hpN3nVIV4rxa3Y4VUqREGO7TgVM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzZmOWJjYWQtMDg2Ni00NmFlLWE2NjEtZWZlMmY0ZGVjMmNmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/s5osBcZC9XgCDQCghdaf37UEvbO.png",
-      "description": "Tomatometer 75%"
-    },
-    {
-      "id": "tt26591110",
-      "type": "series",
-      "name": "Elsbeth",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24723426_b_v12_ai.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/5PqkJBZdzkZnfg0LCuKcrHlspco.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cAG0bwJVYBbJwl0zyVZGI4M3Zcj.png",
-      "description": ""
-    },
-    {
-      "id": "tt31589662",
-      "type": "series",
-      "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
-      "description": ""
-    },
-    {
-      "id": "tt30292502",
-      "type": "series",
-      "name": "Aussie Shore",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28407528_b_v8_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uozRNiPMkcN04MOtXX4RELP6ja7.png",
-      "description": ""
-    },
-    {
       "id": "tt32125269",
       "type": "series",
       "name": "Beyond the Gates",
@@ -1042,12 +988,12 @@
       "description": "Tomatometer 100%"
     },
     {
-      "id": "tt0115147",
+      "id": "tt10827252",
       "type": "series",
-      "name": "The Daily Show",
-      "poster": "https://resizing.flixster.com/49lTpKcaHWpx6B_BKooAcGifciA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDI0ODgwMjItNmIyMi00MDA4LTkxYjItNzM2NGJhZjE1NDMwLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9eInNwjZGU0ZNQM0QYgJwFpZ7ka.png",
+      "name": "The Drew Barrymore Show",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
       "description": ""
     },
     {
@@ -1069,21 +1015,75 @@
       "description": ""
     },
     {
-      "id": "tt12915960",
-      "type": "series",
-      "name": "The Patrick Star Show",
-      "poster": "https://resizing.flixster.com/mKjU_UncKu5b8JxiCbWlMTgVRAA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk3MjY1NS53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8mRIMrEi0nWff08dODI1OyDG75H.png",
-      "description": ""
-    },
-    {
       "id": "tt0068120",
       "type": "series",
       "name": "The Price Is Right",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183911_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/o6q4702ze6nvWJUn9nMWEkQZdWY.png",
+      "description": ""
+    },
+    {
+      "id": "tt33270224",
+      "type": "series",
+      "name": "Cupertino",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rWpDBJIePBvmMD2GQk0BHRw8xgr.png",
+      "description": "Tomatometer 100%"
+    },
+    {
+      "id": "tt26591110",
+      "type": "series",
+      "name": "Elsbeth",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24723426_b_v12_ai.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5PqkJBZdzkZnfg0LCuKcrHlspco.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cAG0bwJVYBbJwl0zyVZGI4M3Zcj.png",
+      "description": ""
+    },
+    {
+      "id": "tt33078239",
+      "type": "series",
+      "name": "Eternally Yours",
+      "poster": "https://resizing.flixster.com/hpN3nVIV4rxa3Y4VUqREGO7TgVM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzZmOWJjYWQtMDg2Ni00NmFlLWE2NjEtZWZlMmY0ZGVjMmNmLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/1bmsSexBYKUlkst0TgHZCdf4EvH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/s5osBcZC9XgCDQCghdaf37UEvbO.png",
+      "description": "Tomatometer 75%"
+    },
+    {
+      "id": "tt31589662",
+      "type": "series",
+      "name": "Georgie & Mandy's First Marriage",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
+      "description": ""
+    },
+    {
+      "id": "tt30292502",
+      "type": "series",
+      "name": "Aussie Shore",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28407528_b_v8_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uozRNiPMkcN04MOtXX4RELP6ja7.png",
+      "description": ""
+    },
+    {
+      "id": "tt0115147",
+      "type": "series",
+      "name": "The Daily Show",
+      "poster": "https://resizing.flixster.com/49lTpKcaHWpx6B_BKooAcGifciA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDI0ODgwMjItNmIyMi00MDA4LTkxYjItNzM2NGJhZjE1NDMwLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9eInNwjZGU0ZNQM0QYgJwFpZ7ka.png",
+      "description": ""
+    },
+    {
+      "id": "tt12915960",
+      "type": "series",
+      "name": "The Patrick Star Show",
+      "poster": "https://resizing.flixster.com/mKjU_UncKu5b8JxiCbWlMTgVRAA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk3MjY1NS53ZWJw",
+      "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8mRIMrEi0nWff08dODI1OyDG75H.png",
       "description": ""
     },
     {
@@ -1134,7 +1134,7 @@
       "id": "tt8273006",
       "type": "series",
       "name": "Disasters at Sea",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15930957_b_v12_at.jpg",
+      "poster": "https://resizing.flixster.com/nRhHf3SjCLA7YBkRC6mMGtjOHX8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15930957_b_v12_at.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/mNQlC1BfJtJTQy2IZXS7zCaefBb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/smoDuHSKiQE41zoueFyzW9CNqKN.png",
       "description": ""
@@ -1267,6 +1267,7 @@
       "name": "The Jigsaw Puzzle Murder",
       "poster": "https://resizing.flixster.com/lynYp_st6c7umlcAkj0Xv-R9q6w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34512625_b_v11_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pA12JxsM7KppNLeQq5CU7G2aU7L.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt50940908/img",
       "description": ""
     },
     {
@@ -1276,6 +1277,15 @@
       "poster": "https://resizing.flixster.com/veWHhaiAIdHZQ17bv_2WTD-_MdI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34366372_b_v11_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9TTm3QTyku7TDlo5pJhKKke9asD.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/r0oi6zToPlR2dooc7EPB2hTFENu.png",
+      "description": ""
+    },
+    {
+      "id": "tt3121722",
+      "type": "series",
+      "name": "PAW Patrol",
+      "poster": "https://resizing.flixster.com/iHos2xsU2_fWo6J_61LDzvGzk7k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10077400_b_v12_db.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fJqJEoKWozJIgPKiOCwcOFqwAIj.png",
       "description": ""
     },
     {

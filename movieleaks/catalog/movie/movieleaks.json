@@ -46,7 +46,7 @@
       "name": "No Rest for the Wicked",
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt35669487/img",
-      "background": "https://image.tmdb.org/t/p/w1280/2HxNJ0RWpTE4liAC2MHL2QYjS2Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/n7DcvhaideBFMQssXHxxCLmwH23.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt35669487/img",
       "description": "Posted on r/movieleaks 2026-11-19"
     },
@@ -1712,26 +1712,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt12446086/img",
       "background": "https://image.tmdb.org/t/p/w1280/3xiLFw1af1NtAxIcgLaGNVCJtFJ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/lpz2s32fiYwe9OVv5BmdjSC8BTF.png",
-      "description": "Posted on r/movieleaks 2026-09-22"
-    },
-    {
-      "id": "tt6628920",
-      "type": "movie",
-      "name": "Idiots",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt6628920/img",
-      "background": "https://image.tmdb.org/t/p/w1280/keFyE4bqrfiXruon9i44q2tMKbl.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/icOjb0xgKgdkNhxEhFMYGOAdryO.png",
-      "description": "Posted on r/movieleaks 2026-09-22"
-    },
-    {
-      "id": "tt37971717",
-      "type": "movie",
-      "name": "One Last Shot",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt37971717/img",
-      "background": "https://image.tmdb.org/t/p/w1280/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eUfI2sn6ZYlKfjFxNY7EKIGJIa9.png",
       "description": "Posted on r/movieleaks 2026-09-22"
     }
   ]

@@ -1027,6 +1027,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/fcIKzqbhtlUeWOvYjFdkR8rZOAC.png"
     },
     {
+      "id": "tt22773644",
+      "type": "movie",
+      "name": "The Dead Don't Hurt",
+      "releaseInfo": "",
+      "description": "In the 1860s, fiercely independent French-Canadian Vivienne Le Coudy embarks on a journey with Danish immigrant Holger Olsen, attempting to forge a life together in the dusty town of Elk Flats, Nevada. When Holger decides to go fight for the Union in the burgeoning Civil War, Vivienne must fend for herself, which isn't easy in a town controlled by a corrupt mayor.",
+      "poster": "https://image.tmdb.org/t/p/w500/h5rP0l3n6y8GNMuPVrUANKnQkSY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jyj5u40r8fIwzGWpUoYEICNsoTi.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eJz4l3Ve3U54e2Jkfmv9JUNioAn.png"
+    },
+    {
       "id": "tt16426418",
       "type": "movie",
       "name": "Challengers",
@@ -1075,16 +1085,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wTW2t8ocWDlHns8I7vQxuqkyK58.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/v2oPRCnWADeQhEAAUKD7DfMdScP.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eUIXBjEbyibFHpyxenEVxB7OqqL.png"
-    },
-    {
-      "id": "tt22773644",
-      "type": "movie",
-      "name": "The Dead Don't Hurt",
-      "releaseInfo": "",
-      "description": "In the 1860s, fiercely independent French-Canadian Vivienne Le Coudy embarks on a journey with Danish immigrant Holger Olsen, attempting to forge a life together in the dusty town of Elk Flats, Nevada. When Holger decides to go fight for the Union in the burgeoning Civil War, Vivienne must fend for herself, which isn't easy in a town controlled by a corrupt mayor.",
-      "poster": "https://image.tmdb.org/t/p/w500/h5rP0l3n6y8GNMuPVrUANKnQkSY.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/jyj5u40r8fIwzGWpUoYEICNsoTi.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eJz4l3Ve3U54e2Jkfmv9JUNioAn.png"
     },
     {
       "id": "tt8542964",

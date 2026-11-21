@@ -54,7 +54,7 @@
       "id": "tt44079238",
       "type": "series",
       "name": "The Law of Beasts",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9anIbazZJUteF9FLvdSsISJcNNq.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jnftYgGREN8IN1SgbYRdvHTUkJC.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/iMvGSFcxzvwLWyHDOLqwDX9JQ27.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/tyHxcXqXV8qCFRwMFoKSL1yxjN7.png",
       "description": "When the case of a child serial killer resurfaces after 25 years as an unresolved legal and social problem, two former friends are forced to confront the choices that broke their friendship and shaped their lives.",
@@ -141,7 +141,7 @@
       "id": "tt8014982",
       "type": "series",
       "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zleCYDRbW5mKwgZwVK4SNIrKXWx.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/c7PCh5wDlXODksBXElQHiotV9M5.png",
       "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
@@ -952,12 +952,39 @@
       "description": ""
     },
     {
+      "id": "tt31106862",
+      "type": "series",
+      "name": "Happy's Place",
+      "poster": "https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
+      "description": ""
+    },
+    {
+      "id": "tt32344704",
+      "type": "series",
+      "name": "Tougen Anki",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5KJjTVvl4ZDFJNHT5NV6etyBHCy.png",
+      "description": ""
+    },
+    {
       "id": "tt0206512",
       "type": "series",
       "name": "SpongeBob SquarePants",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
+      "description": ""
+    },
+    {
+      "id": "tt13292830",
+      "type": "series",
+      "name": "Batwheels",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22854028_b_v12_as.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tRo9pMhE2OOrePz4Pw3eirPBnxr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aBZ5mKd2q76V2jK30epONCFvE16.png",
       "description": ""
     },
     {
@@ -1044,7 +1071,7 @@
       "id": "tt30003786",
       "type": "series",
       "name": "The Great Indian Kapil Show",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26973720_b_v8_aa.jpg",
+      "poster": "https://resizing.flixster.com/2dup6x3S8MhwJA8kImAaT5uMpkI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26973720_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/w8L2oVjsSRZdZ1Wcszot9cKZMRO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ulJpJulH2l9OKopOKZuWmZXKDhW.png",
       "description": ""
@@ -1053,7 +1080,7 @@
       "id": "tt1871731",
       "type": "series",
       "name": "LEGO Ninjago: Masters of Spinjitzu",
-      "poster": "https://resizing.flixster.com/QoZvwvtqy0gWl84YbZDZFgxynug=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjU0NDMzLndlYnA=",
+      "poster": "https://resizing.flixster.com/Jx0BHqoRUikWRFbrPOaHcSHTHYs=/164x246/v2/https://resizing.flixster.com/QoZvwvtqy0gWl84YbZDZFgxynug=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjU0NDMzLndlYnA=",
       "background": "https://image.tmdb.org/t/p/w1280/ptEtIr3rVuAJpmbwaLJJqND6HVq.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7MSskBZ9qhIthuhqCBiBLpIyo7h.png",
       "description": ""
@@ -1062,9 +1089,18 @@
       "id": "tt39044730",
       "type": "series",
       "name": "Oxytoxin",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
+      "poster": "https://resizing.flixster.com/lmT8rqjNalLwwiFMZd08ZY8nxDE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
+      "description": ""
+    },
+    {
+      "id": "tt0131179",
+      "type": "series",
+      "name": "Detective Conan",
+      "poster": "https://resizing.flixster.com/ndzulE4JKoCorGnt_WxhxhpaG0k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p613567_b_v8_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vX0VEwZViadujTUGcL0EU5orV8p.png",
       "description": ""
     },
     {
@@ -1074,15 +1110,6 @@
       "poster": "https://resizing.flixster.com/Cdnzd39Lz0m82wM31EXhwhorLfM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22213607_b_v12_an.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/r6jUY6q3ObYOeFFWxM7jemS7IWE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/p3ERm7hTttnkOSb57Yq5xOZRlA3.png",
-      "description": ""
-    },
-    {
-      "id": "tt31106862",
-      "type": "series",
-      "name": "Happy's Place",
-      "poster": "https://resizing.flixster.com/5snUXKDuVfbUwkzztEAVYy3FRXI=/164x246/v2/https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
       "description": ""
     },
     {
@@ -1128,15 +1155,6 @@
       "poster": "https://resizing.flixster.com/SI77be-2hNTIofs47mctgenjSQM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25999448_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/o1ak41zRPYCQ6WCWSsUfuq26jdB.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9v8hgnxKy0AV3QwqAho3hsgdRDH.png",
-      "description": ""
-    },
-    {
-      "id": "tt32344704",
-      "type": "series",
-      "name": "Tougen Anki",
-      "poster": "https://resizing.flixster.com/tnWtO30zGQIs9kjBRdjdzOolT2s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5KJjTVvl4ZDFJNHT5NV6etyBHCy.png",
       "description": ""
     },
     {
@@ -1227,33 +1245,6 @@
       "poster": "https://resizing.flixster.com/BbN7pzdvDZJF3KhW1p2DPW0E7cQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12576123_b_v11_bd.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/d0axpGojOqDag5lDa0eNSEtw11l.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mYDlRCy9uvowwwyYWQbMj9HUKay.png",
-      "description": ""
-    },
-    {
-      "id": "tt13292830",
-      "type": "series",
-      "name": "Batwheels",
-      "poster": "https://resizing.flixster.com/FP6AHpCqvEiZM2eNNv--DxXisGk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22854028_b_v12_as.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tRo9pMhE2OOrePz4Pw3eirPBnxr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aBZ5mKd2q76V2jK30epONCFvE16.png",
-      "description": ""
-    },
-    {
-      "id": "tt0131179",
-      "type": "series",
-      "name": "Detective Conan",
-      "poster": "https://resizing.flixster.com/ndzulE4JKoCorGnt_WxhxhpaG0k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p613567_b_v8_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vX0VEwZViadujTUGcL0EU5orV8p.png",
-      "description": ""
-    },
-    {
-      "id": "tt3121722",
-      "type": "series",
-      "name": "PAW Patrol",
-      "poster": "https://resizing.flixster.com/iHos2xsU2_fWo6J_61LDzvGzk7k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10077400_b_v12_db.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fJqJEoKWozJIgPKiOCwcOFqwAIj.png",
       "description": ""
     },
     {
@@ -1602,15 +1593,6 @@
       "poster": "https://resizing.flixster.com/3yKuuyhr0-295SUMT40ks8huKjo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31790655_b_v8_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/uqcUOKfJviztoNhiKxNXq7SBdUa.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/f5261k7TXm7TupLaXE3ufvnaPBH.png",
-      "description": ""
-    },
-    {
-      "id": "tt4508624",
-      "type": "series",
-      "name": "My Lottery Dream Home",
-      "poster": "https://resizing.flixster.com/JJ1Oo2YsnRnCWIlwixXEcZu7J18=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11547416_b_v12_bl.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/mvXfPSzWlOIwabxiPVtj2vAKqmK.png",
       "description": ""
     },
     {

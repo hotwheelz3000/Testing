@@ -611,6 +611,7 @@
       "name": "Caroline Flack: Search for the Truth",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//libvyWPKCL1OI0A5LsGIqSXNs3f.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/aG9s3eFH5a7rEzF4843XxDsZkGn.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/gZJb6gpQCsrbIfX2IOea0POSdjE.png",
       "description": "Follow Caroline's mother, Christine, as she investigates the truth about her daughter's final months - uncovering new shocking details, asking difficult questions, and exposing the misrepresentations, pressures, and failures from institutions and decision makers that shaped Caroline's final days.",
       "releaseInfo": "2025"
     },
@@ -822,6 +823,24 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tt0784896",
+      "type": "series",
+      "name": "Mickey Mouse Clubhouse+",
+      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
+      "description": ""
+    },
+    {
+      "id": "tt19868830",
+      "type": "series",
+      "name": "Pupstruction",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24696928_b_v12_ba.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f9iKdNLMbL2VFKtMlIz3pkzjKcT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eaOKv0AV9rEHLSTF2s9tsXaNZJs.png",
+      "description": ""
+    },
+    {
       "id": "tt9581768",
       "type": "series",
       "name": "The Circle",
@@ -840,15 +859,6 @@
       "description": ""
     },
     {
-      "id": "tt0784896",
-      "type": "series",
-      "name": "Mickey Mouse Clubhouse+",
-      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
-      "description": ""
-    },
-    {
       "id": "tt14040910",
       "type": "series",
       "name": "Queens",
@@ -864,15 +874,6 @@
       "poster": "https://resizing.flixster.com/fkSHjYqx3cItyn9S8FfgK7-gbIk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18896487_b_v12_ae.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yLsM5zTbhNrElQHvunRAm7ZNWHX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/dC41DafET3iXw2sJH6rFe9CY19D.png",
-      "description": ""
-    },
-    {
-      "id": "tt19868830",
-      "type": "series",
-      "name": "Pupstruction",
-      "poster": "https://resizing.flixster.com/n4uK0kACoJyUM1yBXngZtgwG2Q8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24696928_b_v12_ba.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f9iKdNLMbL2VFKtMlIz3pkzjKcT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eaOKv0AV9rEHLSTF2s9tsXaNZJs.png",
       "description": ""
     },
     {
