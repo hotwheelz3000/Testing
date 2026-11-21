@@ -1006,6 +1006,15 @@
       "description": ""
     },
     {
+      "id": "tt10521222",
+      "type": "series",
+      "name": "The Last Cowboy",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17012883_b_v12_ah.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tLLKdlawWsTeWoQNYLxETrJigVA.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7dG9DCWNbSmn9mrsfIqT688OC6j.png",
+      "description": ""
+    },
+    {
       "id": "tt1536749",
       "type": "series",
       "name": "Let's Make a Deal",
@@ -1126,7 +1135,7 @@
       "id": "tt12849834",
       "type": "series",
       "name": "Tyler Perry's Assisted Living",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18537710_b_v12_aj.jpg",
+      "poster": "https://resizing.flixster.com/b-eSSrfb64VugFLSbJJewrOCQ-A=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18537710_b_v12_aj.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3zAzYjSUMYjdeY5gBTe7HTP0sMt.jpg",
       "description": ""
     },
@@ -1242,15 +1251,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/lU3esiXkPlIccL8FUcrSE7LzOzy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/pH5p7NcPc86pWd0zvu0t8Jg8cfl.png",
       "description": "Tomatometer 82%"
-    },
-    {
-      "id": "tt10521222",
-      "type": "series",
-      "name": "The Last Cowboy",
-      "poster": "https://resizing.flixster.com/lrTPraXkM0tZy3GaN1mOemODU1Q=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17012883_b_v12_ah.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tLLKdlawWsTeWoQNYLxETrJigVA.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7dG9DCWNbSmn9mrsfIqT688OC6j.png",
-      "description": ""
     },
     {
       "id": "tt0121955",

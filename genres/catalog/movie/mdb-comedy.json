@@ -538,6 +538,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/ivQkigjM2ueqYXgAnNPE34AWFza.png"
     },
     {
+      "id": "tt29714073",
+      "type": "movie",
+      "name": "Bad Apples",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt29714073/img",
+      "background": "https://image.tmdb.org/t/p/w1280/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/2D0cjEmXPgshMO0kRlxy1Bwa9Bd.png"
+    },
+    {
       "id": "tt35448218",
       "type": "movie",
       "name": "Epic - First Semester",
@@ -1427,7 +1436,7 @@
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt40572470/img",
       "background": "https://image.tmdb.org/t/p/w1280/mJbEcp6qEqE7OcfecjzUPKBzL9R.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt40572470/img"
+      "logo": "https://image.tmdb.org/t/p/w500/z1kYqZm61XZjS6o9WJGVe9JadVL.png"
     },
     {
       "id": "tt34888871",
@@ -1634,15 +1643,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt32261856/img",
       "background": "https://image.tmdb.org/t/p/w1280/sJzinZsksOJpEWVOsT6p7HZYf67.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/iKoTOfnkcqIrucZEwUJy6fsAV9s.png"
-    },
-    {
-      "id": "tt39385419",
-      "type": "movie",
-      "name": "Parimala and Co",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt39385419/img",
-      "background": "https://image.tmdb.org/t/p/w1280/hcQ9Kcmc34yYElii4fjFxABQYqq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9JgWt1EBzYoTwpSePKooCSIXvEf.png"
     }
   ]
 }

@@ -405,16 +405,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/5Chbb8CxfpXrVT9iWIXtxAY1mi9.png"
     },
     {
-      "id": "tt0090156",
-      "type": "movie",
-      "name": "Thirteen at Dinner",
-      "releaseInfo": "",
-      "description": "Actress Jane Wilkinson wants a divorce, but her husband, Lord Edgware, refuses. She convinces Hercule Poirot to use his famed tact and logic to make her case. Lord Edgware turns up murdered, a well-placed knife wound at the base of his neck. It will take the precise Poirot to sort out the lies from the alibis - and find the criminal before another victim dies.",
-      "poster": "https://image.tmdb.org/t/p/w500/id2wDf7mKgI5oHIRefIz31hhrXC.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7OUMUPYW1EZ34WdY6mnCWpV0jZd.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8RagPJZBBUeRLb6V8AZwK9kDvuM.png"
-    },
-    {
       "id": "tt0086904",
       "type": "movie",
       "name": "Another Country",
@@ -423,15 +413,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/njhQ5GKN5zrt53NjMQOraFAm7QF.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zxbnpxVMl6MpV3uwhmXWKQ7yvHf.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/zqAASKF27dv70XbFNi4z0QH5DX0.png"
-    },
-    {
-      "id": "tt0085296",
-      "type": "movie",
-      "name": "A Caribbean Mystery",
-      "releaseInfo": "",
-      "description": "While Miss Marple is on vacation in a luxurious Caribbean resort, a fellow guest confides he has evidence that another resident of the hotel is an unscrupulous serial murderer but is poisoned before he can reveal his identity to her.",
-      "poster": "https://image.tmdb.org/t/p/w500/rv8feZBvdk15ooHd6EhOLNXV93q.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/diMHBtg8AXUuoLi8JgxScy2M5hJ.jpg"
     },
     {
       "id": "tt0084647",
@@ -526,36 +507,6 @@
       "description": "Story of the life of Quentin Crisp, an Englishman who was brave enough to live his life according to his own style even in the hostile days of WW2.",
       "poster": "https://image.tmdb.org/t/p/w500/bdKnysyR5WLkbr335Uti8FF9OJQ.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rNQQwQC31qXv1cbNGdKMLgubNHZ.jpg"
-    },
-    {
-      "id": "tt0060094",
-      "type": "movie",
-      "name": "The Alphabet Murders",
-      "releaseInfo": "",
-      "description": "The Belgian detective Hercule Poirot investigates a series of murders in London in which the victims are killed according to their initials.",
-      "poster": "https://image.tmdb.org/t/p/w500/AiBmQsxpMage7Vbs7NgUZT4EkhY.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zCHWazmCt8ljDXGD0ikeCddZ5dE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7Y0A3J2eDGdb9uHNqm7tDUhHksc.png"
-    },
-    {
-      "id": "tt0058382",
-      "type": "movie",
-      "name": "Murder Ahoy",
-      "releaseInfo": "",
-      "description": "During an annual board of trustees meeting, one of the trustees dies. Miss Marple thinks he’s been poisoned after finding a chemical on him. She sets off to investigate at the ship where he had just come from. The fourth and final film from the Miss Marple series starring Margaret Rutherford as the quirky amateur detective.",
-      "poster": "https://image.tmdb.org/t/p/w500/rfWqXgr0yVz8Ml4JdUEBOmN6KrW.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ahwvpGrljmcmBTlGH9AogOCs7eW.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4J2N9pC9PJTR8Wpb0sbttjkvMMM.png"
-    },
-    {
-      "id": "tt0055205",
-      "type": "movie",
-      "name": "Murder She Said",
-      "releaseInfo": "",
-      "description": "Miss Marple believes she's seen a murder in a passing-by train, yet when the police find no evidence she decides to investigate it on her own.",
-      "poster": "https://image.tmdb.org/t/p/w500/tqnUJyeirufO0q29PoSPaCpB27E.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yhz3KYKM9xzjuRyTz1aAQXsTPig.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2IYgClwEzdaIGdhYOJrzUfbmR0B.png"
     },
     {
       "id": "tt0046222",

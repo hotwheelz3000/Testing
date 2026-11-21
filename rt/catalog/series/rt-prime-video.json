@@ -978,6 +978,14 @@
       "description": ""
     },
     {
+      "id": "tt32625029",
+      "type": "series",
+      "name": "LOL: Last One Laughing Philippines",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27777391_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zyUpRvjs1OPyGkWHqoTws1GFy35.jpg",
+      "description": ""
+    },
+    {
       "id": "tt1286677",
       "type": "series",
       "name": "Forbidden Love",
@@ -1026,16 +1034,33 @@
       "id": "tt4634294",
       "type": "series",
       "name": "StarTalk",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11588028_b_v8_at.jpg",
+      "poster": "https://resizing.flixster.com/T8-F0EnVlvJOXbWOD3L_IIiiEZc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11588028_b_v8_at.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7ysNbTEttcxUq0MJwqWe3MO30Qy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vXdweEvwvXj1su0Ye79LCkBG1SB.png",
+      "description": ""
+    },
+    {
+      "id": "tt10161644",
+      "type": "series",
+      "name": "To Dine For With Kate Sullivan",
+      "poster": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
+      "background": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
+      "description": ""
+    },
+    {
+      "id": "tt14070666",
+      "type": "series",
+      "name": "Home Again With the Fords",
+      "poster": "https://resizing.flixster.com/Qow-PY72H6gs9_b9r3CVQpDR2Eg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19070931_b_v12_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/23QYUYHAq6Z18lUEM2AcUJEcf85.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qShSGRotZC1oPKOuextu6p0IMAV.png",
       "description": ""
     },
     {
       "id": "tt7316998",
       "type": "series",
       "name": "House of Games",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "poster": "https://resizing.flixster.com/tKy6Raroqx8hHe6K8Ee1vFQjqXw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
       "description": ""
