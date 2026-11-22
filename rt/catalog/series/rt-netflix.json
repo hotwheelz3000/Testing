@@ -329,7 +329,7 @@
       "id": "tt46658083",
       "type": "series",
       "name": "The New Stanford Prison Experiment",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//heoESrHAdmPeYECs2B7R8RIqLyN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//uQGScYnHfK4HsCYRstYpPDtj6ZL.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/H8VA7K15NWVKLbUbp8ZQ17zvU2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ERDwCJm22CvH02X8daZkAqVhdO.png",
       "description": "In this modern reimagining of the infamous study, 30 people enter a real prison for two weeks and shifting power dynamics expose what they're capable of.",
@@ -936,6 +936,15 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt0131179",
+      "type": "series",
+      "name": "Detective Conan",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p613567_b_v8_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vX0VEwZViadujTUGcL0EU5orV8p.png",
+      "description": ""
+    },
+    {
       "id": "tt11041332",
       "type": "series",
       "name": "Yellowjackets",
@@ -1063,7 +1072,7 @@
       "id": "tt32766897",
       "type": "series",
       "name": "Ranma 1/2",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28175579_b_v8_ab.jpg",
+      "poster": "https://resizing.flixster.com/PelKzcnZLDyYX7vSwsaNP2vNBOg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28175579_b_v8_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ajJxeM5CIDV8fMQZU3sHSfTIVKb.png",
       "description": ""
@@ -1093,15 +1102,6 @@
       "poster": "https://resizing.flixster.com/lmT8rqjNalLwwiFMZd08ZY8nxDE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
-      "description": ""
-    },
-    {
-      "id": "tt0131179",
-      "type": "series",
-      "name": "Detective Conan",
-      "poster": "https://resizing.flixster.com/ndzulE4JKoCorGnt_WxhxhpaG0k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p613567_b_v8_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vX0VEwZViadujTUGcL0EU5orV8p.png",
       "description": ""
     },
     {

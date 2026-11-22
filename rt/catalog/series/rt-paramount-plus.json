@@ -979,6 +979,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://resizing.flixster.com/V3LduWMbAlkjqAUGqT_WXXcRNgY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTk3ODYyOWEtZDZiNi00NGIxLWE2YWEtZDdhM2JhMDliZjE1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zmSrXguBz56KTnCR7Tvi5vLjjI1.png",
+      "description": "Tomatometer 90%"
+    },
+    {
       "id": "tt32125269",
       "type": "series",
       "name": "Beyond the Gates",
@@ -988,21 +997,21 @@
       "description": "Tomatometer 100%"
     },
     {
-      "id": "tt10827252",
-      "type": "series",
-      "name": "The Drew Barrymore Show",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
-      "description": ""
-    },
-    {
       "id": "tt0069658",
       "type": "series",
       "name": "The Young and the Restless",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183904_b_v12_ai.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/24plaX4WSNEbqx74MzZBLPwlpBE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7kDWTV2oeNucKzSjyURtuoq7iFh.png",
+      "description": ""
+    },
+    {
+      "id": "tt10827252",
+      "type": "series",
+      "name": "The Drew Barrymore Show",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18629596_b_v12_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zv0KJTB36V59qBfVPd4c5FADQOk.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fwch6KV8DBlIZkFK3RRlZjfroTr.svg",
       "description": ""
     },
     {

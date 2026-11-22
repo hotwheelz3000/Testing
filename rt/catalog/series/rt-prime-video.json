@@ -1,11 +1,22 @@
 {
   "metas": [
     {
+      "id": "tt43620104",
+      "type": "series",
+      "name": "Mascarade",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gdDUz1FqDDN2criezLPyQ3j0qdu.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/1J4KaCuH7w0xYiEdXz9P8ePxO89.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43620104/img",
+      "description": "They've starred in tons of movies. He hasn't seen a single one. Welcome to Mascarade, where Monsieur Loris must unmask French cinema stars.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tt50666033",
       "type": "series",
       "name": "MELANIA the Series",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zSrsB8xxvTHGCy4Q4ci5FDxipna.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//75uNmW51SXsljGTFpNuH464eW4r.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ithzPRYsTWy5umOK9rSbTAiDGat.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g2DIcPjjMHt3whSwfmPOxeq9a0G.png",
       "description": "Experience Melania Trump's transition to First Lady as she navigates the White House and puts her mission into action.",
       "releaseInfo": "2026"
     },
@@ -932,23 +943,22 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt33546863",
+      "id": "tt2169245",
       "type": "series",
-      "name": "Off Campus",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vSCRiiYfTjrIcdyJhb8xyLE3Tdf.png",
-      "description": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
-      "releaseInfo": "2026"
+      "name": "MeatEater",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9008313_b_v13_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ejxWnm30XZh7Kq4xmoZR6i4ZelU.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lMNvGLOvDcp4ODbNhHDNKyfTKyB.png",
+      "description": ""
     },
     {
-      "id": "tt33043892",
+      "id": "tt1190931",
       "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://resizing.flixster.com/V3LduWMbAlkjqAUGqT_WXXcRNgY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTk3ODYyOWEtZDZiNi00NGIxLWE2YWEtZDdhM2JhMDliZjE1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zmSrXguBz56KTnCR7Tvi5vLjjI1.png",
-      "description": "Tomatometer 90%"
+      "name": "American Greed",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185958_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/AqrHCKseQYMcdrMxFtCMYj56wUD.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wtNDQ8RlApxBDefa7r7Fzn8mHlw.png",
+      "description": ""
     },
     {
       "id": "tt6151526",
@@ -1013,21 +1023,21 @@
       "description": ""
     },
     {
-      "id": "tt0159876",
-      "type": "series",
-      "name": "Great Performances",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184075_b_v11_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/agKG106qEyccmflyi3zwHywuOtR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4E6r2nNUrnWDtujtPha0qKUUrct.png",
-      "description": ""
-    },
-    {
       "id": "tt0924651",
       "type": "series",
       "name": "The Graham Norton Show",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186449_b_v11_an.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5UNcEz7Lc3OGilpPn1Tb9cd1xsc.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png",
+      "description": ""
+    },
+    {
+      "id": "tt0159876",
+      "type": "series",
+      "name": "Great Performances",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184075_b_v11_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/agKG106qEyccmflyi3zwHywuOtR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/4E6r2nNUrnWDtujtPha0qKUUrct.png",
       "description": ""
     },
     {
@@ -1040,20 +1050,20 @@
       "description": ""
     },
     {
-      "id": "tt10161644",
-      "type": "series",
-      "name": "To Dine For With Kate Sullivan",
-      "poster": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
-      "background": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
-      "description": ""
-    },
-    {
       "id": "tt14070666",
       "type": "series",
       "name": "Home Again With the Fords",
       "poster": "https://resizing.flixster.com/Qow-PY72H6gs9_b9r3CVQpDR2Eg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19070931_b_v12_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/23QYUYHAq6Z18lUEM2AcUJEcf85.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qShSGRotZC1oPKOuextu6p0IMAV.png",
+      "description": ""
+    },
+    {
+      "id": "tt10161644",
+      "type": "series",
+      "name": "To Dine For With Kate Sullivan",
+      "poster": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
+      "background": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
       "description": ""
     },
     {
@@ -1078,18 +1088,9 @@
       "id": "tt2396135",
       "type": "series",
       "name": "Shetland",
-      "poster": "https://resizing.flixster.com/qqTHgP96E33dpm82vs-IWBdMoRo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v11_ap.jpg",
+      "poster": "https://resizing.flixster.com/_B9o1P7d7IFuyUszM9heEOpTyCA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v8_as.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/t3YeSQyOIrQquSBrEQfeWkAuaM0.png",
-      "description": ""
-    },
-    {
-      "id": "tt2815522",
-      "type": "series",
-      "name": "Southern Charm",
-      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
       "description": ""
     },
     {
@@ -1099,6 +1100,15 @@
       "poster": "https://resizing.flixster.com/_vfhoBzPf5py6ZYxsFU7qDKX6aE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26603650_b_v12_am.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/zxMi43DtThzaQhPb4qn9nXSC0GA.png",
+      "description": ""
+    },
+    {
+      "id": "tt2815522",
+      "type": "series",
+      "name": "Southern Charm",
+      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
       "description": ""
     },
     {
@@ -1129,21 +1139,21 @@
       "description": ""
     },
     {
-      "id": "tt0795129",
-      "type": "series",
-      "name": "House Hunters International",
-      "poster": "https://resizing.flixster.com/7fnwVmYx1uQWdRK_IXY7sn7G11Y=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185817_b_v12_db.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/q0zY5AbqOhCghYWWwzpfT7dhcfb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/3ClRDwDNP8OOID7MCbZOvcyYKpv.png",
-      "description": ""
-    },
-    {
       "id": "tt0369081",
       "type": "series",
       "name": "Ask This Old House",
       "poster": "https://resizing.flixster.com/C5oTHcGSAg_mJwVrEgJQG_7H4sM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186265_b_v12_ah.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/sT8edKbevYX2MTLEWkVjUbTmjG2.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt0369081/img",
+      "description": ""
+    },
+    {
+      "id": "tt0795129",
+      "type": "series",
+      "name": "House Hunters International",
+      "poster": "https://resizing.flixster.com/7fnwVmYx1uQWdRK_IXY7sn7G11Y=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185817_b_v12_db.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/q0zY5AbqOhCghYWWwzpfT7dhcfb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3ClRDwDNP8OOID7MCbZOvcyYKpv.png",
       "description": ""
     },
     {
@@ -1253,20 +1263,20 @@
       "description": ""
     },
     {
-      "id": "tt43028109",
-      "type": "series",
-      "name": "Southern Law",
-      "poster": "https://resizing.flixster.com/59FSrFFE_vsCrChM-xJckgSsSBA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32402578_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tdU51aEV7oJyNHpVyu9ouRJNV6e.jpg",
-      "description": ""
-    },
-    {
       "id": "tt1454824",
       "type": "series",
       "name": "Monsters Inside Me",
       "poster": "https://resizing.flixster.com/errbogJWMKLk5A9tyuP9Sf5Ol3E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3542051_b_v12_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zPwurtClWPxo5xlVOGnwzRsd4EI.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7kQlZCi1lecidc17ibHTHuBWQFK.png",
+      "description": ""
+    },
+    {
+      "id": "tt43028109",
+      "type": "series",
+      "name": "Southern Law",
+      "poster": "https://resizing.flixster.com/59FSrFFE_vsCrChM-xJckgSsSBA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32402578_b_v12_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tdU51aEV7oJyNHpVyu9ouRJNV6e.jpg",
       "description": ""
     },
     {
@@ -1329,15 +1339,6 @@
       "poster": "https://resizing.flixster.com/3AWJPaydYUuMwfnRIHXUSIYNCqA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8938792_b_v12_by.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bmVWu2sZ56uLW1DHbg5TcsuVzJF.png",
-      "description": ""
-    },
-    {
-      "id": "tt6289132",
-      "type": "series",
-      "name": "The Boulet Brothers' Dragula",
-      "poster": "https://resizing.flixster.com/B0YefldnrcT8Hd46Bt3Q6R8Nvg8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14519968_b_v12_ag.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/o5HFD1RbugnCc1TTAWI3TJrp4ix.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ou6IuSAcQxr5qIdZfv7jqfVJZEo.png",
       "description": ""
     }
   ]

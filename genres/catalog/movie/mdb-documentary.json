@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tt50969289",
+      "type": "movie",
+      "name": "Russell Brand: Open Secret",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt50969289/img",
+      "background": "https://image.tmdb.org/t/p/w1280/sdYU5S9SMWk9Wr3IMP0538k341l.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/78g7VIcJifXkvYP6yClFOJgrX2T.png"
+    },
+    {
       "id": "tt27041231",
       "type": "movie",
       "name": "Musk",
@@ -1778,15 +1787,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt29720239/img",
       "background": "https://image.tmdb.org/t/p/w1280/zgeoMjGEKStumT0tcY4atSPw2Mv.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9fAkMCuWly6ssE0y2ooff9u43bD.png"
-    },
-    {
-      "id": "tt29491918",
-      "type": "movie",
-      "name": "David Holmes: The Boy Who Lived",
-      "releaseInfo": "2023",
-      "poster": "https://images.metahub.space/poster/medium/tt29491918/img",
-      "background": "https://image.tmdb.org/t/p/w1280/sp7GUxx4kEae1t79BKY7kLldDJb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/k8CvpPjdXUEwQk2603mZvXezD0M.png"
     }
   ]
 }

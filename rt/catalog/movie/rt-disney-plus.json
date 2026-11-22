@@ -401,16 +401,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/7klexar4wcn1vgICYjgSaXOtZLa.png"
     },
     {
-      "id": "tt36985837",
-      "type": "movie",
-      "name": "Frozen: The Hit Broadway Musical",
-      "releaseInfo": "",
-      "description": "Young princess Anna of Arendelle dreams about finding true love at her sister Elsa’s coronation. Fate takes her on a dangerous journey in an attempt to end the eternal winter that has fallen over the kingdom. She's accompanied by ice delivery man Kristoff, his reindeer Sven, and snowman Olaf. On an adventure where she will find out what friendship, courage, family, and true love really means.",
-      "poster": "https://image.tmdb.org/t/p/w500/qrRlxuVP6vOHYXPnL4u4FA1q9lq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/wN47m8DMp8byXfMBQl4rdfu4xvx.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4YBhz5OUPw9z2xdGF6udJZ0xK2q.png"
-    },
-    {
       "id": "tt32743685",
       "type": "movie",
       "name": "Jaws @ 50: The Definitive Inside Story",
@@ -1643,6 +1633,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/A9VIIks5Mw3mjWStOj7FvIOGtmW.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/bsesTngzYDZiHiYpsq12av3bkk2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/m7wBCntCJluSknFNJGxu8XK8kqN.png"
+    },
+    {
+      "id": "tt21376900",
+      "type": "movie",
+      "name": "Bobi Wine: The People's President",
+      "releaseInfo": "",
+      "description": "Uganda has one the youngest populations in the world and one of its most flagrantly anti-democratic governments. These are ingredients for revolution, and Bobi Wine and his wife Barbie Kyagulanyi are stirring the pot. When the charismatic Bobi, a musician and member of parliament, announces his campaign for president, Uganda’s youth are ecstatic, filling parks and streets for every speech, and singing Bobi’s anthems of peace and freedom. But then comes the crackdown, orchestrated by Yoweri Museveni, a brutal dictator who has ruled Uganda for 36 years. Bobi and his crew survive arrests, beatings, torture, riots and raids.",
+      "poster": "https://image.tmdb.org/t/p/w500/gehzAC8zE85Qiyn5HcXgiky7W1W.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/eBWByfYdAY4Gcch07TIJ0WjpTbB.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/685AqOrB4yPpldKfV8iqUzb64cX.png"
     }
   ]
 }

@@ -199,6 +199,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/gUdzjpRufPeKG8mhY6X4HCPp0j2.png"
     },
     {
+      "id": "tt29714073",
+      "type": "movie",
+      "name": "Bad Apples",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt29714073/img",
+      "background": "https://image.tmdb.org/t/p/w1280/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/2D0cjEmXPgshMO0kRlxy1Bwa9Bd.png"
+    },
+    {
       "id": "tt9601292",
       "type": "movie",
       "name": "The Fix",
@@ -591,6 +600,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt32275326/img",
       "background": "https://image.tmdb.org/t/p/w1280/vGVWjxlWRzevTG5R7E2HziDjueA.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/hDW7Q05nM0r1vLdBjtezoNnLRaS.png"
+    },
+    {
+      "id": "tt37660509",
+      "type": "movie",
+      "name": "On the Road",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt37660509/img",
+      "background": "https://image.tmdb.org/t/p/w1280/hcPbtkReett3egrOnQRII2PqqvK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/sIq9KNRc7bAwNQ7BOZ0ozVfKUYv.png"
     },
     {
       "id": "tt32547691",
@@ -1203,23 +1221,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt6374142/img",
       "background": "https://image.tmdb.org/t/p/w1280/pgVvGaqM77sQR90OeMMVNvQAxbg.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/gaezslYxaWPTnHzuseMTplDwy3G.png"
-    },
-    {
-      "id": "tt39369643",
-      "type": "movie",
-      "name": "State of Fear",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt39369643/img",
-      "background": "https://image.tmdb.org/t/p/w1280/1Xdsq7U7bvJJd2X7Jg4qNaKVkYO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cPDjPWNs5fVWwZHahXAcIYLHmUA.png"
-    },
-    {
-      "id": "tt34706535",
-      "type": "movie",
-      "name": "Reckless",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt34706535/img",
-      "background": "https://image.tmdb.org/t/p/w1280/v82syfG9jrap5k7A82xuQzLssCJ.jpg"
     }
   ]
 }

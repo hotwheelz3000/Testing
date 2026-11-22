@@ -309,16 +309,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/8WytIUTlx7ehFyF4qfUOdiHOVDX.png"
     },
     {
-      "id": "tt37671699",
-      "type": "movie",
-      "name": "A Paw Patrol Christmas",
-      "releaseInfo": "",
-      "description": "Rubble is looking forward to Santa bringing him a new laser drill, but finds that Santa has come down with a cold and can’t deliver any presents. When Mayor Humdinger decides he’s going to the North Pole to take all the gifts for himself, it’s up to the PAW Patrol to stop him.",
-      "poster": "https://image.tmdb.org/t/p/w500/dZpH8UEQD2743cMOPjXqNCg7bWv.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/32mjpsITLwEQcvqKuMBGyajN18h.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/m4mEHrZdfJi1Xi5gIZvNpUszb6L.png"
-    },
-    {
       "id": "tt31841936",
       "type": "movie",
       "name": "Pike River",
@@ -1972,6 +1962,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/h2oyiPu7aql1s1mLDoKBNAH7p3B.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3xGfsAYAxVmYj1CbE5vAkmMJbHo.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/hClsxK6QoJMCj0CHhT6VD4VBN03.png"
+    },
+    {
+      "id": "tt9883832",
+      "type": "movie",
+      "name": "Moonage Daydream",
+      "releaseInfo": "",
+      "description": "A cinematic odyssey featuring never-before-seen footage exploring David Bowie's creative and musical journey.",
+      "poster": "https://image.tmdb.org/t/p/w500/xr4EYd4WHr3Z6MXIYR3tEzP6yuT.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bSgSJfkTutcllEvhDDWtMGgdl2b.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eaOYtw6aMY8oBbzVvLMCpIO5IJE.png"
     }
   ]
 }
