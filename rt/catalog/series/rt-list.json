@@ -112,7 +112,8 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//yAwVbaFO4HsfQDm0kgoKIU8yVn8.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/tR3SL1ddL5wLJiySOlklW5aQMzw.jpg",
       "description": "Ego Nwodim sits down with comedians, actors, musicians, athletes and other guests for funny and heartfelt conversations about fathers, family, mentorship and the people who helped shape their lives.",
-      "releaseInfo": "2026"
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/vmRY6gR6CsGtFQyRpoIximuLyxr.png"
     },
     {
       "id": "tmdb:334710",
@@ -971,6 +972,51 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt13875494",
+      "type": "series",
+      "name": "Tracker",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23665385_b_v12_al.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/RgoTGiL5ElOWDLuXEiD1Qph5Io.png",
+      "description": ""
+    },
+    {
+      "id": "tt1094229",
+      "type": "series",
+      "name": "Heartland",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185880_b_v12_bj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1bVQuM21SMsCAIkSe61HvBdKlfi.png",
+      "description": ""
+    },
+    {
+      "id": "tt21376524",
+      "type": "series",
+      "name": "Animal Control",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23199865_b_v12_ak.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xpUndYidC1kECwQ2JJZR3bdL2Et.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uGO1xGZNiNhBWMAIAwMAcijg3zJ.png",
+      "description": ""
+    },
+    {
+      "id": "tt0096697",
+      "type": "series",
+      "name": "The Simpsons",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183872_b_v12_ap.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/heDwFJx51IiBSJtjA1JYcWOXy7M.png",
+      "description": ""
+    },
+    {
+      "id": "tt15791752",
+      "type": "series",
+      "name": "Grimsburg",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196707_b_v12_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vuHpCqV8f08NNw6yu4Nyb0sDQOm.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ovqmxPekAxzKI2lttRhw5f7fhKG.png",
+      "description": ""
+    },
+    {
       "id": "tt0369117",
       "type": "series",
       "name": "House Hunters",
@@ -1161,7 +1207,7 @@
       "id": "tt0320037",
       "type": "series",
       "name": "Jimmy Kimmel Live!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
+      "poster": "https://resizing.flixster.com/QiZkraVW1blT9TFQ72bm5XkDo14=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xiYj5NlGEYglNfG2Wytbd6hvZtB.png",
       "description": ""
@@ -1170,7 +1216,7 @@
       "id": "tt10115054",
       "type": "series",
       "name": "Lost Treasures of Egypt",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16357471_b_v11_ce.jpg",
+      "poster": "https://resizing.flixster.com/vrTaKGno6r6s-j8xJTWjjDu9emM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16357471_b_v11_ce.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/gHMifsvnNIVAHlEDzPpcXiI1mHm.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/idkzAqo7BLOxdFslynztCCPhtFl.png",
       "description": ""
@@ -1179,7 +1225,7 @@
       "id": "tt31289994",
       "type": "series",
       "name": "The Lowdown",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30237650_b_v12_ad.jpg",
+      "poster": "https://resizing.flixster.com/maJZ1T0Zjd_1grliI4KE34QDZAc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30237650_b_v12_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/sonyBptmsZNhHnCXPJZCZBHo85S.png",
       "description": "Tomatometer 99%"
@@ -1188,7 +1234,7 @@
       "id": "tt21906238",
       "type": "series",
       "name": "Rivals",
-      "poster": "https://resizing.flixster.com/LXSXGuN6MYc4FSerfHo40pXije0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWNmMDBkMTctNTUzZS00NjM0LThmMDItMjAzNWRiOTFmYmFiLmpwZw==",
+      "poster": "https://resizing.flixster.com/PxCgwUgG9qfPLNdEjZQma-5pneQ=/164x246/v2/https://resizing.flixster.com/LXSXGuN6MYc4FSerfHo40pXije0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWNmMDBkMTctNTUzZS00NjM0LThmMDItMjAzNWRiOTFmYmFiLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/92IrjFSaKfd6N7IEwxCrn69uaDE.png",
       "description": "Tomatometer 95%"
@@ -1485,48 +1531,12 @@
       "description": ""
     },
     {
-      "id": "tt13875494",
-      "type": "series",
-      "name": "Tracker",
-      "poster": "https://resizing.flixster.com/fZpzTPZeYMfGdTcMV14ZXVjrPRw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23665385_b_v12_al.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/RgoTGiL5ElOWDLuXEiD1Qph5Io.png",
-      "description": ""
-    },
-    {
-      "id": "tt1094229",
-      "type": "series",
-      "name": "Heartland",
-      "poster": "https://resizing.flixster.com/GvpmTTWAYcm7jgJYQImzykeMTN0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185880_b_v12_bj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/11nGiX6hLdexBD4TVUAAVzSIAQy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1bVQuM21SMsCAIkSe61HvBdKlfi.png",
-      "description": ""
-    },
-    {
       "id": "tt0098740",
       "type": "series",
       "name": "America's Funniest Home Videos",
       "poster": "https://resizing.flixster.com/Pz1Nowp1yRpqC0uVnFQK0pzqsrY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184249_b_v12_av.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/edH0CCAwswUNj8h6CyHJpX5JdIE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2arzudTglKKvfybFcLKDCqrK3wm.png",
-      "description": ""
-    },
-    {
-      "id": "tt21376524",
-      "type": "series",
-      "name": "Animal Control",
-      "poster": "https://resizing.flixster.com/FFKj6KNq887A7-x5ZpMbHDsSl3g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23199865_b_v12_ak.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/xpUndYidC1kECwQ2JJZR3bdL2Et.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uGO1xGZNiNhBWMAIAwMAcijg3zJ.png",
-      "description": ""
-    },
-    {
-      "id": "tt0096697",
-      "type": "series",
-      "name": "The Simpsons",
-      "poster": "https://resizing.flixster.com/JWsWt2j7bVHpG-mVJLEctVQ56YU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183872_b_v12_ap.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/heDwFJx51IiBSJtjA1JYcWOXy7M.png",
       "description": ""
     },
     {
@@ -1545,15 +1555,6 @@
       "poster": "https://resizing.flixster.com/x5A-Ik-R00iKSRQVXLEQNnRBxXk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33833546_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/fSZ0LIiRiM74cypogZrh2HqVPge.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/pNjTQuGkxQYkuYZajXbjyrmJAkn.png",
-      "description": ""
-    },
-    {
-      "id": "tt15791752",
-      "type": "series",
-      "name": "Grimsburg",
-      "poster": "https://resizing.flixster.com/eBx5il1Bld-1EVepHFWAT7S3KLo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22196707_b_v12_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vuHpCqV8f08NNw6yu4Nyb0sDQOm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ovqmxPekAxzKI2lttRhw5f7fhKG.png",
       "description": ""
     },
     {

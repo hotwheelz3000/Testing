@@ -979,6 +979,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tt0123338",
+      "type": "series",
+      "name": "60 Minutes",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184224_b_v12_ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/s4jP2FlmBlFn3BgQJ0tWACl4bZN.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/oymXh0PRTAHhi7utBQzCgqBHqBn.png",
+      "description": ""
+    },
+    {
       "id": "tt33043892",
       "type": "series",
       "name": "Dexter: Resurrection",
@@ -995,6 +1004,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/qkwz8uBrGgESbw8J6ujmtwSVs2w.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/jv2B1jYptOkAAO4AhosLD0EZm2z.png",
       "description": "Tomatometer 100%"
+    },
+    {
+      "id": "tt0206512",
+      "type": "series",
+      "name": "SpongeBob SquarePants",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
+      "description": ""
     },
     {
       "id": "tt0069658",
@@ -1135,7 +1153,7 @@
       "id": "tt41814550",
       "type": "series",
       "name": "NCIS: New York",
-      "poster": "https://resizing.flixster.com/FI32yF4f48KomQ1PybLVs8rV1X4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOWYzMjM1NTItYjM5OC00YjkzLTg0MWUtNzc5YTJiY2Q0MGI1LmpwZw==",
+      "poster": "https://resizing.flixster.com/atZaYU0uatkqUuLsc_JAzSlzvP0=/164x246/v2/https://resizing.flixster.com/FI32yF4f48KomQ1PybLVs8rV1X4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOWYzMjM1NTItYjM5OC00YjkzLTg0MWUtNzc5YTJiY2Q0MGI1LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/wLL8oRsz9XGFQpnCpgi8S0Pj6sO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1wcyS3C3JLbN9sipMhrDkWndoKd.png",
       "description": ""
@@ -1215,24 +1233,6 @@
       "name": "Deep Waters",
       "poster": "https://resizing.flixster.com/1PBWC6OagJNlgWEkkMnkiqpeZL8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32884904_b_v8_aa.jpg",
       "background": "https://resizing.flixster.com/1PBWC6OagJNlgWEkkMnkiqpeZL8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32884904_b_v8_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt36849871",
-      "type": "series",
-      "name": "Marshals",
-      "poster": "https://resizing.flixster.com/4LX6ksns_HvUb2p9TRiRAUyYkKY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30177518_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yGJGwt7DdIWTUXuahLfhcH1gi7G.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hcQsv6SfYpXeQdB7OR29bN6KFY1.png",
-      "description": "Tomatometer 48%"
-    },
-    {
-      "id": "tt0123338",
-      "type": "series",
-      "name": "60 Minutes",
-      "poster": "https://resizing.flixster.com/yytcLqa-UJY9-p8PuFMx0CFlSfI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184224_b_v12_ar.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/s4jP2FlmBlFn3BgQJ0tWACl4bZN.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/oymXh0PRTAHhi7utBQzCgqBHqBn.png",
       "description": ""
     },
     {

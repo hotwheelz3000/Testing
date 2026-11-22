@@ -936,6 +936,24 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt32639706",
+      "type": "series",
+      "name": "Blue Box",
+      "poster": "https://resizing.flixster.com/NN9iiRQDCMcY9OtIWwdJBGNrjWk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmJmMzQxNTctN2RhNi00MTY4LTk5NzQtODIxMjdmZjMzNjk2LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eFKYUsGePMFLrwmvnnLfh96Yjdc.png",
+      "description": ""
+    },
+    {
+      "id": "tt39044730",
+      "type": "series",
+      "name": "Oxytoxin",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
+      "description": ""
+    },
+    {
       "id": "tt0131179",
       "type": "series",
       "name": "Detective Conan",
@@ -977,15 +995,6 @@
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5KJjTVvl4ZDFJNHT5NV6etyBHCy.png",
-      "description": ""
-    },
-    {
-      "id": "tt0206512",
-      "type": "series",
-      "name": "SpongeBob SquarePants",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
       "description": ""
     },
     {
@@ -1060,15 +1069,6 @@
       "description": ""
     },
     {
-      "id": "tt32639706",
-      "type": "series",
-      "name": "Blue Box",
-      "poster": "https://resizing.flixster.com/NN9iiRQDCMcY9OtIWwdJBGNrjWk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmJmMzQxNTctN2RhNi00MTY4LTk5NzQtODIxMjdmZjMzNjk2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eFKYUsGePMFLrwmvnnLfh96Yjdc.png",
-      "description": ""
-    },
-    {
       "id": "tt32766897",
       "type": "series",
       "name": "Ranma 1/2",
@@ -1093,15 +1093,6 @@
       "poster": "https://resizing.flixster.com/Jx0BHqoRUikWRFbrPOaHcSHTHYs=/164x246/v2/https://resizing.flixster.com/QoZvwvtqy0gWl84YbZDZFgxynug=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjU0NDMzLndlYnA=",
       "background": "https://image.tmdb.org/t/p/w1280/ptEtIr3rVuAJpmbwaLJJqND6HVq.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7MSskBZ9qhIthuhqCBiBLpIyo7h.png",
-      "description": ""
-    },
-    {
-      "id": "tt39044730",
-      "type": "series",
-      "name": "Oxytoxin",
-      "poster": "https://resizing.flixster.com/lmT8rqjNalLwwiFMZd08ZY8nxDE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
       "description": ""
     },
     {

@@ -190,6 +190,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/b57TMCh4LkBCFTjgQJaXWvr6irT.png"
     },
     {
+      "id": "tt33512134",
+      "type": "movie",
+      "name": "Drive Through Fire",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt33512134/img",
+      "background": "https://image.tmdb.org/t/p/w1280/8Tw90S4hVrvUoqmQWDoO6U4toZT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/nyg7H4mGYKbZfDptFGei4aIxJ4V.png"
+    },
+    {
       "id": "tt39453578",
       "type": "movie",
       "name": "The Good Lawyer",
@@ -977,6 +986,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/zCaR7Nst4pCeUsCCGZOnqqsVOL6.png"
     },
     {
+      "id": "tt37184015",
+      "type": "movie",
+      "name": "The Patron",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt37184015/img",
+      "background": "https://image.tmdb.org/t/p/w1280/sqNwnMpsTL4Fb8tgH9xuQXdlnRr.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt37184015/img"
+    },
+    {
       "id": "tt34625288",
       "type": "movie",
       "name": "The Eyes of Others",
@@ -1203,24 +1221,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt15940132/img",
       "background": "https://image.tmdb.org/t/p/w1280/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/blz9cHsWGjt4abdqKDdZLQEczN8.png"
-    },
-    {
-      "id": "tt32430579",
-      "type": "movie",
-      "name": "Crime 101",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt32430579/img",
-      "background": "https://image.tmdb.org/t/p/w1280/kKF4gEiBDArhONlCcunHVgBp3bA.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/biJM58Ih5jxjKN9Wiwp4NHXohks.png"
-    },
-    {
-      "id": "tt6374142",
-      "type": "movie",
-      "name": "Misdirection",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt6374142/img",
-      "background": "https://image.tmdb.org/t/p/w1280/pgVvGaqM77sQR90OeMMVNvQAxbg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gaezslYxaWPTnHzuseMTplDwy3G.png"
     }
   ]
 }

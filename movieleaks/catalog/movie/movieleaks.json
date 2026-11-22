@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt38984184",
+      "type": "movie",
+      "name": "418",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt38984184/img",
+      "background": "https://image.tmdb.org/t/p/w1280/nJjd0EHP5VPWTdGsere75SaSY4j.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6CeykE8UiFqF6KxtI8ub4juS6fs.png",
+      "description": "Posted on r/movieleaks 2026-11-22"
+    },
+    {
       "id": "tt35410859",
       "type": "movie",
       "name": "Fjord",
@@ -8,7 +18,7 @@
       "poster": "https://images.metahub.space/poster/medium/tt35410859/img",
       "background": "https://image.tmdb.org/t/p/w1280/iPVAMaI0W4lr7Rl56m0H388eR5.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/lCcYOtoUakm2ykpmv0fisfM3cQ9.png",
-      "description": "Posted on r/movieleaks 2026-11-21"
+      "description": "Posted on r/movieleaks 2026-11-22"
     },
     {
       "id": "tt9213874",
@@ -655,7 +665,7 @@
       "releaseInfo": "2025",
       "poster": "https://images.metahub.space/poster/medium/tt28772290/img",
       "background": "https://image.tmdb.org/t/p/w1280/zFT6pxNBYVQCMrmJpdx52VUliPJ.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt28772290/img",
+      "logo": "https://image.tmdb.org/t/p/w500/fpoTRcrBsMji7nTkwMtmb9MxGvc.png",
       "description": "Posted on r/movieleaks 2026-10-27"
     },
     {
@@ -834,6 +844,7 @@
       "releaseInfo": "2025",
       "poster": "https://images.metahub.space/poster/medium/tt30294376/img",
       "background": "https://image.tmdb.org/t/p/w1280/vAzvEkOPGXBZG5zXrbXqtgqutmd.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aN0GgWEDGcr1UV1f7DgZVYF6yUa.png",
       "description": "Posted on r/movieleaks 2026-10-23"
     },
     {
@@ -1663,35 +1674,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt39141753/img",
       "background": "https://image.tmdb.org/t/p/w1280/cgjhUMqLziFU750HybRoFkEGTfV.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/z3NflBUOGpLT2g6AoBRlfF9OXYO.png",
-      "description": "Posted on r/movieleaks 2026-09-23"
-    },
-    {
-      "id": "tt31131384",
-      "type": "movie",
-      "name": "I Live Here Now",
-      "releaseInfo": "2025",
-      "poster": "https://images.metahub.space/poster/medium/tt31131384/img",
-      "background": "https://image.tmdb.org/t/p/w1280/eG4DBdOzkaXMhfq3jLRnCE1FMlt.jpg",
-      "description": "Posted on r/movieleaks 2026-09-23"
-    },
-    {
-      "id": "tt29010849",
-      "type": "movie",
-      "name": "You're Dead to Me",
-      "releaseInfo": "2025",
-      "poster": "https://images.metahub.space/poster/medium/tt29010849/img",
-      "background": "https://image.tmdb.org/t/p/w1280/km8bjFSPf9jQycsl9HYzbObGhNk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4NhJigdnQXUv9yFhfQaoIAjqVDa.png",
-      "description": "Posted on r/movieleaks 2026-09-23"
-    },
-    {
-      "id": "tt22526100",
-      "type": "movie",
-      "name": "The Love Hypothesis",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt22526100/img",
-      "background": "https://image.tmdb.org/t/p/w1280/o7Oy9Gbx1CCyaweL8xUhtMW4Puq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/z40xIF1yUFjT3sdtRg8BlyWJ53n.png",
       "description": "Posted on r/movieleaks 2026-09-23"
     }
   ]
