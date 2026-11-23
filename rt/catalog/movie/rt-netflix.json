@@ -21,6 +21,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/5yB5ISzk2PaRGgE0JL2Hpt7ZgA3.png"
     },
     {
+      "id": "tt50969289",
+      "type": "movie",
+      "name": "Russell Brand: Open Secret",
+      "releaseInfo": "",
+      "description": "From comedy stardom to a criminal trial, inside voices and archive footage charts British comedian Russell Brand's meteoric rise and steep fall following allegations of sexual offences.",
+      "poster": "https://image.tmdb.org/t/p/w500/rYhOUFkNRwD4ETV7BFcsID53yyi.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sdYU5S9SMWk9Wr3IMP0538k341l.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/78g7VIcJifXkvYP6yClFOJgrX2T.png"
+    },
+    {
       "id": "tt38213251",
       "type": "movie",
       "name": "Heartland",
@@ -81,6 +91,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/wd4KBXujUh6LADrjuntXgw4VvM3.png"
     },
     {
+      "id": "tt49625485",
+      "type": "movie",
+      "name": "Janelle James: How Romantic",
+      "releaseInfo": "",
+      "description": "In her debut hour-long stand-up special, Janelle James sounds off on body counts, bank accounts and why women should wrestle men.",
+      "poster": "https://image.tmdb.org/t/p/w500/zjASMxUqsye6BKLbW78FA9d64Yy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/okmLf17lLDfAjJdFjizyblCphrj.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cRS07KNESng8vQKP3eHOZkOPnwW.png"
+    },
+    {
       "id": "tt48500521",
       "type": "movie",
       "name": "Unprotected: Murder in Galicia",
@@ -109,6 +129,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/fez7kLyGzpowduJapTFZZ1feCS0.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/6vGH7JZFLzFawpwCcnNweF8j3KD.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xs49REuH8rgi8n8EYSwMGEZCGkY.png"
+    },
+    {
+      "id": "tt33402927",
+      "type": "movie",
+      "name": "On Behalf of My Son",
+      "releaseInfo": "",
+      "description": "Vicentina struggles to cope with the death of her son Wesley after a tragic bus accident, in which he was the driver. As the investigation unfolds, evidence suggests that Wesley’s actions may have been suicidal. Vicentina then embarks on a journey to seek out the victims’ families and apologize, while confronting her own grief and uncertainty.",
+      "poster": "https://image.tmdb.org/t/p/w500/EE0nu2jPKGio3ICEG193Z7DDSe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tTevcc0y0EQLeEyg4aMsrGyy7NO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/u4Kik19IGHSEebJEs0U1JP2J4BG.png"
     },
     {
       "id": "tt49895708",
@@ -165,7 +195,7 @@
       "type": "movie",
       "name": "SCTV: The Greatest Show You've Never Heard Of",
       "releaseInfo": "",
-      "description": "Second City Television cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history.",
+      "description": "The rise, fall, and enduring legacy of Second City Television, one of the most influential sketch comedy series in television history. Through intimate interviews with surviving members of its cast and an emotional reunion in Toronto, it explores the creative partnership that transformed a small Canadian television production into a cultural phenomenon that launched some of comedy's most celebrated icons.",
       "poster": "https://image.tmdb.org/t/p/w500/vBqVyTpzv5RzHSsQdu8ECxAqSvd.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/4EKa1ordKkch7bAYlV4e3fwsVCj.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qAo1wZYz5cRv8zKGj1IeEOVnHEx.png"
@@ -235,7 +265,7 @@
       "type": "movie",
       "name": "Norm: The Tale of Norm Macdonald",
       "releaseInfo": "",
-      "description": "Go down a wormhole in this documentary on master of deadpan humor Norm Macdonald, whose life and career were uncompromising yet full of contradictions.",
+      "description": "The life and career of the stand-up and Saturday Night Live legend Norm Macdonald, from his rise as the deadpan anchor of Weekend Update to his enduring legacy as a comedian's comedian, built entirely from archival footage, personal photos, and rare home videos contributed by fans and friends.",
       "poster": "https://image.tmdb.org/t/p/w500/sQw3m4hl1xyoT9zr7shnNCHDKI3.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uBYReWhXWWyMoOvv7s0XpAcFqxb.png"
@@ -1762,6 +1792,35 @@
       "logo": "https://images.metahub.space/logo/medium/tt31828554/img"
     },
     {
+      "id": "tt16431404",
+      "type": "movie",
+      "name": "Apex",
+      "releaseInfo": "",
+      "description": "A grieving woman pushing her limits on a solo adventure in the Australian wild is ensnared in a twisted game with a cunning killer who thinks she's prey.",
+      "poster": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9nzfyiYbmTUXWC4B2kwjl4NAlqO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1diKauHoRM74VNPLXFcGN1Bn1HS.png"
+    },
+    {
+      "id": "tt43475091",
+      "type": "movie",
+      "name": "Daddy's in Trouble",
+      "releaseInfo": "",
+      "description": "Roberta is tired of taking care of the house and the kids all by herself, so she decides to take a vacation, leaving her husband to look after the children. The result is that the house is turned upside down as Fred tries to balance family demands with his work responsibilities. Amid laughter and chaos, the film shows how a family can overcome challenges when they stick together.",
+      "poster": "https://image.tmdb.org/t/p/w500/s99RBLQXE0GaqrlprP1HwV5HOQO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/pt9wLsvNywyPT3485P30CPRICU.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/s2oSCQIYVigwL7cZKUwc846kzHl.png"
+    },
+    {
+      "id": "tt39444813",
+      "type": "movie",
+      "name": "Lainey Wilson: Keepin' Country Cool",
+      "releaseInfo": "",
+      "description": "Lainey Wilson redefines what it means to be a modern country star while exploring her struggles and triumphs at a pivotal career moment.",
+      "poster": "https://image.tmdb.org/t/p/w500/axIiOZ0yVD258CTpbw7mTF9h6Ph.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/u2ooGTDAKlbLgwBSsBdTvAXSEgk.jpg"
+    },
+    {
       "id": "tt40224422",
       "type": "movie",
       "name": "Untold: The Shooting at Hawthorne Hill",
@@ -1929,35 +1988,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lsg0IxNQCUxKqs63YjturEuY0qQ.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/g7y8EDiXvlZYrIKDLlhtbcAPnxS.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/lRwpPTooKLDqT8Lgh3VYc9vv6fM.png"
-    },
-    {
-      "id": "tt39751309",
-      "type": "movie",
-      "name": "18th Rose",
-      "releaseInfo": "",
-      "description": "A spirited teen dreaming of the perfect debut makes a deal with a lonely newcomer, but unexpected feelings and revelations may shatter their plans.",
-      "poster": "https://image.tmdb.org/t/p/w500/6pUwaXT6tdA6sek8o6SdFYudJDj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/21YKck5bSRcvRIXlVg6ZaV0k0sj.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xN0K7fe9vyeN60x1LiRdJzXfud1.png"
-    },
-    {
-      "id": "tt32362890",
-      "type": "movie",
-      "name": "Thrash",
-      "releaseInfo": "",
-      "description": "When a catastrophic hurricane slams a coastal town, stranded residents must survive rapidly rising waters swarming with ravenous sharks.",
-      "poster": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/jlkvoHXKQHsgf15wp1AV1CTk4e7.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cXuYmRLBt8PtaIGzZrNA156fIJw.png"
-    },
-    {
-      "id": "tt36933778",
-      "type": "movie",
-      "name": "Sheng Wang: Purple",
-      "releaseInfo": "",
-      "description": "Sheng Wang shares his thoughts on edible bras, braving the ghosts in your house and guarding expensive berries from your friends' kids.",
-      "poster": "https://image.tmdb.org/t/p/w500/6BKDUcNi9blIZDXRaHZAL7OkwP1.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/6qywp22WDIY6sAzD6WpOgf4osml.jpg"
     }
   ]
 }

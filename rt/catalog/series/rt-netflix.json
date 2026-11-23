@@ -1,6 +1,15 @@
 {
   "metas": [
     {
+      "id": "tt33004920",
+      "type": "series",
+      "name": "The Trials of Karen Read",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hDlEoxu0sX5vz2PB26vreBREhjB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bn3UWOaVNFPXNOJhuL42W67CSKb.jpg",
+      "description": "An accident, a deadly fight or an elaborate cover-up? This true-crime series digs into the murder trials of Karen Read that sparked viral conspiracies.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tmdb:341297",
       "type": "series",
       "name": "The Detox Project",
@@ -154,7 +163,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bhFbiSXg7KrwfXkpZfiLDq4QFCt.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/s0QcyTh2EPq53MhunhnsP91uKQl.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aFRUwdiV30oN14K6GFIEqidikxm.png",
-      "description": "Make it a doghouse day! Dog-loving Doozie uses her creativity and imagination during playtime with her puppy pals.",
+      "description": "Dog-loving Doozie uses her creativity and imagination during playtime with her puppy pals.",
       "releaseInfo": "2026"
     },
     {
@@ -926,16 +935,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt39161228",
-      "type": "series",
-      "name": "Mom Knows Best?",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ohJueiAc8cpxwYAY3njS5NCiMu5.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/NlcTfpNZbjTE1mHWwsw6f6GIa.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt39161228/img",
-      "description": "Nine mothers compete to prove they know their children best; they wager money on predicting their children's choices and discover that their children can still surprise them.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tt32639706",
       "type": "series",
       "name": "Blue Box",
@@ -986,6 +985,15 @@
       "poster": "https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
+      "description": ""
+    },
+    {
+      "id": "tt0206512",
+      "type": "series",
+      "name": "SpongeBob SquarePants",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
       "description": ""
     },
     {
@@ -1063,7 +1071,7 @@
       "id": "tt21433690",
       "type": "series",
       "name": "St. Denis Medical",
-      "poster": "https://resizing.flixster.com/PB4NqlSz8zwBXpVDgu8Jk1K__kc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTM1Yjg1MDctMjU2Mi00ZTEyLWJjZWEtOTZjZGNjYzVmMzA5LmpwZw==",
+      "poster": "https://resizing.flixster.com/4cRtgRVOMcrDYi1WFGUxX9NXml8=/164x246/v2/https://resizing.flixster.com/PB4NqlSz8zwBXpVDgu8Jk1K__kc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTM1Yjg1MDctMjU2Mi00ZTEyLWJjZWEtOTZjZGNjYzVmMzA5LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/u698B6dIpdoPz1CXmESuELHS9wr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/n4NK2M3mvQfMjIYeTv67liQg6ZQ.png",
       "description": ""
@@ -1624,21 +1632,21 @@
       "description": ""
     },
     {
-      "id": "tt20192132",
-      "type": "series",
-      "name": "Rhythm+Flow France",
-      "poster": "https://resizing.flixster.com/uQGTOMxm5Y9qeIzM7GJP41lDQhk=/164x246/v2/https://resizing.flixster.com/d5rkcPjwD19bEfwOCU8tskwXWxI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjIwM2JiMDAtNmM5Zi00NmY4LWEzN2ItNTFjODFmMWU1ZDJlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/6qlfBwASsbzQCw6U2JEBIjTUoN1.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/14pDONrStRcIOE3BzhjN94GctsQ.png",
-      "description": ""
-    },
-    {
       "id": "tt43738071",
       "type": "series",
       "name": "Man of Virtue",
       "poster": "https://resizing.flixster.com/7sFuP1Gw4S3n9rsLJul2BaThIm8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33650565_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rcaoxXXxxxfpB8EyqIiJxRI6k7P.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aQTCOVUwo8L3lJICP5jbAhwi2PE.png",
+      "description": ""
+    },
+    {
+      "id": "tt20192132",
+      "type": "series",
+      "name": "Rhythm+Flow France",
+      "poster": "https://resizing.flixster.com/uQGTOMxm5Y9qeIzM7GJP41lDQhk=/164x246/v2/https://resizing.flixster.com/d5rkcPjwD19bEfwOCU8tskwXWxI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjIwM2JiMDAtNmM5Zi00NmY4LWEzN2ItNTFjODFmMWU1ZDJlLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/6qlfBwASsbzQCw6U2JEBIjTUoN1.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/14pDONrStRcIOE3BzhjN94GctsQ.png",
       "description": ""
     },
     {
