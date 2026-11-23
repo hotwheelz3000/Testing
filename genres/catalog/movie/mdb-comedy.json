@@ -431,6 +431,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/NRQgi1nH5Yyccy70aDAscAtD4M.png"
     },
     {
+      "id": "tt45726477",
+      "type": "movie",
+      "name": "Artus – Le Show XXL",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt45726477/img",
+      "background": "https://image.tmdb.org/t/p/w1280/pk8A8bTrK68odyKCOaHKyG3N9Nn.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt45726477/img"
+    },
+    {
       "id": "tt22526100",
       "type": "movie",
       "name": "The Love Hypothesis",
@@ -503,15 +512,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/rsrh84yfkS5HuUPYjsrl7hszSIQ.png"
     },
     {
-      "id": "tt40856286",
-      "type": "movie",
-      "name": "Vibe",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt40856286/img",
-      "background": "https://image.tmdb.org/t/p/w1280/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9OhWVgLsoVVB7WmOg4B0pECkBoC.png"
-    },
-    {
       "id": "tt43679244",
       "type": "movie",
       "name": "Zakir Khan: Papa Yaar",
@@ -536,6 +536,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt36841161/img",
       "background": "https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/95vrh8aJrRLo2991GgkZQeDYMr3.png"
+    },
+    {
+      "id": "tt40856286",
+      "type": "movie",
+      "name": "Vibe",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt40856286/img",
+      "background": "https://image.tmdb.org/t/p/w1280/paZuQDNYwuD0WBwZERfvgSNQZDz.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9OhWVgLsoVVB7WmOg4B0pECkBoC.png"
     },
     {
       "id": "tt43741215",
@@ -1633,15 +1642,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt37899019/img",
       "background": "https://image.tmdb.org/t/p/w1280/bfJ2MvS4wixkQ7tQX0a87q1XYlE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fhOpv9KqTFToS2JKxYBHmxOXfnz.png"
-    },
-    {
-      "id": "tt43339083",
-      "type": "movie",
-      "name": "Tony Hinchcliffe: Man of the People",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt43339083/img",
-      "background": "https://image.tmdb.org/t/p/w1280/fV0Y5uo3kwStaPhgT0AieLENFaw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tw0Q8TAjtgNfrEUP6rAdIwjISfq.png"
     }
   ]
 }

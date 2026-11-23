@@ -972,6 +972,104 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt1091909",
+      "type": "series",
+      "name": "Murdoch Mysteries",
+      "poster": "https://resizing.flixster.com/4S3brBN5haulc9OWeBE5gqSCiQ0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg1NTE5My53ZWJw",
+      "background": "https://image.tmdb.org/t/p/w1280/hYmHyUlJMQgeazELoHnORrEQ0vE.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/tKbdpkoTIvlDesStmxBDaLf77Oi.png",
+      "description": ""
+    },
+    {
+      "id": "tt8467296",
+      "type": "series",
+      "name": "Love Island Australia",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15519836_b_v8_ba.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/e4HxxfDlSmlOzXaNoSuNZLX9IA7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wyTPfFEheq8LW0HteY3iBUuUCUt.png",
+      "description": ""
+    },
+    {
+      "id": "tt4226226",
+      "type": "series",
+      "name": "Holiday Baking Championship",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11107346_b_v12_be.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/elqlGbwpRCNTw4rhyOwMU4JWhS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8Mp3TFbwD2h3ywBLEQcceZILUS6.png",
+      "description": ""
+    },
+    {
+      "id": "tt0072584",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
+      "description": ""
+    },
+    {
+      "id": "tt13491734",
+      "type": "series",
+      "name": "Name That Tune",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19115550_b_v12_an.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7uly9uOevv0Lbm91J13Z7jK9lXw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/latU2IkVmRHEbFAnJSvAMEuwSF7.png",
+      "description": ""
+    },
+    {
+      "id": "tt0123366",
+      "type": "series",
+      "name": "The View",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184466_b_v12_ah.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tHZsAFdtNsKNxE58jopl9Eh4f7a.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hGpt0llXFh5T3qDKxzeMNNh4TOB.png",
+      "description": ""
+    },
+    {
+      "id": "tt0056758",
+      "type": "series",
+      "name": "General Hospital",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
+      "description": ""
+    },
+    {
+      "id": "tt36933506",
+      "type": "series",
+      "name": "Celebrity Weakest Link",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30817754_b_v12_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wtx1itN33fYJcixwNbkrYtLjxGz.png",
+      "description": ""
+    },
+    {
+      "id": "tt0159881",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
+      "description": ""
+    },
+    {
+      "id": "tt0320037",
+      "type": "series",
+      "name": "Jimmy Kimmel Live!",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xiYj5NlGEYglNfG2Wytbd6hvZtB.png",
+      "description": ""
+    },
+    {
+      "id": "tt40124166",
+      "type": "series",
+      "name": "Live PD: Greatest Shifts",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31189202_b_v12_aa.jpg",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31189202_b_v12_aa.jpg",
+      "description": ""
+    },
+    {
       "id": "tt1094229",
       "type": "series",
       "name": "Heartland",
@@ -1105,10 +1203,19 @@
       "description": ""
     },
     {
+      "id": "tt2359704",
+      "type": "series",
+      "name": "JoJo's Bizarre Adventure",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13351521_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bfcHax3WxaoqiRXzCkKjmd2myR8.png",
+      "description": ""
+    },
+    {
       "id": "tt12324366",
       "type": "series",
       "name": "Percy Jackson and the Olympians",
-      "poster": "https://resizing.flixster.com/oWwlqDkdwBdh9j24XDy2l53TILo=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDMzMGQ3ODgtM2UxYi00YWMxLTk2NDgtNWI5NWE2NmQzYWRlLmpwZw==",
+      "poster": "https://resizing.flixster.com/6DeKBzYc7UwKQXd0PY4jTaa_ViU=/164x246/v2/https://resizing.flixster.com/oWwlqDkdwBdh9j24XDy2l53TILo=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDMzMGQ3ODgtM2UxYi00YWMxLTk2NDgtNWI5NWE2NmQzYWRlLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/iYxjFCbqSJyDDmAytShRw2n5ZgF.png",
       "description": "Tomatometer 97%"
@@ -1117,61 +1224,34 @@
       "id": "tt26743760",
       "type": "series",
       "name": "The Apothecary Diaries",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25535878_b_v8_ad.jpg",
+      "poster": "https://resizing.flixster.com/dho0sld55YiT7Va6xjBQNTUbRJE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25535878_b_v8_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6JpmIe9cJcbG6hecyN6ml8AG6RC.png",
-      "description": ""
-    },
-    {
-      "id": "tt0072584",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
       "description": ""
     },
     {
       "id": "tt4508624",
       "type": "series",
       "name": "My Lottery Dream Home",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11547416_b_v12_bl.jpg",
+      "poster": "https://resizing.flixster.com/JJ1Oo2YsnRnCWIlwixXEcZu7J18=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11547416_b_v12_bl.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mvXfPSzWlOIwabxiPVtj2vAKqmK.png",
-      "description": ""
-    },
-    {
-      "id": "tt0123366",
-      "type": "series",
-      "name": "The View",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184466_b_v12_ah.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tHZsAFdtNsKNxE58jopl9Eh4f7a.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hGpt0llXFh5T3qDKxzeMNNh4TOB.png",
       "description": ""
     },
     {
       "id": "tt13438882",
       "type": "series",
       "name": "Celebrity Wheel of Fortune",
-      "poster": "https://resizing.flixster.com/oSKjDqj41gnshtfLJ5wCATuK3ao=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjgxNzE0Ni53ZWJw",
+      "poster": "https://resizing.flixster.com/RyPZKjKb4FIwgDCBOz5uLPJ9hq0=/164x246/v2/https://resizing.flixster.com/oSKjDqj41gnshtfLJ5wCATuK3ao=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjgxNzE0Ni53ZWJw",
       "background": "https://image.tmdb.org/t/p/w1280/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/jdGzw5XOa9iHrDCo6DlUaQPQnkA.png",
-      "description": ""
-    },
-    {
-      "id": "tt0056758",
-      "type": "series",
-      "name": "General Hospital",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
       "description": ""
     },
     {
       "id": "tt27053309",
       "type": "series",
       "name": "The UnBelievable With Dan Aykroyd",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26008905_b_v12_aw.jpg",
+      "poster": "https://resizing.flixster.com/KN--VSYk-l0aFl9Nv_HaPg-InYQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26008905_b_v12_aw.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/AfIZmPmhqO1AX1ZopEDoCaNAVGO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mQAnpFQeQMpWWqkjXVzf2THUlrY.png",
       "description": ""
@@ -1180,25 +1260,16 @@
       "id": "tt0124932",
       "type": "series",
       "name": "20/20",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184299_b_v12_ac.jpg",
+      "poster": "https://resizing.flixster.com/h85ZQfTELm2ymsjswixUPLqEY4w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184299_b_v12_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/qi4Wdw3Bw0WZaJHjvx0N53jTPsL.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/maNLHl22li8gy3iaXQ3b5L3olHj.png",
-      "description": ""
-    },
-    {
-      "id": "tt0159881",
-      "type": "series",
-      "name": "Jeopardy!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
       "description": ""
     },
     {
       "id": "tt0413573",
       "type": "series",
       "name": "Grey's Anatomy",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185019_b_v12_bw.jpg",
+      "poster": "https://resizing.flixster.com/usdi5Gufse-kUb6aK27o7tClubY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185019_b_v12_bw.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/keAZqhg9lmOHEhmG5njqIsuxf0f.png",
       "description": "Tomatometer 84%"
@@ -1207,7 +1278,7 @@
       "id": "tt7235466",
       "type": "series",
       "name": "9-1-1",
-      "poster": "https://resizing.flixster.com/kLwMOMo9dhSaXqqymZQUT2EJ0vk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDY0OGM3N2YtMTA3Zi00Zjk4LWJlYjYtNTg0MjU2ZjU3NjA2LmpwZw==",
+      "poster": "https://resizing.flixster.com/rUpnraBpZK0KgsLh_CTfwej-4MY=/164x246/v2/https://resizing.flixster.com/kLwMOMo9dhSaXqqymZQUT2EJ0vk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDY0OGM3N2YtMTA3Zi00Zjk4LWJlYjYtNTg0MjU2ZjU3NjA2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/5QJtEzMR7NxRxBBEdB7JfM1l7Oj.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/twD0R1O15sPKDzUoJafwkm7fxCC.png",
       "description": "Tomatometer 86%"
@@ -1219,15 +1290,6 @@
       "poster": "https://resizing.flixster.com/I8fS6W7U03-AUtU1oQI8qFFvQ7c=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30219830_b_v12_ag.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ubqZEVCDp86myrZwJpyNwocLrce.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/afEZuBUbQS1ujZl1q43mR2xGn42.png",
-      "description": ""
-    },
-    {
-      "id": "tt8467296",
-      "type": "series",
-      "name": "Love Island Australia",
-      "poster": "https://resizing.flixster.com/DxndYZOHFbrHh5f-NMT8sTmO72I=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15519836_b_v8_ba.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/e4HxxfDlSmlOzXaNoSuNZLX9IA7.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wyTPfFEheq8LW0HteY3iBUuUCUt.png",
       "description": ""
     },
     {
@@ -1272,15 +1334,6 @@
       "name": "Killer Investigations",
       "poster": "https://resizing.flixster.com/76MLbj9Sr3TxVeRs3uj7oca8VkU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30247259_b_v12_al.jpg",
       "background": "https://resizing.flixster.com/76MLbj9Sr3TxVeRs3uj7oca8VkU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30247259_b_v12_al.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0320037",
-      "type": "series",
-      "name": "Jimmy Kimmel Live!",
-      "poster": "https://resizing.flixster.com/QiZkraVW1blT9TFQ72bm5XkDo14=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xiYj5NlGEYglNfG2Wytbd6hvZtB.png",
       "description": ""
     },
     {
@@ -1557,56 +1610,12 @@
       "description": ""
     },
     {
-      "id": "tt1091909",
-      "type": "series",
-      "name": "Murdoch Mysteries",
-      "poster": "https://resizing.flixster.com/utEupHURX-BiH6bzMhHwqPpCPzw=/164x246/v2/https://resizing.flixster.com/4S3brBN5haulc9OWeBE5gqSCiQ0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg1NTE5My53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/hYmHyUlJMQgeazELoHnORrEQ0vE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tKbdpkoTIvlDesStmxBDaLf77Oi.png",
-      "description": ""
-    },
-    {
-      "id": "tt4226226",
-      "type": "series",
-      "name": "Holiday Baking Championship",
-      "poster": "https://resizing.flixster.com/3vuLHEHsjZna66XrmQgmzEv14ME=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11107346_b_v12_be.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/elqlGbwpRCNTw4rhyOwMU4JWhS.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8Mp3TFbwD2h3ywBLEQcceZILUS6.png",
-      "description": ""
-    },
-    {
       "id": "tt0409591",
       "type": "series",
       "name": "Naruto",
       "poster": "https://resizing.flixster.com/sTLVNxho6KGYWA5EY8HCg_vsRqw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p194893_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5F0HVEgkgP99fEWDjPyikGt9jQi.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kaZ99sfclCKWnUgmW7AYrok03Am.png",
-      "description": ""
-    },
-    {
-      "id": "tt13491734",
-      "type": "series",
-      "name": "Name That Tune",
-      "poster": "https://resizing.flixster.com/zobYRh0EZ5VxMWIOy0q8aY48oh8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19115550_b_v12_an.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7uly9uOevv0Lbm91J13Z7jK9lXw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/latU2IkVmRHEbFAnJSvAMEuwSF7.png",
-      "description": ""
-    },
-    {
-      "id": "tt36933506",
-      "type": "series",
-      "name": "Celebrity Weakest Link",
-      "poster": "https://resizing.flixster.com/XsQ3msMLiBKru4Y_jWwOLo8gk_A=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30817754_b_v12_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/euzlgl95XocL76FO9Q1MoUtxYLy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wtx1itN33fYJcixwNbkrYtLjxGz.png",
-      "description": ""
-    },
-    {
-      "id": "tt40124166",
-      "type": "series",
-      "name": "Live PD: Greatest Shifts",
-      "poster": "https://resizing.flixster.com/drHKz2PwaQ4yfzL5LSkkynqtmyU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31189202_b_v12_aa.jpg",
-      "background": "https://resizing.flixster.com/drHKz2PwaQ4yfzL5LSkkynqtmyU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31189202_b_v12_aa.jpg",
       "description": ""
     },
     {
@@ -1634,15 +1643,6 @@
       "poster": "https://resizing.flixster.com/URs7C_QZKTYrLncxIeZ_H77XcDM=/164x246/v2/https://resizing.flixster.com/d0NUZz3qnkubb26E32olH85jkzw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjQzNTg4OS53ZWJw",
       "background": "https://image.tmdb.org/t/p/w1280/AsaEmDMgrt9MCCTXxUzY9PtFZko.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/j9ZZ7WV5pwLLXbbebyGdMUxbqrc.png",
-      "description": ""
-    },
-    {
-      "id": "tt2359704",
-      "type": "series",
-      "name": "JoJo's Bizarre Adventure",
-      "poster": "https://resizing.flixster.com/GZzCnZDz1OdnZoOqbV8E9ZYI0LI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13351521_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bfcHax3WxaoqiRXzCkKjmd2myR8.png",
       "description": ""
     },
     {
@@ -1688,7 +1688,7 @@
       "poster": "https://resizing.flixster.com/fo4N0G72XtC94-9ZNt02R1DXfBU=/164x246/v2/https://resizing.flixster.com/HoycBkxX__qJYfoOAYIutqMasbY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODFlY2RmNWEtZTNjMy00ODA1LWE4N2ItNDYyMjVhZDUwMzViLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/kaugQAtftkyTmZe9DxZOu01AIA3.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/hJY5ujLN1bCiFBak8jPnUfBDs8L.png",
-      "description": "Tomatometer 20%"
+      "description": "Tomatometer 14%"
     },
     {
       "id": "tt50369345",

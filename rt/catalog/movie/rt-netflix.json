@@ -21,6 +21,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/5yB5ISzk2PaRGgE0JL2Hpt7ZgA3.png"
     },
     {
+      "id": "tt48434154",
+      "type": "movie",
+      "name": "Primetime Preacher$",
+      "releaseInfo": "",
+      "description": "Chronicles the 1980s golden age of Christian broadcasting, detailing how three of America's most prominent televangelists shifted evangelical Christianity into a massive political force.",
+      "poster": "https://image.tmdb.org/t/p/w500/ilFRKYUhsYyW0mpSifpFZmpR9yo.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gVdy7sXbUQKWNV6QXG7vTB1344G.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rJ8Kaed58FCDte68xkcTFQd8oMq.png"
+    },
+    {
       "id": "tt50969289",
       "type": "movie",
       "name": "Russell Brand: Open Secret",
@@ -335,7 +345,7 @@
       "name": "Misty Green",
       "releaseInfo": "",
       "description": "Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act.",
-      "poster": "https://image.tmdb.org/t/p/w500/j8NF67FguTCH8tGu7Du6n8DMcSt.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/z3TILXYRqSDRHiuxToiyBqos8I1.png"
     },
@@ -455,7 +465,7 @@
       "name": "Possible Love",
       "releaseInfo": "",
       "description": "A laid-off worker and his wife cross paths with a documentary filmmaker and her spouse and confront their hidden desires.",
-      "poster": "https://image.tmdb.org/t/p/w500/peucz3LYt0FnS9QV7THUcjUKYJk.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9RKhjTv0DQJ1UtmDS7GkDYoKQHH.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5jdF6iuVDkZaRObczlKvR5KVd4n.png"
     },
@@ -1978,16 +1988,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/uYVxuLVZsxnJfXK03YgZSzqiWiQ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xZckmmxQNDKfvOYSOoVuwFpmkod.png"
-    },
-    {
-      "id": "tt37541677",
-      "type": "movie",
-      "name": "Bharathanatyam 2 Mohiniyattam",
-      "releaseInfo": "",
-      "description": "The family's journey to Sreekandapuram to settle the late Bharathan Nair's second wife and son takes a dark turn when an issue from his past resurfaces, leading to an unexpected crime. Forced into a desperate cover-up to protect their future, the family must navigate a treacherous path of secrecy and mounting pressure, determined to overcome any obstacle by any means necessary.",
-      "poster": "https://image.tmdb.org/t/p/w500/lsg0IxNQCUxKqs63YjturEuY0qQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/g7y8EDiXvlZYrIKDLlhtbcAPnxS.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/lRwpPTooKLDqT8Lgh3VYc9vv6fM.png"
     }
   ]
 }

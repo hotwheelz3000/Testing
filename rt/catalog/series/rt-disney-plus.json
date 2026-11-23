@@ -824,10 +824,19 @@
       "releaseInfo": "2025"
     },
     {
+      "id": "tt21055930",
+      "type": "series",
+      "name": "Zombies: The Re-Animated Series",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27267773_b_v12_ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/thjmZJ1gIGi5v5emyxGFjWZvtoZ.png",
+      "description": ""
+    },
+    {
       "id": "tt0784896",
       "type": "series",
       "name": "Mickey Mouse Clubhouse+",
-      "poster": "https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
+      "poster": "https://resizing.flixster.com/PNEuwedDsuoZsaZ6KvS6QbI8ju0=/164x246/v2/https://resizing.flixster.com/kW8MteMEPcHC9HtSvTESJOX5pZU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2VjOTU5OWItNDk5OS00ZDQ5LWI1ZmMtMThiMDk4ZjlhNDY1LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/89BPrKS6BoktBPTfWcHMQrFNo8s.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/q5PfADWzuGMdWVKmAde7fKheC09.png",
       "description": ""
@@ -836,7 +845,7 @@
       "id": "tt19868830",
       "type": "series",
       "name": "Pupstruction",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24696928_b_v12_ba.jpg",
+      "poster": "https://resizing.flixster.com/n4uK0kACoJyUM1yBXngZtgwG2Q8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24696928_b_v12_ba.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/f9iKdNLMbL2VFKtMlIz3pkzjKcT.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eaOKv0AV9rEHLSTF2s9tsXaNZJs.png",
       "description": ""
@@ -848,15 +857,6 @@
       "poster": "https://resizing.flixster.com/R9VveV-QJzBL3qnII4PVXMa_ROk=/164x246/v2/https://resizing.flixster.com/p8WzCsYY4kgY6Vc1JMElljfXb60=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmQyY2Q0YWUtNWJmMi00YWRjLWE5OTYtOTU3OGU0ZGM2ZDE1LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/9RvOSdK6oHbTZmGswApOziC0zc8.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mgIcMlLLPJnhIOCBw9J32t3jdXk.svg",
-      "description": ""
-    },
-    {
-      "id": "tt21055930",
-      "type": "series",
-      "name": "Zombies: The Re-Animated Series",
-      "poster": "https://resizing.flixster.com/IJafH1qO5q5K8UVkNQNL_mvSz80=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27267773_b_v12_ar.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/thjmZJ1gIGi5v5emyxGFjWZvtoZ.png",
       "description": ""
     },
     {
