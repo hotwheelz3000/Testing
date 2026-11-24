@@ -945,12 +945,48 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt45602692",
+      "type": "series",
+      "name": "Secret Life of a Vegas Casino",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34056519_b_v12_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/h6g4QtrLIh7EcPdFObAdvYIYL3C.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/s4pOOjT3qKqnygfQZ2HPwZ0kvFu.png",
+      "description": ""
+    },
+    {
       "id": "tt1877005",
       "type": "series",
       "name": "Moonshiners",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8938792_b_v12_by.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bmVWu2sZ56uLW1DHbg5TcsuVzJF.png",
+      "description": ""
+    },
+    {
+      "id": "tt4388486",
+      "type": "series",
+      "name": "My Big Fat Fabulous Life",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11343925_b_v12_at.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/u8EUQWxMVYnUENwAhKyoRE5iBCa.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qZ3c19g0RE8rDiOuKDUj4ZU92wl.png",
+      "description": ""
+    },
+    {
+      "id": "tt23334036",
+      "type": "series",
+      "name": "World War II: Secrets From Above",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23124686_b_v11_as.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vwP8lTgiscnRzbaTucRRzXHpy4G.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9H1GqDFzmobtoq4msg2lkEsoarT.png",
+      "description": ""
+    },
+    {
+      "id": "tt0795129",
+      "type": "series",
+      "name": "House Hunters International",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185817_b_v12_db.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/q0zY5AbqOhCghYWWwzpfT7dhcfb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3ClRDwDNP8OOID7MCbZOvcyYKpv.png",
       "description": ""
     },
     {
@@ -963,12 +999,57 @@
       "description": ""
     },
     {
+      "id": "tt21055930",
+      "type": "series",
+      "name": "Zombies: The Re-Animated Series",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27267773_b_v12_ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/thjmZJ1gIGi5v5emyxGFjWZvtoZ.png",
+      "description": ""
+    },
+    {
+      "id": "tt33014623",
+      "type": "series",
+      "name": "In the Eye of the Storm",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27544611_b_v12_bc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lo0iRpDmiEGgysKReMebnTrX0tm.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/4N6frDYvegHr2FAALttI1hLsl62.png",
+      "description": ""
+    },
+    {
       "id": "tt0364151",
       "type": "series",
       "name": "American Masters",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185856_b_v12_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jZGxKCxDbepPaARnSu74Df9UE5Y.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/r7baGqt5yNaHM44QdLnQOIAyTW9.png",
+      "description": ""
+    },
+    {
+      "id": "tt1554356",
+      "type": "series",
+      "name": "On the Case With Paula Zahn",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7834060_b_v12_bn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rtqAI6zRR8K6drC3pIMo6Z8OWnI.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/gHOpI3A9bM1eHSipUOl96L4hpgg.png",
+      "description": ""
+    },
+    {
+      "id": "tt7316998",
+      "type": "series",
+      "name": "House of Games",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
+      "description": ""
+    },
+    {
+      "id": "tt0088512",
+      "type": "series",
+      "name": "EastEnders",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2jzrUm0vGW2TqJPds1PfZVRYrh7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5OAuQ8fbLBNQIJicUgHFkXLzE56.png",
       "description": ""
     },
     {
@@ -1002,7 +1083,7 @@
       "id": "tt2342499",
       "type": "series",
       "name": "Below Deck",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9194492_b_v12_ca.jpg",
+      "poster": "https://resizing.flixster.com/gn2bIywlIengWlAYfjlECfCsIJI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9194492_b_v12_ca.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yL3g0vf5938of5GHQrfClzuLC15.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qJNw1XKBOag3VHraa2SW304PMzJ.png",
       "description": ""
@@ -1011,7 +1092,7 @@
       "id": "tt21915168",
       "type": "series",
       "name": "Work It Out Wombats!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23615394_b_v12_aa.jpg",
+      "poster": "https://resizing.flixster.com/63iKxeWPWg2_9-bbgQb0UMxOhiY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23615394_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kESPSbE5kjYQna8qdQBCQW4BzOh.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/yW2lT22BKMpnY67zXJhva93Qnr2.png",
       "description": ""
@@ -1020,7 +1101,7 @@
       "id": "tt0390700",
       "type": "series",
       "name": "Escape to the Country",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p379352_b_v11_bp.jpg",
+      "poster": "https://resizing.flixster.com/pqq9iN8kFQBBaue1VkZqu-wQag0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p379352_b_v11_bp.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kIzJRfta77wxKOlefyfkBE68kOe.png",
       "description": ""
@@ -1029,7 +1110,7 @@
       "id": "tt4634294",
       "type": "series",
       "name": "StarTalk",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11588028_b_v8_at.jpg",
+      "poster": "https://resizing.flixster.com/T8-F0EnVlvJOXbWOD3L_IIiiEZc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11588028_b_v8_at.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7ysNbTEttcxUq0MJwqWe3MO30Qy.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vXdweEvwvXj1su0Ye79LCkBG1SB.png",
       "description": ""
@@ -1038,33 +1119,33 @@
       "id": "tt31975941",
       "type": "series",
       "name": "Police 24/7",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
+      "poster": "https://resizing.flixster.com/ojEcaXWeNDUbvqpsaAnz2Yd5LPM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/AlxGts16nBUiF1Y6lBJFlSt0H03.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt7316998",
-      "type": "series",
-      "name": "House of Games",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
       "description": ""
     },
     {
       "id": "tt33909613",
       "type": "series",
       "name": "Rachael Ray's Meals in Minutes",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26976887_b_v12_af.jpg",
+      "poster": "https://resizing.flixster.com/sxxLA7EgQhvTEy-fQELeg5_PUHA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26976887_b_v12_af.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/psFiFZCTl9RFxHRCBQ4DOvSC5Fa.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/wfP2xIeqgQHdjD8rPno7SipmaDD.png",
+      "description": ""
+    },
+    {
+      "id": "tt1771742",
+      "type": "series",
+      "name": "Restaurant: Impossible",
+      "poster": "https://resizing.flixster.com/mDzfV4ZE5Cjm5v8R6GofToeMWU8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8422693_b_v13_bn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hwpoeLVP2VsvVqZcOU8CMBHSuFf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cOW0X8TFa1Kw7u8gFOsEdJCUntp.png",
       "description": ""
     },
     {
       "id": "tt12867810",
       "type": "series",
       "name": "Start Up",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10086190_b_v13_ac.jpg",
+      "poster": "https://resizing.flixster.com/NvqCjbdfbwkq3AazPIBBFcAcjIw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10086190_b_v13_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/v9Ej3dWhR0nFcLPOtvdPFXC6DN9.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ufnG2iy1bJTemn9QML5S4TPEVzw.png",
       "description": ""
@@ -1073,17 +1154,8 @@
       "id": "tt5937362",
       "type": "series",
       "name": "Woodsmith Shop",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
-      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0088512",
-      "type": "series",
-      "name": "EastEnders",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2jzrUm0vGW2TqJPds1PfZVRYrh7.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5OAuQ8fbLBNQIJicUgHFkXLzE56.png",
+      "poster": "https://resizing.flixster.com/woVtotxlbJEQvZ2TAkou5EY4ovE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
+      "background": "https://resizing.flixster.com/woVtotxlbJEQvZ2TAkou5EY4ovE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
       "description": ""
     },
     {
@@ -1247,6 +1319,15 @@
       "description": ""
     },
     {
+      "id": "tt33258199",
+      "type": "series",
+      "name": "A Wild Last Boss Appeared!",
+      "poster": "https://resizing.flixster.com/KFfULxR4L66NYnuPHCGnpnYlCXs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31056308_b_v12_ab.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gNYmU3RUlCb6dVqkiPCT7vglMfg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cklffgw8EqqWLiobCuXI1jBa2fU.png",
+      "description": ""
+    },
+    {
       "id": "tt43475149",
       "type": "series",
       "name": "Worst Yard on the Block",
@@ -1341,51 +1422,6 @@
       "name": "To Dine For With Kate Sullivan",
       "poster": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
       "background": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt33246591",
-      "type": "series",
-      "name": "The Assassin",
-      "poster": "https://resizing.flixster.com/6iaDGPZz-SzYAL8Kbq4LmByrQps=/164x246/v2/https://resizing.flixster.com/OGWa5oP41XeR1OBA3QGc50n0mHw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjA1NDU1YzgtOGI1Ni00NjliLWFiY2MtZGRlYzZkMjkyNDJkLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7EB84rTBUmjY2tPhNpGjxnKJVeo.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ptMbRJPQ1dlpNEGIJyGGqUoGWZF.png",
-      "description": "Tomatometer 72%"
-    },
-    {
-      "id": "tt2396135",
-      "type": "series",
-      "name": "Shetland",
-      "poster": "https://resizing.flixster.com/_B9o1P7d7IFuyUszM9heEOpTyCA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v8_as.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/t3YeSQyOIrQquSBrEQfeWkAuaM0.png",
-      "description": ""
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://resizing.flixster.com/_vfhoBzPf5py6ZYxsFU7qDKX6aE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26603650_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zxMi43DtThzaQhPb4qn9nXSC0GA.png",
-      "description": ""
-    },
-    {
-      "id": "tt2815522",
-      "type": "series",
-      "name": "Southern Charm",
-      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
-      "description": ""
-    },
-    {
-      "id": "tt0078701",
-      "type": "series",
-      "name": "This Old House",
-      "poster": "https://resizing.flixster.com/jjYiTTzF77KFP2jNUTS3ga81lmc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184111_b_v12_aj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5tptnb4V4tLhzBp3GtK7ONHXcH9.png",
       "description": ""
     }
   ]

@@ -28,6 +28,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/rKJfXPDkWPsGRuk3axzTAdANZdn.png"
     },
     {
+      "id": "tt38258118",
+      "type": "movie",
+      "name": "Best Pancakes in the County",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt38258118/img",
+      "background": "https://image.tmdb.org/t/p/w1280/34eWzsWpZa17DqT8KeL5InlvRK7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zpR8JisFyRjCCtva7hjYyxfELpz.png"
+    },
+    {
       "id": "tt39370926",
       "type": "movie",
       "name": "Never Surrender",
@@ -251,6 +260,14 @@
       "poster": "https://images.metahub.space/poster/medium/tt36073210/img",
       "background": "https://image.tmdb.org/t/p/w1280/i65y7cMae36K0giN0GRaMjAHUru.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/AbFVWXxZ76enpA1GHCq13CN8xGu.png"
+    },
+    {
+      "id": "tt34992230",
+      "type": "movie",
+      "name": "The Militia",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt34992230/img",
+      "background": "https://image.tmdb.org/t/p/w1280/twI5fNZrX4UnUVu8mAeO1P7VAUk.jpg"
     },
     {
       "id": "tt31349844",
@@ -1195,24 +1212,6 @@
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt38681496/img",
       "background": "https://image.tmdb.org/t/p/w1280/kq2Lym2qKZcbTAt4KjJYeYwVxGH.jpg"
-    },
-    {
-      "id": "tt33474179",
-      "type": "movie",
-      "name": "Firebreak",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt33474179/img",
-      "background": "https://image.tmdb.org/t/p/w1280/thgemkoLauZxcqe6KX8wxqEc70z.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7QWDyBC6kbUYdalWwmJulfVmoLr.png"
-    },
-    {
-      "id": "tt14181714",
-      "type": "movie",
-      "name": "The Bluff",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt14181714/img",
-      "background": "https://image.tmdb.org/t/p/w1280/rbFqLPKj6D2JyRh5mOfA7jqX0Qk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9RJoRWExOOEn3Gt1wSHZ4890mkV.png"
     }
   ]
 }

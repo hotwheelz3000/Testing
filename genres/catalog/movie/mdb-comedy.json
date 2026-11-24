@@ -109,6 +109,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/ldi3LYSHGJINmIKaATfuuKYZfdH.png"
     },
     {
+      "id": "tt46066911",
+      "type": "movie",
+      "name": "A Danish Christmas",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt46066911/img",
+      "background": "https://image.tmdb.org/t/p/w1280/v9Fl90gwiw1OoQlyXpoaAMULyik.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jM5WMPdNOi12YNQw23jQieeH8KQ.png"
+    },
+    {
       "id": "tt2586000",
       "type": "movie",
       "name": "The Strange Little Cat",
@@ -180,6 +189,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/i5A8UZtgyduV5yhRl4RaIrKkmi8.png"
     },
     {
+      "id": "tt29611136",
+      "type": "movie",
+      "name": "Wicker",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt29611136/img",
+      "background": "https://image.tmdb.org/t/p/w1280/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/edYXpYo4TgEirZuMeKTSkOkF96p.png"
+    },
+    {
       "id": "tt48933405",
       "type": "movie",
       "name": "Theo Von: I'm Doing Fine",
@@ -205,6 +223,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt44822485/img",
       "background": "https://image.tmdb.org/t/p/w1280/hE90kqyiFm9apunHLQirvdO7KyR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uBYReWhXWWyMoOvv7s0XpAcFqxb.png"
+    },
+    {
+      "id": "tt45368240",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt45368240/img",
+      "background": "https://image.tmdb.org/t/p/w1280/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wz3JU2WtZMBeln4zpvR9RmVQ9gM.png"
     },
     {
       "id": "tt46062767",
@@ -1615,33 +1642,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt38583312/img",
       "background": "https://image.tmdb.org/t/p/w1280/jjHhol2Pxe020AEYvi0w7Q5hFtF.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/u5Evtl4CTw72be6DfrxCubHQ77e.png"
-    },
-    {
-      "id": "tt34547719",
-      "type": "movie",
-      "name": "Sing Geetham",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt34547719/img",
-      "background": "https://image.tmdb.org/t/p/w1280/y3YZvFiuWJ0b4OpCvX9UY1AIprF.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt34547719/img"
-    },
-    {
-      "id": "tt43279365",
-      "type": "movie",
-      "name": "Project Baby",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt43279365/img",
-      "background": "https://image.tmdb.org/t/p/w1280/fIPpdk1QvQZhS2w694RXo7Pqc4s.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/iD0mRCjJx0JloNObdKgbN38tvwe.png"
-    },
-    {
-      "id": "tt37899019",
-      "type": "movie",
-      "name": "Never Change!",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt37899019/img",
-      "background": "https://image.tmdb.org/t/p/w1280/bfJ2MvS4wixkQ7tQX0a87q1XYlE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fhOpv9KqTFToS2JKxYBHmxOXfnz.png"
     }
   ]
 }

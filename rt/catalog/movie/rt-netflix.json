@@ -390,6 +390,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/zMSLBsrkEnP2BbNSd2725MCaXvJ.png"
     },
     {
+      "id": "tt34792531",
+      "type": "movie",
+      "name": "Avaraachan & Sons",
+      "releaseInfo": "",
+      "description": "Follows Avarachan, his children and the various family and social relationships that shape their lives.",
+      "poster": "https://image.tmdb.org/t/p/w500/xFCMObAyeWE7iWFH30XNiOjcWsv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fvfXiUaexUqCitmOftGBXgNO6Of.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt34792531/img"
+    },
+    {
       "id": "tt43738050",
       "type": "movie",
       "name": "Crazy Rich, Incredibly Broke",
@@ -1978,16 +1988,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nGbo6kZLHwcyBJOgr5b36OvBPPe.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/vSTlbow1yx2L85EEUhFiJOMo4LY.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2r7sSfpmnFbZk79lsWT38ilyucC.png"
-    },
-    {
-      "id": "tt37540875",
-      "type": "movie",
-      "name": "Roommates",
-      "releaseInfo": "",
-      "description": "When shy college freshman Devon asks cool-girl Celeste to be her roommate, a blossoming friendship quickly spirals into a war of passive aggression.",
-      "poster": "https://image.tmdb.org/t/p/w500/eW1s6omXIfVkTlmKVe9y9Dwwt4u.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/uYVxuLVZsxnJfXK03YgZSzqiWiQ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xZckmmxQNDKfvOYSOoVuwFpmkod.png"
     }
   ]
 }

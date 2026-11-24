@@ -6,7 +6,7 @@
       "name": "A Proud Family Wizmas",
       "releaseInfo": "",
       "description": "When Penny Proud’s rant about Wizmas and the commercialization of Christmas causes Santa to quit on Christmas eve, Penny finds herself guilted into putting on the red suit and replacing him. And in the process of delivering Yuletide cheer with the help of Santa’s irreverent elves, she discovers that indeed the Christmas spirit is still alive.",
-      "poster": "https://image.tmdb.org/t/p/w500/9nFa7GEw9FmZWn3gaFhLvVrhVDY.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/11wLgcyi1712tk891oqT1SblmAY.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/a8syGZWwgV4ofi70OtvoIGsNjFz.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3iWhf5rCvpwxyMVBG8DYPQCyOk4.png"
     },
@@ -251,16 +251,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/p3pG6UrXoQMbdbE0cEzYt7IzZLn.png"
     },
     {
-      "id": "tt37751253",
-      "type": "movie",
-      "name": "Diary of a Wimpy Kid: The Last Straw",
-      "releaseInfo": "",
-      "description": "When laidback Greg finds himself at odds with his dad's outsized expectations, pressure builds to turn his act around. After a series of hilarious near disasters, Greg's dad presents him with an ultimatum that just might challenge his wimpy ways for good.",
-      "poster": "https://image.tmdb.org/t/p/w500/emcCjpC289NxAGuVwlItHCTrgT7.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/v8tpkxm7AhLu69eaZKJLsNaSL5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hvHArG4NBuEyJzkyzmpOUQGXm9x.png"
-    },
-    {
       "id": "tt32594892",
       "type": "movie",
       "name": "Prep & Landing: The Snowball Protocol",
@@ -329,6 +319,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pUNfHmVqfwRdILhCkU8TdysVOXo.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7ZUfeMOiFrtBaI7D5hYWnI39nfg.png"
+    },
+    {
+      "id": "tt36364038",
+      "type": "movie",
+      "name": "A Husband to Die For: The Lisa Aguilar Story",
+      "releaseInfo": "",
+      "description": "A pregnant woman learns her husband is cheating and doesn't want to be a father, pushing him to consider extreme actions to escape his obligations.",
+      "poster": "https://image.tmdb.org/t/p/w500/ly0h6GjrCDkbBhPdzGCX7DWX4VZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7meJ5Yim7yTxIzsyvFSyzB72E9O.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8twulMGNKtQpKAGYxtxlTv0YiFh.png"
     },
     {
       "id": "tt8503618",
@@ -1048,16 +1048,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/3cJgsU1AVub7aUrPr5lBcp2CQE5.png"
     },
     {
-      "id": "tt32568049",
-      "type": "movie",
-      "name": "D.I.Y. Duck",
-      "releaseInfo": "",
-      "description": "Donald Duck's efforts to replace a light bulb end in comic and catastrophic results.",
-      "poster": "https://image.tmdb.org/t/p/w500/2n5AI9Rt1NqjfshQ2j1kLXpDBMq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3ziHBm9NazFn7oP06zdzG8Y8ucG.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/j2HdWCj4hanwMAwQBuvFAZn9W6e.png"
-    },
-    {
       "id": "tt32421420",
       "type": "movie",
       "name": "Protecting Paradise: The Story of Niue",
@@ -1643,6 +1633,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/gehzAC8zE85Qiyn5HcXgiky7W1W.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/eBWByfYdAY4Gcch07TIJ0WjpTbB.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/685AqOrB4yPpldKfV8iqUzb64cX.png"
+    },
+    {
+      "id": "tt22375620",
+      "type": "movie",
+      "name": "The Slumber Party",
+      "releaseInfo": "",
+      "description": "The hilarious aftermath of a sleepover birthday party hypnotism gone wrong as best friends Megan and Paige, along with soon-to-be step-sister Veronica, wake up with absolutely no memory of the night before.",
+      "poster": "https://image.tmdb.org/t/p/w500/2jjOBcKJYb5FRTcsqL6yRtAY3Wr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/otSCescAQiSAc6w1vJvl0WnogRn.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/gklkwwVKs81uYn2H7q8O2P5N9oW.png"
     }
   ]
 }

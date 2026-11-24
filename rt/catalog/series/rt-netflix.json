@@ -4,7 +4,7 @@
       "id": "tt33004920",
       "type": "series",
       "name": "The Trials of Karen Read",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//876SDnMg7mRIgG1HEH1EtZ7ec9D.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//449rpusr7ZtAqSsLcYHXqiIJfw7.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/bn3UWOaVNFPXNOJhuL42W67CSKb.jpg",
       "description": "An accident, a deadly fight or an elaborate cover-up? This true-crime series digs into the murder trials of Karen Read that sparked viral conspiracies.",
       "releaseInfo": "2026"
@@ -935,6 +935,23 @@
       "releaseInfo": "2026"
     },
     {
+      "id": "tt27995115",
+      "type": "series",
+      "name": "The Devil's Plan",
+      "poster": "https://resizing.flixster.com/WrGQDEACk3VSJ90_LGy1fsos2i4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzE1ZmEyNmUtNTg3Yi00OWZmLTkyMTQtNjEyZWYwNzg1MDE1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/ofFMb0hf4Ve0UPMTzYyFtBRBHEF.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/10Tg57d8wtcn6crPWOi1ebx7qIz.png",
+      "description": ""
+    },
+    {
+      "id": "tt50205220",
+      "type": "series",
+      "name": "The Great British Bake Off",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
+      "description": "Tomatometer 87%"
+    },
+    {
       "id": "tt21433690",
       "type": "series",
       "name": "St. Denis Medical",
@@ -953,6 +970,15 @@
       "description": ""
     },
     {
+      "id": "tt39053780",
+      "type": "series",
+      "name": "Mark Rober's CrunchLabs",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31790655_b_v8_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uqcUOKfJviztoNhiKxNXq7SBdUa.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/f5261k7TXm7TupLaXE3ufvnaPBH.png",
+      "description": ""
+    },
+    {
       "id": "tt16161100",
       "type": "series",
       "name": "The Great British Baking Show: Holidays",
@@ -967,6 +993,15 @@
       "poster": "https://resizing.flixster.com/NN9iiRQDCMcY9OtIWwdJBGNrjWk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmJmMzQxNTctN2RhNi00MTY4LTk5NzQtODIxMjdmZjMzNjk2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/8p39Ud6ZKMixBQ7R4frg2o3idzc.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eFKYUsGePMFLrwmvnnLfh96Yjdc.png",
+      "description": ""
+    },
+    {
+      "id": "tt32766897",
+      "type": "series",
+      "name": "Ranma 1/2",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28175579_b_v8_ab.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ajJxeM5CIDV8fMQZU3sHSfTIVKb.png",
       "description": ""
     },
     {
@@ -994,7 +1029,7 @@
       "poster": "https://resizing.flixster.com/HFC3tGB1ElYpM9aHGWufgVMAmVw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDJjOTcxMzUtYjE4YS00MDY2LWFmYWYtMTU2ODY1NWI1ODJlLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png",
-      "description": "Tomatometer 90%"
+      "description": "Tomatometer 89%"
     },
     {
       "id": "tt39906446",
@@ -1011,15 +1046,6 @@
       "poster": "https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
-      "description": ""
-    },
-    {
-      "id": "tt0206512",
-      "type": "series",
-      "name": "SpongeBob SquarePants",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
       "description": ""
     },
     {
@@ -1053,7 +1079,7 @@
       "id": "tt32378211",
       "type": "series",
       "name": "Mistletoe Murders",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28243292_b_v12_ak.jpg",
+      "poster": "https://resizing.flixster.com/8Js-kDzNaEhKHs6EBPwHjdynarg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28243292_b_v12_ak.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9nOTLXRPFcjI8fpCebRTfy6TPJZ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6pw3u1e9LNN6iLp9YzG6ehyb0B9.png",
       "description": ""
@@ -1062,7 +1088,7 @@
       "id": "tt39123061",
       "type": "series",
       "name": "The Ramparts of Ice",
-      "poster": "https://resizing.flixster.com/zrIumQUAXuYuW3WvM8vkBwPW5RM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTJjNTE5NmYtY2ViOC00NzNhLTg4MDUtYTFiNTg2MzljZDg2LmpwZw==",
+      "poster": "https://resizing.flixster.com/-0WwiXeCVXyM60ly_hjwKlkPJ1M=/164x246/v2/https://resizing.flixster.com/zrIumQUAXuYuW3WvM8vkBwPW5RM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTJjNTE5NmYtY2ViOC00NzNhLTg4MDUtYTFiNTg2MzljZDg2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/a5okATkpmXxAClSnAjGP4ums77c.png",
       "description": ""
@@ -1071,7 +1097,7 @@
       "id": "tt20859904",
       "type": "series",
       "name": "Mike Judge's Beavis and Butt-Head",
-      "poster": "https://resizing.flixster.com/Xf_r_scnLoZlerfYkIsrv8DhTUc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzkyNDc4ZWUtZDk1NC00NTJkLThhNWUtODI0ODNiZDE3MGI1LmpwZw==",
+      "poster": "https://resizing.flixster.com/lbYJPhHFEosskhxresekx2KS6cY=/164x246/v2/https://resizing.flixster.com/Xf_r_scnLoZlerfYkIsrv8DhTUc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzkyNDc4ZWUtZDk1NC00NTJkLThhNWUtODI0ODNiZDE3MGI1LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/caRCqMwsn7vJTvlo3u4FSv59KEl.png",
       "description": ""
@@ -1083,23 +1109,6 @@
       "poster": "https://resizing.flixster.com/6mHn0rwp5i_CcsZz-fa3fhnIaMU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184930_b_v12_ay.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rHKRZCBpDFSNc45kzyf665LJYp3.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bRUIbYZkAtGhDw2fWteAJkg7WjR.png",
-      "description": ""
-    },
-    {
-      "id": "tt50205220",
-      "type": "series",
-      "name": "The Great British Bake Off",
-      "poster": "https://resizing.flixster.com/pH5WBysCeJ9XJoe5rBZdrPfrdMI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
-      "background": "https://resizing.flixster.com/pH5WBysCeJ9XJoe5rBZdrPfrdMI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8251114_b_v11_dk.jpg",
-      "description": "Tomatometer 87%"
-    },
-    {
-      "id": "tt32766897",
-      "type": "series",
-      "name": "Ranma 1/2",
-      "poster": "https://resizing.flixster.com/PelKzcnZLDyYX7vSwsaNP2vNBOg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28175579_b_v8_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/xvD9urN8lUtWw5fm4a87Rl3dCZn.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ajJxeM5CIDV8fMQZU3sHSfTIVKb.png",
       "description": ""
     },
     {
@@ -1172,15 +1181,6 @@
       "poster": "https://resizing.flixster.com/SI77be-2hNTIofs47mctgenjSQM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25999448_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/o1ak41zRPYCQ6WCWSsUfuq26jdB.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9v8hgnxKy0AV3QwqAho3hsgdRDH.png",
-      "description": ""
-    },
-    {
-      "id": "tt27995115",
-      "type": "series",
-      "name": "The Devil's Plan",
-      "poster": "https://resizing.flixster.com/G47BsemurDfY7GaPdHP5XbDNWYQ=/164x246/v2/https://resizing.flixster.com/WrGQDEACk3VSJ90_LGy1fsos2i4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzE1ZmEyNmUtNTg3Yi00OWZmLTkyMTQtNjEyZWYwNzg1MDE1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ofFMb0hf4Ve0UPMTzYyFtBRBHEF.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/10Tg57d8wtcn6crPWOi1ebx7qIz.png",
       "description": ""
     },
     {
@@ -1327,6 +1327,15 @@
       "description": "Tomatometer 90%"
     },
     {
+      "id": "tt0388629",
+      "type": "series",
+      "name": "One Piece",
+      "poster": "https://resizing.flixster.com/SBB3HP7pLemoXP8BAoHb9huNsTw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186423_b_v8_ae.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
+      "description": ""
+    },
+    {
       "id": "tt17491088",
       "type": "series",
       "name": "The Diplomat",
@@ -1458,15 +1467,6 @@
       "poster": "https://resizing.flixster.com/IEX6SDhF6v0hS1UBB_ibOBzv0E8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14491493_b_v8_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/dfvbteFQiK6e7PPajb6khojI2ko.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/6o1mywj1JShxHa8vgEMgFj5ucHp.png",
-      "description": ""
-    },
-    {
-      "id": "tt0388629",
-      "type": "series",
-      "name": "One Piece",
-      "poster": "https://resizing.flixster.com/SBB3HP7pLemoXP8BAoHb9huNsTw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186423_b_v8_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9F7daAmibx8ZHTE17CdM5FAwiHE.png",
       "description": ""
     },
     {
@@ -1610,15 +1610,6 @@
       "poster": "https://resizing.flixster.com/NNs-TphB8KqNaRMAicmAJdjUcUI=/164x246/v2/https://resizing.flixster.com/KJjQysqxDNXmGIcEGROx4DgK-J4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjI3OTYwOC53ZWJw",
       "background": "https://image.tmdb.org/t/p/w1280/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/wNzEpJMqiV4sJeAo3iQb6IAKyyb.png",
-      "description": ""
-    },
-    {
-      "id": "tt39053780",
-      "type": "series",
-      "name": "Mark Rober's CrunchLabs",
-      "poster": "https://resizing.flixster.com/3yKuuyhr0-295SUMT40ks8huKjo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31790655_b_v8_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/uqcUOKfJviztoNhiKxNXq7SBdUa.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/f5261k7TXm7TupLaXE3ufvnaPBH.png",
       "description": ""
     },
     {
