@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt18224594",
+      "type": "series",
+      "name": "Blade Runner 2099",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qAcXaAoJiYry9nGEyxTirnJ82Jj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7UAUa3qQBtm7Z07d2BwiBPGBGbe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5jzOY1tWIH3bVfsWN3ou6XVx5e8.png",
+      "description": "Fifty years after the events of Blade Runner 2049, Los Angeles has been reborn, just not by humanity. Cora, a fugitive in a final bid to stop running, takes on one last identity: a Blade Runner. Forced to partner with Olwen, a Replicant days from dying, she hunts down a runaway hiding a truth that could collapse their fragile city.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tt43620104",
       "type": "series",
       "name": "Mascarade",
@@ -935,13 +945,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt43616085",
+      "id": "tt1877005",
       "type": "series",
-      "name": "Offline med Isa & Tilda",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zZ8c3wmFT7tmt2RH8HZETlAkxeH.jpg",
-      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zZ8c3wmFT7tmt2RH8HZETlAkxeH.jpg",
-      "description": "In the first season of OFFLINE, Isa and Tilda leave the big city, screens and likes. Stureplan is exchanged for a farm, TikTok for tractors and high heels for rubber boots. No mobile, no champagne, no shopping - just cows, chaos and total shock. Laughter, tears, anger and frustration. Patience and friendship are put to the test. It's iconic, crazy and unforgettable. A season you don't want to miss!",
-      "releaseInfo": "2026"
+      "name": "Moonshiners",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8938792_b_v12_by.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jH8BWwd1kIfY3N614o9idhW8rOJ.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bmVWu2sZ56uLW1DHbg5TcsuVzJF.png",
+      "description": ""
+    },
+    {
+      "id": "tt0133302",
+      "type": "series",
+      "name": "Frontline",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184043_b_v12_af.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4Nbq8ARdNjZsurfuPjnCBRRXKnA.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3jkdZd4on9WASY3crXAXckSA06i.png",
+      "description": ""
+    },
+    {
+      "id": "tt0364151",
+      "type": "series",
+      "name": "American Masters",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185856_b_v12_ab.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jZGxKCxDbepPaARnSu74Df9UE5Y.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/r7baGqt5yNaHM44QdLnQOIAyTW9.png",
+      "description": ""
     },
     {
       "id": "tt39365612",
@@ -1015,6 +1043,15 @@
       "description": ""
     },
     {
+      "id": "tt7316998",
+      "type": "series",
+      "name": "House of Games",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
+      "description": ""
+    },
+    {
       "id": "tt33909613",
       "type": "series",
       "name": "Rachael Ray's Meals in Minutes",
@@ -1050,40 +1087,31 @@
       "description": ""
     },
     {
-      "id": "tt7316998",
-      "type": "series",
-      "name": "House of Games",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
-      "description": ""
-    },
-    {
       "id": "tt32501772",
       "type": "series",
       "name": "World's Greatest",
-      "poster": "https://images.fandango.com/cms/assets/688ae830-1663-11ec-a769-91f6c1f3c5b6--rtvideodefault.jpg",
+      "poster": "https://images.metahub.space/poster/medium/tt32501772/img",
       "background": "https://image.tmdb.org/t/p/w1280/fy229btO53qlYFo1gzrH2cM6jwX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/yz7U2ijAUwYofGBpHnVxDJctW91.png",
-      "description": ""
-    },
-    {
-      "id": "tt5622316",
-      "type": "series",
-      "name": "The Chosen",
-      "poster": "https://resizing.flixster.com/ilzfC36k_ix5RuRvLwDd9mt2CnI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTQ0MTcxMjAtOTcyNi00MzM5LWIwYTQtODIwMjQxM2E2M2JlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8oywdWTaWK7CZN9NsZWrQkTZTWw.png",
       "description": ""
     },
     {
       "id": "tt4406178",
       "type": "series",
       "name": "The Gilded Age",
-      "poster": "https://resizing.flixster.com/kiAZTxL9DjpaBLi6TqD09AxNhI4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjlmOWY5NDEtNTQxZS00ZTBkLThiZDgtZmY4MDNjY2UwMzc2LmpwZw==",
+      "poster": "https://resizing.flixster.com/nYr615lZfTkXnDuU-LRHXxUVCnY=/164x246/v2/https://resizing.flixster.com/kiAZTxL9DjpaBLi6TqD09AxNhI4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjlmOWY5NDEtNTQxZS00ZTBkLThiZDgtZmY4MDNjY2UwMzc2LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/afUVsProh46h31w2EvL7qyHXrqj.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aSeR1gVhhDQRPDpAu0tB44gXw79.png",
       "description": "Tomatometer 91%"
+    },
+    {
+      "id": "tt5622316",
+      "type": "series",
+      "name": "The Chosen",
+      "poster": "https://resizing.flixster.com/ydEc0wJwkYO-D5hBIJGt208qfQQ=/164x246/v2/https://resizing.flixster.com/ilzfC36k_ix5RuRvLwDd9mt2CnI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTQ0MTcxMjAtOTcyNi00MzM5LWIwYTQtODIwMjQxM2E2M2JlLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8oywdWTaWK7CZN9NsZWrQkTZTWw.png",
+      "description": ""
     },
     {
       "id": "tt10946316",
@@ -1184,6 +1212,15 @@
       "description": ""
     },
     {
+      "id": "tt1190931",
+      "type": "series",
+      "name": "American Greed",
+      "poster": "https://resizing.flixster.com/HcRycUeGD1XHeYrBVtGdpEWZWR0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185958_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/AqrHCKseQYMcdrMxFtCMYj56wUD.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wtNDQ8RlApxBDefa7r7Fzn8mHlw.png",
+      "description": ""
+    },
+    {
       "id": "tt2169245",
       "type": "series",
       "name": "MeatEater",
@@ -1198,15 +1235,6 @@
       "name": "Sara's Weeknight Meals",
       "poster": "https://resizing.flixster.com/iqewniWctn0td3jvjyiWTDcFVGg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p482145_b_v8_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/2xfAMeDssPfSUW1aXT54LHbyVU3.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt1190931",
-      "type": "series",
-      "name": "American Greed",
-      "poster": "https://resizing.flixster.com/HcRycUeGD1XHeYrBVtGdpEWZWR0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185958_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/AqrHCKseQYMcdrMxFtCMYj56wUD.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wtNDQ8RlApxBDefa7r7Fzn8mHlw.png",
       "description": ""
     },
     {
@@ -1272,15 +1300,6 @@
       "description": ""
     },
     {
-      "id": "tt0244912",
-      "type": "series",
-      "name": "MotorWeek",
-      "poster": "https://resizing.flixster.com/hivHgHCIp6qsFrT2cW5n1DH211g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186093_b_v10_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/o5Cbo2gpS25D6f1vCRvL59DMO1w.png",
-      "description": ""
-    },
-    {
       "id": "tt0924651",
       "type": "series",
       "name": "The Graham Norton Show",
@@ -1296,6 +1315,15 @@
       "poster": "https://resizing.flixster.com/-45mM7Esxl7daafdA9YaLepsPz4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184075_b_v11_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/agKG106qEyccmflyi3zwHywuOtR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/4E6r2nNUrnWDtujtPha0qKUUrct.png",
+      "description": ""
+    },
+    {
+      "id": "tt0244912",
+      "type": "series",
+      "name": "MotorWeek",
+      "poster": "https://resizing.flixster.com/hivHgHCIp6qsFrT2cW5n1DH211g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186093_b_v10_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/o5Cbo2gpS25D6f1vCRvL59DMO1w.png",
       "description": ""
     },
     {
@@ -1334,15 +1362,6 @@
       "description": ""
     },
     {
-      "id": "tt2815522",
-      "type": "series",
-      "name": "Southern Charm",
-      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
-      "description": ""
-    },
-    {
       "id": "tt27954448",
       "type": "series",
       "name": "Law & Order Toronto: Criminal Intent",
@@ -1352,21 +1371,21 @@
       "description": ""
     },
     {
+      "id": "tt2815522",
+      "type": "series",
+      "name": "Southern Charm",
+      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
+      "description": ""
+    },
+    {
       "id": "tt0078701",
       "type": "series",
       "name": "This Old House",
       "poster": "https://resizing.flixster.com/jjYiTTzF77KFP2jNUTS3ga81lmc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184111_b_v12_aj.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5tptnb4V4tLhzBp3GtK7ONHXcH9.png",
-      "description": ""
-    },
-    {
-      "id": "tt23334036",
-      "type": "series",
-      "name": "World War II: Secrets From Above",
-      "poster": "https://resizing.flixster.com/bhO75-E1K3uHAYOCJmihcMk5lAg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23124686_b_v11_as.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vwP8lTgiscnRzbaTucRRzXHpy4G.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9H1GqDFzmobtoq4msg2lkEsoarT.png",
       "description": ""
     }
   ]

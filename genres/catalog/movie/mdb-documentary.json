@@ -10,6 +10,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/78g7VIcJifXkvYP6yClFOJgrX2T.png"
     },
     {
+      "id": "tt45368240",
+      "type": "movie",
+      "name": "You Can See Everything",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt45368240/img",
+      "background": "https://image.tmdb.org/t/p/w1280/rrbbzCyS45yooXpUGJatfptlHYI.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wz3JU2WtZMBeln4zpvR9RmVQ9gM.png"
+    },
+    {
       "id": "tt27041231",
       "type": "movie",
       "name": "Musk",
@@ -1778,15 +1787,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt29715313/img",
       "background": "https://image.tmdb.org/t/p/w1280/AtKUxS9kyT5c9S8GmU4x3La8cS.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qJvCAHwz9XYdW1MVlDhDosLW3Lh.png"
-    },
-    {
-      "id": "tt29720239",
-      "type": "movie",
-      "name": "Bye Bye Barry",
-      "releaseInfo": "2023",
-      "poster": "https://images.metahub.space/poster/medium/tt29720239/img",
-      "background": "https://image.tmdb.org/t/p/w1280/zgeoMjGEKStumT0tcY4atSPw2Mv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9fAkMCuWly6ssE0y2ooff9u43bD.png"
     }
   ]
 }

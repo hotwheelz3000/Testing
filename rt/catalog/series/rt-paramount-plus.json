@@ -1130,21 +1130,21 @@
       "description": ""
     },
     {
-      "id": "tt0115147",
-      "type": "series",
-      "name": "The Daily Show",
-      "poster": "https://resizing.flixster.com/49lTpKcaHWpx6B_BKooAcGifciA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDI0ODgwMjItNmIyMi00MDA4LTkxYjItNzM2NGJhZjE1NDMwLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9eInNwjZGU0ZNQM0QYgJwFpZ7ka.png",
-      "description": ""
-    },
-    {
       "id": "tt12915960",
       "type": "series",
       "name": "The Patrick Star Show",
       "poster": "https://resizing.flixster.com/mKjU_UncKu5b8JxiCbWlMTgVRAA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk3MjY1NS53ZWJw",
       "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/8mRIMrEi0nWff08dODI1OyDG75H.png",
+      "description": ""
+    },
+    {
+      "id": "tt0115147",
+      "type": "series",
+      "name": "The Daily Show",
+      "poster": "https://resizing.flixster.com/49lTpKcaHWpx6B_BKooAcGifciA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDI0ODgwMjItNmIyMi00MDA4LTkxYjItNzM2NGJhZjE1NDMwLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/qLMfcvdCcCGD2BNLH8b6ZCBuO7D.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9eInNwjZGU0ZNQM0QYgJwFpZ7ka.png",
       "description": ""
     },
     {
@@ -1241,6 +1241,14 @@
       "name": "Deep Waters",
       "poster": "https://resizing.flixster.com/1PBWC6OagJNlgWEkkMnkiqpeZL8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32884904_b_v8_aa.jpg",
       "background": "https://resizing.flixster.com/1PBWC6OagJNlgWEkkMnkiqpeZL8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32884904_b_v8_aa.jpg",
+      "description": ""
+    },
+    {
+      "id": "tt33366184",
+      "type": "series",
+      "name": "Nickelodeon Kids' Choice Awards",
+      "poster": "https://resizing.flixster.com/6SauRZnuDSrdn-bRXA6l7gao1LE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27831091_b_v12_ab.jpg",
+      "background": "https://resizing.flixster.com/6SauRZnuDSrdn-bRXA6l7gao1LE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27831091_b_v12_ab.jpg",
       "description": ""
     },
     {
@@ -1767,15 +1775,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/hIh5mM8VWrNlNjMEbMlG8Bmi7Tc.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/Aj1hduoxtmOzv7rkew6o4PCMbiu.png",
       "description": ""
-    },
-    {
-      "id": "tt1699748",
-      "type": "series",
-      "name": "Hell on Wheels",
-      "poster": "https://resizing.flixster.com/PmCllDymU3LPRw5oXWe4dV1ZV7c=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8807300_b_v12_al.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/pXwEO7OYA7LhVPYyGIIqa58wwcF.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q5lx6a6upKvxM30kwPHqTp6yM4K.png",
-      "description": "Tomatometer 73%"
     }
   ]
 }

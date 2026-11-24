@@ -100,6 +100,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/8cnahr30h0364ghPi5WooumtpTe.png"
     },
     {
+      "id": "tt37510326",
+      "type": "movie",
+      "name": "The Social Reckoning",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt37510326/img",
+      "background": "https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cYJulf2GTqqzsnPE1Zy6TmirzOO.png"
+    },
+    {
       "id": "tt32261958",
       "type": "movie",
       "name": "Verity",
@@ -546,6 +555,15 @@
       "poster": "https://images.metahub.space/poster/medium/tt32321803/img",
       "background": "https://image.tmdb.org/t/p/w1280/9Bv4Oki9u3aKZxDCNDcU4N2mttb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/f4RSnpJedSYtoakZ40xeWcvHKIH.png"
+    },
+    {
+      "id": "tt35410859",
+      "type": "movie",
+      "name": "Fjord",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt35410859/img",
+      "background": "https://image.tmdb.org/t/p/w1280/iPVAMaI0W4lr7Rl56m0H388eR5.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lCcYOtoUakm2ykpmv0fisfM3cQ9.png"
     },
     {
       "id": "tt1333644",
@@ -1195,32 +1213,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt14181714/img",
       "background": "https://image.tmdb.org/t/p/w1280/rbFqLPKj6D2JyRh5mOfA7jqX0Qk.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9RJoRWExOOEn3Gt1wSHZ4890mkV.png"
-    },
-    {
-      "id": "tt36535318",
-      "type": "movie",
-      "name": "Scare Out",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt36535318/img",
-      "background": "https://image.tmdb.org/t/p/w1280/nN3RRsmNcxXIH10gcKuBjQXeyo9.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt36535318/img"
-    },
-    {
-      "id": "tt4357198",
-      "type": "movie",
-      "name": "How to Make a Killing",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt4357198/img",
-      "background": "https://image.tmdb.org/t/p/w1280/bkUa5ZDqjQPx6rkxs0hM87vaWVa.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/39qu7nY1DgTfFLmpDPVB6hkDcTV.png"
-    },
-    {
-      "id": "tt35489508",
-      "type": "movie",
-      "name": "Aontas",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt35489508/img",
-      "background": "https://image.tmdb.org/t/p/w1280/tosxYPeSTPuvpRDlNG5l56Ae09J.jpg"
     }
   ]
 }
