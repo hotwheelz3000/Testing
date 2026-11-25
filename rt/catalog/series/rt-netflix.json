@@ -1005,21 +1005,21 @@
       "description": ""
     },
     {
-      "id": "tt39044730",
-      "type": "series",
-      "name": "Oxytoxin",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
-      "description": ""
-    },
-    {
       "id": "tt0131179",
       "type": "series",
       "name": "Detective Conan",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p613567_b_v8_af.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vX0VEwZViadujTUGcL0EU5orV8p.png",
+      "description": ""
+    },
+    {
+      "id": "tt39044730",
+      "type": "series",
+      "name": "Oxytoxin",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34580379_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yXkRoVxzXRl23nZcLABWfiAlTye.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uOvxgYUV63Ow4ntdXiUhEVS2l2q.png",
       "description": ""
     },
     {

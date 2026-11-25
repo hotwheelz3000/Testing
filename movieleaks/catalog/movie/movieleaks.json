@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt32213169",
+      "type": "movie",
+      "name": "Way of the Warrior Kid",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt32213169/img",
+      "background": "https://image.tmdb.org/t/p/w1280/1JL6mDxYRauwv81bLupSZczC39M.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qMKndM5f6ObJUtbYQPAR0Qq2Xr1.png",
+      "description": "Posted on r/movieleaks 2026-11-25"
+    },
+    {
       "id": "tt6688234",
       "type": "movie",
       "name": "Love and Cameras in America",

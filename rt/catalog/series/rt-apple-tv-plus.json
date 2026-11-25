@@ -1842,15 +1842,6 @@
       "description": "Tomatometer 65%"
     },
     {
-      "id": "tt17736322",
-      "type": "series",
-      "name": "They Call Me Magic",
-      "poster": "https://resizing.flixster.com/5KSPVZ9gBCAftwYbF-DKE9Pqr0o=/164x246/v2/https://resizing.flixster.com/QE4RLm6ZykNgx6PQ9ImGZTI5tcE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjJmMzFkODctMWM2ZC00OTk5LWI0ZDMtMjY5NDgzZTEzNTBhLnBuZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/yc6eAxADgKiVLZeHve9t4ElegXT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/i0o3vsLU5ecmcaI588qmBEGP0hC.png",
-      "description": "Tomatometer 69%"
-    },
-    {
       "id": "tt14588348",
       "type": "series",
       "name": "The Long Game: Bigger Than Basketball",
@@ -1858,6 +1849,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/zeU4euz4wYAXoUZVlxhyLxWaSf8.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/csyEZsQFiKOwngsV9EldHFO9Ql0.png",
       "description": ""
+    },
+    {
+      "id": "tt17736322",
+      "type": "series",
+      "name": "They Call Me Magic",
+      "poster": "https://resizing.flixster.com/5KSPVZ9gBCAftwYbF-DKE9Pqr0o=/164x246/v2/https://resizing.flixster.com/QE4RLm6ZykNgx6PQ9ImGZTI5tcE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjJmMzFkODctMWM2ZC00OTk5LWI0ZDMtMjY5NDgzZTEzNTBhLnBuZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/yc6eAxADgKiVLZeHve9t4ElegXT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/i0o3vsLU5ecmcaI588qmBEGP0hC.png",
+      "description": "Tomatometer 69%"
     },
     {
       "id": "tt9174600",

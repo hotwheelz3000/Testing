@@ -42,7 +42,8 @@
       "type": "series",
       "name": "Locker Diaries: Coven Academy",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v5BziDsE1ZFRYNWR72iPz4aWjkI.jpg",
-      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v5BziDsE1ZFRYNWR72iPz4aWjkI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wIy2AbWhq92iVyc0LQ3GifKylnK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lZu50svQi8TFXyUHdnGm7huGly3.png",
       "description": "Peer inside the halls of Coven Academy and discover the supernatural secrets that unfold in the lives of its students.",
       "releaseInfo": "2026"
     },
@@ -833,6 +834,15 @@
       "description": ""
     },
     {
+      "id": "tt21055930",
+      "type": "series",
+      "name": "Zombies: The Re-Animated Series",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27267773_b_v12_ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kZ7cgiYIqUVYl8Z81cLXhRY9Ofr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/thjmZJ1gIGi5v5emyxGFjWZvtoZ.png",
+      "description": ""
+    },
+    {
       "id": "tt0784896",
       "type": "series",
       "name": "Mickey Mouse Clubhouse+",
@@ -883,15 +893,6 @@
       "name": "Gracie's Corner Shorts",
       "poster": "https://resizing.flixster.com/Yvg3TSDT4A17w8DqU8GhplC7H2Y=/164x246/v2/https://resizing.flixster.com/YNjFUe2fllenNb1Tb1MoWvc9tYA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2U5MGY2NDAtZDljNS00NmM5LWEzYWItMWUzOTFlYjM5MzJlLmpwZw==",
       "background": "https://resizing.flixster.com/Yvg3TSDT4A17w8DqU8GhplC7H2Y=/164x246/v2/https://resizing.flixster.com/YNjFUe2fllenNb1Tb1MoWvc9tYA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2U5MGY2NDAtZDljNS00NmM5LWEzYWItMWUzOTFlYjM5MzJlLmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt4488724",
-      "type": "series",
-      "name": "Stuck in the Middle",
-      "poster": "https://resizing.flixster.com/WN_uPxzIod6FLxw-2nNbW4T9mY4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12536766_b_v8_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/4yFC6KpX7bq45qNulUgP57wWP3r.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7Wsch05A5e5n0CdXW8jacLlptcE.png",
       "description": ""
     }
   ]

@@ -46,6 +46,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/3iWhf5rCvpwxyMVBG8DYPQCyOk4.png"
     },
     {
+      "id": "tt37200939",
+      "type": "movie",
+      "name": "Parivarik ManuRanjan",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt37200939/img",
+      "background": "https://image.tmdb.org/t/p/w1280/9j9DtcTGSSZJVrimys2emN5kVh3.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt37200939/img"
+    },
+    {
       "id": "tt37675123",
       "type": "movie",
       "name": "Allen",
@@ -1135,6 +1144,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/Bw024JsfPIsxp26W4tZlUtAtU.png"
     },
     {
+      "id": "tt33499146",
+      "type": "movie",
+      "name": "The Dink",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt33499146/img",
+      "background": "https://image.tmdb.org/t/p/w1280/z1Z1vW3bu27UUXD70vyqAcCeXU1.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5JjQFNcQM3qKvOAWhGHl1f76ABk.png"
+    },
+    {
       "id": "tt43617119",
       "type": "movie",
       "name": "Love in Slow Motion",
@@ -1624,24 +1642,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt37333137/img",
       "background": "https://image.tmdb.org/t/p/w1280/v4tFlu2kFJGumXHONjTe4FgzTFS.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt37333137/img"
-    },
-    {
-      "id": "tt38865049",
-      "type": "movie",
-      "name": "Warkop DKI: ViRaLiN dOoOoNg..!!",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt38865049/img",
-      "background": "https://image.tmdb.org/t/p/w1280/dyBfej8BJJe2XHWGnYCmHNA9uyi.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt38865049/img"
-    },
-    {
-      "id": "tt38583312",
-      "type": "movie",
-      "name": "Open Endings",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt38583312/img",
-      "background": "https://image.tmdb.org/t/p/w1280/jjHhol2Pxe020AEYvi0w7Q5hFtF.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/u5Evtl4CTw72be6DfrxCubHQ77e.png"
     }
   ]
 }
