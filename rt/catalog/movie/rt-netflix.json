@@ -1,6 +1,26 @@
 {
   "metas": [
     {
+      "id": "tt47597255",
+      "type": "movie",
+      "name": "Rob Lowe: The Outsider",
+      "releaseInfo": "",
+      "description": "Traces Lowe's career from his breakout roles in “The Outsiders” and “St. Elmo’s Fire” to his Emmy-nominated performance on “The West Wing” and how he maintained his Hollywood career.",
+      "poster": "https://image.tmdb.org/t/p/w500/dydflxYhZ0UCS5gaz8iCKFcEAvE.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2sT2NlSqz7J0vyyOYkuB2ejZpRT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/apwBZohKtcm8yrHVAdnZSBT40IG.png"
+    },
+    {
+      "id": "tt51547822",
+      "type": "movie",
+      "name": "Chiara Ferragni: Front Facing",
+      "releaseInfo": "",
+      "description": "Influencer Chiara Ferragni opens up for the first time on the charity scandal that rocked her career and sparked the end of her high-profile marriage.",
+      "poster": "https://image.tmdb.org/t/p/w500/5IXa5EEvPgwwbkw3E84ZdkuGUWs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ynyXGFFQsUjDSIPHzba1g0zGgcM.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fCIH9fQnxDRRCxKXuyGbSVjKSyI.png"
+    },
+    {
       "id": "tt14413964",
       "type": "movie",
       "name": "Steps",
@@ -251,6 +271,16 @@
       "logo": "https://images.metahub.space/logo/medium/tt39631280/img"
     },
     {
+      "id": "tt38984184",
+      "type": "movie",
+      "name": "418",
+      "releaseInfo": "",
+      "description": "Set in a medical college in a dread-stricken village, the film confronts the science behind superstitions, the superstitions in science, and an anomaly that neither can explain.",
+      "poster": "https://image.tmdb.org/t/p/w500/1UUwomcPXFMLW3JT9JNFjQAGkKk.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nJjd0EHP5VPWTdGsere75SaSY4j.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6CeykE8UiFqF6KxtI8ub4juS6fs.png"
+    },
+    {
       "id": "tt49317723",
       "type": "movie",
       "name": "Hot Wheels Let's Race: Attack of the T-Rex",
@@ -358,6 +388,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/dl6aDoFDDjTgNMI4Cui2GmKZUpR.png"
+    },
+    {
+      "id": "tt40644732",
+      "type": "movie",
+      "name": "Jesus' Last Week",
+      "releaseInfo": "",
+      "description": "An intimate, deeply human portrayal of Jesus's final week in Jerusalem, following the events from his triumphant arrival through the days leading to his crucifixion.",
+      "poster": "https://image.tmdb.org/t/p/w500/vyydLcjP4KJqeQENYmcajZ2bfIN.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/r7ORSooNJYsL4sfNKkAbtMDuLMm.jpg"
     },
     {
       "id": "tt37027309",
@@ -1948,46 +1987,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lQRKadGZSBUjkFfjF7kDV047MUN.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/55RNYyQHgl8y1ZN2e1vJcS4c0eH.png"
-    },
-    {
-      "id": "tt34498610",
-      "type": "movie",
-      "name": "Toaster",
-      "releaseInfo": "",
-      "description": "Murder and chaos erupt when a miser becomes obsessed with a toaster he gave as a wedding gift.",
-      "poster": "https://image.tmdb.org/t/p/w500/cbYyWHc1dL1bfwEJbaMYDYKgWG2.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m2cBaXA5m14dBlPufXCnJiw35Zu.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1zOxbAirwu9Jgd8LlFgwbsGXir1.png"
-    },
-    {
-      "id": "tt34442799",
-      "type": "movie",
-      "name": "Oru Durooha Saahacharyathil",
-      "releaseInfo": "",
-      "description": "Humble health care worker Sethu lives a quiet life caring for his sick brother — until a mysterious armed fugitive seeks refuge in his home.",
-      "poster": "https://image.tmdb.org/t/p/w500/rsMHfc75OJmdRYKsgJlALDVyMGz.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ypAZ45yFGfGpGGHyaLFUhE8psMS.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bYxaLCBgphBGPaRVqxbtLzaJAKD.png"
-    },
-    {
-      "id": "tt40224401",
-      "type": "movie",
-      "name": "Untold: Jail Blazers",
-      "releaseInfo": "",
-      "description": "Volatile players. Criminal charges. National headlines. Portland's championship-caliber NBA team implodes spectacularly in this unflinching documentary.",
-      "poster": "https://image.tmdb.org/t/p/w500/vmp45llJTRr6JLaIamt3RlfxgTH.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gyYTuYSwiqGNaqNomscb6oSZ8Mt.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/deFaNdptykyC0Xq9GjZN1dzVYgl.png"
-    },
-    {
-      "id": "tt41592024",
-      "type": "movie",
-      "name": "Trevor Noah: Joy in the Trenches",
-      "releaseInfo": "",
-      "description": "From unexpected social media beef to a therapist's truth bomb, Trevor Noah turns chaos into comedy in this hilariously sharp, playful stand-up set.",
-      "poster": "https://image.tmdb.org/t/p/w500/nGbo6kZLHwcyBJOgr5b36OvBPPe.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vSTlbow1yx2L85EEUhFiJOMo4LY.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2r7sSfpmnFbZk79lsWT38ilyucC.png"
     }
   ]
 }

@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt32213169",
+      "type": "movie",
+      "name": "Way of the Warrior Kid",
+      "releaseInfo": "",
+      "description": "Jake is an injured Navy SEAL who becomes a mentor for his shy, struggling nephew Marc. Using the principles of his military training, Jake teaches Marc how to be a Warrior Kid as he enters high school.",
+      "poster": "https://image.tmdb.org/t/p/w500/atI81xXKNVah7PJFBo3aXqQKtnG.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/1JL6mDxYRauwv81bLupSZczC39M.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qMKndM5f6ObJUtbYQPAR0Qq2Xr1.png"
+    },
+    {
       "id": "tt47791876",
       "type": "movie",
       "name": "Snoopy Presents: 12 Days of Snoopy",

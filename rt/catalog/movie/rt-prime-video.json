@@ -249,6 +249,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/67PEINpq4qxI2uZQb45BVaZSNSz.png"
     },
     {
+      "id": "tt12446086",
+      "type": "movie",
+      "name": "Legend of the White Dragon",
+      "releaseInfo": "",
+      "description": "Forced to hide in the shadows, fugitive hero Erik Reed must clear his name to reunite with his family. Standing in his way is a mysterious villain obsessed with destroying the White Dragon for good.",
+      "poster": "https://image.tmdb.org/t/p/w500/k0L5ZQP4PjdNziVGvcOeaihXyCc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3xiLFw1af1NtAxIcgLaGNVCJtFJ.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lpz2s32fiYwe9OVv5BmdjSC8BTF.png"
+    },
+    {
       "id": "tt37654096",
       "type": "movie",
       "name": "The Last Sunrise",
@@ -522,6 +532,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/m7Z0AiajDGstXFZrLPgSuRIuS9m.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5vqVfhc9XiyTb4kTzHoSpPOzQfG.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt42338585/img"
+    },
+    {
+      "id": "tt36460286",
+      "type": "movie",
+      "name": "Corporate Retreat",
+      "releaseInfo": "",
+      "description": "Blending the dread of survival horror with dark laughs and shocking twists, \"Corporate Retreat\" centers around a group of young executives whose luxury team-building trip descends into a bloody fight for survival against a vengeful retreat leader.",
+      "poster": "https://image.tmdb.org/t/p/w500/sciPl4coQWdsWtRQBUau7xnNYue.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/adGDEYOXavgHR1aLiJCicivhmZe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fMeUpX5nmNCPgZxU0rTng1Q5Adm.png"
     },
     {
       "id": "tt36201830",
@@ -1659,16 +1679,6 @@
       "logo": "https://images.metahub.space/logo/medium/tt37344163/img"
     },
     {
-      "id": "tt22501842",
-      "type": "movie",
-      "name": "New Fears Eve",
-      "releaseInfo": "",
-      "description": "Unbeknownst to the trio, their corporate obligation will soon become a fight for survival. When The Doctor targets them, the celebration descends into a blood-soaked nightmare. Trapped in Hooper Industries' towering building, Leslie, Brian, Moses, and their unsuspecting colleagues must confront a deranged killer intent on making this night unforgettable-for all the wrong reasons.",
-      "poster": "https://image.tmdb.org/t/p/w500/hMouX5XTxQht58dI6sxIzPHLNcJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/1XYgDsG3X8aMsSVERag0pDIiIOm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tvbNB46k5CVAUI30JVasQ4cmKZX.png"
-    },
-    {
       "id": "tt32244794",
       "type": "movie",
       "name": "Lone Samurai",
@@ -1940,16 +1950,6 @@
       "description": "An isolated private investigator is convinced by a friend to come out of hiding to help find her missing sister, putting him back in reach by those who want his family dead.",
       "poster": "https://image.tmdb.org/t/p/w500/A5mQcSgBeML2OBQLCH6RXn7gNNy.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7TsA9t4iy3lcYHBHPT9o2FOkZ0.jpg"
-    },
-    {
-      "id": "tt36061838",
-      "type": "movie",
-      "name": "Mrs. Christmas",
-      "releaseInfo": "",
-      "description": "When Santa Claus, in the midst of an existential crisis, suddenly disappears during the holiday season, his wife Margaret must roll up her sleeves and save the most special day of the year.",
-      "poster": "https://image.tmdb.org/t/p/w500/7DFyI1S8xJ34AkUutVBqDSfOtfJ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/p2DBE8hyaRYJFc8o07VX1O72H7l.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt36061838/img"
     }
   ]
 }
