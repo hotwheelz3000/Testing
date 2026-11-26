@@ -46,7 +46,7 @@
       "name": "Primetime Preacher$",
       "releaseInfo": "",
       "description": "Chronicles the 1980s golden age of Christian broadcasting, detailing how three of America's most prominent televangelists shifted evangelical Christianity into a massive political force.",
-      "poster": "https://image.tmdb.org/t/p/w500/ilFRKYUhsYyW0mpSifpFZmpR9yo.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/pnMVyfJevpBCpElzKglYb8pD3hf.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/gwrGO8A61CtuxxurWjo3OAl1wcO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rJ8Kaed58FCDte68xkcTFQd8oMq.png"
     },
@@ -249,6 +249,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9uU3523A14KJ90Jr8pQx0NGGIgb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rdXOJM4FUgNxlVoMqFs64SagHCO.png"
+    },
+    {
+      "id": "tt36413910",
+      "type": "movie",
+      "name": "The Mosquito Bowl",
+      "releaseInfo": "",
+      "description": "In the aftermath of Pearl Harbor, four college football stars enlist in the US Marines, discovering the strength of brotherhood and the cost of war.",
+      "poster": "https://image.tmdb.org/t/p/w500/uxYs0bNTF4XzM8LThJk2x3AJ0Iv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/k2djfMwL3LhpvZMfPN7IFX4DG5N.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dgzKCgjJECvZpclowYlRDgPKFPN.png"
     },
     {
       "id": "tt37961714",
@@ -1499,7 +1509,7 @@
       "name": "Peddi",
       "releaseInfo": "",
       "description": "In a village that doesn't officially exist, a laborer's unmatched athletic talent becomes his weapon to fight for his people's right to be recognized.",
-      "poster": "https://image.tmdb.org/t/p/w500/vPWDScBQcgtuCMBWuSut0aYeDAT.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/kJAJNNBYlbqAcpTDxBNnaILSMTy.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/oPsRr7AfNLw6XaPuMpvkWK0bIUA.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2WDyVZ2JJqMNWEUXewc0olRsguN.png"
     },
@@ -1797,7 +1807,7 @@
       "releaseInfo": "",
       "description": "Ethan is a devoted best friend who soon realises he has long been in love with Dr Jen Bell. However, Jen’s world is turned upside down by the arrival of a charismatic author named Patrick.",
       "poster": "https://image.tmdb.org/t/p/w500/qpnJSPZxdr307Dn7dvKdEYMjbRG.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zFkvtQvwffn2Cgd0gXDymNnWzZA.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iX0p4Kc6ZQ3YlXD9XPbKq99a8XQ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eSvJd4V0K0o6gP8iq3exrOoTKoX.png"
     },
     {
@@ -1977,16 +1987,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/A2tzVTVtnTvpji96IZmleN78KKv.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/v6gE3UvQhM2SiNlltJYpc38cikD.png"
-    },
-    {
-      "id": "tt34724686",
-      "type": "movie",
-      "name": "Brawlers",
-      "releaseInfo": "",
-      "description": "Naïm is a sweetheart in everyday life but a beast when it comes to fighting. To afford treatment for his aging dog, he's forced to join \"Hello Brawl\", a service of street fighters resolving conflicts with punches.",
-      "poster": "https://image.tmdb.org/t/p/w500/lQRKadGZSBUjkFfjF7kDV047MUN.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/w4ISfPkFLdG0ew07XcrlQSB4O4q.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/55RNYyQHgl8y1ZN2e1vJcS4c0eH.png"
     }
   ]
 }

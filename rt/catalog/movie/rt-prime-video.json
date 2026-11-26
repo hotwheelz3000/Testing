@@ -917,7 +917,7 @@
       "releaseInfo": "",
       "description": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
       "poster": "https://image.tmdb.org/t/p/w500/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/JYigeoTgWK9WCbaYqYYp22Fg5W.png"
     },
     {
@@ -1418,6 +1418,15 @@
       "description": "A brother and sister are terrorized by what seems to be their late-author mother's most sinister literary creation -– The Calling Witch.",
       "poster": "https://image.tmdb.org/t/p/w500/q8o2NzIH4ze28NAVs1eRkejAJIk.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3ihuzorgMXhExPOlIiVirnLIS4s.jpg"
+    },
+    {
+      "id": "tt31839457",
+      "type": "movie",
+      "name": "Brother",
+      "releaseInfo": "",
+      "description": "When their troubled brother’s car is found at the bottom of a lake, three siblings are forced back to their family home to bury the past, but their brother may have left behind more than memories…",
+      "poster": "https://image.tmdb.org/t/p/w500/tO0HMjSGt94rcnskUKlK8vaquVx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wVmG8FLwr068ruowFIRIVi5oxck.jpg"
     },
     {
       "id": "tt31050594",
@@ -1941,15 +1950,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/cnqyaHpZ7CpgKBlmBgbgqyKicJX.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jzhQGjzfsrxPwIkSZPMTpfhh27h.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7EsmilWRbmRJayjkVZC6t10b2md.png"
-    },
-    {
-      "id": "tt32454262",
-      "type": "movie",
-      "name": "Unseen Enemy",
-      "releaseInfo": "",
-      "description": "An isolated private investigator is convinced by a friend to come out of hiding to help find her missing sister, putting him back in reach by those who want his family dead.",
-      "poster": "https://image.tmdb.org/t/p/w500/A5mQcSgBeML2OBQLCH6RXn7gNNy.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7TsA9t4iy3lcYHBHPT9o2FOkZ0.jpg"
     }
   ]
 }

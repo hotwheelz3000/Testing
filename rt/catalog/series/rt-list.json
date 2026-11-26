@@ -972,6 +972,77 @@
       "releaseInfo": "2024"
     },
     {
+      "id": "tt8467296",
+      "type": "series",
+      "name": "Love Island Australia",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15519836_b_v8_ba.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/e4HxxfDlSmlOzXaNoSuNZLX9IA7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wyTPfFEheq8LW0HteY3iBUuUCUt.png",
+      "description": ""
+    },
+    {
+      "id": "tt15791630",
+      "type": "series",
+      "name": "The Kardashians",
+      "poster": "https://resizing.flixster.com/euNjkH2qWs6ZFJ8vBpF3oSuVfGM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTUzMGQ4YTItZTJmMi00ODFlLTgwMWMtOWFmNTUyODU5NzJjLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/oUHVXnV7x5Lr3jxEQTedkFvXv2b.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/yd17TqEcvP9FcbtRNtZpcLCOhFj.png",
+      "description": ""
+    },
+    {
+      "id": "tt0072584",
+      "type": "series",
+      "name": "Wheel of Fortune",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
+      "description": ""
+    },
+    {
+      "id": "tt38642046",
+      "type": "series",
+      "name": "Next Level Baker",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29607199_b_v12_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zssSmaV1VF0l7GHiVCsRctMK50v.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt38642046/img",
+      "description": ""
+    },
+    {
+      "id": "tt7914040",
+      "type": "series",
+      "name": "The Floor",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
+      "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
+      "description": ""
+    },
+    {
+      "id": "tt31596474",
+      "type": "series",
+      "name": "Mysteries Unearthed With Danny Trejo",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28692015_b_v12_am.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/AiSepms3TJ4VRuBJHui3bbZdptb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/pzp06quxQALrTv1qo2nDJYrcLO3.png",
+      "description": ""
+    },
+    {
+      "id": "tt0159881",
+      "type": "series",
+      "name": "Jeopardy!",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
+      "description": ""
+    },
+    {
+      "id": "tt10115054",
+      "type": "series",
+      "name": "Lost Treasures of Egypt",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16357471_b_v11_ce.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gHMifsvnNIVAHlEDzPpcXiI1mHm.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/idkzAqo7BLOxdFslynztCCPhtFl.png",
+      "description": ""
+    },
+    {
       "id": "tt31289994",
       "type": "series",
       "name": "The Lowdown",
@@ -996,24 +1067,6 @@
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17380108_b_v13_an.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ehLvLgBKq5mK5qYBNMmhLtg8dO9.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xe0j1IJNdsIP3qusjTNEETR6NB9.png",
-      "description": ""
-    },
-    {
-      "id": "tt8467296",
-      "type": "series",
-      "name": "Love Island Australia",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15519836_b_v8_ba.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/e4HxxfDlSmlOzXaNoSuNZLX9IA7.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wyTPfFEheq8LW0HteY3iBUuUCUt.png",
-      "description": ""
-    },
-    {
-      "id": "tt0072584",
-      "type": "series",
-      "name": "Wheel of Fortune",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184057_b_v12_aj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/A6Sp44grqCnvKs5Plhy3oQncUrq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5DK56vvQumUDylf4YHrQA3szIQe.png",
       "description": ""
     },
     {
@@ -1115,15 +1168,6 @@
       "description": ""
     },
     {
-      "id": "tt0159881",
-      "type": "series",
-      "name": "Jeopardy!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184056_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/55tcKzl0gZ0lR1q7TrVJm0h9lkT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hXubFnO5leCpSielP3s6yt4x3t5.png",
-      "description": ""
-    },
-    {
       "id": "tt1959088",
       "type": "series",
       "name": "Style Wars",
@@ -1135,7 +1179,7 @@
       "id": "tt11231226",
       "type": "series",
       "name": "Reasonable Doubt",
-      "poster": "https://resizing.flixster.com/cl73glnc7iTghDFNnBn08_yamgc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTcwNDViNDEtMjkwZi00NWY0LThhODYtZGU4Y2I1MDRiZjUwLmpwZw==",
+      "poster": "https://resizing.flixster.com/BIBJpT15Y52ol003OCK9xRQqpU0=/164x246/v2/https://resizing.flixster.com/cl73glnc7iTghDFNnBn08_yamgc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTcwNDViNDEtMjkwZi00NWY0LThhODYtZGU4Y2I1MDRiZjUwLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/5Nu95w2oWsbmDeAjG2NJF4x33Ud.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fongUwve4NeH8OEFKPQdw49DTDD.png",
       "description": ""
@@ -1144,7 +1188,7 @@
       "id": "tt39602642",
       "type": "series",
       "name": "The Golden Life",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33642963_b_v12_ab.jpg",
+      "poster": "https://resizing.flixster.com/pNvUdNrNYkkDPNN4KN0oBBNPI6s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33642963_b_v12_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pnWDLePHuMROfNN0a13asDpUr7I.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2nKQiCGVZ36EW0v3QB9nlI7vLzb.png",
       "description": ""
@@ -1153,7 +1197,7 @@
       "id": "tt3455408",
       "type": "series",
       "name": "The Curse of Oak Island",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10402125_b_v12_bu.jpg",
+      "poster": "https://resizing.flixster.com/el-t0cEO5jR9xUVUXJYQLjKKo5M=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10402125_b_v12_bu.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3dGIUAlrWUvPDMP7mk6GFvkQcSb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7QgLCBhUTTz9Zsb7RecevEKFm5W.png",
       "description": ""
@@ -1162,7 +1206,7 @@
       "id": "tt0320037",
       "type": "series",
       "name": "Jimmy Kimmel Live!",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
+      "poster": "https://resizing.flixster.com/QiZkraVW1blT9TFQ72bm5XkDo14=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xiYj5NlGEYglNfG2Wytbd6hvZtB.png",
       "description": ""
@@ -1171,7 +1215,7 @@
       "id": "tt48391663",
       "type": "series",
       "name": "Surviving Alaska: Women of the Wild",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34057126_b_v12_ab.jpg",
+      "poster": "https://resizing.flixster.com/xcWtAuSbB-bQFZ1ztOhGvHDJGD8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34057126_b_v12_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/xn0nE8npHX3Z5pgr68HwpiJcGhp.jpg",
       "description": ""
     },
@@ -1179,7 +1223,7 @@
       "id": "tt0463398",
       "type": "series",
       "name": "Dancing With the Stars",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p187511_b_v12_ax.jpg",
+      "poster": "https://resizing.flixster.com/uCYRGRByz7azGkkbPup0sHfylbk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p187511_b_v12_ax.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/r4ceAy8m4w9gheLWEgEgQnbYK85.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/nq4peUCrj8B6GbPsLBzC3sXRzbA.png",
       "description": ""
@@ -1506,39 +1550,12 @@
       "description": ""
     },
     {
-      "id": "tt15791630",
-      "type": "series",
-      "name": "The Kardashians",
-      "poster": "https://resizing.flixster.com/A6ZfVuVgmbvFlr-dWDXViJQo2xs=/164x246/v2/https://resizing.flixster.com/euNjkH2qWs6ZFJ8vBpF3oSuVfGM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTUzMGQ4YTItZTJmMi00ODFlLTgwMWMtOWFmNTUyODU5NzJjLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/oUHVXnV7x5Lr3jxEQTedkFvXv2b.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/yd17TqEcvP9FcbtRNtZpcLCOhFj.png",
-      "description": ""
-    },
-    {
       "id": "tt0437005",
       "type": "series",
       "name": "Hell's Kitchen",
       "poster": "https://resizing.flixster.com/DYuBufgk3SX1dcmw4I85I-weKkk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p187529_b_v12_bo.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kitfuCa2TqX6oY5HvdFRjMMaLwc.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fYRzVKvqCeFMOby2L16Fg5J86E.png",
-      "description": ""
-    },
-    {
-      "id": "tt38642046",
-      "type": "series",
-      "name": "Next Level Baker",
-      "poster": "https://resizing.flixster.com/WLzy-Cu_arp9Z8NDRTid6pPqVdg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29607199_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zssSmaV1VF0l7GHiVCsRctMK50v.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt38642046/img",
-      "description": ""
-    },
-    {
-      "id": "tt31596474",
-      "type": "series",
-      "name": "Mysteries Unearthed With Danny Trejo",
-      "poster": "https://resizing.flixster.com/HcN_Nq82LhpZ5gSyr9wQ8kkI9z0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28692015_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/AiSepms3TJ4VRuBJHui3bbZdptb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/pzp06quxQALrTv1qo2nDJYrcLO3.png",
       "description": ""
     },
     {
@@ -1558,15 +1575,6 @@
       "description": ""
     },
     {
-      "id": "tt10115054",
-      "type": "series",
-      "name": "Lost Treasures of Egypt",
-      "poster": "https://resizing.flixster.com/vrTaKGno6r6s-j8xJTWjjDu9emM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16357471_b_v11_ce.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gHMifsvnNIVAHlEDzPpcXiI1mHm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/idkzAqo7BLOxdFslynztCCPhtFl.png",
-      "description": ""
-    },
-    {
       "id": "tt31844371",
       "type": "series",
       "name": "Vienna Game",
@@ -1582,14 +1590,6 @@
       "poster": "https://resizing.flixster.com/o4Sqp4_qMv0VhEEUBYp7zBxQKhs=/164x246/v2/https://resizing.flixster.com/KrYjo82x2dmWLbdwVOKNrBxCqS8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDk4Nzk3YmItYzBiOS00YjE5LWExODgtYjkzMjdlYTFlMDIwLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/3zpScPAgn0Z9ddfxKwvkRasKyf0.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kgkqH3f0wH47fD2PWfWE8YHoZfp.png",
-      "description": ""
-    },
-    {
-      "id": "tt7914040",
-      "type": "series",
-      "name": "The Floor",
-      "poster": "https://resizing.flixster.com/LxBuX9abXY6VENei4GKZNPy_Wzc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
-      "background": "https://resizing.flixster.com/LxBuX9abXY6VENei4GKZNPy_Wzc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
       "description": ""
     },
     {

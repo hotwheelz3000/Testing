@@ -51,16 +51,6 @@
       "logo": "https://image.tmdb.org/t/p/w500/wuvZxoSm9HwevUuXK2nqtkDXnXk.png"
     },
     {
-      "id": "tt31349844",
-      "type": "movie",
-      "name": "Runner",
-      "releaseInfo": "",
-      "description": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
-      "poster": "https://image.tmdb.org/t/p/w500/vJk2TW1QZAmBiD7oj9ZF9EPTYY1.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/pAnbApoi6DHwXzoKBfQU4M5Wr8t.png"
-    },
-    {
       "id": "tt43961446",
       "type": "movie",
       "name": "9/11: United We Stand -- 25 Years Later",
@@ -1393,16 +1383,6 @@
       "logo": "https://images.metahub.space/logo/medium/tt32161505/img"
     },
     {
-      "id": "tt31973693",
-      "type": "movie",
-      "name": "The Roses",
-      "releaseInfo": "",
-      "description": "Life seems easy for picture-perfect couple Ivy and Theo: successful careers, a loving marriage, great kids. But beneath the façade of their supposed ideal life, a storm is brewing – as Theo's career nosedives while Ivy's own ambitions take off, a tinderbox of fierce competition and hidden resentment ignites.",
-      "poster": "https://image.tmdb.org/t/p/w500/99O8HLHklXGzvF2TqiRqr7WddzT.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3CPQc1pgYu0iWr1UNk2nwy2ylDE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/FzhBVd6eqrM4jSmYVyge8tMcTe.png"
-    },
-    {
       "id": "tt37748266",
       "type": "movie",
       "name": "The Last Rhinos: A New Hope",
@@ -1449,7 +1429,7 @@
       "releaseInfo": "",
       "description": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
       "poster": "https://image.tmdb.org/t/p/w500/AcbS8VMysrTpG9r4dgK1oyLsKYn.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/mDIMSMXFkOXUyQ2lnmeBu6kDUCH.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/o6c4TQsnZilCFuQExQuRkF2letr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fjYXCZDQRyRYPDYfHn20ZbxSYky.png"
     },
     {
@@ -1519,7 +1499,7 @@
       "releaseInfo": "",
       "description": "Paranormal investigators Kris, Celina and their videographer Jay are rerouted to an abandoned house deep in the woods, where they find themselves facing a force unlike anything they've encountered before. As the night spirals into chaos, missing crew members and eerie phenomena hint at an ancient, malevolent presence watching their every move.",
       "poster": "https://image.tmdb.org/t/p/w500/2xVyCvnuVVRpYohPxrvwxZiH49r.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/qMV1paVi1WiHkmKH5uzIBDDh4Gf.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yGYlQbgkZHdmsOuN1Lfx5OzfG5u.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/nKa9qymlRMULNz2advwm8yIqq1A.png"
     },
     {
@@ -1986,6 +1966,26 @@
       "poster": "https://image.tmdb.org/t/p/w500/lUvfTcOZiK0sdcX0WNLPbMyKjGm.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/yBDvgpyynDsbMyK21FoQu1c2wYR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/n4zshTv8HlHSzNrS1LS3a3Fz52p.png"
+    },
+    {
+      "id": "tt28230296",
+      "type": "movie",
+      "name": "It Feeds",
+      "releaseInfo": "",
+      "description": "A clairvoyant therapist confronts her own personal demons while trying to save a young girl who believes a malevolent entity is feeding on her.",
+      "poster": "https://image.tmdb.org/t/p/w500/rV4DQSJq0ESOv7NYUIZG0e0jCux.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vyJxZSLdgCmUEZlc6OhyJUDqTjA.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/suWTNrKT2jNm4ZkkKlFdcf2hdCd.png"
+    },
+    {
+      "id": "tt3562110",
+      "type": "movie",
+      "name": "Kesari Chapter 2: The Untold Story of Jallianwala Bagh",
+      "releaseInfo": "",
+      "description": "A dramatization of the life story of C. Sankaran Nair, the lawyer who fought for the truth behind the Jallianwala Bagh massacre.",
+      "poster": "https://image.tmdb.org/t/p/w500/jgGSqe1YgSot6Y1zDVTVkbsZ46z.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7vGWPw9y9uJ8SZ17oyy2Ts3EmdD.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uEBFE1A0ABeOiaHnw2gZPgj4mKd.png"
     }
   ]
 }

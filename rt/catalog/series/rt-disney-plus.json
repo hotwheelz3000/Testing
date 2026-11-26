@@ -743,7 +743,7 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//msWp7FYxHoNfZOKW1oVz5tAtYkO.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5Bz1TDeFKM1SdkkIRjqVsuCts5v.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt23170480/img",
-      "description": "",
+      "description": "38-year-old Sami navigates life with unparalleled optimism: by day, he works as a cleaner in a snack bar, but in the evening, he puts on a suit and pretends to his daughter, Isa, that he is still employed as a tax consultant. He lost that job due to a misstep—an incident that now also compels him to attend weekly group therapy sessions for anger management.",
       "releaseInfo": "2025"
     },
     {
@@ -831,6 +831,15 @@
       "poster": "https://resizing.flixster.com/p8WzCsYY4kgY6Vc1JMElljfXb60=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmQyY2Q0YWUtNWJmMi00YWRjLWE5OTYtOTU3OGU0ZGM2ZDE1LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/9RvOSdK6oHbTZmGswApOziC0zc8.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mgIcMlLLPJnhIOCBw9J32t3jdXk.svg",
+      "description": ""
+    },
+    {
+      "id": "tt23731346",
+      "type": "series",
+      "name": "Sofia the First: Royal Magic",
+      "poster": "https://resizing.flixster.com/HPn4KARdpRRv-s4X3QgOArjSGJg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjU1YWNlMzItMDllMy00NzFjLTk4OGMtNzMyYzBiNmZhOGQ0LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/wGeYd7lVxOzZsbJV7iipK8298hT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/yXImlppxBEV2eNArJnD2OX5WMZU.png",
       "description": ""
     },
     {

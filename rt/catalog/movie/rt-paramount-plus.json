@@ -176,7 +176,7 @@
       "name": "Rocky's Cat-astrophe",
       "releaseInfo": "",
       "description": "When one of Humdinger's schemes goes awry, a Junkyard Kitten's home is destroyed and Rocky bites off more than he can chew when he invites the kitten to stay at the Lookout overnight. While the kitten causes more trouble than expected, Rocky learns that even heroes need help.",
-      "poster": "https://image.tmdb.org/t/p/w500/pqfkJh0CyF00GvR4NIdvJYkJb2F.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/bdwtHeUoAZmmHbe425J2XiiwVhm.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/slgx2ur9DnHRVLBJYfONL4T7wyx.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt39565775/img"
     },
@@ -268,6 +268,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/w5WJMJ6DWPFK0Gx0Ongh0FZBAlK.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rJ7PB78ZcBaCPxQRLrZxh4M2Z0N.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/otZRRnYqtlJGESBzD1Gqe2hVYw4.png"
+    },
+    {
+      "id": "tt38721186",
+      "type": "movie",
+      "name": "A Loud House Christmas Movie: Naughty or Nice",
+      "releaseInfo": "",
+      "description": "Desperate to get off Santa's Naughty List before Christmas, Lincoln resorts to hacking into the North Pole computers and putting himself on the nice list. But when the hack gets out of control, he ends up reversing the Naughty\\/Nice lists around the world and turning the North Pole itself Naughty. Lincoln enlists his family to go to the North Pole and try to fix the mess he made. Teaming up with his new frenemy, Duncan, the elf who first put him on the naughty list, Lincoln and the Louds must battle a now evil Santa and his minions to save Christmas.",
+      "poster": "https://image.tmdb.org/t/p/w500/x8etkE8pdopoHx8B8PJrinU01Wz.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7GC7SLfKN6AoEU6SAMMSlTx4nHB.jpg"
     },
     {
       "id": "tt20601386",
@@ -1962,16 +1971,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/h2oyiPu7aql1s1mLDoKBNAH7p3B.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3xGfsAYAxVmYj1CbE5vAkmMJbHo.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/hClsxK6QoJMCj0CHhT6VD4VBN03.png"
-    },
-    {
-      "id": "tt9883832",
-      "type": "movie",
-      "name": "Moonage Daydream",
-      "releaseInfo": "",
-      "description": "A cinematic odyssey featuring never-before-seen footage exploring David Bowie's creative and musical journey.",
-      "poster": "https://image.tmdb.org/t/p/w500/xr4EYd4WHr3Z6MXIYR3tEzP6yuT.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/bSgSJfkTutcllEvhDDWtMGgdl2b.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eaOYtw6aMY8oBbzVvLMCpIO5IJE.png"
     }
   ]
 }

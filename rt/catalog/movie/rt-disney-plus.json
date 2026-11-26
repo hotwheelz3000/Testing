@@ -301,6 +301,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/b13trjkfhuqLyAoa3I3WFIQn4hi.png"
     },
     {
+      "id": "tt38263655",
+      "type": "movie",
+      "name": "2025 Rock & Roll Hall of Fame Induction Ceremony",
+      "releaseInfo": "",
+      "description": "On Saturday, November 8, 2025, rock royalty once again gathered to celebrate the induction of another class of performers, influencers and excellent musicians into the Hallowed Hall of Rock. The 2025 Rock & Roll Hall of Fame inductees were Bad Company, Chubby Checker, Joe Cocker, Cyndi Lauper, Outkast, Soundgarden and The White Stripes in the Performer category.",
+      "poster": "https://image.tmdb.org/t/p/w500/2qNWhH53JIbTGAeD02fgdouMFGr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yqb851pYkvS4kk8AcKfrHGZk9z0.jpg"
+    },
+    {
       "id": "tt38607240",
       "type": "movie",
       "name": "LEGO Frozen: Operation Puffins",
@@ -684,6 +693,15 @@
       "poster": "https://image.tmdb.org/t/p/w500/jbOSUAWMGzGL1L4EaUF8K6zYFo7.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1w8kutrRucTd3wlYyu5QlUDMiG1.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uUaNB68Buz6oVErVzs9YTZNpZyC.png"
+    },
+    {
+      "id": "tt32550532",
+      "type": "movie",
+      "name": "Engaged by Christmas",
+      "releaseInfo": "",
+      "description": "When Zoe writes to agony aunt Dear Adora to help save her relationship before the holidays, she puts the advice into practice and it’s disastrous: her boyfriend breaks up with her! When she tracks down Dear Adora to confront her, she discovers it’s actually a man. She tells him she’ll keep his secret if he helps her to repair her life via a series of Christmas themed events publicized by his column. When the interest in their activities gains huge traction, will they also find love?",
+      "poster": "https://image.tmdb.org/t/p/w500/p3ZeWIDe1pb85U113lf8bQMtzaW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/446mQgIMwDGi01FeYsXuGUGZtuN.jpg"
     },
     {
       "id": "tt31113406",
@@ -1523,7 +1541,7 @@
       "description": "Based on a true story of best friends Magen and Heidi who have known each other for a decade. Pretending to be pregnant at the same time as her friend, Magen makes the journey from Houston to Austin to be by Heidi’s side once she learns she is ready to give birth. However, when Heidi goes missing with her newborn daughter just a few weeks after giving birth, suspicions about Magen’s loyalty and her true intentions are questioned. Authorities begin to suspect that she is hiding a huge secret as they begin to uncover her twisted and elaborate plan.",
       "poster": "https://image.tmdb.org/t/p/w500/6VZoNpXvS6iYGcOqxewrjW97e8R.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7Q9lnQb9e3DyDz8RV4Z0h3wUTaT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/llmjwh9CjrLpsail7WseQZCiZyQ.png"
+      "logo": "https://image.tmdb.org/t/p/w500/AexCHLMfKFZJX1vZ6PLoGxiF8ir.png"
     },
     {
       "id": "tt28663209",
@@ -1633,26 +1651,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/A9VIIks5Mw3mjWStOj7FvIOGtmW.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/bsesTngzYDZiHiYpsq12av3bkk2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/m7wBCntCJluSknFNJGxu8XK8kqN.png"
-    },
-    {
-      "id": "tt21376900",
-      "type": "movie",
-      "name": "Bobi Wine: The People's President",
-      "releaseInfo": "",
-      "description": "Uganda has one the youngest populations in the world and one of its most flagrantly anti-democratic governments. These are ingredients for revolution, and Bobi Wine and his wife Barbie Kyagulanyi are stirring the pot. When the charismatic Bobi, a musician and member of parliament, announces his campaign for president, Uganda’s youth are ecstatic, filling parks and streets for every speech, and singing Bobi’s anthems of peace and freedom. But then comes the crackdown, orchestrated by Yoweri Museveni, a brutal dictator who has ruled Uganda for 36 years. Bobi and his crew survive arrests, beatings, torture, riots and raids.",
-      "poster": "https://image.tmdb.org/t/p/w500/gehzAC8zE85Qiyn5HcXgiky7W1W.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/eBWByfYdAY4Gcch07TIJ0WjpTbB.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/685AqOrB4yPpldKfV8iqUzb64cX.png"
-    },
-    {
-      "id": "tt22375620",
-      "type": "movie",
-      "name": "The Slumber Party",
-      "releaseInfo": "",
-      "description": "The hilarious aftermath of a sleepover birthday party hypnotism gone wrong as best friends Megan and Paige, along with soon-to-be step-sister Veronica, wake up with absolutely no memory of the night before.",
-      "poster": "https://image.tmdb.org/t/p/w500/2jjOBcKJYb5FRTcsqL6yRtAY3Wr.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/otSCescAQiSAc6w1vJvl0WnogRn.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gklkwwVKs81uYn2H7q8O2P5N9oW.png"
     }
   ]
 }

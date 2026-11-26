@@ -201,6 +201,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/g5tl5QA8mPMhSwdcRH33fMz36bO.png"
     },
     {
+      "id": "tt31259038",
+      "type": "series",
+      "name": "I, Jack Wright",
+      "releaseInfo": "2025",
+      "description": "Explosive events unfold after Wright family patriarch Jack is discovered dead from a supposed suicide, leaving his immediate family utterly devastated.",
+      "poster": "https://image.tmdb.org/t/p/w500/yWo8QNGADcVRFiWFn0vDE8u9BQS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/eDB1CCNcxnFANadgiWyFlzaqvK6.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hDtYQxDbBA12DuspXdrOVwrhRCZ.png"
+    },
+    {
       "id": "tt32475225",
       "type": "series",
       "name": "The Feud",
@@ -793,16 +803,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/e0dGmNA9Wory3p526RX6oTpMVbF.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rq8QIg9YJxQoEgKAde3PTspHtnQ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9NwYkjUJQ5cHJY7pDY7NJIbG7Ks.png"
-    },
-    {
-      "id": "tt19878236",
-      "type": "series",
-      "name": "The Detective from Beledweyne",
-      "releaseInfo": "2023",
-      "description": "",
-      "poster": "https://image.tmdb.org/t/p/w500/1UWcWkt7X3lZajyj4vOq0Y5KLL3.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/4q2oGmi1CfeA0gKLpIijS6gke6O.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt19878236/img"
     },
     {
       "id": "tt21161156",

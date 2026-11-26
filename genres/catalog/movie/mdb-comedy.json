@@ -19,6 +19,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/52pI8oyYHiFM2FaA5GITauIVeXQ.png"
     },
     {
+      "id": "tt32213169",
+      "type": "movie",
+      "name": "Way of the Warrior Kid",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt32213169/img",
+      "background": "https://image.tmdb.org/t/p/w1280/1JL6mDxYRauwv81bLupSZczC39M.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qMKndM5f6ObJUtbYQPAR0Qq2Xr1.png"
+    },
+    {
       "id": "tt39316936",
       "type": "movie",
       "name": "Clashing Through the Snow",
@@ -1633,15 +1642,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt36853497/img",
       "background": "https://image.tmdb.org/t/p/w1280/v4Fkzv4wrlGzF3af60Xwxpb5tJk.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/b5u0td9esOX8ykQoGknpsD0qVPb.png"
-    },
-    {
-      "id": "tt31591561",
-      "type": "movie",
-      "name": "Son of a Rich 3",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt31591561/img",
-      "background": "https://image.tmdb.org/t/p/w1280/m2xVVE790SnPc2MZNM6F4N22Ab3.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt31591561/img"
     }
   ]
 }

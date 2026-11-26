@@ -4,7 +4,7 @@
       "id": "tt36951910",
       "type": "series",
       "name": "Always on Call",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oFoT6GRACWN9X6fFvtCys0ViDUl.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oQUJId55qF6YZ3bhPZ12WP1c5m4.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7JBjCdmH8kddW41YoipVVwQJllm.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/1hKxh1khhTRsWbo2N5AA36DSDub.png",
       "description": "A devoted team of medical professionals navigate personal struggles, political pressure and a risky new hire at an overwhelmed emergency room in Oslo.",
@@ -37,6 +37,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/5BVPUwWwVrlia7OC0dXxPEQM6Uv.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3kkjD0F5E9etkH3JufiQEF4xgGx.png",
       "description": "1982. When the matriarch of a Dutch hotel empire is kidnapped for ransom, her family launches a desperate effort to free her.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:343634",
+      "type": "series",
+      "name": "Picturelogue ～Escape From Oogiri Labyrinth～",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1y5QobUcGzCZuaEk4iAf06C8wXW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ytrFcr88F7HgHmLWoFySFbNY5Bs.jpg",
+      "description": "Contestants race to escape a mind-bending maze in 90 minutes, using their wit to caption photos and teaming up with partners for physical challenges.",
       "releaseInfo": "2026"
     },
     {
@@ -184,16 +193,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/wM62vjwgxjQTlXX76xmQS1T49O2.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/qgmaTE4OyoNBdyxIzxg3rnLiPZ9.png",
       "description": "After a body is found in a Roman museum, an art expert must apply his instincts and skills to help police solve a mystery connected to his own past.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tt8014982",
-      "type": "series",
-      "name": "The Body",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/c7PCh5wDlXODksBXElQHiotV9M5.png",
-      "description": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
       "releaseInfo": "2026"
     },
     {
@@ -926,14 +925,31 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt42654265",
+      "id": "tt31038430",
       "type": "series",
-      "name": "Earle Meets World",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wbU6JeOVw30CRXNFwu8AuCdhXW0.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/hh7gTtE7QRAoNFma84N8dHNN3UB.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tRIIuFh9f7qxiZWx9L3Hd8mDT8A.png",
-      "description": "Alix Earle, Gen Z's ultimate \"It\" girl, gets real in this unscripted, unfiltered series that goes behind the scenes of her life and family.",
-      "releaseInfo": "2026"
+      "name": "The Hunting Wives",
+      "poster": "https://resizing.flixster.com/E5eSKxLJ-muUftU3fBjHNtfrsss=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOWEwNzQ0MTctZjNjZC00ODA2LWJlZGUtMzEwYWYzMWQyZGMxLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/mAwM2mAc2JrnVVGbwsk3QPK1193.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dT0HdklknEGQYkn1dNACIs4IeAt.png",
+      "description": "Tomatometer 82%"
+    },
+    {
+      "id": "tt32378211",
+      "type": "series",
+      "name": "Mistletoe Murders",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28243292_b_v12_ak.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9nOTLXRPFcjI8fpCebRTfy6TPJZ.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6pw3u1e9LNN6iLp9YzG6ehyb0B9.png",
+      "description": ""
+    },
+    {
+      "id": "tt39123061",
+      "type": "series",
+      "name": "The Ramparts of Ice",
+      "poster": "https://resizing.flixster.com/zrIumQUAXuYuW3WvM8vkBwPW5RM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTJjNTE5NmYtY2ViOC00NzNhLTg4MDUtYTFiNTg2MzljZDg2LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/a5okATkpmXxAClSnAjGP4ums77c.png",
+      "description": ""
     },
     {
       "id": "tt39906446",
@@ -1032,6 +1048,15 @@
       "description": ""
     },
     {
+      "id": "tt30003786",
+      "type": "series",
+      "name": "The Great Indian Kapil Show",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26973720_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/w8L2oVjsSRZdZ1Wcszot9cKZMRO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ulJpJulH2l9OKopOKZuWmZXKDhW.png",
+      "description": ""
+    },
+    {
       "id": "tt0131179",
       "type": "series",
       "name": "Detective Conan",
@@ -1068,19 +1093,10 @@
       "description": ""
     },
     {
-      "id": "tt0206512",
-      "type": "series",
-      "name": "SpongeBob SquarePants",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
-      "description": ""
-    },
-    {
       "id": "tt32344704",
       "type": "series",
       "name": "Tougen Anki",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
+      "poster": "https://resizing.flixster.com/tnWtO30zGQIs9kjBRdjdzOolT2s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5KJjTVvl4ZDFJNHT5NV6etyBHCy.png",
       "description": ""
@@ -1089,7 +1105,7 @@
       "id": "tt13292830",
       "type": "series",
       "name": "Batwheels",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22854028_b_v12_as.jpg",
+      "poster": "https://resizing.flixster.com/FP6AHpCqvEiZM2eNNv--DxXisGk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22854028_b_v12_as.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/tRo9pMhE2OOrePz4Pw3eirPBnxr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aBZ5mKd2q76V2jK30epONCFvE16.png",
       "description": ""
@@ -1104,39 +1120,12 @@
       "description": "Tomatometer 87%"
     },
     {
-      "id": "tt32378211",
-      "type": "series",
-      "name": "Mistletoe Murders",
-      "poster": "https://resizing.flixster.com/8Js-kDzNaEhKHs6EBPwHjdynarg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28243292_b_v12_ak.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/9nOTLXRPFcjI8fpCebRTfy6TPJZ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/6pw3u1e9LNN6iLp9YzG6ehyb0B9.png",
-      "description": ""
-    },
-    {
-      "id": "tt39123061",
-      "type": "series",
-      "name": "The Ramparts of Ice",
-      "poster": "https://resizing.flixster.com/-0WwiXeCVXyM60ly_hjwKlkPJ1M=/164x246/v2/https://resizing.flixster.com/zrIumQUAXuYuW3WvM8vkBwPW5RM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTJjNTE5NmYtY2ViOC00NzNhLTg4MDUtYTFiNTg2MzljZDg2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ht6WUmez8cFbwlrFmGdjbYyn3RG.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/a5okATkpmXxAClSnAjGP4ums77c.png",
-      "description": ""
-    },
-    {
       "id": "tt0364845",
       "type": "series",
       "name": "NCIS",
       "poster": "https://resizing.flixster.com/6mHn0rwp5i_CcsZz-fa3fhnIaMU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184930_b_v12_ay.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rHKRZCBpDFSNc45kzyf665LJYp3.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bRUIbYZkAtGhDw2fWteAJkg7WjR.png",
-      "description": ""
-    },
-    {
-      "id": "tt30003786",
-      "type": "series",
-      "name": "The Great Indian Kapil Show",
-      "poster": "https://resizing.flixster.com/2dup6x3S8MhwJA8kImAaT5uMpkI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26973720_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/w8L2oVjsSRZdZ1Wcszot9cKZMRO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ulJpJulH2l9OKopOKZuWmZXKDhW.png",
       "description": ""
     },
     {
@@ -1201,6 +1190,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/o1ak41zRPYCQ6WCWSsUfuq26jdB.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9v8hgnxKy0AV3QwqAho3hsgdRDH.png",
       "description": ""
+    },
+    {
+      "id": "tt8014982",
+      "type": "series",
+      "name": "The Body",
+      "poster": "https://resizing.flixster.com/W6GlwoDvYQxMZA_ybYwupr6TsVE=/164x246/v2/https://resizing.flixster.com/ont4LnIFD7821ArXK7tZI8zTXRI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2I5MDQ5MjItYjlmMy00NTk1LWFkNDktMWJlNDVkY2U4ZGExLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/c7PCh5wDlXODksBXElQHiotV9M5.png",
+      "description": "Tomatometer 84%"
     },
     {
       "id": "tt18246842",

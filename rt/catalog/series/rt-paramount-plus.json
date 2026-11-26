@@ -979,6 +979,15 @@
       "releaseInfo": "2022"
     },
     {
+      "id": "tt30292502",
+      "type": "series",
+      "name": "Aussie Shore",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28407528_b_v8_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uozRNiPMkcN04MOtXX4RELP6ja7.png",
+      "description": ""
+    },
+    {
       "id": "tt0121955",
       "type": "series",
       "name": "South Park",
@@ -1103,6 +1112,15 @@
       "description": "Tomatometer 90%"
     },
     {
+      "id": "tt0206512",
+      "type": "series",
+      "name": "SpongeBob SquarePants",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
+      "description": ""
+    },
+    {
       "id": "tt10521222",
       "type": "series",
       "name": "The Last Cowboy",
@@ -1142,18 +1160,9 @@
       "id": "tt31589662",
       "type": "series",
       "name": "Georgie & Mandy's First Marriage",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
+      "poster": "https://resizing.flixster.com/sIw2xMtkR87kfyGk2RaFK031wjw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
-      "description": ""
-    },
-    {
-      "id": "tt30292502",
-      "type": "series",
-      "name": "Aussie Shore",
-      "poster": "https://resizing.flixster.com/z5cB1rGEVVTkjcTqV21kcqVIygo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28407528_b_v8_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uozRNiPMkcN04MOtXX4RELP6ja7.png",
       "description": ""
     },
     {
@@ -1353,7 +1362,7 @@
       "id": "tt21088048",
       "type": "series",
       "name": "How Did They Build That?",
-      "poster": "https://resizing.flixster.com/l3ueadzZNjgZiCdQMQw-MZ70p7I=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19223615_b_v13_aa.jpg",
+      "poster": "https://resizing.flixster.com/iI1htlp37f_d33N6T5AaLslBgXE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19223615_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/oGQcLbzqbAlIXncNKMiEz34OnKb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ltGKBwJFL9HrtoWXEfcWetDgBFO.png",
       "description": ""
