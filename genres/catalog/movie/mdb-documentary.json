@@ -10,6 +10,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/78g7VIcJifXkvYP6yClFOJgrX2T.png"
     },
     {
+      "id": "tt44825373",
+      "type": "movie",
+      "name": "SCTV: The Greatest Show You've Never Heard Of",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt44825373/img",
+      "background": "https://image.tmdb.org/t/p/w1280/4EKa1ordKkch7bAYlV4e3fwsVCj.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qAo1wZYz5cRv8zKGj1IeEOVnHEx.png"
+    },
+    {
       "id": "tt45368240",
       "type": "movie",
       "name": "You Can See Everything",
@@ -348,7 +357,7 @@
       "name": "Billy Idol Should Be Dead",
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt21870816/img",
-      "background": "https://image.tmdb.org/t/p/w1280/lz2LQtEw8aFKR24sw9xPZn5czkX.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/yDwaf1LUyJnZf48XMfm0gJWhqb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/43U5WhP3M9kcokZDOU03lTcbHom.png"
     },
     {
@@ -662,7 +671,7 @@
       "name": "Stolen: Heist of the Century",
       "releaseInfo": "2025",
       "poster": "https://images.metahub.space/poster/medium/tt37543886/img",
-      "background": "https://image.tmdb.org/t/p/w1280/hz59eF5z6ObaaWiGlUKcVbODti7.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nplAWk6ur80ZeHaTWRTywbULHU3.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/u84oeX7Z7NZ37bzVVhxpBxnLtQT.png"
     },
     {
@@ -992,7 +1001,7 @@
       "name": "A Nonsense Christmas with Sabrina Carpenter",
       "releaseInfo": "2024",
       "poster": "https://images.metahub.space/poster/medium/tt33427273/img",
-      "background": "https://image.tmdb.org/t/p/w1280/gy3sRRZkeCGzjTxumekjISD2lKC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5pecIVfEC1Zvz2pdGPwegu1hggH.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xxzzClgpj4luiCr9GpQRwpIpIef.png"
     },
     {
@@ -1778,15 +1787,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt28865980/img",
       "background": "https://image.tmdb.org/t/p/w1280/5UlQDjIuJ0t8q4anVxzkW06FrDM.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/o6FHBCthQQfFeDJdTD8aM7iRLB3.png"
-    },
-    {
-      "id": "tt29715313",
-      "type": "movie",
-      "name": "Ronnie O'Sullivan: The Edge of Everything",
-      "releaseInfo": "2023",
-      "poster": "https://images.metahub.space/poster/medium/tt29715313/img",
-      "background": "https://image.tmdb.org/t/p/w1280/AtKUxS9kyT5c9S8GmU4x3La8cS.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qJvCAHwz9XYdW1MVlDhDosLW3Lh.png"
     }
   ]
 }
