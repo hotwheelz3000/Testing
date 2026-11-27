@@ -1127,6 +1127,16 @@
       "background": "https://image.tmdb.org/t/p/w1280/idnxQjDQpwrcF2UnwHF5ZBkt4H1.jpg"
     },
     {
+      "id": "tt36206126",
+      "type": "movie",
+      "name": "Lazarus: The Awakening",
+      "releaseInfo": "",
+      "description": "A vigilante resurrected from death hunts a drug empire in Jackson, clashing with a kingpin, a reporter, and a city consumed by fentanyl. Justice becomes war.",
+      "poster": "https://image.tmdb.org/t/p/w500/ruNGo42Z0mguTz5CqxHU7csvVQw.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mbWCuTLo4SpD3zFyWiYlGnQY6W8.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8BJLE9cgSTfR9nxWZXjaFmA4sVW.png"
+    },
+    {
       "id": "tt30842022",
       "type": "movie",
       "name": "The Dreadful",
@@ -1940,16 +1950,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/WKwQOPh2mQPRL12jSu2yFHk4A7.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ekpdjcuVVU2LIFM3EyePYykYZ4b.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bQxtymivMijnlZnnPVUyjz5gYfr.png"
-    },
-    {
-      "id": "tt30796568",
-      "type": "movie",
-      "name": "This Tempting Madness",
-      "releaseInfo": "",
-      "description": "After awakening from a coma with no memory and her husband under arrest, an injured woman pieces together her past, only to suspect she may be responsible for the tragedy.",
-      "poster": "https://image.tmdb.org/t/p/w500/eycVPsYXsLMRXgAPGqJTzKvnlzX.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/fsogRNuRdI7wBv8Ur1UwE0Yd6HC.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2fI8cq2f1K2UX6Vx0LB76KFomw3.png"
     }
   ]
 }

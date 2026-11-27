@@ -28,6 +28,14 @@
       "logo": "https://image.tmdb.org/t/p/w500/qMKndM5f6ObJUtbYQPAR0Qq2Xr1.png"
     },
     {
+      "id": "tt39201392",
+      "type": "movie",
+      "name": "All for Christmas",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt39201392/img",
+      "background": "https://image.tmdb.org/t/p/w1280/umIrgCdfDgZXXlzMCkLk38CURs.jpg"
+    },
+    {
       "id": "tt39316936",
       "type": "movie",
       "name": "Clashing Through the Snow",
@@ -1624,15 +1632,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt36963493/img",
       "background": "https://image.tmdb.org/t/p/w1280/7ImZeJiXNcZYKruKEqMzyW3CwVL.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/m7bdxTXc8bmfJmQ8dpM6cxFDcJv.svg"
-    },
-    {
-      "id": "tt36956284",
-      "type": "movie",
-      "name": "Still Sexy",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt36956284/img",
-      "background": "https://image.tmdb.org/t/p/w1280/haTr0tVcpfuOKMCmmmoetbAFidM.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/sKX6pwzclofvAT0ITWGVuxXwA26.svg"
     }
   ]
 }

@@ -1186,24 +1186,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt37989803/img",
       "background": "https://image.tmdb.org/t/p/w1280/xyW8rJO3rwG2EGcTO6eaUEa8b9d.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/wzr8hEGycdF2cL7ILQ3MUqJRPkF.png"
-    },
-    {
-      "id": "tt29028515",
-      "type": "movie",
-      "name": "Wasteman",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt29028515/img",
-      "background": "https://image.tmdb.org/t/p/w1280/qLp9td9ZfOe7G6wHhrepKtIH5Qe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/y7b1I84NvrSogfNOcB46ZXYxEnJ.png"
-    },
-    {
-      "id": "tt34471850",
-      "type": "movie",
-      "name": "Protector",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt34471850/img",
-      "background": "https://image.tmdb.org/t/p/w1280/vpuPY4UziUCxv7gYYoaZQ3LX7to.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cOq6SPb6EaXnM5mbLrUq72FRzXE.png"
     }
   ]
 }

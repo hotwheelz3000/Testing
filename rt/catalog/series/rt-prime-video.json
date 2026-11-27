@@ -1,6 +1,968 @@
 {
   "metas": [
     {
+      "id": "tt52071013",
+      "type": "series",
+      "name": "Alan Carr's Great Big Bucket List",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nb2igvS4qWtWHqsiJeEBeHizIfc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9GxDqW5YV23UnUeB9MYz3rueVW.jpg",
+      "description": "This series sees Alan and some of his comic friends embark on an international mission to road-test classic 'bucket list' experiences, determining which of them are truly 'try before you die' — and which should never be spoken of again…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt18224594",
+      "type": "series",
+      "name": "Blade Runner 2099",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7UAUa3qQBtm7Z07d2BwiBPGBGbe.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5jzOY1tWIH3bVfsWN3ou6XVx5e8.png",
+      "description": "Fifty years after the events of Blade Runner 2049, Los Angeles has been reborn, just not by humanity. Cora, a fugitive in a final bid to stop running, takes on one last identity: a Blade Runner. Forced to partner with Olwen, a Replicant days from dying, she hunts down a runaway hiding a truth that could collapse their fragile city.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43620104",
+      "type": "series",
+      "name": "Mascarade",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gdDUz1FqDDN2criezLPyQ3j0qdu.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/1J4KaCuH7w0xYiEdXz9P8ePxO89.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43620104/img",
+      "description": "They've starred in tons of movies. He hasn't seen a single one. Welcome to Mascarade, where Monsieur Loris must unmask French cinema stars.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt50666033",
+      "type": "series",
+      "name": "MELANIA the Series",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//75uNmW51SXsljGTFpNuH464eW4r.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ithzPRYsTWy5umOK9rSbTAiDGat.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g2DIcPjjMHt3whSwfmPOxeq9a0G.png",
+      "description": "Experience Melania Trump's transition to First Lady as she navigates the White House and puts her mission into action.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43750368",
+      "type": "series",
+      "name": "Galactic Defense Force",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//47h7rSk4znOtk0AH1R9jAzAk8XI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/46KbUDq7cjgHwOZ48pwABwseWA4.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qFf1TD0DXySEx5Su1xb1lW2Bdyi.png",
+      "description": "Across the galaxy, people are disappearing. When the GDF fails to find them, Sage leaves his peaceful home to search for the missing citizens. However, he's a tiny sprite with fairy wings. Not exactly soldier material. He is joined by a mysterious druid, a former mercenary, and a broken little medical droid. Against impossible odds, Sage fights to prove that anyone can be a hero.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:338547",
+      "type": "series",
+      "name": "Friz i Wersow. W drodze",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8kD3PbjgshEpcOjhXTkwahL9Dn.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//a8kD3PbjgshEpcOjhXTkwahL9Dn.jpg",
+      "description": "The production will follow Friz and Wersow as they embark on a new chapter in their lives—as parents of two children, business partners, and a couple ready to confront previously untold aspects of their own story. The six-part documentary series will premiere exclusively on Prime Video later this year.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341936",
+      "type": "series",
+      "name": "Koba LaD : Demain j'arrête",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1H7sjDOFTqGFwCB0w6IQG8Sp2r0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rZRfFIMmaucoYMydwlQ1mVVu8W3.jpg",
+      "description": "Through archive footage and accounts from people close to him, this documentary series follows French rapper Koba LaD from his beginnings in Évry to his breakthrough in music. It explores the contrasts between his public success, his personal life and the legal troubles that led to his imprisonment.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332683",
+      "type": "series",
+      "name": "Rock, Paper, Landmines",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kK5p5DJTS2rAzOVrvjhLMg7rsmm.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4Htao8kvzIdGVImpD614CCQgjDc.jpg",
+      "description": "Glico, Daruma-san ga Koronda... A game everyone knows—transformed into the ultimate battle of wits!?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41054228",
+      "type": "series",
+      "name": "Devils' Crest",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dRflgHEhzpy12nsYR11hvdoHEoK.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fA6eLsm6xEBK90IK3UNWoVPZBn7.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt41054228/img",
+      "description": "Yuma Ashihara was set to enjoy a test session of Actual Magic (AM)—the world's first fulldive VRMMO-RPG—together with his classmates Sawa Ashihara, Kenji Kondo, and Minagi Sano. The plan was simple: defeat the boss as a party of four, log out, and finish the test play safely — or at least, that's how it was supposed to go.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39943756",
+      "type": "series",
+      "name": "Campus Drivers",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kTgV6VLp70QOBpCZqvEuTWAA4Ng.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/oaWJm4brEMSWBmQIB73DFxsU683.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/yIZq5hr4ztF5ntlGv1QsgwgvBfT.png",
+      "description": "Lois arrives in Belrose with Max, the love of her life. Lane, the creator of Campus Drivers, the hottest app on campus, is known for never getting attached. Their paths were never meant to cross. But some encounters change everything, reopening old wounds. And when love appears unexpectedly, nothing is certain anymore.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341365",
+      "type": "series",
+      "name": "Lo invisible",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//uvQeoFv6M3E64xrae5yTChHbF9Z.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/15uzQ1tzxlw5A9iC04avkGe4ffO.jpg",
+      "description": "*Lo Invisible* explores the lesser-known reality of five elite athletes, uncovering the hard work, routines, and sacrifices that make the major victories witnessed by the public possible. Through an intimate look at their lives, the series seeks to find the link between performance optimization and the deeply human side of these athletes—revealing where success is truly built.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335976",
+      "type": "series",
+      "name": "Seks, Zweet en Tranen",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//xt78CmhRAGlC1Vh5wl8enE3GE0d.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9THREYvSPeTKHjRULQk9VAQX9OO.jpg",
+      "description": "Behind all the photos, videos, and fantasies lies a world that normally remains hidden. But behind every exciting image, there is also simply a workday…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt15715850",
+      "type": "series",
+      "name": "The Greatest",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hu4jco5AOs8NSIctuc9KsRyuSg8.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/baMHKUmvzRFp34hZ21TYPLw2HG4.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/w97vcFJsTRrxuZxqo3bbPFwbbTA.png",
+      "description": "Fresh off gold at the 1960 Olympics, young boxer Muhammad Ali (then known as Cassius Clay) sets his sights on the Heavyweight Championship. Contending with newfound fame, self-doubt, family conflict and a politically charged America, the once-in-a-generation prodigy discovers his greatest opponent won't be in the ring, but in a society that isn't ready for him to become his own man.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40649862",
+      "type": "series",
+      "name": "The Traitor Within",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6uFaEHVmoP88w0RxIOYAjWq2A7W.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6uFaEHVmoP88w0RxIOYAjWq2A7W.jpg",
+      "description": "The series follows the young and ambitious Henry Rinnan, and how his personal demons and narcissistic need for recognition drove him from a failed salesman to Norway’s most notorious traitor.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt50275576",
+      "type": "series",
+      "name": "El Marqués 1985",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//PCeXqU8jfEtIgPmdLZmc5SY4v.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//PCeXqU8jfEtIgPmdLZmc5SY4v.jpg",
+      "description": "1985. Eight years after the investigation into the crimes at the farmhouse, Onofre has become a crime reporter. At the newsroom, two women—Carmen and Concepción—entrust him with investigating the disappearance of their brother, Nani—a wanted criminal who had been taken into custody and whom they suspect was killed by the police officers who interrogated him.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:339754",
+      "type": "series",
+      "name": "LOL: Last One Laughing Halloween UK",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//87WpCARyaNZrKMMgtQcmT6fHD6j.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f8k1zx7mmh7sB31yeqhzczNOocw.jpg",
+      "description": "Last One Laughing is back…with a twist. Jimmy Carr is joined by 7 of the country's funniest people for a special Halloween-themed series and this time, there's no laughing OR screaming. Over the course of 4 hours, they will pull out all the stops to make each other crack…but who will last longest and take home the trophy?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:339734",
+      "type": "series",
+      "name": "LOL: Last One Laughing Québec - Halloween Special",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cV4Ek38D5C9rs70J9O4dO4GHbig.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cV4Ek38D5C9rs70J9O4dO4GHbig.jpg",
+      "description": "Patrick Huard invites eight iconic TV hosts to face off in a haunted edition of the ultimate comedy experience. One haunted mansion, eight hosts, and three hours to make each other laugh, all while resisting the urge to laugh themselves. With a whole host of spooky tricks and treats in store, will the screams overtake the laughter?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40444834",
+      "type": "series",
+      "name": "LOL: Chi ride è fuori - Halloween Special",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//z4bqvUYSyTuaAhiQQ2R6i12N9mT.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/o2G3yxq596meL92mpdgLTwNtFtk.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40444834/img",
+      "description": "Six much-loved contestants from previous editions of LOL face off in a spooky studio, where they must not only resist laughing but also avoid being frightened. From the Control Room, the members of Gialappa's Band deliver relentless commentary, accompanied by Lillo.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40856820",
+      "type": "series",
+      "name": "Chaar Yaar",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//z6WSxbaMdFQ9OLeHihaPJyVND4D.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/r1ILVngWUWHPmrmcIXWwzyDpQxt.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40856820/img",
+      "description": "A story of four middle-class boys, their dreams, setbacks and friendship being their armour. A fateful decision leads them to take a step that changes the course of their lives trapping them between gangsters and cops. What once held them together slowly tears their bond. With their armour shattered, their enemies close in and fate serves up a bill for their crimes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:306163",
+      "type": "series",
+      "name": "R91",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//c9B7ZtP00CMh8TNoTpdWumOO4aW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/i0qJ7DvMW1AkYA6K2m7XZVTH5V0.jpg",
+      "description": "The aircraft carrier *Charles de Gaulle* has just set sail for a strategic mission in the Eastern Mediterranean, a region where the situation is volatile. Shortly after departure, however, a female crew member is found dead and another is reported missing. Despite the danger, the operation continues, and a military investigator is urgently dispatched on board. When a new victim is discovered, the *Charles*—a veritable floating city of 1,800 men and 240 women—turns into a trap where a killer, mounting tensions, and unfolding events threaten the crew and perhaps even the country itself.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341645",
+      "type": "series",
+      "name": "Love Transit 35+",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//74nvScSgmgO5LaLFMyiVAbSSTK8.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//74nvScSgmgO5LaLFMyiVAbSSTK8.jpg",
+      "description": "Love gets more complicated with age, and that's exactly what makes it so dramatic! A new season of Love Transit kicks off with a cast of men and women aged 35 and older. For the first time in the series, a former married couple will also take part. Ten people, each with unexpected secrets from their romantic past, face life-changing decisions that can't be made based on love alone.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt49882571",
+      "type": "series",
+      "name": "LOL: Last One Laughing Netherlands - Halloween Special",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//myr0Kw4fVQZlBYzDmyit3pH4tVf.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7mu1h2oEiwePNRnBg4falb2ekRs.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt49882571/img",
+      "description": "Just in time for Halloween, Philippe and Jeroom return with a spine-tingling LOL special. Ten celebrities will face off in teams of two, battling the ultimate challenge: staying completely straight-faced for four hours. But this time, it's not just about holding back laughter-fear is off-limits too.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt49651623",
+      "type": "series",
+      "name": "The Stepback with Blake Griffin",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nccz3m923ksXKzHdNauIwq56xRW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9NltmFtkRmDyO5iLCstkLyyXRFm.jpg",
+      "description": "A bold new series where late-night comedy collides with the hottest sports debates. Each week, Griffin goes beyond the box score — tackling sports betting, hot-take culture, athlete empowerment, and viral moments with the wit only a veteran player and superfan can bring. This is sports for the internet generation.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt50223853",
+      "type": "series",
+      "name": "SOR",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//t3UPemOBTnYDWrNEwG7qpNOUq0K.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/s6IKOxREQuoeRikp16qTiBVizhC.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt50223853/img",
+      "description": "In the series SOR, every patient represents a unique story, and successive shifts demonstrate that no two cases in the ER are alike. Patients admitted to the hospital will include, for instance, a critically injured motorcyclist whose condition fails to improve despite standard procedures; doctors and paramedics will also fight to save the life of a well-known TV presenter, while teenagers involved in a serious electric scooter accident will also arrive at the unit. A major test for the entire team will be a bus crash that places the ER on high alert. A large number of critically injured patients will arrive simultaneously, forcing doctors to make split-second decisions on which lives depend.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt0355284",
+      "type": "series",
+      "name": "The Brain",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//vUZktQWaUMGk4VnFifm5omO8EXB.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//vUZktQWaUMGk4VnFifm5omO8EXB.jpg",
+      "description": "Divided into two teams, Alpha and Beta, former reality TV stars face unexpected test of general knowledge and reasoning under pressure. Amid rivalries, alliances, strategy and humor, the contestants have to show their abilities to survive until the end and become The Greatest Brain of Reality TV.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:329665",
+      "type": "series",
+      "name": "The Threads of Fear",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//mDhtYLJpN69liz09bmniIscgjWk.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kGagOgOWpsxvbNezuGDtNKZoeSh.jpg",
+      "description": "The Threads of Fear is a psychological thriller miniseries that turns everyday situations into unsettling and disturbing experiences. Across eight episodes, it explores how fear can emerge in the most unexpected places, transforming the familiar into a true nightmare.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43122927",
+      "type": "series",
+      "name": "Hometown Giants",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3aFyknHefFWZmV4tDUGgGYExHIG.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4FNexVx1UJTBEqanRHQnaQkk3bB.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uwTWpdOmXqyNvsgs7LlNga2uUnk.png",
+      "description": "Step inside the Vancouver Giants major junior hockey team, where celebrity owners Michael Bublé and Drew Scott set out to revive a franchise that hasn't won a championship since 2007. For the players, they're teenagers living away from home, finishing high school, and chasing NHL dreams they've built their lives around, even though only a few will ever make it.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt37180305",
+      "type": "series",
+      "name": "Friends Sex and Games",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/geSUajSeWBu14vLk0NyuR1OnrX7.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt37180305/img",
+      "description": "A group of friends starts a daring game. Everyone throws their keys into a bowl—whoever picks one spends the night with the owner of that key.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:296466",
+      "type": "series",
+      "name": "Marília Mendonça: All the Feels",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//g4XB3hmoPC75AtjsRtFhRdbDxhe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kqmeuOwL0Wcq0Th7bz9M3EgsYMR.jpg",
+      "description": "How did an ordinary girl from the heart of Brazil become a phenomenon? Through previously unreleased footage, audio recordings and interviews, the series traces Marília Mendonça's meteoric rise from singing at a gas station to becoming one of Brazil's biggest artists.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40856774",
+      "type": "series",
+      "name": "The Traitors (Telugu)",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qmWH3zX5IdijAk4TSWDyuGREFPK.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qaLG5CGnMFtFQGVEnfDGZ6tSt65.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40856774/img",
+      "description": "Twenty contestants play the ultimate game of trust and betrayal.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt48994258",
+      "type": "series",
+      "name": "Les Fous du bus",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9sDRfcrd6usRKn5kSTUgEjClxaE.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9sDRfcrd6usRKn5kSTUgEjClxaE.jpg",
+      "description": "\"Les Fous du Bus\" is a wild road trip through France, led by Ahmed Sylla and accompanied by six of the most promising comedians of their generation: Blandine Lehout, Emy BNG, Sofia Belabbes, Édouard Deloignon, Julien Santini, and Umut Koker. While they are well-accustomed to comedy clubs and the stages of Paris, this time they will have to step well outside their comfort zones.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35820654",
+      "type": "series",
+      "name": "Mírame así, el camino de Noa",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//raDCgg7Yej6sFwIYKSxOf8tO6yI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ir485FZlwSPuTIiw1KEZRlFjV3x.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt35820654/img",
+      "description": "Noa visits her boyfriend in Argentina, where she meets Tomy. As she explores her musical identity under parental pressure, Tomy tries to leave his musical past behind while both navigate life in Buenos Aires.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt11540908",
+      "type": "series",
+      "name": "Carrie",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zfgGWolG1xWy7VBEUKylRAIhlXY.png",
+      "description": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social‑media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:341776",
+      "type": "series",
+      "name": "Tintoria Prime",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//AwF8H72ZbW2QizFYUprHDHiD0l7.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//AwF8H72ZbW2QizFYUprHDHiD0l7.jpg",
+      "description": "",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334689",
+      "type": "series",
+      "name": "Oishii no Tsukurikata",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qSPkcewEjsuEcG168Wo5pbeECvC.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qSPkcewEjsuEcG168Wo5pbeECvC.jpg",
+      "description": "A story of family bonds and renewal forged through food, brought to you by the *Solitary Gourmet* (Kodoku no Gourmet) production team.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:335227",
+      "type": "series",
+      "name": "I Would Rather Die",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1HehlJEDVfHf9nt36Ygq8apTWQD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/339M5JkUc4DeXBGoK2lp9QZ3Y5e.jpg",
+      "description": "One cold night, misfit Archie gets bitten by a zombie and after briefly considering ending his life, he decides he's going to figure out what the hell is happening to his body. So, with the help of his only friend and his lifelong crush, Archie sets out to find a cure before he turns into a full-blown monster and kills everyone.",
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/92f71ElE3HIJFrIDoCGYI5RGshD.png"
+    },
+    {
+      "id": "tt40250814",
+      "type": "series",
+      "name": "Paul",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u2SKO0CdlpVytRvvoIj16X6vrb1.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6rltPS3KE5yvjW2a90nlhKYXg0b.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40250814/img",
+      "description": "At nearly 30, Paul Mirabel has just sold Amazon the recording of his show and a documentary about his life. Problem, he spent more time on his PlayStation than working and has no archival footage. In short, he lied. How far will this bluff take him? And to top it off, a childhood love resurfaces, because problems never come alone…",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35726020",
+      "type": "series",
+      "name": "Kill Jackie",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3tjZspkqquE24iK1rc0nvnJwdEZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/twc2YYBXTjdv52TShVumB1voT3Q.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/mcxfMCC7V4xq1fEVyHV4wGe2quY.png",
+      "description": "Jackie Price has been living a wealthy, luxurious life for the past 20 years after escaping a dangerous past as an international cocaine dealer. But just as life begins to feel a little boring, she discovers that The Seven Demons, a group of the world’s most terrifying hitmen, have been hired to kill her.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt4009558",
+      "type": "series",
+      "name": "Traffic Jam",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//i5eRkr7587uemwOLT4OuC2EsKsC.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//i5eRkr7587uemwOLT4OuC2EsKsC.jpg",
+      "description": "A massive traffic jam brings together a diverse group of stranded motorists, from troubled couples and families to nuns and thieves. As tensions rise and unexpected connections form, the gridlock becomes the setting for a series of comic and heartfelt stories.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt0063953",
+      "type": "series",
+      "name": "Special Branch",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u7YqFOCU5s4eW7xrckitaKgm5qw.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u7YqFOCU5s4eW7xrckitaKgm5qw.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt0063953/img",
+      "description": "When a young doctor is raped and murdered inside a prestigious medical college, ACP Damini Sengupta uncovers a web of corruption, cover-ups, and political influence. As witnesses disappear and evidence vanishes, she and her Special Branch team risk everything to expose the truth and deliver justice against a system determined to bury it.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt46657547",
+      "type": "series",
+      "name": "Prohibida Obsesión",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wCZtNtSDUj9oH92nXRX3Km2LC6P.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kxSXi0AvfLOr7dzdgUfTbDWP6wH.jpg",
+      "description": "A single night can change everything. Luciano’s perfect life begins to crumble after a night of passion with Bárbara, as she draws ever closer to his circle of friends.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt46658122",
+      "type": "series",
+      "name": "No Signal",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qiZfkyc09x3XAOvi4aZOxOTpLAB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fKURvHAIgfiqcLan5BymuI5pq8S.jpg",
+      "description": "Eight influencers accustomed to showcasing an idyllic life on social media attend a transformative retreat to get to know themselves better. What lies behind the perfect life they project?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt47713256",
+      "type": "series",
+      "name": "Girls of Warsaw",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dIThIvMsMipYOZMfjmfV8iNBRWW.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dIThIvMsMipYOZMfjmfV8iNBRWW.jpg",
+      "description": "A documentary series that offers a behind-the-scenes look at the lives of some of Poland's most popular female influencers.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt4597584",
+      "type": "series",
+      "name": "Cathedrals",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//z2OduIBEkvKi0KjeA277dkqe3Dp.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//z2OduIBEkvKi0KjeA277dkqe3Dp.jpg",
+      "description": "A 17-year-old girl is found burned and dismembered in an empty lot in a middle-class neighborhood of Santiago, Chile. Due to police negligence, the crime goes unpunished until thirty years later, when the family manages to piece together the murder puzzle, revealing a forbidden relationship and a cruel truth.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt33539520",
+      "type": "series",
+      "name": "Neagley",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//lKOPmO0ah17ogQ9hWg7lSd40kIr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lI6zO2lw8pteZnIzm1DuucVGutG.png",
+      "description": "Frances Neagley is a private investigator in Chicago and former military colleague of Jack Reacher in the Army's 110th Special Investigations Unit. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell-bent on justice.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:334258",
+      "type": "series",
+      "name": "Pranked by Melvin",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gvCwimKYdDkyvbP3BsTyNAYGebs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uGZm1Wu1meNgQPZDrThFkpcqkic.jpg",
+      "description": "Melvin Kakooza goes undercover to surprise and celebrate his friends with spectacular, affectionately staged pranks. With the help of friends and family, he turns the classic prank genre on its head, putting humor, friendship, and big surprises center stage.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt44842898",
+      "type": "series",
+      "name": "Isabel Raad: Behind the Curtains",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zjMVsNxtnn8aRif9OsBh8ZeVImx.jpg",
+      "background": "https://images.metahub.space/background/medium/tt44842898/img",
+      "logo": "https://images.metahub.space/logo/medium/tt44842898/img",
+      "description": "A powerful and unique series about one of Norway's most successful influencers, Isabel Raad. After four years of being single, she can feel her biological clock ticking. One impulsive text message to her ex changes everything. We follow Isabel through love and crises in an intimate story about family, trauma, and hope. For the first time, the series reveals who her dream man is, and how they met.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41793323",
+      "type": "series",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/45QKBrrIO5WcYhdF8SKtJiu7Ig7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wu5umZvYJGulGUZpDEYKB77cieP.png",
+      "description": "After years of estrangement, a mother and daughter find themselves on opposite sides of a bitter contest for what each believes is rightfully hers. Old wounds resurface as they weigh whether to confront the past together or let it drive them further apart.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt33023009",
+      "type": "series",
+      "name": "The Trial",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//8tim2R1DnlLz5piMosrTc3JWuGo.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bLcF9mcinphgFlXEfk7RkCSfqCv.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt33023009/img",
+      "description": "A teenager and her father struggle for justice after she is sexually assaulted by the scion of a successful businessman. Not only will the father and daughter have to navigate a failed judicial system, but they must also contend with a wealthy adversary bent on using all his power to protect his son.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt31924802",
+      "type": "series",
+      "name": "The Revolutionaries",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5fLyYAxXWP4BxZCBN79NV1eiT4d.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uImwvxPG2klY0VyybGPt5zRJVMc.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hLof6qJZuUaHJnb2rPSMRgBefZc.png",
+      "description": "The Revolutionaries narrates the inspiring tale of brave young Indian freedom fighters who fought for ending British Raj with their unwavering spirit and ideology.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt38956012",
+      "type": "series",
+      "name": "LOL Next",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6ByLeyddgHjbibZae9X7HCXrF6c.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2c1GSv458OlOK6mMh0oecKMoQVl.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt38956012/img",
+      "description": "Spin-off of the hit series \"LOL: Last One Laughing\", hosted by Hazel Brugger.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt45473499",
+      "type": "series",
+      "name": "Live better for less",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//656azWaOBFLySxPYiRocrE3bAfA.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/eCHk2juBCJx7eZIplT7PUc6J4W5.jpg",
+      "description": "Across seven European countries, seven hosts help households with big goals: decluttering, selling what they no longer need, and building habits that move them forward. From overflowing closets to forgotten sheds, the series reveals just how similar our problems are across Europe and offers tips and tricks for living better for less.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43095501",
+      "type": "series",
+      "name": "Coração de Mãe",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bRSOk9UL6BxrtR3aQtg7NdCUpgJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/d6TNeJcnIwqK47HMJueaDVhKq01.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43095501/img",
+      "description": "“Coração de Mãe” is the story of Linda—an ordinary woman and a true warrior—who struggles to save her loved ones from a violent man. Faced with an inevitable transformation, she realizes there is no turning back: she must discover a way to change her life before it is too late.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt44974627",
+      "type": "series",
+      "name": "The Grand Tour",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kq6XB6xmD86txW4UR32tT2JUiN9.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/40Dx3P1mllQq1jhgN3K8dlti6CS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bqDtRM7GmwWi087vPRO2NiaWPdd.png",
+      "description": "Welcome to The Grand Tour. The world's greatest motoring show reboots with new presenters - Thomas Holland, James Engelsman and Francis Bourgeois - and its trademark blend of global adventure, incredible vehicles, epic stunts and strong opinions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40857865",
+      "type": "series",
+      "name": "Jagamae Sangeetham",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//aEfuAAgMpePYJc99wFe19dMVst4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/b8pcIMqEAhLZ9EkYjqIPloGRrTT.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40857865/img",
+      "description": "Set in Vaikuntapuram, a sacred temple town nestled between the banks of the Godavari and the neon lights of pop stardom, a disciplined heir to a musical throne and a fame-weary singer strike a forbidden chord. To protect a century of heritage, they must navigate a landscape of family secrets, masked identities, and the heavy price of finding their own voices.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt45382183",
+      "type": "series",
+      "name": "Dolore e Psiche",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//aSoUrOqul225Pbrg9dXcL7cAjsv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qBk5SqVCoS8qbBxiInl4sjUhhmp.jpg",
+      "description": "*Dolore e Psiche* is a series that explores mental health through real-life locations, stories, and personal accounts. Ale meets patients, doctors, and healthcare professionals in specialized centers, hospital wards, secure psychiatric units (REMS), and rehabilitation communities, delving into various forms of mental distress and addiction. It is a journey—both human and educational—that moves beyond stigma, prejudice, and oversimplification.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332415",
+      "type": "series",
+      "name": "Les Fumiers: Welcome to the Farm",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5UyNsq06VJN0nue3KBm5NYMLgIq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fQuVVOc23f9xo3kLgWkdDACJ7XW.jpg",
+      "description": "Eight content creators leave their daily lives and comfort behind to take on a challenge set by four French farms: confronting the reality of agricultural life. Their mission: work hard, push their limits, and be the top performer to raise as much money as possible for their charity. Who will best adapt to this new life and win this unprecedented adventure?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43723095",
+      "type": "series",
+      "name": "Meet the Owens",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nSsTcOeiT2EAnayqfECBqWsncn9.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/23eNuUoqvgjtAwF3U39fZsqvaSm.jpg",
+      "description": "Forget everything you think you know about Michael Owen. This is an action-packed and unexpectedly hilarious year in the life of the footballer-turned-Horse-Racing-Stable-owner & his famous family. Michael juggles a business on the edge with a chaotic home life, while daughter Gemma swaps social media for the saddle to become a jockey. Funny, warm… and far from boring.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39300010",
+      "type": "series",
+      "name": "Oracles & Prophets",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//reb31elDxtScg4hylFvwUDf8jDO.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wiQNb7PGdQwlAiep9Ojt3J1bq0j.jpg",
+      "description": "historic figures or sacred sites believed to share messages from a deity or see the future. An oracle is often a shrine or the priestess who speaks riddles from a god (like the Oracle at Delphi), while a prophet is a person who delivers a direct divine message or call for moral change.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43740196",
+      "type": "series",
+      "name": "A Beautiful Obsession",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sMGr6FeYhA799ZU50r4wjt5HVdV.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kqaqrGjVthqrK2kcjQEIeDYAAdH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/2wyBGLKcPROI8EXpfUm1lrCgrlI.png",
+      "description": "An intimate, raw portrait of Manchester City FC across two era-defining seasons. With unprecedented access, the film follows their worst run in decades and fightback to glory.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt44177821",
+      "type": "series",
+      "name": "An Amputation Obsession: The Monster and the Surgeon",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sZglcGtxumCBtjU1JPxGtytQf9Y.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/A01rLIWQJbRDrQXqTXOFxYRFpwS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hZYi5H41C1Pg5n2yw9ytZXebFSz.png",
+      "description": "Vascular surgeon Neil Hopper becomes a symbol of hope after losing both legs, until an investigation uncovers a hidden obsession and secret life.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt38639909",
+      "type": "series",
+      "name": "Castle Walls",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//AfgiYkzGNhrJRQj8RhJk05rAQRe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ad2Se0PSSTBSJ1nwX1wQIZC89cP.jpg",
+      "description": "In the eleventh century, Hasan Sabbah captures the castle of Alamut and founds a mysterious movement that challenges the established order. While his old friend Nizam al-Mulk strives to protect the empire, Azazil—a warrior freed from the dungeon—emerges as his most loyal *fedai*. In this tale where friendship turns to enmity, love, faith, betrayal, and the lust for power fuel a conflict that alters the course of history.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35781996",
+      "type": "series",
+      "name": "The Chosen in the Wild with Bear Grylls",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3B8EZvb340YdsES35tiVfp0fNzy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tabVLK28I4xM6F8I2xUJERUVvQC.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qYBTAxywWPRMfwd7pvWnFMwejFt.png",
+      "description": "Follows Grylls as he takes the cast of The Chosen, as well as series creator Dallas Jenkins, on adventures in the wilderness.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt38346228",
+      "type": "series",
+      "name": "Gladiators - Die Show der Giganten",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bqpsrmSltcerqoUgntM5VX5BpI3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/v9cjE4CLAfqZHLtSUfFZvXj2XMl.jpg",
+      "description": "\"Gladiators – The Show of Giants,\" hosted by Laura Wontorra and Jan Köppen with commentary by Frank Buschmann, is a spectacular test of strength in which 17 gladiators face off against formidable professionals in action-packed games! Who will be crowned the Gladiators champion?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35618070",
+      "type": "series",
+      "name": "Sterling Point",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cThLWEGs6BEqY0QZMbU4FAeWwPT.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nOWU1NSYQEOXRXcdfZbtJshwRGK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/oI9xCt2yBSRhJRWpDb5v3JB3uZ0.png",
+      "description": "After discovering she's inherited a remote island in Canada from the estranged grandfather she was never allowed to meet, 17-year-old Annie Jacobson decides to investigate, pulling her into a world of buried secrets, unexpected sisterhood, and the complicated family history she was never meant to find.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:332448",
+      "type": "series",
+      "name": "BEAUTY BATTLE ROYALE: Japan-Korea Next-Generation Makeup Artist Championship",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//xspvsWNXQzE8i6UYIjURNmGBkDb.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uWElEPkzmh6VQ4fOrLd4haWKHpU.jpg",
+      "description": "",
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/5xYstv2CuB43LCQAlskWz7GSEia.png"
+    },
+    {
+      "id": "tmdb:330120",
+      "type": "series",
+      "name": "Bayrak Taşıyanlar",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//q80dddsNfrpBm45lfN1LSrZtwKx.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//q80dddsNfrpBm45lfN1LSrZtwKx.jpg",
+      "description": "The success stories of 4 Turkish national athletes who have etched their names in the minds of the world.",
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/yFqGWOhYogWqCZNRaklqrloelo4.png"
+    },
+    {
+      "id": "tmdb:326831",
+      "type": "series",
+      "name": "Warota!",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//daPOsKLwDmLddnktyWnjht5rKKZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f8xbe7uo3c3Z17Sj7h2iInzfReW.jpg",
+      "description": "It is a sketch comedy series starring SixTONES, marking the group’s first attempt at comedy as a unit. The show features a range of formats, including situational sketches, short skits, and serialized comedy segments, all performed on full-scale, professionally designed sets.\n\nIn each episode, SixTONES collaborate with guest actors and emerging creators, taking on various scripts and creative directions. Through these performances, the members showcase their distinct personalities as they engage in dynamic and often chaotic comedic interactions. The series offers a unique side of SixTONES that is exclusive to this program.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt47867455",
+      "type": "series",
+      "name": "Fatal First Dates",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fvE2V2HwB1lKLkGWjfGAPbf6Rq1.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fvE2V2HwB1lKLkGWjfGAPbf6Rq1.jpg",
+      "description": "Fatal First Dates explores real cases where online dating and first meetings end in tragedy, revealing how trust, deception and modern technology can turn romance into danger.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40856520",
+      "type": "series",
+      "name": "Adarsh Baal Vidyalaya",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1XbcSqURUvhgu2nnoQRZ7cXmTsJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/KuURjmH4i9RXOp5ANocM4AiJy9.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40856520/img",
+      "description": "A relaxed principal tries to reform a failing public school, triggering a messy transformation as misfit teachers work to repair the system one lesson at a time.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt37627165",
+      "type": "series",
+      "name": "Cyborg 009 Nemesis",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//j5QYqbk0PvESqYgkeI5D1TvyDwn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/uo6qbE403AnotkznV0uo7s25aHY.jpg",
+      "description": "Since their inception, the cyborg soldiers have protected humanity from various enemies threatening peace for over half a century. Yet the battle continues—a group of nine cyborgs called \"Nemesis\" convinced that 009 and his comrades alone cannot bring peace to the world has emerged. Led by Graviton, the cyborg who manipulates gravity, what is their ultimate goal? Will we witness a generational change!?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43639205",
+      "type": "series",
+      "name": "Super Market",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wTCJnl01DaXYBny4uQs39JR6JgJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rFmOSmNsp3rhUXiWgRM8VxgeiQN.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43639205/img",
+      "description": "Super Market is the new Italian Prime Original comedy series written and directed by the Il Terzo Segreto di Satira collective, following the tragicomic events of Eury, a chaotic neighborhood supermarket facing closure",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43655582",
+      "type": "series",
+      "name": "Undercover Lover",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3rczGpcCCczTZ4rbMiKBnds2JOa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iZTZjcPDAhX3pg6s6NQnjPSeCgz.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43655582/img",
+      "description": "14 seemingly single men and women arrive at a stunning villa, but 5 are secretly in relationships. From a second villa, their partners watch as they try to keep their romance hidden. When sparks fly from the start, jealousy and distrust quickly create tension",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt37090886",
+      "type": "series",
+      "name": "Young Farts Trailer Parts",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nd9XjTwKJ1JuPqf7ZsGsbUZptiN.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sk7A4RtNa33rVQ96YjdGDShbpv5.jpg",
+      "description": "Small-town brothers Jagger and Dawson run Young Farts RV Parts, a multi-million-dollar business where they turn trailer trash into cash. Between outrageous schemes, chaotic stunts, and big-hearted hijinks, these brothers chase one wild idea after the next - all for the love of their family and the empire they’re building.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:322571",
+      "type": "series",
+      "name": "The Criminal",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hgAzI2A11YDTrsC7FkorYA0t8R2.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dTHFG1EOnZNv7EqwcuAUCJ5LoNG.jpg",
+      "description": "A random mass stabbing, major food company Titus Foods, and a mysterious infant disease. These three things have as much in common as Detective Soma, hack writer Yarimizu, and the stabbing's lone survivor, Shuji. Yet, these men are now embroiled in a risky quest for the truth. What they find, though, is more heinous than they imagined, making them question just who is the real criminal?",
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/qAl7tsBRKxL1btxtogyE8LQaijJ.png"
+    },
+    {
+      "id": "tmdb:328997",
+      "type": "series",
+      "name": "Qesma w Naseeb: Al-Aroos w Al-Hamat",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iigxfTv80RDApF3pozha19uA4kz.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iigxfTv80RDApF3pozha19uA4kz.jpg",
+      "description": "",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43660074",
+      "type": "series",
+      "name": "POTENTIAL \"Tadayoshi Ohkura\"",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//KJ6WbFwKqXSeoS5SdiXsUllf5s.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//KJ6WbFwKqXSeoS5SdiXsUllf5s.jpg",
+      "description": "Super Eight's Tadayoshi Ohkura has spent 22 years on stage. Now he channels that experience into mentoring 150+ trainees in this intimate documentary.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt30494226",
+      "type": "series",
+      "name": "Ride or Die",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//uWqEnvpwa2U28QheMdUdEcr4U0M.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jwCXxvbLno5GrGDA9KvQ22uLziM.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wi32Shhyk4lc7lJw2yDIQA6uZrB.png",
+      "description": "Best friends Debbie and Judith are forced on the run when Debbie discovers Judith isn't a forensic accountant, she's an international assassin! With a mysterious figure chasing them, and Debbie's husband involved in something deeply corrupt, it's a race against time and a road trip across Europe to untangle the truth and stay alive.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39163341",
+      "type": "series",
+      "name": "Murder 101",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cy7sdlwtaiZYkpykbnzBtb4IoHs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/j3Unn0ynJIWrsmWMcPA4mBIk3Qf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lXMUTmyspVWEIzzjhbtzFNjjBe7.png",
+      "description": "Part teen drama, part masterclass, and part edge-of-your-seat crime investigation, follow a high school sociology class in rural Tennessee who help revive a decades-old case into a present-day hunt for a killer.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:328814",
+      "type": "series",
+      "name": "La feria",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//koSdl7tYq5c5bzrMtutAyAxfuu2.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kHurcJyxfBUMVOkLJthJMqu37PJ.jpg",
+      "description": "In the days leading up to the start of the April Fair, Marina, Natalia, Manu, and Carlos prepare to experience the most important week of the year. As they finalize preparations for the *Pescaíto* and juggle their commitments as content creators, both excitement and insecurities surface.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41793322",
+      "type": "series",
+      "name": "The Loyalty Game",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5UUOskK9cPqdG77DfIlB2tR9utD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lOnKcYoGrvcLdre7wIbLoeuBl2y.jpg",
+      "description": "A group of women runs a unique business: luring men to expose their infidelity. Their newest client, Ana, lives a seemingly perfect life with her devoted husband-until doubt creeps in. As he starts to distort her reality, Ana teams up with a loyalty tester, and their search for truth spirals into a dangerous game of secrets, manipulation, and power-where loyalty becomes a matter of life and death.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40857820",
+      "type": "series",
+      "name": "Isakapatnam",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cs42BHvNNWw74fct04gAzijTtBQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fmlvrILGqb9Ek6JEGD9vUUfuk62.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt40857820/img",
+      "description": "Set in the 1990s, in the ruthless port town of Isakapatnam, three forces collide—a woman driven by justice, a henchman torn by loyalty, and a common man hungry for revenge—each closing in on the empire built by the port’s most powerful man, Naidu.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt32020831",
+      "type": "series",
+      "name": "Elle",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dpH7Lyrs7z7MlTGgfeibryGnWAv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/truh4rtTUdRVYGeT0n17dxvdv41.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eKIz4O3OGCuyzivg2HHLwJUdSTx.png",
+      "description": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43625977",
+      "type": "series",
+      "name": "Kraken: The Black Book of Hours",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dUXjK9jKXXamGAOlYWo0cIrOn9Q.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5eqMPIAjcJYE4iGrNTCNQFt3bHf.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt43625977/img",
+      "description": "A crime series based on the bestseller *The Black Book of Hours* by Eva García Sáenz de Urturi. Kraken receives a mysterious phone call ordering him to track down a rare, valuable book; if he fails, his mother will be killed. The problem, however, is that his mother has been dead for decades. Together with his inseparable partner Esti, he must solve a complex case filled with suspense, action, and emotion.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt28114822",
+      "type": "series",
+      "name": "Alliance",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//t9Og3WjlXcptadBFhLFJL3cSMDy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/AeernvinPEq18chslga48UGitqr.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt28114822/img",
+      "description": "A competitive captive reality show blending high-stakes strategy, economy and psychological warfare. Sixteen celebrities are split into four teams, battling through physical and mental challenges to earn points-the only currency inside a mysterious HQ run by the System. Face the Ace's power, survive weekly votes, and rebuild alliances every reset.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:325913",
+      "type": "series",
+      "name": "What Would You Rather?: Decide to Survive",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1YuZSZFU5KHSgaEnra7noMDCiFq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dWks7GPNW97w2uxQ4i0XhMezZGp.jpg",
+      "description": "Romesh Ranganathan hosts ten UK online stars playing Would You Rather for real. Fiendish dilemmas decide everything, from hilarious supersized games to how they eat and sleep. There's no right decision, but making the least worst choice could guarantee survival (in the game, not literally). You've played it hypothetically, now they're playing it for real, and only one will be crowned champion.",
+      "releaseInfo": "2026",
+      "logo": "https://image.tmdb.org/t/p/w500/895xlNdRDISIOe0hxH1uueMXlL8.png"
+    },
+    {
+      "id": "tt39230035",
+      "type": "series",
+      "name": "Would You Rather: Decide to Survive",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3prao5rbnwzaEIvyVzpj6hjNVQn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dWks7GPNW97w2uxQ4i0XhMezZGp.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/895xlNdRDISIOe0hxH1uueMXlL8.png",
+      "description": "Would You Rather be invisible or be able to fly? Fight one giant duck or 1000 tiny ducks? Eat a man-sized bean or a bean-sized man? This comedy game show will see two teams of some of Britain's funniest digital personalities compete in hilarious real-life challenges based on classic hypothetical Would You Rather decisions. These three simple words decide everything from what they eat to who they send home.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40184737",
+      "type": "series",
+      "name": "Ab Hoga Hisaab",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4QKn1CDbWnONAeBbZsyDM2mfp4k.jpg",
+      "background": "https://images.metahub.space/background/medium/tt40184737/img",
+      "description": "Recently-deported NRI Bobby's life shatters when brother Bunty vanishes. His search exposes a human-trafficking ring masked as a Canada immigration network. With Inspector Dosanjh's help, Bobby battles corruption to save his brother.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43135948",
+      "type": "series",
+      "name": "Sidemen Presents: Side-Menu",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v2IRWIhbyaQLx0LF14TUfFy47N7.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//v2IRWIhbyaQLx0LF14TUfFy47N7.jpg",
+      "description": "The Sidemen are joined by a guest contestant as they take on a series of culinary challenges – a starter, main and dessert – with teams rotating every episode and individual points on the line.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43509012",
+      "type": "series",
+      "name": "Chloe et Emma",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zUHE73VCTCnXifdBXdNUxGF3aek.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bvSmd3w4DdOVld9xuST77EDZj2T.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5bG6wSRlMgrtYRvRT2zGkeUkpi0.png",
+      "description": "Having lost love, her job, and her home, Emma had hit rock bottom when she stumbled upon the estate of Chloe, a mysterious heiress. Unexpected happenings lead the two of them to become housemates, and together, they open a fortune-telling shop where troubled souls come searching for answers. The pair soon realize that each client's problem comes with hidden secrets and mysteries.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35870921",
+      "type": "series",
+      "name": "Raakh",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//r6SEQaSUmtl6S076AEDd5qkLaAD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hAuYDYBgLJ1qIPoAOM7yOD56uCp.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dEn8m7tHWedhySSedfEKqNNAzEG.png",
+      "description": "When two teenagers vanish, a close-knit family is shattered and the city is left on edge. Determined to uncover the truth, a relentless officer leads a nationwide manhunt that pulls him deep into a world of violence and human depravity.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt33055254",
+      "type": "series",
+      "name": "Every Year After",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nZGf0jnSJNXLf8o7iSzzX8qxHX9.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/to5eI3AWbT4spz1K58mIK5HQRbD.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fGAYIk2korXRooUzha3oKN1jMJ.png",
+      "description": "Six summers to fall in love. One moment to fall apart. A week to get it right. A fun, sweeping, romantic story that asks the question, what if your first love actually was your soulmate?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt3722230",
+      "type": "series",
+      "name": "The Ultimate Rider",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//tG8QDzwOwnxlHHrpZrjoqzswoVd.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//tG8QDzwOwnxlHHrpZrjoqzswoVd.jpg",
+      "description": "The Ultimate Rider is a high-performance reality series built to find the next professional motocross athlete. Sixteen riders. Two weeks. No outside contact. No second chances. Through relentless training, competition, and pressure, riders are pushed to their limits—physically, mentally, and emotionally. There are no eliminations. Only performance. Only progression. At the end, one rider earns a contract—and a future in professional motocross.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt42761339",
+      "type": "series",
+      "name": "Ticket to the Tribes",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bnyAgpU8pMEZGdgjl3x9it1C0KS.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/OVKZ4qybNytbwZVO6SGOYccqKn.jpg",
+      "description": "In the new reality show, 12 Dutch and Flemish celebrities live together with the Himba community in Namibia. This means that the participants must live without modern amenities and adapt to the tribe's way of life. The participants are judged on their commitment and respect for the culture. The celebrities who adapt the least are eliminated. Ultimately, one participant remains. This person is appointed an honorary member by the community.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt38589437",
+      "type": "series",
+      "name": "The Pyramid Scheme",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//34sjPzz8xZCORirlywAJp1gUUyJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4u16OqaVfs6qQ0DDUEK3Uo59wYK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lqLPx8SNTtwzwDZnjecNCamdWBY.png",
+      "description": "Follows the story of Goldy, an ambitious but impatient young man, whose quest to get rich through a pyramid marketing business spirals into a rollercoaster of chaos - risking not just his future, but also the love and trust of his close-knit joint family.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:324707",
+      "type": "series",
+      "name": "Patrocínio",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//r1DZd5rka497nbkN0kVJlVu2bdE.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hiRvZNcIsaKW95BWJ3kzX8LXmrM.jpg",
+      "description": "In a world dominated by filters and controlled narratives, \"Patrocinio\" breaks with the formality of one of Portugal's most influential families to offer an intimate and unprecedented access to the sisters' world. The camera ceases to be a guest at gala events and instead portrays the emotional, professional, and familial structure that sustains an empire of influence, work, and sisterhood.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt44871098",
+      "type": "series",
+      "name": "7 vs. Wild: Wildcard Competition",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fEUPkDKEAPMXUv9MmaFG7rcj3BW.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ljPwmcohnPhn0VOEeI41J4jrw2b.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt44871098/img",
+      "description": "",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt42207572",
+      "type": "series",
+      "name": "L'Affaire Céline Giboire - une contre-enquête de McSkyz",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ibvf49RExx4dC6HdZmX8554ObIw.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/4fbAiQcmzqGpqXaOMVgmFPt20hf.jpg",
+      "description": "On February 28, 2012, the body of 16-year-old Céline Giboire was found at the foot of a cliff in the Corbières park in Saint-Malo. Since then, her family has rejected the suicide theory put forward by the authorities and has fought to uncover the truth about the circumstances of her death. McSkyz revisits the case in an attempt to understand what happened to Céline.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39221314",
+      "type": "series",
+      "name": "The 50",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//tqmEZksj5AMYphDzr0WDCF7Z7I3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/54W3B9UEn68Oc9cnTsEw3fyyCkD.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt39221314/img",
+      "description": "Tension and strategy, clashes and provocations, but also fun, relationships and friendships, are the ingredients of The 50, the new reality game in which 50 of the most popular Italian celebrities and influencers will compete in a series of tests.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt33043892",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://resizing.flixster.com/V3LduWMbAlkjqAUGqT_WXXcRNgY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTk3ODYyOWEtZDZiNi00NGIxLWE2YWEtZDdhM2JhMDliZjE1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zmSrXguBz56KTnCR7Tvi5vLjjI1.png",
+      "description": "Tomatometer 90%"
+    },
+    {
+      "id": "tt6151526",
+      "type": "series",
+      "name": "The Rainmaker",
+      "poster": "https://resizing.flixster.com/UdOh6vSqafVyq0uk0vlFx7iXmSI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzJhZTIzYzEtNjZiZC00Y2NmLWIyMmMtYjUxOTUwMDViMWM1LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/avur9Jx0zfV4X6aKBmmZQSLiQ6i.png",
+      "description": "Tomatometer 55%"
+    },
+    {
       "id": "tt18332852",
       "type": "series",
       "name": "Outlander: Blood of my Blood",
@@ -8,6 +970,59 @@
       "background": "https://image.tmdb.org/t/p/w1280/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3WqbicAKsH65x4nA02cTegs82ra.png",
       "description": "Tomatometer 94%"
+    },
+    {
+      "id": "tt1800864",
+      "type": "series",
+      "name": "Gold Rush",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8825082_b_v12_bb.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/dhoW3tgHqolJ862K0xHpaylgGYm.png",
+      "description": ""
+    },
+    {
+      "id": "tt32625029",
+      "type": "series",
+      "name": "LOL: Last One Laughing Philippines",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27777391_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zyUpRvjs1OPyGkWHqoTws1GFy35.jpg",
+      "description": ""
+    },
+    {
+      "id": "tt1286677",
+      "type": "series",
+      "name": "Forbidden Love",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27707587_b_v12_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zcEKO2vdfXAJoAnlgARyhGthLvK.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt1286677/img",
+      "description": ""
+    },
+    {
+      "id": "tt0244912",
+      "type": "series",
+      "name": "MotorWeek",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186093_b_v10_ac.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/o5Cbo2gpS25D6f1vCRvL59DMO1w.png",
+      "description": ""
+    },
+    {
+      "id": "tt0924651",
+      "type": "series",
+      "name": "The Graham Norton Show",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186449_b_v11_an.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5UNcEz7Lc3OGilpPn1Tb9cd1xsc.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png",
+      "description": ""
+    },
+    {
+      "id": "tt7316998",
+      "type": "series",
+      "name": "House of Games",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
+      "description": ""
     },
     {
       "id": "tt33246591",
@@ -49,7 +1064,7 @@
       "id": "tt33014623",
       "type": "series",
       "name": "In the Eye of the Storm",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27544611_b_v12_bc.jpg",
+      "poster": "https://resizing.flixster.com/3oNU6QmTzRzoqsq3kzWE4Cscmtg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27544611_b_v12_bc.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/lo0iRpDmiEGgysKReMebnTrX0tm.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/4N6frDYvegHr2FAALttI1hLsl62.png",
       "description": ""
@@ -58,25 +1073,16 @@
       "id": "tt28313387",
       "type": "series",
       "name": "A Returner's Magic Should Be Special",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25443665_b_v8_ac.jpg",
+      "poster": "https://resizing.flixster.com/ojkSbbGqG02QjikipF1L_xJy0II=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25443665_b_v8_ac.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/2KKDIwALX3HJWCjeDnvLa3Ag6ki.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ah6wYzvs50YeR5PpMUjWKCknako.png",
-      "description": ""
-    },
-    {
-      "id": "tt7316998",
-      "type": "series",
-      "name": "House of Games",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14488283_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cgmhJD4uq1ZlkcpDgPWCV0hu1Ry.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/g0FgoykxpopLTzZMrTyYDqJmjyf.png",
       "description": ""
     },
     {
       "id": "tt14415190",
       "type": "series",
       "name": "Bargain Block",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19294313_b_v13_ay.jpg",
+      "poster": "https://resizing.flixster.com/gOBpqMDYiUIR4MFg-d-QAMrjDas=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19294313_b_v13_ay.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pTxjRGyr3UImSd4LvepLz9Dq860.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/h8vyLU91Ac1evCoCXaeMiWHM3jI.png",
       "description": ""
@@ -85,7 +1091,7 @@
       "id": "tt0081933",
       "type": "series",
       "name": "The Smurfs",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p489690_b_v8_bb.jpg",
+      "poster": "https://resizing.flixster.com/P3FUoPW3QYuH8SDtoUSg-JBMqRg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p489690_b_v8_bb.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1szJqm8ksrwbPheLfEZn2ohTGbg.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aA22LR78dYfG4ZSQ2gMWgdjcjWj.png",
       "description": ""
@@ -94,7 +1100,7 @@
       "id": "tt12169564",
       "type": "series",
       "name": "100 Day Dream Home",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17699912_b_v12_bq.jpg",
+      "poster": "https://resizing.flixster.com/RKTZXandPrtBqwY2qyBdqcs_n4E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17699912_b_v12_bq.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/hzEf4duN43v9ofQc5v1Ou9kdSvF.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vK2AhMZx9LeynFOAT4SrD8Eme5D.png",
       "description": ""
@@ -103,7 +1109,7 @@
       "id": "tt1771742",
       "type": "series",
       "name": "Restaurant: Impossible",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8422693_b_v13_bn.jpg",
+      "poster": "https://resizing.flixster.com/mDzfV4ZE5Cjm5v8R6GofToeMWU8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8422693_b_v13_bn.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/hwpoeLVP2VsvVqZcOU8CMBHSuFf.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cOW0X8TFa1Kw7u8gFOsEdJCUntp.png",
       "description": ""
@@ -112,25 +1118,16 @@
       "id": "tt0088512",
       "type": "series",
       "name": "EastEnders",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
+      "poster": "https://resizing.flixster.com/R4_FPmwXljT6qT-cqFHs5LFryQA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p372238_b_v7_ae.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/2jzrUm0vGW2TqJPds1PfZVRYrh7.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5OAuQ8fbLBNQIJicUgHFkXLzE56.png",
       "description": ""
     },
     {
-      "id": "tt18224594",
-      "type": "series",
-      "name": "Blade Runner 2099",
-      "poster": "https://resizing.flixster.com/rtDApWQRH_wJnBQ1O2rrJ_AwUp8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjA1OTMwYzQtNmIwNy00MWQzLTg4M2MtY2U0NWM4MzQ3YjFmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7UAUa3qQBtm7Z07d2BwiBPGBGbe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5jzOY1tWIH3bVfsWN3ou6XVx5e8.png",
-      "description": "Tomatometer 69%"
-    },
-    {
       "id": "tt7631058",
       "type": "series",
       "name": "The Lord of the Rings: The Rings of Power",
-      "poster": "https://resizing.flixster.com/Njc1wi8WgXh2uhJ6nx-6XPBgo_Q=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2M3YzNlMDItYmQ1Yy00NGIzLWEwYzctZDc3MDlmMWZmZDhhLmpwZw==",
+      "poster": "https://resizing.flixster.com/0CNV2rgowKZFEHJ0QZQzONs59rg=/164x246/v2/https://resizing.flixster.com/Njc1wi8WgXh2uhJ6nx-6XPBgo_Q=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvM2M3YzNlMDItYmQ1Yy00NGIzLWEwYzctZDc3MDlmMWZmZDhhLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/uVOcz7JBOuZxsx9IYpx6Ah174LX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fA1eS6rfYjS9W8AZbBVG0fpxXn1.png",
       "description": "Tomatometer 85%"
@@ -139,7 +1136,7 @@
       "id": "tt50289581",
       "type": "series",
       "name": "Andrew Tate: Toxic Empire",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34523188_b_v12_aa.jpg",
+      "poster": "https://resizing.flixster.com/PiGytjxOBibQb0hYCmPX6kQvTy4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34523188_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/3lDQmYItfC9yZN4epVYWMggeD2A.jpg",
       "description": ""
     },
@@ -176,15 +1173,6 @@
       "poster": "https://resizing.flixster.com/DwAWgXIx3ZNWnjtVnbggCyonxCU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10257319_b_v11_al.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kowuqNLsxuNR1yjOq45BoKGK6g4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/KlA499uPRcumZXbow9zNq2FM1W.png",
-      "description": ""
-    },
-    {
-      "id": "tt1286677",
-      "type": "series",
-      "name": "Forbidden Love",
-      "poster": "https://resizing.flixster.com/IJLZ0PIoOctKCkr2OziJuAL1ojY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27707587_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zcEKO2vdfXAJoAnlgARyhGthLvK.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt1286677/img",
       "description": ""
     },
     {
@@ -412,493 +1400,6 @@
       "poster": "https://resizing.flixster.com/W_5CruvjrxChLarJ3FGy98B9Tfk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30136796_b_v12_ah.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/u33XkP4bARiOCW72AvrQU2MT6ls.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aANislJBozR7nM7Y7yQlzlpODNK.png",
-      "description": ""
-    },
-    {
-      "id": "tt2342499",
-      "type": "series",
-      "name": "Below Deck",
-      "poster": "https://resizing.flixster.com/gn2bIywlIengWlAYfjlECfCsIJI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9194492_b_v12_ca.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yL3g0vf5938of5GHQrfClzuLC15.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qJNw1XKBOag3VHraa2SW304PMzJ.png",
-      "description": ""
-    },
-    {
-      "id": "tt21915168",
-      "type": "series",
-      "name": "Work It Out Wombats!",
-      "poster": "https://resizing.flixster.com/63iKxeWPWg2_9-bbgQb0UMxOhiY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23615394_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/kESPSbE5kjYQna8qdQBCQW4BzOh.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/yW2lT22BKMpnY67zXJhva93Qnr2.png",
-      "description": ""
-    },
-    {
-      "id": "tt31975941",
-      "type": "series",
-      "name": "Police 24/7",
-      "poster": "https://resizing.flixster.com/ojEcaXWeNDUbvqpsaAnz2Yd5LPM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33785388_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/AlxGts16nBUiF1Y6lBJFlSt0H03.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt4634294",
-      "type": "series",
-      "name": "StarTalk",
-      "poster": "https://resizing.flixster.com/T8-F0EnVlvJOXbWOD3L_IIiiEZc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11588028_b_v8_at.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7ysNbTEttcxUq0MJwqWe3MO30Qy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vXdweEvwvXj1su0Ye79LCkBG1SB.png",
-      "description": ""
-    },
-    {
-      "id": "tt0390700",
-      "type": "series",
-      "name": "Escape to the Country",
-      "poster": "https://resizing.flixster.com/pqq9iN8kFQBBaue1VkZqu-wQag0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p379352_b_v11_bp.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vzw3tHpCWkGUsVwLV0SvqMHZJqt.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/kIzJRfta77wxKOlefyfkBE68kOe.png",
-      "description": ""
-    },
-    {
-      "id": "tt33909613",
-      "type": "series",
-      "name": "Rachael Ray's Meals in Minutes",
-      "poster": "https://resizing.flixster.com/sxxLA7EgQhvTEy-fQELeg5_PUHA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26976887_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/psFiFZCTl9RFxHRCBQ4DOvSC5Fa.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wfP2xIeqgQHdjD8rPno7SipmaDD.png",
-      "description": ""
-    },
-    {
-      "id": "tt5937362",
-      "type": "series",
-      "name": "Woodsmith Shop",
-      "poster": "https://resizing.flixster.com/woVtotxlbJEQvZ2TAkou5EY4ovE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
-      "background": "https://resizing.flixster.com/woVtotxlbJEQvZ2TAkou5EY4ovE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p531552_b_v12_ad.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt12867810",
-      "type": "series",
-      "name": "Start Up",
-      "poster": "https://resizing.flixster.com/NvqCjbdfbwkq3AazPIBBFcAcjIw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10086190_b_v13_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/v9Ej3dWhR0nFcLPOtvdPFXC6DN9.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ufnG2iy1bJTemn9QML5S4TPEVzw.png",
-      "description": ""
-    },
-    {
-      "id": "tt32501772",
-      "type": "series",
-      "name": "World's Greatest",
-      "poster": "https://images.metahub.space/poster/medium/tt32501772/img",
-      "background": "https://image.tmdb.org/t/p/w1280/fy229btO53qlYFo1gzrH2cM6jwX.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/yz7U2ijAUwYofGBpHnVxDJctW91.png",
-      "description": ""
-    },
-    {
-      "id": "tt4406178",
-      "type": "series",
-      "name": "The Gilded Age",
-      "poster": "https://resizing.flixster.com/nYr615lZfTkXnDuU-LRHXxUVCnY=/164x246/v2/https://resizing.flixster.com/kiAZTxL9DjpaBLi6TqD09AxNhI4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjlmOWY5NDEtNTQxZS00ZTBkLThiZDgtZmY4MDNjY2UwMzc2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/afUVsProh46h31w2EvL7qyHXrqj.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aSeR1gVhhDQRPDpAu0tB44gXw79.png",
-      "description": "Tomatometer 91%"
-    },
-    {
-      "id": "tt5622316",
-      "type": "series",
-      "name": "The Chosen",
-      "poster": "https://resizing.flixster.com/ydEc0wJwkYO-D5hBIJGt208qfQQ=/164x246/v2/https://resizing.flixster.com/ilzfC36k_ix5RuRvLwDd9mt2CnI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTQ0MTcxMjAtOTcyNi00MzM5LWIwYTQtODIwMjQxM2E2M2JlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/2YQFwn9aF7huTFHxn9lFTAn14F.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8oywdWTaWK7CZN9NsZWrQkTZTWw.png",
-      "description": ""
-    },
-    {
-      "id": "tt10946316",
-      "type": "series",
-      "name": "The Institute",
-      "poster": "https://resizing.flixster.com/NN5Lct-lsroXY29QWggGiXn4-eY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29861564_b_v12_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/38CZqVBXBDnGm3mYmx0o8GT4QHe.png",
-      "description": "Tomatometer 64%"
-    },
-    {
-      "id": "tt2701582",
-      "type": "series",
-      "name": "Maigret on Masterpiece",
-      "poster": "https://resizing.flixster.com/lkCdKcijc0hi36bTEm5PpIWFHlY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30893378_b_v12_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2qhLtfvE4wlBxTVECT90xxYCX8d.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/6XR9NSDWhDu5lwOs1CrFaHwEOii.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt32374361",
-      "type": "series",
-      "name": "Harry Potter: Wizards of Baking",
-      "poster": "https://resizing.flixster.com/QuaPGPabJ4T9Q1a_DazMF2ZfPE4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28440858_b_v12_bd.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/9mDlwBdCu501924dXnzz2Gtc8XI.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/6UyNPkN149yMyLANdSnYTvvIczI.png",
-      "description": ""
-    },
-    {
-      "id": "tt5327970",
-      "type": "series",
-      "name": "The Real Housewives of Potomac",
-      "poster": "https://resizing.flixster.com/0bTlEvr9utp_1RDA7IsJUKXFgUA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12332017_b_v12_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8PkQKCE8rTFTUmGrP47FgaXLTNQ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ou0EEKgRjWjjkEgpUK5LNWXCH3o.png",
-      "description": ""
-    },
-    {
-      "id": "tt38866811",
-      "type": "series",
-      "name": "Tournament of Champions: All-Star Christmas",
-      "poster": "https://resizing.flixster.com/eYMbsthsIemEcmRfZxNlxkyvT6s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31391291_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zvcDNLArN1LUGg9ip7vH5WAwki5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bXF0Vjk9AZwQJOd4VjzXt4fRXa1.png",
-      "description": ""
-    },
-    {
-      "id": "tt33041695",
-      "type": "series",
-      "name": "Disaster Autopsy",
-      "poster": "https://resizing.flixster.com/6-7KSCUmoymW2pXAlQaTsbFGe3A=/164x246/v2/https://resizing.flixster.com/Gs3AZyiRn1ihtVsZvBUU18sd66A=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMDUxZjQ0OGEtZmE2NC00OGVmLWJmNGItYWRkYTdlZTExZTM1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/5sVSPFGcWVwold3I3x5sCMqe04D.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hYBNpK6n4CyMiV6EKLKcH1oEV0b.png",
-      "description": ""
-    },
-    {
-      "id": "tt31975847",
-      "type": "series",
-      "name": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
-      "poster": "https://resizing.flixster.com/_BB-V_aj0hGut4DwfNKbsAsh-II=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26845997_i_v8_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/n493br0MLJHASsqEsUwG5PvxDkN.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aQiYM1K2rIbiblU9vnZNVBrWj7I.png",
-      "description": ""
-    },
-    {
-      "id": "tt43396977",
-      "type": "series",
-      "name": "Late Night Law",
-      "poster": "https://resizing.flixster.com/CLIUpxAFXkmzQaC5bUAbWMoZ2js=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33060555_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/nNZcmKcDtR3pexbFIc8jhqoAyHh.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt9165512",
-      "type": "series",
-      "name": "Love and Marriage: Huntsville",
-      "poster": "https://resizing.flixster.com/Ihu1E7WnQUwXWM2OqzD_IYi0MME=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16294758_b_v12_ak.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gkIqlGCSSBfg1fJarvsuA7qvS5g.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wBdenQQzc0wS2oUP5xSIFkCek7j.png",
-      "description": ""
-    },
-    {
-      "id": "tt6463374",
-      "type": "series",
-      "name": "Homicide for the Holidays",
-      "poster": "https://resizing.flixster.com/m5llDnw3FMubSAZgeaHo_VyY3FQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13490539_b_v12_au.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cVhuU1ZNzJAq4qsdjGaPWMiB0Dp.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xXA4mwrWX26zS1F8WWBlLiJjvZ3.png",
-      "description": ""
-    },
-    {
-      "id": "tt0350448",
-      "type": "series",
-      "name": "Real Time With Bill Maher",
-      "poster": "https://resizing.flixster.com/h4ArBmHwIyQgEocyP8qhMHMbdZc=/164x246/v2/https://resizing.flixster.com/GDJYH5ELsQQ03zPLrWP2mwH7KCw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmEyZTRhYjAtZDIzOC00YjI2LTgzYTQtNjgxNmFiMjMwNzA5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/njEGYHyq58q94ZPJlSGs6bGrepv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5BSa2UQaQbtemuy6RRHqPBHOiv.png",
-      "description": ""
-    },
-    {
-      "id": "tt23858980",
-      "type": "series",
-      "name": "Rubble and Crew",
-      "poster": "https://resizing.flixster.com/3w-zcDwbdPmfISqPOouHj1HMl7s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p23455586_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/iYwJpQPRo2F0oGqHkuMxLmritLy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wllmykjJthMBqUSKJ4UEKhmnsZX.png",
-      "description": ""
-    },
-    {
-      "id": "tt29721305",
-      "type": "series",
-      "name": "Prosecuting Evil With Kelly Siegler",
-      "poster": "https://resizing.flixster.com/q5BmSYWPtCYvHfrXfe08N0rdWk0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25707765_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/eo9OwD0QOmVV94qiwM5cyCZ3ODr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gqZfeeoNcohRNAbbG5PM0tCpjHT.png",
-      "description": ""
-    },
-    {
-      "id": "tt1190931",
-      "type": "series",
-      "name": "American Greed",
-      "poster": "https://resizing.flixster.com/HcRycUeGD1XHeYrBVtGdpEWZWR0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185958_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/AqrHCKseQYMcdrMxFtCMYj56wUD.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wtNDQ8RlApxBDefa7r7Fzn8mHlw.png",
-      "description": ""
-    },
-    {
-      "id": "tt34516818",
-      "type": "series",
-      "name": "Feuds Turned Fatal",
-      "poster": "https://resizing.flixster.com/9_VY7N03IWJe2mafOBOJMiOUCo4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28533576_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7DxjsgA35RwBClgnj76hoM6vYYy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/55J0LScl3Ow5RzyhxPcKlFM9KlE.png",
-      "description": ""
-    },
-    {
-      "id": "tt1814391",
-      "type": "series",
-      "name": "Sara's Weeknight Meals",
-      "poster": "https://resizing.flixster.com/iqewniWctn0td3jvjyiWTDcFVGg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p482145_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2xfAMeDssPfSUW1aXT54LHbyVU3.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt2169245",
-      "type": "series",
-      "name": "MeatEater",
-      "poster": "https://resizing.flixster.com/L0k7ShTp63VOft-x7au7CeDAe6g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9008313_b_v13_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ejxWnm30XZh7Kq4xmoZR6i4ZelU.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/lMNvGLOvDcp4ODbNhHDNKyfTKyB.png",
-      "description": ""
-    },
-    {
-      "id": "tt43475149",
-      "type": "series",
-      "name": "Worst Yard on the Block",
-      "poster": "https://resizing.flixster.com/-7BP3ez1m01jf-Z26dQp3uVl78s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33368837_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/4vKI7SCDBaHgn2vwzpH8rhzt652.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xITwASIoLEW7Urd073lTKjCNInJ.png",
-      "description": ""
-    },
-    {
-      "id": "tt33258199",
-      "type": "series",
-      "name": "A Wild Last Boss Appeared!",
-      "poster": "https://resizing.flixster.com/KFfULxR4L66NYnuPHCGnpnYlCXs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31056308_b_v12_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gNYmU3RUlCb6dVqkiPCT7vglMfg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cklffgw8EqqWLiobCuXI1jBa2fU.png",
-      "description": ""
-    },
-    {
-      "id": "tt50666033",
-      "type": "series",
-      "name": "MELANIA, The Series",
-      "poster": "https://resizing.flixster.com/5czZr5p_PwHFEiWjpUvBROSCxjU=/164x246/v2/https://resizing.flixster.com/iBnaPyfUa0wL9VzHn1r7_nikYos=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTQ4YmRhZjAtYTNkZS00ZDQ0LTk5NGEtMGVhYjc2MDI1YzQ5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ithzPRYsTWy5umOK9rSbTAiDGat.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/g2DIcPjjMHt3whSwfmPOxeq9a0G.png",
-      "description": ""
-    },
-    {
-      "id": "tt6151526",
-      "type": "series",
-      "name": "The Rainmaker",
-      "poster": "https://resizing.flixster.com/Qm54VYObmoR5xbogYzh9sS7GkpY=/164x246/v2/https://resizing.flixster.com/UdOh6vSqafVyq0uk0vlFx7iXmSI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzJhZTIzYzEtNjZiZC00Y2NmLWIyMmMtYjUxOTUwMDViMWM1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/8ZJYKoCmRCdaMDArewEwg3Uy8Bg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/avur9Jx0zfV4X6aKBmmZQSLiQ6i.png",
-      "description": "Tomatometer 55%"
-    },
-    {
-      "id": "tt39469996",
-      "type": "series",
-      "name": "Newlyweds",
-      "poster": "https://resizing.flixster.com/eDRwTDDwtpprhgyl2MoZZdl2vLg=/164x246/v2/https://resizing.flixster.com/OfGI7GD4yYLtR9wK3UYkoFBbcJM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTM4YWYzYjUtZmU1NC00OTE4LWE4OTgtODRjYzYxMTE5MjY2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/n0RJ41WxoROYkKOdJP0NU1hEktJ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hwMZ5PR4PLnm2pjpQs5SZLKs0fJ.png",
-      "description": "Tomatometer 80%"
-    },
-    {
-      "id": "tt1800864",
-      "type": "series",
-      "name": "Gold Rush",
-      "poster": "https://resizing.flixster.com/PpqPwnWfaC9RkjqA4T_Wm-QHH7w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8825082_b_v12_bb.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/dhoW3tgHqolJ862K0xHpaylgGYm.png",
-      "description": ""
-    },
-    {
-      "id": "tt32625029",
-      "type": "series",
-      "name": "LOL: Last One Laughing Philippines",
-      "poster": "https://resizing.flixster.com/-dLEGmKcNb7gAlaS_K6CuKk0Rx0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27777391_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zyUpRvjs1OPyGkWHqoTws1GFy35.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0244912",
-      "type": "series",
-      "name": "MotorWeek",
-      "poster": "https://resizing.flixster.com/hivHgHCIp6qsFrT2cW5n1DH211g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186093_b_v10_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/t0t0TrDohzJt87BJipfgOsUKsYK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/o5Cbo2gpS25D6f1vCRvL59DMO1w.png",
-      "description": ""
-    },
-    {
-      "id": "tt0924651",
-      "type": "series",
-      "name": "The Graham Norton Show",
-      "poster": "https://resizing.flixster.com/GYKN0cgqs9oOXVFbA4dp9HrUpY0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186449_b_v11_an.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/5UNcEz7Lc3OGilpPn1Tb9cd1xsc.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png",
-      "description": ""
-    },
-    {
-      "id": "tt0159876",
-      "type": "series",
-      "name": "Great Performances",
-      "poster": "https://resizing.flixster.com/-45mM7Esxl7daafdA9YaLepsPz4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184075_b_v11_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/agKG106qEyccmflyi3zwHywuOtR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4E6r2nNUrnWDtujtPha0qKUUrct.png",
-      "description": ""
-    },
-    {
-      "id": "tt14070666",
-      "type": "series",
-      "name": "Home Again With the Fords",
-      "poster": "https://resizing.flixster.com/Qow-PY72H6gs9_b9r3CVQpDR2Eg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19070931_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/23QYUYHAq6Z18lUEM2AcUJEcf85.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qShSGRotZC1oPKOuextu6p0IMAV.png",
-      "description": ""
-    },
-    {
-      "id": "tt10161644",
-      "type": "series",
-      "name": "To Dine For With Kate Sullivan",
-      "poster": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
-      "background": "https://resizing.flixster.com/pt0o7JlSeOLjHN4xIREUcgJxTiU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15928020_b_v10_ac.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt37972251",
-      "type": "series",
-      "name": "War",
-      "poster": "https://resizing.flixster.com/dTtR3711FsrFnQyh7N6s6Fl56ts=/164x246/v2/https://resizing.flixster.com/pXMMWpodRzA_t_8M83GM45IYdeQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMDU5MmEyMGYtNWNiNS00YjAzLTg3MmEtZDIwZjM0ZmNlYmNiLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/muPKymUvvBqjLCyGSacxKgjrhxN.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/w80ohpg5izwi0wCBW6060CH7zwP.png",
-      "description": "Tomatometer 85%"
-    },
-    {
-      "id": "tt27954448",
-      "type": "series",
-      "name": "Law & Order Toronto: Criminal Intent",
-      "poster": "https://resizing.flixster.com/_vfhoBzPf5py6ZYxsFU7qDKX6aE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26603650_b_v12_am.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zxMi43DtThzaQhPb4qn9nXSC0GA.png",
-      "description": ""
-    },
-    {
-      "id": "tt0078701",
-      "type": "series",
-      "name": "This Old House",
-      "poster": "https://resizing.flixster.com/jjYiTTzF77KFP2jNUTS3ga81lmc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184111_b_v12_aj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zBTKswHgCoQ58SUreY1qh94fhFE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5tptnb4V4tLhzBp3GtK7ONHXcH9.png",
-      "description": ""
-    },
-    {
-      "id": "tt40939600",
-      "type": "series",
-      "name": "Crime and Punishment in America",
-      "poster": "https://resizing.flixster.com/eke4t7esweAmo2PCkL5-D11CxKU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33998888_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/2n9v3fBXyb0aId224d8Y4GIFqJK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gswlzrXJvVlw4zNZ9DOdBdovzcy.svg",
-      "description": ""
-    },
-    {
-      "id": "tt0369081",
-      "type": "series",
-      "name": "Ask This Old House",
-      "poster": "https://resizing.flixster.com/C5oTHcGSAg_mJwVrEgJQG_7H4sM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186265_b_v12_ah.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/sT8edKbevYX2MTLEWkVjUbTmjG2.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt0369081/img",
-      "description": ""
-    },
-    {
-      "id": "tt26778255",
-      "type": "series",
-      "name": "LOL: Last One Laughing Argentina",
-      "poster": "https://resizing.flixster.com/5qtdRj44TmV_wzLxwYkg6iJ-e-U=/164x246/v2/https://resizing.flixster.com/soieWjN8LlhAt8AW0zj_i9Y-omg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjExM2Q0MTAtMTY4MS00NGE5LWI1M2YtODVmNzU2OTU3NDFhLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/nz3QzQUij1MaiOMZBaoezdIsHsT.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt2805096",
-      "type": "series",
-      "name": "Chicago P.D.",
-      "poster": "https://resizing.flixster.com/PZqzS-13R43ptn-6WbVVdTzovAI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9972948_b_v12_cl.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/18KSsDgcGQds7yOMC6MVRTbVJwt.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/mcwj8Di0nBdaraQrMji6VauMBeZ.png",
-      "description": ""
-    },
-    {
-      "id": "tt2261391",
-      "type": "series",
-      "name": "Chicago Fire",
-      "poster": "https://resizing.flixster.com/Kb99lOz3aSa9gIxUDbXsBlq5X9Y=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9257455_b_v12_bi.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/otaBZzLIqrKdXcovbAvVONJCnb4.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/uSmCfQoaZzyWVjq0jswxHse9Con.png",
-      "description": ""
-    },
-    {
-      "id": "tt4655480",
-      "type": "series",
-      "name": "Chicago Med",
-      "poster": "https://resizing.flixster.com/CGhkwcaw3VLRO92FBet5NqbFtCs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11770123_b_v12_bd.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/fFgVoJuSBewZWlzgaoUWGm8MvD4.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/iKt7zZRZJcd1DQxVzPMUH1Wcphn.png",
-      "description": ""
-    },
-    {
-      "id": "tt28453452",
-      "type": "series",
-      "name": "A Body in the Basement",
-      "poster": "https://resizing.flixster.com/bFhNFfB86L3Y-Z9z1938IiaiycA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25079463_b_v12_ak.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/m4XRxZu4c0ImDwpRB2vPtsMdypd.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ys9UivfpcWsVUqUeBrzMcJ4NKN1.png",
-      "description": ""
-    },
-    {
-      "id": "tt0341864",
-      "type": "series",
-      "name": "Location Location Location",
-      "poster": "https://resizing.flixster.com/5mfcmSoGws8pg5o52WcMh5hslyE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8351687_b_v7_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/xoDk6bTNklSgQvWcV7CuTFfuyYj.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tAhjngYRAGQ7soeWapZFbbZtyqG.png",
-      "description": ""
-    },
-    {
-      "id": "tt1191056",
-      "type": "series",
-      "name": "The Real Housewives of New York City",
-      "poster": "https://resizing.flixster.com/gfgKTrLlY3W32ataJJM6Y47rssU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186003_b_v12_ag.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/kQ7i9d8c7egG0natUkycngBV6hJ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/i04lsaW0a2qXWTtWFTCyzFfXbLT.png",
-      "description": ""
-    },
-    {
-      "id": "tt3327208",
-      "type": "series",
-      "name": "Wisp",
-      "poster": "https://images.metahub.space/poster/medium/tt3327208/img",
-      "background": "https://image.tmdb.org/t/p/w1280/kecZnNbHOIYZJDH7XmEFktOu76T.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt38946984",
-      "type": "series",
-      "name": "Still Flipping Out",
-      "poster": "https://resizing.flixster.com/uFezvYYYdmwaLJpx_OsvGdIrrtI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33718766_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/c3ONhXmAmsdhwh7VvsN7Pa41o6w.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cgi5vwIWeMqebQOw37z0RcQykRr.png",
-      "description": ""
-    },
-    {
-      "id": "tt1466074",
-      "type": "series",
-      "name": "Columbo",
-      "poster": "https://resizing.flixster.com/dkEdojCowMVqw6Mv7rPl_rfVRfA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184135_b_v12_af.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/d7cH4zt3xoqRQnLqYXMPOrUz5k3.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hagNwCmR70pvrNZ3vvPoMTyj3hv.png",
       "description": ""
     }
   ]

@@ -515,22 +515,6 @@
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17744451_p_v13_aa.jpg",
       "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17744451_p_v13_aa.jpg",
       "description": ""
-    },
-    {
-      "id": "tt10524802",
-      "type": "movie",
-      "name": "The Silent Child",
-      "poster": "https://resizing.flixster.com/9MgRbjlunMerbNy5rpRDKbzxJOE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzRhODE5YTZmLTJhM2QtNGMxMS1hZmI0LWI4YjkzZGE4MDFjMy53ZWJw",
-      "background": "https://resizing.flixster.com/9MgRbjlunMerbNy5rpRDKbzxJOE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzRhODE5YTZmLTJhM2QtNGMxMS1hZmI0LWI4YjkzZGE4MDFjMy53ZWJw",
-      "description": "Tomatometer 92%"
-    },
-    {
-      "id": "tt0098092",
-      "type": "movie",
-      "name": "The Phone Call",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11428775_p_v7_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/wiRtnvE7SW98h2ig0OOwHvFl4rs.jpg",
-      "description": ""
     }
   ]
 }

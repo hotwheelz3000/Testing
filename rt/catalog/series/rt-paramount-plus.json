@@ -1,12 +1,1025 @@
 {
   "metas": [
     {
+      "id": "tt49691783",
+      "type": "series",
+      "name": "He Said, She Said: Till Death Do Us Part",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//steeGJML8VlognYJLS6KSnNvc9l.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rnmmf6lCPw3dxKr4Z8e8ePZa3t3.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/qgT5XDyFQ61PpT1kYfN8tLON7Yx.png",
+      "description": "Follows a no-holds-barred custody battle between two high-powered lawyers, which extends beyond the courtroom into social media and the court of public opinion.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt35854736",
+      "type": "series",
+      "name": "Avatar: Seven Havens",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//u62d0BPqsdv2TUDifcMmoePbHPL.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/t2KFGH07Al4XuIZLHRlF1Hj9IJB.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3t6Yes1JJxr4e9Sk6Wl6WpAuY5d.png",
+      "description": "In a world shattered by a devastating cataclysm, a young Earthbender discovers she's the new Avatar after Korra. But in this dangerous era, that title marks her as humanity's destroyer, not its savior. Hunted by both human and spirit enemies, she and her long-lost twin must uncover their mysterious origins and save the Seven Havens before civilization's last strongholds collapse.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41377479",
+      "type": "series",
+      "name": "Team Moms: Baseball",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4uVnnhJ6z0bNN6c1UzcCp1zGIe7.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xXAYs3cDMFHUOgB7eVT5LhwV3Z1.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ljb24X0H9fusjEgwZeTijPABFeM.png",
+      "description": "Follow a group of parents whose sons attend Legendary Prep Academy: a premier baseball training school in Scottsdale, Arizona, dedicated to molding the next generation of star athletes.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt32132697",
+      "type": "series",
+      "name": "Route 187",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//yfP9A3IaKE00U1ap1y7wAoZRzeC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/Agx8RmlBBDJrlH9MyUOd5JYYZPS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hDe7pmjEWL9di4zDVbOj0mv98Qx.png",
+      "description": "Citizens combat urban violence until a bus driver and student's murders by thugs spark outrage, leading authorities to hunt the culprits captured on video.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt32149571",
+      "type": "series",
+      "name": "Golden Axe",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//toEwR5VTFzHmxW1pX1HjtTXH6QH.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1HwmReqhvTkTMQRcPJq7TLtb4kW.png",
+      "description": "Legendary warriors Ax Battler, Tyris Flare, and Gilius Thunderhead reunite to save Yuria from the evil giant Death Adder, who just won't seem to stay dead. Their quest is complicated by Hampton Squib, an inexperienced and wildly underprepared adventurer whose dream of heroism far exceeds his abilities. Forced to work together despite their flaws, they must find a way to stop Death Adder once and for all.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt43630864",
+      "type": "series",
+      "name": "The Program: Texas Tech",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//63hHW508oSxBFP0hDccI0eAruxV.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7DYCAU1L9df9Kw4CFisLq8P9Sf3.jpg",
+      "description": "The Program: Texas Tech gives unprecedented access into the Texas Tech University Red Raiders College Football Program - including exclusive interviews with head coach Joey McGuire, former quarterback Brendan Sorsby, Chairman of the Texas Tech University System Board of Regents Cody Campbell, and more - through one of the most consequential off-seasons in the history of the sport.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt36586787",
+      "type": "series",
+      "name": "The Varnell Hill Show",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nZbQHs1WCf2H8NJ8hzR0n5LoeT6.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tE5EU20M9fHufcLXw2I8lM1hTMu.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jEXHsIpX8Xy3kfwgyfrY2X5N7NV.png",
+      "description": "Follow Varnell Hill as he fights to stay relevant in a rapidly changing entertainment landscape. Between network executives eager to modernize the show, a chaotic writers' room, celebrity guests, family drama, and his own outsized ego, Varnell quickly discovers that keeping a television empire together may be harder than building one in the first place.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39399104",
+      "type": "series",
+      "name": "The Real Wolf of Wall Street",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9xuzQwRAqIpMGi4404BjYjjhxAn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/oQdkBoIjjHAtBF2YU1u4FlNcUnK.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/kRFbMMMFnK5vfdFfAhCKL5ZkeXg.png",
+      "description": "A three-part docuseries, revealing the true story of Jordan Belfort and his boiler room brokers at Stratton Oakmont, which is even darker and more debauched than previously known.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt28230655",
+      "type": "series",
+      "name": "Among Us",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ourBbG4B1dAjfFUCzuUYEZpR101.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xolhstrPkFi6fvHk34YbASuRuaY.png",
+      "description": "Eccentric, monochromatic crewmates of a ship transporting junk across the galaxy must root out an Impostor in their midst before they fall victim to its villainous designs.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt42841691",
+      "type": "series",
+      "name": "Devotion: Obedience or Betrayal",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//67XwzRuHe3yVqpryEPMJ1TFx1Le.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/saJlIE31LUjuFZhLhBI60hw5BvJ.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6YjPVCTeK5ttcJAa6RVWhS8p0CS.png",
+      "description": "For over 50 years, daily life in Gloriavale has been governed by rigid beliefs and hierarchies as men rule over their wives. When shocking allegations of sexual abuse and a cover-up threaten their way of life, former members speak out while others fiercely defend their way of life.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt34991493",
+      "type": "series",
+      "name": "Dutton Ranch",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/w6rTydgams5hQ6T4d7ieYkg2PsQ.png",
+      "description": "Rip Wheeler and Beth Dutton gamble everything on a new life in South Texas, but the promise of building a future far from the ghosts of Yellowstone quickly collides with brutal new realities and a rival ranch that will stop at nothing to protect its empire.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41611874",
+      "type": "series",
+      "name": "My Killer Father: The Green Hollow Murders",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//350LaXzJFxol6nx0nHvOAkpfisY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ejFDqpMl1rINCctrcITPDZ3OKZD.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/nOUpeUhAzbBwT3WtoQcVvpSVH9X.png",
+      "description": "Small-town rumors of a local serial killer become national news when a woman alleges her father killed dozens of women, including three of his wives, and forced her and her siblings to help bury bodies in an old well when they were children.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt41772400",
+      "type": "series",
+      "name": "You Don't Know Where I'm From, Dawg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7gSOnAECD2ZzUGbYaJYh88K2hhZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/q9ighcKy0yn1C3M8rsOYsUNrZNN.jpg",
+      "description": "A comprehensive look at the life and career of American soccer legend Clint Dempsey.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39822465",
+      "type": "series",
+      "name": "Made for March",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//2WZlW2KAhJjGYermnzG3bFUBIwx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xkRjgaiFRZMELNoQjzLpVOraNyS.jpg",
+      "description": "Follows the University of Michigan Wolverines and the University of Kansas Jayhawks basketball teams across the entire season as they bid for a national championship.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt40756600",
+      "type": "series",
+      "name": "Miles That Matter",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9eYbASJtrsFbJwgYJlt81PyMyxy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/nLKh7C7kIgFOgw1dOSfjr7NBXX8.jpg",
+      "description": "Hit the road with three of basketball's brightest stars at different stages of their careers: Azzi Fudd, Trey McKenney, and Napheesa Collier. Each episode offers an intimate look at the athlete's life beyond the arena as they navigate their hometowns alongside the family and coaches who helped pave their way. From the school gyms of Flint and Arlington to the farm roads of Missouri, we explore the legacy, the community, and the miles that made them into champions.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt33204276",
+      "type": "series",
+      "name": "The Madison",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nZVRyqVbDqfLSOrLcsGGTUHccZ8.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lhQQE9vlNCKOYWamaHW8CBiI09B.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/2v3CGp4NHg5KLcbyMdwVrcVepWS.png",
+      "description": "The Clyburns uproot their comfortable New York City lives to the wild, untamed beauty of Montana's Madison River Valley on a search for connection.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt8777038",
+      "type": "series",
+      "name": "Wild Boys: Strangers in Town",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5NfboHvK3Pb5U9RZYq1v0husWYI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/eQo6TkPZPP8Al1P8ahQE4lXM2c8.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7sVMg0Qd4ud4cpW31G6tQpyiIWC.png",
+      "description": "In 2003, two young men emerge from the forests of British Columbia claiming to have been raised entirely off the grid. As a small town tries to help them, a mystery unfolds, testing how far people will go to believe the unbelievable.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt39086382",
+      "type": "series",
+      "name": "Handsome Devil: Charming Killer",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//eMYeeDy7xj22JnatwxVT8wHTujI.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/efnSVhQpy5f13J7FroqKPLLDW77.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/gQ3aMSNwUWZZMyv9PxOOKBaSKuh.png",
+      "description": "A three-part docuseries that unravels how Wade Wilson — a 25-year-old Florida man arrested for the brutal murders of two women — unexpectedly became a social media fixation.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt8622160",
+      "type": "series",
+      "name": "Star Trek: Starfleet Academy",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//m4JnADIJkF5ck6jq7GUEcPBKxd0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/h8a3s1uczKQT9Q9xzLy3ihMvHrd.png",
+      "description": "A young group of cadets come together to pursue a common dream of hope and optimism. Under the watchful and demanding eyes of their instructors, they will discover what it takes to become Starfleet officers as they navigate blossoming friendships, explosive rivalries, first loves and a new enemy that threatens both the Academy and the Federation itself.",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tt38991309",
+      "type": "series",
+      "name": "5-Star",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//98gZRQ65T7xGEJte7dOyMn0kiEp.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//98gZRQ65T7xGEJte7dOyMn0kiEp.jpg",
+      "description": "As these athletes chase their dreams under the spotlight, they must learn how to navigate playing in the Big Ten Conference while growing up in a pressure-cooker environment. When every mistake can risk everything and the fall from grace is devastatingly real, this isn't just about competing anymore; it's about fighting for a future where glory is within reach.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt38773490",
+      "type": "series",
+      "name": "My Nightmare Stalker: The Eva LaRue Story",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//m0blmOsaaBsYPgwQTMh9rgRaBaS.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//m0blmOsaaBsYPgwQTMh9rgRaBaS.jpg",
+      "description": "The harrowing true story of how actress Eva LaRue and her daughter Kaya endured 12 years of terror at the hands of a relentless stalker. Operating from the shadows, he taunted and terrorized their lives while his identity remained a mystery, even to the FBI. In this gripping account, Eva reveals the constant fear, emotional toll, and the resolve, courage and resilience it took to protect her family.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt32305967",
+      "type": "series",
+      "name": "Crutch",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9tDDG9mLfhJmqOyvolWneeF6Y1g.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt32305967/img",
+      "description": "Francois 'Frank' Crutchfield or 'Crutch' to those who know him well, is a Harlem widower whose empty-nest plans are put on hold after his millennial son and free-spirited daughter move back home.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt37972240",
+      "type": "series",
+      "name": "Don't Date Brandon",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5D1y0RqzeXdSc2kmT8cdJCwezDi.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zcDMJQKr63b9dXVRZyItqj1cbqt.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jLF6Pe4zeCDA4hOWIa6gJxZaNAp.png",
+      "description": "Follow a modern romance that spiraled into a dangerous game of deception. When Amber starts dating Brandon after meeting him online, he seems like the perfect boyfriend. But when she connects with his ex-wife, Athena, everything is turned upside-down as they learn the truth together: Brandon is a manipulative liar with dark secrets.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt37968290",
+      "type": "series",
+      "name": "Thirst Trap: The Fame. The Fantasy. The Fallout.",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nDjWGDTbrdyA6a2nnUEMFf2nUET.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/3k5QdiQmlT5SqxypIS9gVoP7sQQ.jpg",
+      "description": "When 21-year-old William White posted a lip-synching video to TikTok, he hardly expected to become an internet sensation overnight. Sparking a \"thirst trap\" obsession with lovesick fans, the line between real connection and online fantasy was blurred as gained millions of fans. What first seemed like innocent interactions with self-formed fan-clubs for White, turned into jealousy, blackmail and betrayal by the fans who were determined to watch his every move online.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt31512256",
+      "type": "series",
+      "name": "NCIS: Tony & Ziva",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zNIANQsAs2kbxbzbTTe5dTBzhKe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ub0xUWZUBoAwy1eBG1uwi9ikaVg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5NbMFmfxwdZC3UttEiCWkpeqxI8.png",
+      "description": "When his security company is attacked, Tony and Ziva must go on the run across Europe, try to figure out who is after them and maybe even learn to trust each other again so that they can finally have their unconventional happily ever after.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt37599684",
+      "type": "series",
+      "name": "Murder 360",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fn04IxBlpR8r8SzR6NowBTGg3LG.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/oO8cJEjmsDQ4RpljV5TNH3Jxuko.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/l6FgmZcj0lQC10h5lSFKxYFPOlQ.png",
+      "description": "True crime from every angle. Murder 360 dives deep into motive, method, and psychology with expert analysis, intimate interviews, and gripping cases—from thrill killings to deadly vows.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt37458166",
+      "type": "series",
+      "name": "Hip Hop Was Born Here",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//aStCmjI0JEflLbPgVTcrelGOltx.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/b5ViM6G4Q9wmvnrUvAggSghsrcw.png",
+      "description": "Hosted by legendary rapper LL COOL J, the series will chart the creation, evolution and ongoing legacy of hip-hop not just as a genre but as a culture.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt40141083",
+      "type": "series",
+      "name": "SPECIAL OPS TRUE",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oaMzRlGmgPVzdNgBhhudWo6V7QC.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/5WCmyxjStj9wEwOuso6NTSohnUU.jpg",
+      "description": "The world remembers these missions. The people who lived them remember every second. Through firsthand testimony and never-before-seen footage, this series reveals what it felt like from the inside.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tmdb:292462",
+      "type": "series",
+      "name": "Tyler Perry's Divorced Sistas",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dBowsOrmRk3RXGyDpYGdVPbdcX0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/42kBhsVAasbFWDavwQgZujiBHKy.jpg",
+      "description": "Five friends - Rasheda, Geneva, Naomi, Tiffany, and Bridgette - support each other through divorce, marriage, dating, healing, and friendship struggles while their loyalty and sisterhood bonds are tested.",
+      "releaseInfo": "2025",
+      "logo": "https://image.tmdb.org/t/p/w500/be28pSGvIoHPcE40ais9YcKS7VX.png"
+    },
+    {
+      "id": "tt36264035",
+      "type": "series",
+      "name": "The Carters: Hurts to Love You",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//t8SizJ3I5ye5Bh1Y6FD5jggXRvF.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zuKrP0mdGzQKHzOJVihrPG9LeGy.jpg",
+      "description": "Unravel a deeply disturbing path told by Angel Conrad, Nick and Aaron Carter's sister, along with first-time interviews with friends Melissa Joan Hart and Scout Willis. Never-before-seen home movies that detail the brothers' rise to fame and the devastating toll it took on their family also help tell the Carters’ story.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt31510819",
+      "type": "series",
+      "name": "MobLand",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fh6N94BUPuLPN70WpbM0OEgOJbc.png",
+      "description": "Two mob families clash in a war that threatens to topple empires and lives.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt13172612",
+      "type": "series",
+      "name": "Happy Face",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sGHZrYxOU2U2JLrmYO12qGl1VK4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jpo9nZOayoh7IHIIXa6jRT6WP9L.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8vmr98vp8LlF6WlchqtXaPmlBbF.png",
+      "description": "The story of Melissa Reed, daughter of Keith Jesperson, aka the Happy Face Killer. After decades of no contact, Keith forces his way back into his daughter’s life, and Melissa must find out if an innocent man is going to be put to death for a crime her father committed. In the process, she must face a reckoning of her own identity.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt7983898",
+      "type": "series",
+      "name": "Lil Kev",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//rnWr6Xr72Lsqf2JH52BdticR3Dc.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fMCewQBoRlPQOZcSmGJOf3cWDMO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/tx2JvZLo29mYM84b94Kap0kZbw7.png",
+      "description": "Set in 1993 North Philadelphia, follow 12-year-old Kevin Hart, whose wild imagination and unshakable optimism constantly collide with his neighborhood's harsh realities. At the same time, his no-nonsense mother Nancy juggles night shifts as an E.R. nurse while waging a one-woman war to keep Kev on track – no easy feat with his mischievous older brother Robert blazing all the wrong trails, his trainwreck father Henry's outrageous attempts to win Nancy back, and his ex-con uncle Richard Jr.'s questionable life advice.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt35708730",
+      "type": "series",
+      "name": "Sin City Gigolo: A Murder in Las Vegas",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//2VXzaD47ObkbNwKzDzzc24JeDjw.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iROgBW8T2MZ2Uq0jk3gGFzFkOnh.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cK3dPDGpBrR8ALb0NCTLT4m7aDb.png",
+      "description": "Follow the criminal investigation of a former Gigolos cast member who was arrested for killing a young female client.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt35523751",
+      "type": "series",
+      "name": "Burden of Guilt",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7QBX8P8YShfOxK0ac07UUeMnQ0v.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9RECuEgzpYw1CJbXfYeFixT5hsl.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/sYq76HPcGGZSyeDziVjoGOpe6J6.png",
+      "description": "Follow Tracyraquel Berns' emotional journey to unravel the convoluted excuses that were given about her baby brother Matthew's sudden death when she was just two years old.",
+      "releaseInfo": "2025"
+    },
+    {
+      "id": "tt34768397",
+      "type": "series",
+      "name": "PULISIC",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//i2xMS76mgYGS8A5T1FoXAhPFzmy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zEG4uHLM2j4DML2Lkc8C4wIcFVs.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/kKrJduLN6bDaJQcpWon7NOtzq2N.png",
+      "description": "A behind-the-scenes look at American soccer's biggest star Christian Pulisic, providing unprecedented access to his life and growing celebrity in Italy as he competes in UEFA Champions League and Serie A competitions. Cameras capture Pulisic's journey in meeting the demands of global stardom while he prepares for the biggest moment of his career – the 2026 FIFA Men's World Cup on home soil.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt27837103",
+      "type": "series",
+      "name": "as1one: The Israeli-Palestinian Pop Music Journey",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sXKLlo0Cr3gotPeRe1IdbrQYfaF.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2NSqra75mYk2CNbhxT3ZBtmaCWf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xWTNFjYmLEfiaFuOtxEIU15g7NI.png",
+      "description": "A coming-of-age series based on the lives of six young men - the world's first mixed Israeli-Palestinian pop group - that came together to form the next global hit pop group, as1one.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt26656917",
+      "type": "series",
+      "name": "The Agency",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zoLZbm5gtTQurjMxp5VOdHIpMmz.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/o9gr7EoGPDU1IIv8Buzm2neklUM.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vDK6y1nc8p1f9LlPmEiM3LjkHVv.png",
+      "description": "Covert CIA agent Martian is ordered to abandon his undercover life and return to London Station. When the love he left behind unexpectedly reappears, their romance reignites, pitting his career, his real identity and his mission against his heart while hurling them both into a deadly game of international intrigue and espionage.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt14186672",
+      "type": "series",
+      "name": "Landman",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hYthRgS1nvQkGILn9YmqsF8kSk6.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/13lJnfO3oExZ2ECzAR6WDyShzlV.png",
+      "description": "Set in the proverbial boomtowns of West-Texas and a modern-day tale of fortune-seeking in the world of oil rigs, the series is an upstairs/downstairs story of roughnecks and wildcat billionaires that are fueling a boom so big it’s reshaping our climate, our economy and our geopolitics.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt33210825",
+      "type": "series",
+      "name": "Nöthin' But a Good Time: The Uncensored Story of '80s Hair Metal",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//q1F5H91Y1RPTFBmR9idZB4MZaKM.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9YPUhIXQOXGgvO4NgNKr4OAgtBb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bj0Akqk8QNPQGLIgfNWe2IWe6f8.png",
+      "description": "A fresh and shockingly candid behind-the-scenes look at one of music's most iconic eras. Each episode showcases the insanity and blazing ambition that has enthralled generations of music lovers and continues to influence culture to this day.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt32919055",
+      "type": "series",
+      "name": "RuPaul's Drag Race Global All Stars",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jbtW0zyr2fwo6SEOLK9jbq7ihZZ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hgcqf6Rv4RhAw4UzypPyNS6Si7D.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1ugVytfsMdJ4fIpVvW831mvmGCD.png",
+      "description": "Twelve fan favorites drag queens from around the world will each represent their countries as they compete for the title of \"Queen of the Mothertucking World,\" a grand prize of $200,000, and a spot in the international pavilion at the Drag Race Hall of Fame.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt28521741",
+      "type": "series",
+      "name": "Tales of the Teenage Mutant Ninja Turtles",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//o0ZlpvK0Ewd3iJYUyYPfwAAeR88.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bTiPmPW4ZVmyFJNsxVK1UK3R96H.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/4Z9CNuvglQwSuKmrhl3udpLSsd1.png",
+      "description": "The Turtles — Leo, Raph, Donnie and Mikey — each will go it alone for the first time. Faced with new threats and teaming up with old allies, the Turtles will discover who they really are when they don’t have their brothers at their sides.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt33035777",
+      "type": "series",
+      "name": "PD True",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4ufsTHProqIpMGCUk8UG7DnGWUP.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/9uwEawu1JjouxPVSabLJbpyn0U9.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/1nepdiihcvte1JzRUGr9s5CpTsL.png",
+      "description": "The crimes are real, and the stakes are high. You've read the harrowing headlines. But now, for the first time, the men and women who faced the unthinkable give us the details. The stories are shared officer to officer, elbows on the bar with the grit left in, taking viewers into moments of crisis in some of the biggest cases of our time as told by the police officers who worked them.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt27674311",
+      "type": "series",
+      "name": "Mafia Spies",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ve7YEWcaPFTAT5EkAmXwKQWY7Hs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mo8oTl1S3UDQBuTZNMulPtAyI2J.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aLDt83832U1uikt7DCNKMRghh18.png",
+      "description": "Relying heavily on recently declassified material and premium cinematic recreations, this series charts a Cold War game of cat and mouse from Vegas to Miami to Havana that pitted Washington's strongest players against the 20th century's most notorious gangsters and exploring the secret connections among the CIA, the mob and Sinatra's Rat Pack that still resonate today.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt32016230",
+      "type": "series",
+      "name": "Melissa Etheridge: I'm Not Broken",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iRUtH82LtWlmaEc7mgNw8p6s7yt.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gS84uH1tp8ehIqwMf2bwDnWCXbw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/v2YiQ6JIwhsm3uLfY2sdXPNtTkt.png",
+      "description": "An inspiring story of healing and transcendence through the power of music. When five female residents from the Topeka Correctional Facility, a women's prison in Kansas, write letters to Etheridge, she then uses as inspiration to create and perform an original song for them. Having recently lost her son to opioids, Etheridge works to understand and interrupt the cycle of addiction while connecting with these women who, so often, are forgotten by society.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt32443581",
+      "type": "series",
+      "name": "Chopper Cops",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//rgHDoomMYvy1ZDlENDFARHyFvH2.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lxbTvHNbTA63AZ29Uljm9Fw5P0I.jpg",
+      "description": "They're just north of Disney World, but to the men and women of the Marion County Sheriff's Department, the 1,600 square-mile area they patrol is no fantasy. Marion County's highways, forests and suburban neighborhoods are crime scenes to more than 7,000 felonies a year. But with a jurisdiction larger than the state of Rhode Island, ground units find it impossible to have eyes everywhere.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt31189881",
+      "type": "series",
+      "name": "How Music Got Free",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7v6hPstl6PJFKYwQiysxbMSBRQr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6P9dQINxsripfOYlAErUQwDWX1b.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/4a6tyLkeU3DGSRgME3dtWoaDTGV.png",
+      "description": "Details the fascinating, and often funny, inside story of the technology-driven disruption that changed music during the late-90s and early-2000s. File sharing technology, combined with the insatiable demand for new music, created both the means and the motive for millions of young people to participate in outright theft – and be celebrated for it.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt26591234",
+      "type": "series",
+      "name": "Lolla: The Story of Lollapalooza",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zbYCJfDHGHvpOiVyH2rbfLdNde1.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iWLh9c2LOley3m6Qqq0evs176Kr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/lp5EjHUoTlDHhuBWkr2IXtf0IJU.png",
+      "description": "Explore the iconic festival, Lollapalooza, which started as a traveling circus of bands including Jane's Addiction, Nine Inch Nails, Butthole Surfers, Rollins Band and Violent Femmes in 1991.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt32368076",
+      "type": "series",
+      "name": "Pillowcase Murders",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zmDpUn5HQ759Ax5qPB8JoZIKPpu.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wCcPtQ7989tBcaRlvlo3OcJq90s.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7htmwyAuKbRxv302IGyPP6QueAi.png",
+      "description": "When dozens of women enjoying their golden years unexpectedly died at Senior Living Communities across the Dallas area, authorities classified the deaths as natural causes. No one suspected that a cold-blooded, serial killer, posing as a maintenance man, was targeting one of the most vulnerable populations: elderly women.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt18291136",
+      "type": "series",
+      "name": "Knuckles",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sK6Nr6KNUA4WlAHyNBTioz9FK87.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/aMpNvgWjPimLldhKgwtCt5NjLen.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/6iTwZhQWiEd0Y0q6w5RCLSLl6vv.png",
+      "description": "Knuckles embarks on a hilarious and action-packed journey of self-discovery as he agrees to train Wade as his protégé and teach him the ways of the Echidna warrior.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt31842359",
+      "type": "series",
+      "name": "CTRL+ALT+DESIRE",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wALAs5agJcT1PtPVNFNBaCYQKIP.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wk5bZjCtWiaiyG3zQN0aqJOipmS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/3xh6zU80gnKTQCRHxsRZn6lEKti.png",
+      "description": "Learn the haunting case of Grant Amato, a 29-year-old Florida man accused of murdering his own family execution style for the love of a cam girl.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt15387926",
+      "type": "series",
+      "name": "DORA",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jga8v6e4S5ZPJRpMuEwiyXbTJuf.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/m8rTwmdwchHXKFLaz2UnGKXotbf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aUVfKcNlfCyhaoDQUwtaKvvM2lB.png",
+      "description": "With courage and confidence, Dora takes on bigger-than-ever challenges, overcomes obstacles, and helps friends old and new, all while facing the rainforest's sneakiest fox, Swiper. Together, Dora and her preschool helpers explore friendship, community, kindness, and epic adventures in a magical rainforest where anything can happen – and usually does!",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt27982433",
+      "type": "series",
+      "name": "Diarra from Detroit",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ljiBWwDIWcQxEjRPNsB3fusv34n.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/740tQBVmWdHt8fcWua92xuhoHEG.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/pd0Dv2rjLsulKqowjb6g9bY0K4F.png",
+      "description": "A divorcing, overworked teacher finds herself drawn into a cold case after a dating app matches her with a man she suspects is the adult version of a boy abducted in the 90s.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt13629530",
+      "type": "series",
+      "name": "ARK: The Animated Series",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3qzBCXJLifxund1QMa8BiXmH3xp.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/wbwvYUCr0dIZYISXPWFSqQiJfsO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aw5l1xS3V5wbZNaQvIMC0K65Q0D.png",
+      "description": "In a mysterious primeval land populated by dinosaurs and other extinct creatures, people from throughout human history have been resurrected. When 21st century Australian paleontologist Helena Walker awakes there after tragedy, she must learn to survive and find new allies, or die again at the hands of ruthless warlords, all while trying to uncover the true nature of their strange new world.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt16117344",
+      "type": "series",
+      "name": "Rock, Paper, Scissors",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//2DZI8fK4eFlKqAsroe3YlPCaXEo.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sS9YK1sQMmmgpKcW72uKFzWBRIi.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8BDDKVt33HoXco9zfwQ04GQtSsV.png",
+      "description": "Rock, Paper, and Scissors are best friends and roommates who compete over everything, but it’s (mostly) all love. They each bring something different to the friendship - Rock is the moral compass, Paper is the practical one, and Scissors is the right amount of chaos. Together, they get into the wildest adventures.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt30971252",
+      "type": "series",
+      "name": "#CyberSleuths: The Idaho Murders",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//IT2dEVHbMBenmDouyHSebkuNjr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iFNwYqMqdL4ALhyoS0Cd3Q7zME9.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/uH1ZZnBJ9Q0oqcgFcJo2YjDQ6Ac.png",
+      "description": "Four college students are murdered in Idaho. A group of amateur detectives obsessed with true crime try to solve the case by examining evidence and pursuing leads.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt22192288",
+      "type": "series",
+      "name": "The Changemakers",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7Gm8LdRYtXxxXuG4FLssumOEcZw.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7Gm8LdRYtXxxXuG4FLssumOEcZw.jpg",
+      "description": "An 8-part series that illuminates amazing stories from across the globe, where communities are working together for a better future.",
+      "releaseInfo": "2024"
+    },
+    {
+      "id": "tt15167360",
+      "type": "series",
+      "name": "Willie Nelson & Family",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gYyIb8EmMNcXIAwlCXSCgYL0up3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/w39OZhKrLOOAMciufSjtiOkVQn2.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt15167360/img",
+      "description": "The first authorized work exploring the extraordinary life of Willie Nelson traverses the personal and career ups, downs, and in-betweens of one of the world’s most beloved musicians.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt30018288",
+      "type": "series",
+      "name": "Born in Synanon",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hS2kywwiykNXjxjKMtY16JQbUTs.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/bgfqKpsZWeV5IvIG6rlrl4GrcAr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/17DqcxJsUOVrDoHyUZZW19Nenoz.png",
+      "description": "One woman's journey to discover the truth about Synanon, the experimental community that turned into a full-blown cult.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt30223046",
+      "type": "series",
+      "name": "The Billion Dollar Goal",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//llNSsriaFuyUqDk2NJOsDCtE3eR.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/msOxUF3xus7twtv00dj73oGsusv.jpg",
+      "description": "The emotional story of soccer in the USA: resilience, redemption and a bright future. Passion, success and the iconic billion-dollar goal.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt29623935",
+      "type": "series",
+      "name": "Geddy Lee Asks: Are Bass Players Human Too?",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//nr1hbm2cWbXJ0X7e1fSzJBXj1r.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zrbqAVx94VGWH7UHTkGMQLql5JH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/by0umANrcHXYw2qEvZkenBwAWTt.png",
+      "description": "Famed Rush bassist Geddy Lee travels to the homes of some of music’s most renowned bass players and digs into the stories that make these musicians stand out. A follow-up to his recent book, “Geddy Lee’s Big Beautiful Book of Bass,” the new 4-part series features episodes with Krist Novoselic (Nirvana), Les Claypool (Primus), Melissa Auf der Maur (Hole, Smashing Pumpkins) and Rob Trujillo (Metallica).",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt29417745",
+      "type": "series",
+      "name": "De La Calle",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//pYuYTHAArZmdT5KinpGIzK4tQxo.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gIWk7f7knolZskIjJy4pMojq4d.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt29417745/img",
+      "description": "During the course of the series, Barili unites Latino urban music from the U.S. to Panama, Puerto Rico, Cuba, Mexico, Colombia, Argentina, Spain and beyond. The series takes a journey into the Latine diaspora to explore and map the evolution of Urbano music and cultures that ignited the musical revolution of Rap, Reggaeton, Bachata, Latin trap, Cumbia and other sounds that influence music and culture worldwide. From perreo to political issues to the stories of rebellion, Barili engages with musicians, cultural icons and fascinating characters who will reveal the story of Urbano music, its history and its significance today.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt15399640",
+      "type": "series",
+      "name": "Lawmen: Bass Reeves",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//94OpFcIZ3ZExqyJgrYafo41tZSt.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xmQMrlYc3IlzpDMPKtfl9sVf7mw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vugGrKy44nKNK5dtlPvnz3VKxP5.png",
+      "description": "The story of Bass Reeves, the legendary lawman of the wild West, is brought to life. Reeves worked in the post-Reconstruction era as a federal peace officer in the Indian Territory, capturing over 3,000 of the most dangerous criminals without ever being wounded—and is believed to be the inspiration for The Lone Ranger.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt29552733",
+      "type": "series",
+      "name": "Crush",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//iEYPy2QOoKGKr8PwQQaKp3yII8h.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2iZnsRRyJb0TXWXDyaY2zV91JnB.jpg",
+      "description": "A spine-tingling account of what happened when a Halloween night of celebration turned into a nightmare. More than 100,000 young revelers, who were packed into the narrow bar-lined alleyways of Seoul's trendy Itaewon neighborhood, became trapped in a mass panic. The toll was astonishing: 159 people, including two American students studying abroad, had suffocated and died that night. Nearly all those who perished were in their twenties.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt14124236",
+      "type": "series",
+      "name": "Frasier",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gQAjtgjgb5VAQXJog1bZgY5cjL2.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dmm8I1eWWDLdmt3ButH74lEHldH.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/g6xla0ZAzUcfIX7A9UgJvyeW41N.png",
+      "description": "Follow Frasier Crane in the next chapter of his life as he returns to Boston, Mass., with new challenges to face, new relationships to forge and an old dream or two to finally fulfill.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt29344232",
+      "type": "series",
+      "name": "Painkiller: The Tylenol Murders",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//26podJuwKYLAIFitUlQ7Y3ZBKQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kFAL2yCqdFFrQoWtE84LR8KUR3v.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/AqMReD0vX11hdwyBFA42R0jr8dp.png",
+      "description": "In 1982 seven people, mostly in and around Chicago, died suddenly and without explanation. The victims included three people from one family and a child from another. Eventually, a nurse quickly saw a common thread between the deaths; the victims all took the common pain reliever Tylenol, but their capsules were laced with cyanide. The deaths were soon dubbed the \"Tylenol Murders\" and started a frenzy to find the person responsible as fear spread across the country and store owners pulled Tylenol from their shelves.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt12447840",
+      "type": "series",
+      "name": "72 Seconds in Rittenhouse Square",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//9m7OwS0MQluF4nUcrVTlNoWTIWv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/muYyuRFs1b5haUWoZBfM207PsVY.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/tp7mxXQSdf2leoyHkiXWdf01IbN.png",
+      "description": "Two men, a chance meeting, and nothing would ever be the same. A city teeters on a knife's edge as this provocative documentary challenges us to reconsider a case that seemed like a no-brainer at first glance. Stream the new docuseries exclusively on Paramount+.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt28759832",
+      "type": "series",
+      "name": "Football Must Go On",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//hF2Xc5Jlxls1UfCxHhaV2WCGA66.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tH6l6FfDRm4LTnwy1KsI53TVqPv.jpg",
+      "description": "The captivating journey of Shakhtar Donetsk, a Ukrainian football club, as they compete in the 2022-23 UEFA Champions League season against the constant backdrop of war.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt13111078",
+      "type": "series",
+      "name": "Lioness",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//rzpHPSEgPTpRs8EHbygwsOw7jC0.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xCXmYvX8UwggLh0h3I1A1fbHBxI.png",
+      "description": "Cruz Manuelos, a rough-around-the-edges but passionate young Marine, is recruited to join the CIA's Lioness Engagement Team to help bring down a terrorist organization from within. Joe, the station chief of the Lioness program, is tasked with training, managing and leading her female undercover operatives.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt26786395",
+      "type": "series",
+      "name": "I Wanna Rock: The '80s Metal Dream",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oLROksPg8fCwQQeqMxPIX6JXPNy.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/sBLPLlpwI72g56Fs1GKpLBvsV9s.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cUv2MSDxtbA0tZBCXXNQueLbXxR.png",
+      "description": "While '80s metal is sweeping the U.S., five metal rockers aim to succeed in the world of hairspray and spandex.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt18070984",
+      "type": "series",
+      "name": "Average Joe",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gZOvsaKla8PrZ9MXOzJFPLXNl6z.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/l2E1zRep7sM73aCJ4YTuLPxid5H.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/pogEY2YlD0SMXH11YxMTgOhtCfk.png",
+      "description": "A clue that can save Joe’s family forces Joe and his friends to Africa. From the moment they land chaos erupts and loyalties crumble.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt27777409",
+      "type": "series",
+      "name": "Destination: European Nights",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fP1GdBhf6lcZQg73g8QWOdJ2rr.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//fP1GdBhf6lcZQg73g8QWOdJ2rr.jpg",
+      "description": "Through his months-long travels crisscrossing Europe, award-winning soccer journalist and CBS Sports analyst Guillem Balagué offers an exclusive and intimate look at the world’s most prestigious annual soccer tournament, the UEFA Champions League.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt27761110",
+      "type": "series",
+      "name": "Love ALLways",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//aaJLY3pkewokwPbyBRgO9Vgu2ZY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/owkOuShWD7jJ9hdu9JLNHvoGjoR.jpg",
+      "description": "One pansexual bachelorette is given the chance of a lifetime to find her perfect match.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt26596318",
+      "type": "series",
+      "name": "The Family Stallone",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ixyT8oYgT7tcuq4FLo4skZGhdpH.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/794vnApbMd8XJONLEL0MuAK5CnU.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5sLqCjWDLqgC07G6wcCDRu25F8y.png",
+      "description": "Follow legendary actor Sylvester Stallone with his wife and daughters in a direct access to their daily life.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt27508617",
+      "type": "series",
+      "name": "Thalia's Mixtape: El Soundtrack de Mi Vida",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//pUiyEwFFCPwKYRXSo85oYDcqUv1.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ugMZl4Uhmy3IKKTgarKYemqbikH.jpg",
+      "description": "Thalia takes audiences on a musical journey, uncovering the classics that inspired generations of artists and created the current Latin music landscape seen today. Through a combination of interviews, found footage and modern renditions of classic hits by today’s biggest stars, the series revisits the history of Latin music and uncovers the future of the genre in an intimate way not yet seen before.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt14351748",
+      "type": "series",
+      "name": "Fatal Attraction",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//gXxY9JQOXFBmedggz2fu5YKjIm.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kD65OcLyMhvGJShWKqe4ILzpBOo.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/baP7cWOtZfS9YhhAEbsJxU34zqy.png",
+      "description": "An affair threatens the lives of Dan Gallagher and his wife, Beth,  in this deep-dive reimagining of the classic psychosexual thriller which explores fatal attraction and the timeless themes of marriage and infidelity through the lens of modern attitudes toward strong women, personality disorders and coercive control.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt24748660",
+      "type": "series",
+      "name": "MTV's Family Legacy",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//afCCTrDWwk0puim56k5HR57C3Pe.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lldW24dktXvKeU8T4J1cTPfv418.jpg",
+      "description": "A brand new music series that looks back on the most celebrated moments of legendary artists -- from Diddy to *NSYNC -- through the eyes of their kids.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt11127388",
+      "type": "series",
+      "name": "Grease: Rise of the Pink Ladies",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//dGu8u5F9Cjn9Ij2aMYtGmKHp5m1.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/aWXGFJyhEvI1Y7NWk2A3oriHMfb.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/ptLrpBgSzx9DLusMsqQrJv7Hlz6.png",
+      "description": "In 1954, a time before rock ‘n’ roll ruled, before the T-Birds were the coolest in the school, four fed-up outcasts dare to have fun on their own terms, sparking a moral panic that will change Rydell High forever.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt5822112",
+      "type": "series",
+      "name": "Rabbit Hole",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zb5MArsrMxK4mSSLzUmbfcXAc60.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/lbltsq8oLaDWNcZ8d2yItnXaKEd.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xvmZwxuElD21oRNl2RAZ3qCPJKv.png",
+      "description": "Nothing is what it seems when John Weir, a master of deception in the world of corporate espionage, is framed for murder by powerful forces with the ability to influence and control populations.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt21057450",
+      "type": "series",
+      "name": "School Spirits",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//bcIsJ06LptDahicANKK5XTqobd3.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/A6biiToqBbtL2uDxJDYqCjDOSU2.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/n3deCNZ4f4Lx7uqxViJ5XJeZMPw.png",
+      "description": "Maddie, a teen stuck in the afterlife investigating her own mysterious disappearance, goes on a crime-solving journey as she adjusts to high school purgatory, but the closer she gets to discovering the truth, the more secrets and lies she uncovers.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt26452692",
+      "type": "series",
+      "name": "The Challenge: World Championship",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zinFp4mOzxN1NTj8f2W1BWsQxhR.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gQIWIZ98uDuJgrOLyVQAsaEsr60.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hemireYIbA8jA4XimmB0KZebLfK.png",
+      "description": "Champions and MVPs from the various versions of MTV's \"The Challenge\" are brought together to represent their countries and battle for the coveted title of “Challenge World Champion.”",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt21340132",
+      "type": "series",
+      "name": "FBI TRUE",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//5Vlyc2VqJTA0U4A4Sbq0juXc8Rm.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fTiEqkbnUL9LzlXmRtgX1y67HfR.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/aY1bGpjM0SsbwWPrBU2ZybkR4Ee.png",
+      "description": "A real-life look into FBI agents’ high-pressure world with never-before-seen surveillance video, interrogations with hostage takers and terrorists, and personal photos from the agents’ collections.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt15487922",
+      "type": "series",
+      "name": "Wolf Pack",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//rbCANmS1ogweUkIBghP03EHtdHB.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/jvoRuN9yzMFaMRv8FuZKiKczE4E.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cLYXfChVzZl4h9B2jc2OxPM9Onp.png",
+      "description": "When a raging wildfire releases a supernatural creature, four young adults find themselves drawn together under a full moon.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt24512706",
+      "type": "series",
+      "name": "Sometimes When We Touch",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sIa1ow0l2CIMe9hqh9EpZ9PNzfi.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ukRm4njk4g7PjJduZt7oSncPUBW.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt24512706/img",
+      "description": "The untold story of soft rock, whose artists dominated pop music worldwide in the '70s, only to crash and burn in the '80s, eventually experiencing one of the most unlikely comebacks in music history.",
+      "releaseInfo": "2023"
+    },
+    {
+      "id": "tt18335752",
+      "type": "series",
+      "name": "1923",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/2hlc1DvGiDx8L0tmkSepEn5tpzb.png",
+      "description": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt23942916",
+      "type": "series",
+      "name": "Sampled",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//f94Il1IDjCe29EyOF0j83x0ERy8.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hPCzkdQkICzxmgngjUe5IB6gcrP.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/v8Jarh3pdQ5fJSH2nYYuvO2w1Qv.png",
+      "description": "Sampled takes you on tour with world famous musicians as they explore a new city in the days leading up to their show. See the raw, exclusive and unfiltered side to these cities through their eyes, as they're guided by local artists and creatives.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt23860718",
+      "type": "series",
+      "name": "The Checkup with Dr. David Agus",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//cc3AcaRXQTqEimVSZWabprAeeFa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/pMqJ4OXEhOl1metZBQ52NHz2pfN.jpg",
+      "description": "A-list celebrities share their personal health issues in a series of intimate conversations with Dr. David Agus, a world-renowned medical authority and cancer specialist. With their deeply honest and thoughtful conversations serving as the narrative spine of the show, Dr. Agus will take viewers on an eye-opening and inspirational journey that sheds new light on the most important medical topics from today’s headlines. Full of personal revelations, cutting-edge breakthroughs, game-changing technologies and accessible take-aways, The Checkup with Dr. David Agus will not only change lives, it will save lives.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt16358384",
+      "type": "series",
+      "name": "Tulsa King",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//y13WOeZ2rz2Ezpws0RJ0I8sQpG4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xz9iVJuRbNsdD7KZhr9dfi8F7Gs.png",
+      "description": "New York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt14298658",
+      "type": "series",
+      "name": "Transformers: EarthSpark",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//jLwU37QusZDkkOuFNb1TA6NQZNT.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gzVkLZOM0er10OwEUJyhl9G7oE7.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/m9BYj3SVW0f0m8KgeKUccADmodl.png",
+      "description": "The Malto Family’s world turns upside down when the Terrans, the first Earthborn Transformers robots, spark to life. The Terrans will forge an alliance between the human Malto family and the legendary Autobots, uniting them in a shared mission.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt18967556",
+      "type": "series",
+      "name": "The Real Love Boat",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//tbxa4IiDgDVVPRmbq42OujHkRrY.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/2092N7AC9KO3oWSHUkZKRnoawGz.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/4DTS4lihBU05jUdn6vy8g1yL3GB.svg",
+      "description": "Inspired by the long-running scripted classic about vacationers aboard a luxury Princess Cruises ship, it’s full-steam ahead on CBS for The Real Love Boat. And it’s all about romance, chronicling the adventures of real-life singles brought together for a Mediterranean voyage in search of The One. Assuming they navigate the compatibility and chemistry challenges along the way, only one lucky couple will win a cash bounty and ultimate luxury Princess Cruise. The Real Love Boat —come aboard, they’re expecting you.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt22042292",
+      "type": "series",
+      "name": "11 Minutes",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6tGsPlNcqDlduY267EP5jMRFnff.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/efp1RjvoOBidQg6wVdSxF7kIsaN.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hnD3lygVLYM7eGZL2KZQrPl5Rl.png",
+      "description": "A four-part documentary that takes viewers inside the heart-stopping stories of terror and survival experienced by those who were at the 2017 Route 91 Harvest Music Festival in Las Vegas.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:210805",
+      "type": "series",
+      "name": "Tyler Perry's Zatima",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//mccoy3vzuTHucJXkBL27SqcyAvv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/6Vtd3EMdOuoT3GIUKDbkDzSFp0Q.jpg",
+      "description": "Zac and Fatima take a huge step to strengthen their bond, but new friends and past actions interfere with their blossoming relationship.",
+      "releaseInfo": "2022",
+      "logo": "https://image.tmdb.org/t/p/w500/9bI5PIWGObVSoJGV30o9GrMTav7.png"
+    },
+    {
+      "id": "tt21929812",
+      "type": "series",
+      "name": "My Dream Quinceañera",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//4UHdgwsRU4WIGYyF8KaNNeMXmyh.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mAz69jZz3s1oX6jRFojWCQ6XLnJ.jpg",
+      "description": "Three Southern Californian teens – Bayle Delgado, Romi Herrada and Angelica Luna – go through simultaneous fun and drama-filled journeys to celebrate the coming-of-age birthday parties of their dreams while expert quinceañera planner Maria Perez helps make all their quince wishes come true.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tmdb:203489",
+      "type": "series",
+      "name": "Mike Judge's Beavis and Butt-Head",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//75am8jsmRHHcpIPkm4RyrMn851A.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
+      "description": "Two teenage heavy-metal music fans occasionally do idiotic things because they're bored. For them, everything is \"cool\" or \"sucks.\"",
+      "releaseInfo": "2022",
+      "logo": "https://image.tmdb.org/t/p/w500/caRCqMwsn7vJTvlo3u4FSv59KEl.png"
+    },
+    {
+      "id": "tt20859150",
+      "type": "series",
+      "name": "All Star Shore",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//eT8BpxEIJqbBRztWBloHMKfO0bv.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/a3GkJoNy0EJ8rvrjXPYinE6iQrs.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9b8laye06F8yQTMVAxftxcC3rSa.png",
+      "description": "14 of the world’s biggest reality superstars from some of television’s most iconic series – “Jersey Shore,” “Love Is Blind,” “RuPaul’s Drag Race,” “Geordie Shore,” “Acapulco Shore,” “Rio Shore,” and “Bachelor in Paradise” – come together for an epic vacation at the ultimate shore house in the Canary Islands, to battle it out for a cash prize and global bragging rights.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt20833496",
+      "type": "series",
+      "name": "Hip Hop My House",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//oJrNJnTSfFbnCpSRjlspoDu5dZr.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/smkzCnjaYA9Uvx3DisOYG47FHsU.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/kbriEoIYkZOhaW6FVRjYTPgb48p.png",
+      "description": "Harlem rapper Cam’ron brings his iconic style to this high-octane hip-hop makeover series with the help of interior designer Zeez Louize. Together they spin one lucky superfan’s crib into a larger-than-life tribute to rap icons, past and present.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt15314636",
+      "type": "series",
+      "name": "Players",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//n0YH9RlBidJNsSnPmRsV4AqK2m4.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/iVUyHxuwWRtTw0kmfHA2E2WVlQZ.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/n3w2BYB27cRfQ05tvUXudF8OTBJ.png",
+      "description": "A pro League of Legends esports team pursues their first championship after years of close calls and heartache. To win it all, they will need their prodigy, a 17-year-old rookie, and their 27-year-old veteran to put their egos aside and work together.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt18271996",
+      "type": "series",
+      "name": "Yo! MTV Raps",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//3Y2B1WhxHFKlEdmkT7hiDDmY810.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gbjtpQVzvHKMWwKJQmO4GrCvtlB.jpg",
+      "description": "A comprehensive deep dive into the current state of hip hop, with hosted segments from renowned battle rapper Conceited and celebrated deejay DJ Diamond Kuts, live performances, cyphers and lifestyle content.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt19853304",
+      "type": "series",
+      "name": "Black Gold",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//ooHUE1RkyonmxHQtcUiHlRzZeWD.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ga6gPXEJ9uAfCBGCkC0YzncfW8b.jpg",
+      "description": "The story of the coverup of the century: of the boss atop a trillion dollar industry who discovered a shocking truth 40 years ago, created a black ops campaign to hide the evidence, and stopped at nothing to keep the money flowing, as the world burned.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt19895990",
+      "type": "series",
+      "name": "Never Seen Again",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kmrBPFDAJQVissiHT1xuQr9OlMz.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fdwLta1BJXH7vgyqmLbh3sscPAT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vflUicB7fkpBYvA70uD6oUrgvBZ.png",
+      "description": "Docuseries told from the point of view of those left behind after a loved one vanishes without a trace.",
+      "releaseInfo": "2022"
+    },
+    {
+      "id": "tt0206512",
+      "type": "series",
+      "name": "SpongeBob SquarePants",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
+      "description": ""
+    },
+    {
+      "id": "tt12915960",
+      "type": "series",
+      "name": "The Patrick Star Show",
+      "poster": "https://resizing.flixster.com/mKjU_UncKu5b8JxiCbWlMTgVRAA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk3MjY1NS53ZWJw",
+      "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/8mRIMrEi0nWff08dODI1OyDG75H.png",
+      "description": ""
+    },
+    {
+      "id": "tt4903514",
+      "type": "series",
+      "name": "Inside the Factory",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11719910_b_v8_bk.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/x6oJ9xMFp9L8xqXwj26tSHocMnt.jpg",
+      "description": ""
+    },
+    {
       "id": "tt30292502",
       "type": "series",
       "name": "Aussie Shore",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28407528_b_v8_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/8gB9SRbr0XXxGUUbSD8VzTKsrxw.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/uozRNiPMkcN04MOtXX4RELP6ja7.png",
+      "description": ""
+    },
+    {
+      "id": "tt0131613",
+      "type": "series",
+      "name": "Teenage Mutant Ninja Turtles",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186545_b_v8_aa.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/s1Kr1RntP2b8MdUKTYJxNmcVEBP.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/m4jaXCeEVQGNKajDYZBcpD3X8cl.png",
       "description": ""
     },
     {
@@ -25,15 +1038,6 @@
       "poster": "https://resizing.flixster.com/e8qYQ-QS62ZC4XQ0mgK87iWSa_g=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmY1ZjdmYjEtM2NlYi00MTZkLTkwNzgtMDQ2NzAzMWJjOGM3LmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/5tMQYIpLEnzzCtEybLY9LdSlqnP.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/iF26hkMivqZyZhTKIKMx6621xAZ.png",
-      "description": ""
-    },
-    {
-      "id": "tt20859904",
-      "type": "series",
-      "name": "Mike Judge's Beavis and Butt-Head",
-      "poster": "https://resizing.flixster.com/Xf_r_scnLoZlerfYkIsrv8DhTUc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzkyNDc4ZWUtZDk1NC00NTJkLThhNWUtODI0ODNiZDE3MGI1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/rAUxCUyroOvjbTYZDXaRLJRoVHr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/caRCqMwsn7vJTvlo3u4FSv59KEl.png",
       "description": ""
     },
     {
@@ -134,51 +1138,6 @@
       "description": ""
     },
     {
-      "id": "tt11041332",
-      "type": "series",
-      "name": "Yellowjackets",
-      "poster": "https://resizing.flixster.com/HFC3tGB1ElYpM9aHGWufgVMAmVw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDJjOTcxMzUtYjE4YS00MDY2LWFmYWYtMTU2ODY1NWI1ODJlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/rNTY34G4jfaT7YUiSRFw8vtSOjG.png",
-      "description": "Tomatometer 89%"
-    },
-    {
-      "id": "tt31510819",
-      "type": "series",
-      "name": "MobLand",
-      "poster": "https://resizing.flixster.com/BOOBlHuzivWEDiULMKVLZQ0zrN0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMjMxMDBhZWUtN2FjNS00NzNlLWEzMTctNjg0YTZjODZlNmJmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fh6N94BUPuLPN70WpbM0OEgOJbc.png",
-      "description": "Tomatometer 83%"
-    },
-    {
-      "id": "tt33043892",
-      "type": "series",
-      "name": "Dexter: Resurrection",
-      "poster": "https://resizing.flixster.com/V3LduWMbAlkjqAUGqT_WXXcRNgY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTk3ODYyOWEtZDZiNi00NGIxLWE2YWEtZDdhM2JhMDliZjE1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zmSrXguBz56KTnCR7Tvi5vLjjI1.png",
-      "description": "Tomatometer 90%"
-    },
-    {
-      "id": "tt16358384",
-      "type": "series",
-      "name": "Tulsa King",
-      "poster": "https://resizing.flixster.com/H3OOP7rKTbo-gSz4RS6y_Lo-MH4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2U1ZGQyNzMtMGFhZC00MzA2LWFjOWEtZDg2NTg2NDViYzM0LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xz9iVJuRbNsdD7KZhr9dfi8F7Gs.png",
-      "description": "Tomatometer 86%"
-    },
-    {
-      "id": "tt0206512",
-      "type": "series",
-      "name": "SpongeBob SquarePants",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184854_b_v8_bj.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/f3f5OzzYd8m3zN47DAjKs0sbx00.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/imM7dqtVl070IIKyOqzOHmHFXqq.png",
-      "description": ""
-    },
-    {
       "id": "tt10521222",
       "type": "series",
       "name": "The Last Cowboy",
@@ -191,7 +1150,7 @@
       "id": "tt33270224",
       "type": "series",
       "name": "Cupertino",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
+      "poster": "https://resizing.flixster.com/OzXmv6IvGlONxPSeoEtk1c26seQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32898304_b_v12_aa.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/f9BMWxAWzFqXtqayrAyNbDFg9cK.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rWpDBJIePBvmMD2GQk0BHRw8xgr.png",
       "description": "Tomatometer 100%"
@@ -200,7 +1159,7 @@
       "id": "tt26591110",
       "type": "series",
       "name": "Elsbeth",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24723426_b_v12_ai.jpg",
+      "poster": "https://resizing.flixster.com/mgrLqr2Yr9XnYrVSUphmQmT2rUI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24723426_b_v12_ai.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/5PqkJBZdzkZnfg0LCuKcrHlspco.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/cAG0bwJVYBbJwl0zyVZGI4M3Zcj.png",
       "description": ""
@@ -209,7 +1168,7 @@
       "id": "tt33078239",
       "type": "series",
       "name": "Eternally Yours",
-      "poster": "https://resizing.flixster.com/hpN3nVIV4rxa3Y4VUqREGO7TgVM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzZmOWJjYWQtMDg2Ni00NmFlLWE2NjEtZWZlMmY0ZGVjMmNmLmpwZw==",
+      "poster": "https://resizing.flixster.com/_Vksxk-VTE81PHvL8h0jh1Za-Tc=/164x246/v2/https://resizing.flixster.com/hpN3nVIV4rxa3Y4VUqREGO7TgVM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzZmOWJjYWQtMDg2Ni00NmFlLWE2NjEtZWZlMmY0ZGVjMmNmLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/gwCBpVEwXl21rTPr61MSG5L6nlX.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/s5osBcZC9XgCDQCghdaf37UEvbO.png",
       "description": "Tomatometer 75%"
@@ -221,15 +1180,6 @@
       "poster": "https://resizing.flixster.com/sIw2xMtkR87kfyGk2RaFK031wjw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27322987_b_v12_am.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/h927CLfeAjiy0MNKRxWZgEq7bHR.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xGuV6OX9CZgMZ4Qzu9uT3rrd4pK.png",
-      "description": ""
-    },
-    {
-      "id": "tt12915960",
-      "type": "series",
-      "name": "The Patrick Star Show",
-      "poster": "https://resizing.flixster.com/GbL_DX-UAaZpUD14dN1vQXRDb6U=/164x246/v2/https://resizing.flixster.com/mKjU_UncKu5b8JxiCbWlMTgVRAA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk3MjY1NS53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/kP7pCxfml6erWC9aB72ALtNawJq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8mRIMrEi0nWff08dODI1OyDG75H.png",
       "description": ""
     },
     {
@@ -248,24 +1198,6 @@
       "poster": "https://resizing.flixster.com/GQegg6JgGUxUbj_LMFhnfvyaN50=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26467713_b_v12_ap.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/mxq7PO5QCIqBEeU09xfthxx7wGY.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/AjFQsoR7MhvnVwHK96zZwgK0OZM.png",
-      "description": ""
-    },
-    {
-      "id": "tt0364845",
-      "type": "series",
-      "name": "NCIS",
-      "poster": "https://resizing.flixster.com/6mHn0rwp5i_CcsZz-fa3fhnIaMU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184930_b_v12_ay.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/rHKRZCBpDFSNc45kzyf665LJYp3.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bRUIbYZkAtGhDw2fWteAJkg7WjR.png",
-      "description": ""
-    },
-    {
-      "id": "tt49691783",
-      "type": "series",
-      "name": "He Said, She Said: Till Death Do Us Part",
-      "poster": "https://resizing.flixster.com/OusuCj7AUsQp2lWvH9_cUBZ64IA=/164x246/v2/https://resizing.flixster.com/1DJSiOMTcs4ww6VpqjH11Lp6-0Y=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIwYmRjMzYtNjA0OS00NjU4LWIxMzctMmVkOTE4NjJhMTVjLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/rnmmf6lCPw3dxKr4Z8e8ePZa3t3.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qgT5XDyFQ61PpT1kYfN8tLON7Yx.png",
       "description": ""
     },
     {
@@ -382,23 +1314,6 @@
       "description": ""
     },
     {
-      "id": "tt3121722",
-      "type": "series",
-      "name": "PAW Patrol",
-      "poster": "https://resizing.flixster.com/iHos2xsU2_fWo6J_61LDzvGzk7k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10077400_b_v12_db.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fJqJEoKWozJIgPKiOCwcOFqwAIj.png",
-      "description": ""
-    },
-    {
-      "id": "tt4903514",
-      "type": "series",
-      "name": "Inside the Factory",
-      "poster": "https://resizing.flixster.com/KE-IR_k2lxm7dpDAvyK6OyC-xrw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11719910_b_v8_bk.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/x6oJ9xMFp9L8xqXwj26tSHocMnt.jpg",
-      "description": ""
-    },
-    {
       "id": "tt0176095",
       "type": "series",
       "name": "The Challenge",
@@ -453,6 +1368,15 @@
       "description": ""
     },
     {
+      "id": "tt10580092",
+      "type": "series",
+      "name": "Tyler Perry's The Oval",
+      "poster": "https://resizing.flixster.com/vlJF163o3maULOJJiuyqHhd5dmw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17380101_b_v12_ai.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/LdcSeybOK0xoWTkDjyy1P49KvA.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7y6u4ppgdzsxIAEjo2UZRHDCOad.png",
+      "description": ""
+    },
+    {
       "id": "tt12327578",
       "type": "series",
       "name": "Star Trek: Strange New Worlds",
@@ -462,57 +1386,12 @@
       "description": "Tomatometer 93%"
     },
     {
-      "id": "tt41377479",
-      "type": "series",
-      "name": "Team Moms: Baseball",
-      "poster": "https://resizing.flixster.com/gqG1-H2tntI4ICAN2uokNQm4VDQ=/164x246/v2/https://resizing.flixster.com/yXctmmaIZSqSvFC_VgdLHGRgx_Y=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2Q0NDZhYzMtYjM5NS00ODRlLWI1MTEtMmJkZDBmOTQwZGE1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/xXAYs3cDMFHUOgB7eVT5LhwV3Z1.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/ljb24X0H9fusjEgwZeTijPABFeM.png",
-      "description": ""
-    },
-    {
-      "id": "tt13111078",
-      "type": "series",
-      "name": "Lioness",
-      "poster": "https://resizing.flixster.com/6WWpLg_RiKauNvUq_9W3thTOt7Y=/164x246/v2/https://resizing.flixster.com/zsbrieER7s5v4EyhVipVh_JO8CQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDA0Mzk3OGQtOTA3MS00Yzc2LWI0MGYtNjA0ZTgyODU1NWQzLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/mU7l9UaEItxHbg2YBNs0sHjoFVY.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xCXmYvX8UwggLh0h3I1A1fbHBxI.png",
-      "description": "Tomatometer 77%"
-    },
-    {
       "id": "tt4859164",
       "type": "series",
       "name": "The Loud House",
       "poster": "https://resizing.flixster.com/QNHcKNDOt5qnUCvh0JsuFZZbJwM=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12753730_b_v12_ch.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/gC7sIq35KQKq8Q1OV6zZjds6si8.svg",
-      "description": ""
-    },
-    {
-      "id": "tt32149571",
-      "type": "series",
-      "name": "Golden Axe",
-      "poster": "https://resizing.flixster.com/kTYDG_18oo49O2BdKbAIr6RBVaw=/164x246/v2/https://resizing.flixster.com/Pf4rOoSDBVYOn1wJSOiQZYnkAoA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWQ3ZGJhZjgtMWJlZS00MzExLTkxNDQtNGRhZDYwNzM3NmU0LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/zOcEo3oQf9KDPPxZueNhReN6TBr.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1HwmReqhvTkTMQRcPJq7TLtb4kW.png",
-      "description": ""
-    },
-    {
-      "id": "tt27982433",
-      "type": "series",
-      "name": "Diarra From Detroit",
-      "poster": "https://resizing.flixster.com/ugkNE6jJ__sKXvYGmHXCRLrrnhs=/164x246/v2/https://resizing.flixster.com/22t47K85v7kqjircHAfUqw5X6eo=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWVkMmQ5ZTgtMTlhMy00OTZjLTk1M2EtNTk4ZTVhNjI0ZDRhLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/740tQBVmWdHt8fcWua92xuhoHEG.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/pd0Dv2rjLsulKqowjb6g9bY0K4F.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt15387926",
-      "type": "series",
-      "name": "DORA",
-      "poster": "https://resizing.flixster.com/cqlXJuOpzGqUYN-dc62rPT1n_oA=/164x246/v2/https://resizing.flixster.com/yYe0hdyvyXbqBkkKRrQtE269zaE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWFiNDEyZjMtMWQ5OC00NDg4LWIxMTAtOTZlNzc5MGY3MDdkLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/m8rTwmdwchHXKFLaz2UnGKXotbf.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aUVfKcNlfCyhaoDQUwtaKvvM2lB.png",
       "description": ""
     },
     {
@@ -525,14 +1404,6 @@
       "description": "Tomatometer 100%"
     },
     {
-      "id": "tt43630864",
-      "type": "series",
-      "name": "The Program: Texas Tech",
-      "poster": "https://resizing.flixster.com/n0vNptjBowYAsPoqBxXDREkDN5E=/164x246/v2/https://resizing.flixster.com/eaDHWPi6E2clfFPCx0mmNbirylU=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWE0OTVkYjYtOTU1NS00NzQ0LTg0NjgtMjMyNTBlNTkwYjFmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7DYCAU1L9df9Kw4CFisLq8P9Sf3.jpg",
-      "description": ""
-    },
-    {
       "id": "tt7686456",
       "type": "series",
       "name": "Jersey Shore Family Vacation",
@@ -542,21 +1413,21 @@
       "description": ""
     },
     {
-      "id": "tt34991493",
-      "type": "series",
-      "name": "Dutton Ranch",
-      "poster": "https://resizing.flixster.com/cllp7G3NxyIrvdbshxLefAuapDk=/164x246/v2/https://resizing.flixster.com/XDHF6zBJEDdI7wR5Ii0EskyKR88=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTkyYzJkY2ItOTllMS00Yjg2LTg2YzktYmYyZWMxNDg5YzY1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ewlmL0nxo2lLqBj69upgp2gjHpV.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/w6rTydgams5hQ6T4d7ieYkg2PsQ.png",
-      "description": "Tomatometer 90%"
-    },
-    {
       "id": "tt4048256",
       "type": "series",
       "name": "Dora and Friends: Into the City!",
       "poster": "https://resizing.flixster.com/opL6KdAxab53YDYkH6woymRsXjY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10898665_b_v8_as.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/lfGb1cnFlgqsksnFtB0CBpGw6Rs.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/nORfRTFYfkStmgJ6lwIn7BSLpBG.png",
+      "description": ""
+    },
+    {
+      "id": "tt4770018",
+      "type": "series",
+      "name": "Love Island",
+      "poster": "https://resizing.flixster.com/OBfsIbhA8Eze-5WrJpyghMPBgY8=/164x246/v2/https://resizing.flixster.com/-hrjnYvDCB07US6Um0khTz-okdg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzhiOTU5ODctZTIyNS00MWFkLTk0NzgtN2JhZWQ4NGU5Njc5LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/yhzxbrI45RwwTraKoDHayFkIaCW.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/A4f3lQfqCTfeSCYX72PX7jaoxUB.png",
       "description": ""
     },
     {
@@ -585,15 +1456,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/vhQffuCmvj9LGl5ZaEdt90VjfcM.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt11097072/img",
       "description": ""
-    },
-    {
-      "id": "tt18070984",
-      "type": "series",
-      "name": "Average Joe",
-      "poster": "https://resizing.flixster.com/spk97h5DmfL88p2x2hClkMD4-KQ=/164x246/v2/https://resizing.flixster.com/V1F-9zv3BLzDaS93kGE9SThvXeA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTExM2Y5YzUtZjMxZS00NGI2LThlMTQtMzdjNDUwYjE3MjMxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/l2E1zRep7sM73aCJ4YTuLPxid5H.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/pogEY2YlD0SMXH11YxMTgOhtCfk.png",
-      "description": "Tomatometer 88%"
     },
     {
       "id": "tt1637756",
@@ -648,15 +1510,6 @@
       "description": ""
     },
     {
-      "id": "tt39399104",
-      "type": "series",
-      "name": "The Real Wolf of Wall Street",
-      "poster": "https://resizing.flixster.com/rn7cwhi-tgzHLaPwurhxLvwo5co=/164x246/v2/https://resizing.flixster.com/ahJ5e3xr67l-fy-_kpFyprJolFQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTU5YThkYjItYzM5My00NjgwLWJiN2YtOGQ4MmE1ZGRjMTAxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/oQdkBoIjjHAtBF2YU1u4FlNcUnK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/kRFbMMMFnK5vfdFfAhCKL5ZkeXg.png",
-      "description": ""
-    },
-    {
       "id": "tt16373480",
       "type": "series",
       "name": "Zatima",
@@ -683,38 +1536,11 @@
       "description": ""
     },
     {
-      "id": "tt26656917",
-      "type": "series",
-      "name": "The Agency",
-      "poster": "https://resizing.flixster.com/i7Fgk9iTYxtHph1WdE2J-sFjt1I=/164x246/v2/https://resizing.flixster.com/Gv5l9lCiXer8hVXseLW8gfEgIZE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjQ5MDY3ZDMtNDYzNS00OTlmLWJmYmUtOTQ1N2NjMTM0MzI0LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/o9gr7EoGPDU1IIv8Buzm2neklUM.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vDK6y1nc8p1f9LlPmEiM3LjkHVv.png",
-      "description": "Tomatometer 79%"
-    },
-    {
       "id": "tt43607679",
       "type": "series",
       "name": "Free Nelson Mandela",
       "poster": "https://resizing.flixster.com/HNS8-aRruADcRltfiW3IxkpwftI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33298786_b_v8_aa.jpg",
       "background": "https://resizing.flixster.com/HNS8-aRruADcRltfiW3IxkpwftI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33298786_b_v8_aa.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt28230655",
-      "type": "series",
-      "name": "Among Us",
-      "poster": "https://resizing.flixster.com/5hzR6jBsZW_BTTRXHqcj0krZVds=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33228406_b_v11_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zoa11EvyuasC3j7PmH1QGftrSvf.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xolhstrPkFi6fvHk34YbASuRuaY.png",
-      "description": "Tomatometer 80%"
-    },
-    {
-      "id": "tt42841691",
-      "type": "series",
-      "name": "Devotion: Obedience or Betrayal",
-      "poster": "https://resizing.flixster.com/m2X4gL_gr3G4LhVBugkd9gUtG1k=/164x246/v2/https://resizing.flixster.com/hzauAAkwpyE1FNH034jZSqIEyCk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODg5MzRhYzUtZmFhNy00ZjdlLWJlMzQtNjVhOWQ5NzMxY2IyLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/saJlIE31LUjuFZhLhBI60hw5BvJ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/6YjPVCTeK5ttcJAa6RVWhS8p0CS.png",
       "description": ""
     },
     {
@@ -724,15 +1550,6 @@
       "poster": "https://resizing.flixster.com/mQGXrbtsRqszw9p6hQln2BH9424=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15528404_b_v12_aw.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/2GlkdaHtxORqWfPccv2YLDoLxMb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/9pcmeMGYeVHmXNFFY5fYLR89WRc.png",
-      "description": ""
-    },
-    {
-      "id": "tt36825547",
-      "type": "series",
-      "name": "Tyler Perry's Divorced Sistas",
-      "poster": "https://resizing.flixster.com/LMU9V1WNQZrpO1loZMzCL34qdqU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30272102_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/42kBhsVAasbFWDavwQgZujiBHKy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/be28pSGvIoHPcE40ais9YcKS7VX.png",
       "description": ""
     },
     {
@@ -835,15 +1652,6 @@
       "description": ""
     },
     {
-      "id": "tt41611874",
-      "type": "series",
-      "name": "My Killer Father: The Green Hollow Murders",
-      "poster": "https://resizing.flixster.com/t_XVQB7dRXzO94I16TmuFcHqW3A=/164x246/v2/https://resizing.flixster.com/Ndjwwv6v87JVp7J9qB0qecVVItk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjFkM2RhYTMtN2Q0Yy00NTQ0LWIzYmQtY2RlYmY4ZWFiMDhkLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ejFDqpMl1rINCctrcITPDZ3OKZD.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/nOUpeUhAzbBwT3WtoQcVvpSVH9X.png",
-      "description": ""
-    },
-    {
       "id": "tt26591147",
       "type": "series",
       "name": "Matlock",
@@ -851,14 +1659,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/amYND1mIdCYEGVqKEH764W4HBtb.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vAiyVZhzhKv3XZSomr2g8YR4Qm6.png",
       "description": "Tomatometer 93%"
-    },
-    {
-      "id": "tt39822465",
-      "type": "series",
-      "name": "Made for March",
-      "poster": "https://resizing.flixster.com/4zAzCCgWmjBaFBAr0-TU1XVw-1I=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p32581451_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/xkRjgaiFRZMELNoQjzLpVOraNyS.jpg",
-      "description": ""
     },
     {
       "id": "tt1353056",
@@ -876,14 +1676,6 @@
       "poster": "https://resizing.flixster.com/bb-re03gfWtwB9P8pkyil38s8s0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29926095_b_v12_ab.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/dfB0hPku5IRvwAoTKQef1zs1JHZ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fGp6OPZgrlt7juITYEbF6uZpzwc.png",
-      "description": ""
-    },
-    {
-      "id": "tt41772400",
-      "type": "series",
-      "name": "You Don't Know Where I'm From, Dawg",
-      "poster": "https://resizing.flixster.com/P9D3mla94Lz-rMj5CYuYU23-hWo=/164x246/v2/https://resizing.flixster.com/nHJcP6lZdlfeja0Mmuvnpoyufbc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzMwMzc3ODctNjkxYi00Y2M4LWIwMDAtZDdiZGQyZDBhMzYxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/q9ighcKy0yn1C3M8rsOYsUNrZNN.jpg",
       "description": ""
     },
     {
@@ -905,15 +1697,6 @@
       "description": ""
     },
     {
-      "id": "tt21340132",
-      "type": "series",
-      "name": "FBI True",
-      "poster": "https://resizing.flixster.com/4vkJzDD2mc9KI5eJ7jfALvy4ysM=/164x246/v2/https://resizing.flixster.com/KyimHj3xIvpL-DJlqTGhEMXWWUA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOGFhMzBhYzYtZjNjOS00N2I1LTkzY2EtZWYxZGJmMTRiMTBiLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/fTiEqkbnUL9LzlXmRtgX1y67HfR.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aY1bGpjM0SsbwWPrBU2ZybkR4Ee.png",
-      "description": ""
-    },
-    {
       "id": "tt1820166",
       "type": "series",
       "name": "Ridiculousness",
@@ -921,15 +1704,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/gEs0kv3PNIWSYgqTjswTiCHiUe4.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/u2hKUCW9J6ymaqjZhxgH0ZKSmwE.png",
       "description": ""
-    },
-    {
-      "id": "tt33204276",
-      "type": "series",
-      "name": "The Madison",
-      "poster": "https://resizing.flixster.com/hf0Q4rfgm0_ZuamU_eOYo7rMMB8=/164x246/v2/https://resizing.flixster.com/y7V2tLlKLZIpap1uMMf6V85dfIg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYzJkYThlNmEtZWI2ZS00OGJiLTk0MWUtYzA1MTc4ZTc4YTIwLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/lhQQE9vlNCKOYWamaHW8CBiI09B.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2v3CGp4NHg5KLcbyMdwVrcVepWS.png",
-      "description": "Tomatometer 63%"
     },
     {
       "id": "tt39093331",
@@ -949,15 +1723,6 @@
       "description": "Tomatometer 85%"
     },
     {
-      "id": "tt8622160",
-      "type": "series",
-      "name": "Star Trek: Starfleet Academy",
-      "poster": "https://resizing.flixster.com/zyE0TzbxahDUB70jmrNISz7qfxU=/164x246/v2/https://resizing.flixster.com/l6YBYE-3b-Bbu5JDBk_LUvOWIWc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjQwZWE0NzAtNDUyYS00NTk5LWFmZGYtNDVlYzAyNWY4MjliLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/rXtSdCGmG07zjAg5h7GR1v52ogX.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/h8a3s1uczKQT9Q9xzLy3ihMvHrd.png",
-      "description": "Tomatometer 84%"
-    },
-    {
       "id": "tt0386950",
       "type": "series",
       "name": "Air Disasters",
@@ -965,15 +1730,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/vxGd8N7Vyfi49xhxZexEXQhRW7O.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/fuSGcasNECvNW7fJkIZmvhbv9GW.png",
       "description": ""
-    },
-    {
-      "id": "tt21057450",
-      "type": "series",
-      "name": "School Spirits",
-      "poster": "https://resizing.flixster.com/sDllh7k64PUqNX408C9R9anTrSM=/164x246/v2/https://resizing.flixster.com/F8yJ9GMnk3S-vr4GQtDrPvzAUCQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZWJhZDRjMjItYzMzZS00ODMxLWI4YWUtYmI5YWNmNTFmMzA4LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/A6biiToqBbtL2uDxJDYqCjDOSU2.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/n3deCNZ4f4Lx7uqxViJ5XJeZMPw.png",
-      "description": "Tomatometer 94%"
     },
     {
       "id": "tt0773264",
@@ -1001,606 +1757,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/a86jEUZH1XPQhDBKfp7zIJroTpE.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/gaLZaQwSHfswW7vBYzeCcKK3Zaw.png",
       "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt8777038",
-      "type": "series",
-      "name": "Wild Boys: Strangers in Town",
-      "poster": "https://resizing.flixster.com/YK00lCfDu_3c5Es9tYYgx2RpB80=/164x246/v2/https://resizing.flixster.com/YfdPUtc4fAdf2xtmiunc0KHNxXQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMGYwMGMzMjEtNTdlOC00MmU3LTk1MDktNDA5MjIxZTNhYzZlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/eQo6TkPZPP8Al1P8ahQE4lXM2c8.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7sVMg0Qd4ud4cpW31G6tQpyiIWC.png",
-      "description": ""
-    },
-    {
-      "id": "tt5960322",
-      "type": "series",
-      "name": "The Ms. Pat Show",
-      "poster": "https://resizing.flixster.com/Qc6Zg-8vFwuohbhXMZ2fh96ZwlQ=/164x246/v2/https://resizing.flixster.com/Gn2-Lv7y4RGMVu7wMMZMMrE9Qmg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjk4NTMyNC53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/hIh5mM8VWrNlNjMEbMlG8Bmi7Tc.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/Aj1hduoxtmOzv7rkew6o4PCMbiu.png",
-      "description": ""
-    },
-    {
-      "id": "tt1699748",
-      "type": "series",
-      "name": "Hell on Wheels",
-      "poster": "https://resizing.flixster.com/PmCllDymU3LPRw5oXWe4dV1ZV7c=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8807300_b_v12_al.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/pXwEO7OYA7LhVPYyGIIqa58wwcF.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q5lx6a6upKvxM30kwPHqTp6yM4K.png",
-      "description": "Tomatometer 73%"
-    },
-    {
-      "id": "tt33702417",
-      "type": "series",
-      "name": "Can You Keep a Secret?",
-      "poster": "https://resizing.flixster.com/1xXGRwk6S4GTiiq9xzmJRu42ekU=/164x246/v2/https://resizing.flixster.com/FNHHewpfQACpu1jrVXgVde8AaLA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYTBlMWI3OWMtZGE4Mi00MzBiLTkyOTItODI4MjBkMTQ1MTY1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/uaQyiLlSiKYWwvVVhWL7xcjf3qN.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/1p5a6EW2yxmryZMSsvFHpmP2y7E.png",
-      "description": "Tomatometer 92%"
-    },
-    {
-      "id": "tt39086382",
-      "type": "series",
-      "name": "Handsome Devil: Charming Killer",
-      "poster": "https://resizing.flixster.com/bcRYL5wdj1GrnzQf1t252bd6GKc=/164x246/v2/https://resizing.flixster.com/cZ-ZE63BLdP1_YYGq_GFrBfNd1Y=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYWQwODM4YjItMTc2NS00NDgzLWJhNDMtNTg3N2ZkYWI3YmIyLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/efnSVhQpy5f13J7FroqKPLLDW77.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gQ3aMSNwUWZZMyv9PxOOKBaSKuh.png",
-      "description": ""
-    },
-    {
-      "id": "tt14186672",
-      "type": "series",
-      "name": "Landman",
-      "poster": "https://resizing.flixster.com/CYAbDM-5PdooZjxthQ-mXKyslGY=/164x246/v2/https://resizing.flixster.com/pWrfv8wUzuO67-qkQHo2Sck7b8s=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZjRlMTdjMTQtODU1Mi00NDZjLTgwOWUtOTdiOWM1NGZjODFjLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/mh2UczqEXJJVgqohbyZbHTuxwhL.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/13lJnfO3oExZ2ECzAR6WDyShzlV.png",
-      "description": "Tomatometer 80%"
-    },
-    {
-      "id": "tt0101188",
-      "type": "series",
-      "name": "Rugrats",
-      "poster": "https://resizing.flixster.com/d_9N9KevwnMywohipIQhgttLBlg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184031_b_v8_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/fKpfCR3l0WukHTkI6Z2ySX1if4P.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/jHnQ2RJuVM076E1MpWq8VTWwbMb.png",
-      "description": ""
-    },
-    {
-      "id": "tt4129004",
-      "type": "series",
-      "name": "School of Rock",
-      "poster": "https://resizing.flixster.com/rRe41Q9T2MEBL96qxTeDyty9b1g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12575876_b_v8_ag.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/dnvomwn6vEAmkpDtHU2A8tmCI1D.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/IOxykV5z2WjmX3aEDEQRcUX7CV.png",
-      "description": ""
-    },
-    {
-      "id": "tt39133077",
-      "type": "series",
-      "name": "Girl Taken",
-      "poster": "https://resizing.flixster.com/Pz_hQhZpPVB--sXzZE8jLtR9lj8=/164x246/v2/https://resizing.flixster.com/xqcio_fP5kdPfEgWCMmmhiSm9JM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNGEzYmU4NzctM2U5Ny00Y2I5LWJiNzgtZjZlODRjOTdkODQ4LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/pPA3PDOZgq55QXTSj5FlFC6KTpJ.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/kzPzSNvNXeUA5DFm3W7wMYPVK78.png",
-      "description": "Tomatometer 83%"
-    },
-    {
-      "id": "tt21063508",
-      "type": "series",
-      "name": "Super Duper Bunny League",
-      "poster": "https://resizing.flixster.com/1QBiwF4OCpRFOFZh1YX7_u18tGo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29600597_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zmPgMueIUN5yqPbl5ISc6aAU20q.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vboWLFMwNr4k0VvsNEI7ASnnf4f.png",
-      "description": ""
-    },
-    {
-      "id": "tt34564159",
-      "type": "series",
-      "name": "The Road",
-      "poster": "https://resizing.flixster.com/GZFNC6p2eJRjrnMFUxZDyTqv7BU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28742879_b_v12_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/6JKA6kJnImBRGmjYl2Ak31bm2Y5.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt32384391",
-      "type": "series",
-      "name": "The Thundermans: Undercover",
-      "poster": "https://resizing.flixster.com/i0x-U99zG6ZV7WLFx2eJng97wfo=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29111892_b_v12_aa.jpg",
-      "background": "https://images.metahub.space/background/medium/tt32384391/img",
-      "logo": "https://images.metahub.space/logo/medium/tt32384391/img",
-      "description": ""
-    },
-    {
-      "id": "tt7772600",
-      "type": "series",
-      "name": "The Adventures of Paddington",
-      "poster": "https://resizing.flixster.com/HBu15Zw0M7AGQ7zD3O73wT7KlJ0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17645395_b_v12_bb.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/r4ymAKfEBtz6bXRf7e12Xn0RZFe.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/djBngxcdmE8mY6sDIrzutwAPLzp.svg",
-      "description": ""
-    },
-    {
-      "id": "tt1865740",
-      "type": "series",
-      "name": "Ink Master",
-      "poster": "https://resizing.flixster.com/gReF96_RGX4NEs8pQ01yd5sBioA=/164x246/v2/https://resizing.flixster.com/7C1zyAUbU3UHcK3io8jPQ8edYyw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYzE2MGRhODctMjM0NS00NGU4LWE4NjItM2RhMjM0OGNjMjRiLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/kJspjzlXblGQTcjka5vhclbz6Rb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/w8fNsiPrg3KhCukcsCde7wslN95.png",
-      "description": ""
-    },
-    {
-      "id": "tt28521741",
-      "type": "series",
-      "name": "Tales of the Teenage Mutant Ninja Turtles",
-      "poster": "https://resizing.flixster.com/jwjlzVQFLv2IbziOnzLu6bzUFy8=/164x246/v2/https://resizing.flixster.com/_-rsx74ptz7ozTYFdcAF57mwjLI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTJkNmQwZDYtOGJjOS00Y2E4LWIxZjQtY2NiN2QyNjY5YmZmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/bTiPmPW4ZVmyFJNsxVK1UK3R96H.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/4Z9CNuvglQwSuKmrhl3udpLSsd1.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt33262257",
-      "type": "series",
-      "name": "Dating Naked UK",
-      "poster": "https://resizing.flixster.com/sGkseyeItYed8Cat1c8JxS6b4Go=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28058168_b_v11_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/nC5gyHQB5zrWOkKMquBueGW7gb5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zfJIfN51d7uSzM4Cw8Kfa4VYG5u.png",
-      "description": ""
-    },
-    {
-      "id": "tt3596174",
-      "type": "series",
-      "name": "Henry Danger",
-      "poster": "https://resizing.flixster.com/rpqxd21kP3CDinSvAxT0FM_CZdQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10891879_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/1pnaMzcTXU6LmBd9rf4ZvNGBnce.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xkC1jloJRr9crbGm9puKKk0zQRy.png",
-      "description": ""
-    },
-    {
-      "id": "tt11198926",
-      "type": "series",
-      "name": "American Gangster: Trap Queens",
-      "poster": "https://resizing.flixster.com/D6DgmGI8bfLYjRRyIrcLnNvVVYA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18379490_b_v12_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/j3ti043BfhhJdtwxJBKxjeja3Nm.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt11198926/img",
-      "description": ""
-    },
-    {
-      "id": "tt9165462",
-      "type": "series",
-      "name": "The Casagrandes",
-      "poster": "https://resizing.flixster.com/MBAij8NwB8n5-_Dx0TA76iyKtZs=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17347937_b_v8_ay.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/8Nl0mYdmLlzFbHR9i9mvoDL6GVh.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wspliHRtIKwAKoKkF217mLAG8Oa.png",
-      "description": ""
-    },
-    {
-      "id": "tt34376827",
-      "type": "series",
-      "name": "Wild Cherry",
-      "poster": "https://resizing.flixster.com/VGUwC54SjOGNdoOKjQsWAixh-1w=/164x246/v2/https://resizing.flixster.com/HNuLVNJiuBS7CO1k105W7kQZ3FQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMWE4NDk1ODQtZGEwYS00YzUxLTg0ZWYtZWJjMGY0NGEwZjJiLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/c54arxwmTXMv4bPJo3RxbASW2s2.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/pNWmz383cJWJzwnJrPj7quDfLyg.png",
-      "description": ""
-    },
-    {
-      "id": "tt40141083",
-      "type": "series",
-      "name": "Special Ops: True",
-      "poster": "https://resizing.flixster.com/lNbn0Ner6lZL6ZQVf8VdihbzlC4=/164x246/v2/https://resizing.flixster.com/OrZGpHyJyPxMp-H1-4Nzg5DgvS0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjJlMDY3ZGEtMmJiYy00NzdhLTgxZGEtMGJlYzQ2OGZhMDljLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/5WCmyxjStj9wEwOuso6NTSohnUU.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt38773490",
-      "type": "series",
-      "name": "My Nightmare Stalker: The Eva LaRue Story",
-      "poster": "https://resizing.flixster.com/hWHkqhEF6GKNC3IgjdAA3RSIAps=/164x246/v2/https://resizing.flixster.com/5hhw8NeGE_De3j95xLj_erUrWwQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmI0MzczZjItYzMyZC00MTNhLTljMDgtYjlmNzU2Yzg5MTllLmpwZw==",
-      "background": "https://resizing.flixster.com/hWHkqhEF6GKNC3IgjdAA3RSIAps=/164x246/v2/https://resizing.flixster.com/5hhw8NeGE_De3j95xLj_erUrWwQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMmI0MzczZjItYzMyZC00MTNhLTljMDgtYjlmNzU2Yzg5MTllLmpwZw==",
-      "description": ""
-    },
-    {
-      "id": "tt32305967",
-      "type": "series",
-      "name": "Crutch",
-      "poster": "https://resizing.flixster.com/UL9KhfJpBtEdlUdfmdVZv36V_yQ=/164x246/v2/https://resizing.flixster.com/W9AH0hsHFeJsyb91P3k2xszTyL0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2NjZmJkOWYtNTM1ZS00NzgxLTg2OTctZDIyNjM5NjRlNzFmLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/5lFJVwFA2jtO1ygLoDLGPiT7UhI.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt32305967/img",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt33400507",
-      "type": "series",
-      "name": "Ghosts Australia",
-      "poster": "https://resizing.flixster.com/B90vAnQoa7fB0jxu_fQsM_hNlrA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31527443_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zqNCRVrKf6Y0MNHz5vIEJ95URZM.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/qmUGx0PSCHoeDor0KQWX82PLhsL.png",
-      "description": ""
-    },
-    {
-      "id": "tt37972240",
-      "type": "series",
-      "name": "Don't Date Brandon",
-      "poster": "https://resizing.flixster.com/1bQdym2aTOJXtxYkVuS5lJe4cg0=/164x246/v2/https://resizing.flixster.com/35GkcK6bGs9cVcoxzszVWzgIVFI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZTBlYjkyMGYtYmIwMy00ODNmLThjZjUtMDA2OWU4OGMxYzI1LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/zcDMJQKr63b9dXVRZyItqj1cbqt.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/jLF6Pe4zeCDA4hOWIa6gJxZaNAp.png",
-      "description": ""
-    },
-    {
-      "id": "tt31512256",
-      "type": "series",
-      "name": "NCIS: Tony & Ziva",
-      "poster": "https://resizing.flixster.com/XD-cavCxowXoEJI3a6wBVmxhm5Y=/164x246/v2/https://resizing.flixster.com/r_nC1VE4zFtrU9yHcuGRccxH8bE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZWMxY2I1ZDAtYjMwZi00ZTkyLTg2ZGUtNGI5NDA1MzU5NTYxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/ub0xUWZUBoAwy1eBG1uwi9ikaVg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/5NbMFmfxwdZC3UttEiCWkpeqxI8.png",
-      "description": "Tomatometer 82%"
-    },
-    {
-      "id": "tt0131613",
-      "type": "series",
-      "name": "Teenage Mutant Ninja Turtles",
-      "poster": "https://resizing.flixster.com/YbKyy2VVnlRe_-birtTyOSv0O1c=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9352040_b_v8_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/s1Kr1RntP2b8MdUKTYJxNmcVEBP.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/m4jaXCeEVQGNKajDYZBcpD3X8cl.png",
-      "description": ""
-    },
-    {
-      "id": "tt29768339",
-      "type": "series",
-      "name": "Reunion",
-      "poster": "https://resizing.flixster.com/6wR3rxz6y-l9jNW2PK6FxFzEg44=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29858902_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/uPN2g1QiUOKoWNju1udOeQ15LkX.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt29768339/img",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt34888633",
-      "type": "series",
-      "name": "Red Alert",
-      "poster": "https://resizing.flixster.com/vo532nUA1E3p1htQtUoZJk1s_7k=/164x246/v2/https://resizing.flixster.com/dE0mLHQ8mYdEy0jo37u71wXMmk8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDU3NGFkZDItYTBlNi00NTI2LWI3NTItMjNlM2JhZWQ5ZDhlLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7qisBz1DPNrYNb5aj8saEXom4Pg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/u0KftOSZijopWprpopwC0kPzGkQ.png",
-      "description": "Tomatometer 89%"
-    },
-    {
-      "id": "tt4711184",
-      "type": "series",
-      "name": "Game Shakers",
-      "poster": "https://resizing.flixster.com/YkHAjMmk6oQBonUSzhIT_j4zL6g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12070761_b_v8_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/LxwPqTddmEjB6HMzfTeQd6P3xT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/p21S0BLFMCjncSbyb3LKu7lxgC2.png",
-      "description": ""
-    },
-    {
-      "id": "tt10558660",
-      "type": "series",
-      "name": "The Tiny Chef Show",
-      "poster": "https://resizing.flixster.com/8Udp7TnslVZmCvJnNuYAZnamlSk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22713189_b_v13_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ts5vMfU3URrkawvaqS2x775qrxf.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/iMuXNXkPq9OCKw5jljoIxkv8IRV.png",
-      "description": ""
-    },
-    {
-      "id": "tt31456372",
-      "type": "series",
-      "name": "The Fairly OddParents: A New Wish",
-      "poster": "https://resizing.flixster.com/Nzm9fzD90G_cHsqr2Nvi0exyyqI=/164x246/v2/https://resizing.flixster.com/is5Oi8uxwebz-3oicShzmFpqIB4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvY2Q5NzMxNjctYjA4Yy00MDg3LWIzMjktNDQyOTE5ZDk2MzljLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/voeuYrKelMCQBqR2xWxyHgB0fS5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aJOj9HB4MumTMlwOTva0d4Zvl8d.png",
-      "description": ""
-    },
-    {
-      "id": "tt0247082",
-      "type": "series",
-      "name": "CSI: Crime Scene Investigation",
-      "poster": "https://resizing.flixster.com/FMbAf-wqnZi8J0SPWsQZIcJEJVk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184657_b_v12_by.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vZePKXaSO3537aJTxifE3Rrwobb.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fLhKSEsurxHq3mwEDvCQhnApxkg.png",
-      "description": ""
-    },
-    {
-      "id": "tt32778097",
-      "type": "series",
-      "name": "Coldwater",
-      "poster": "https://resizing.flixster.com/uxNRuY0-FN8_aEePJ_7FuVwCTYk=/164x246/v2/https://resizing.flixster.com/B8-pJdF0AoLeDS3LR9w3A9zMnL0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvMzMzN2I2MjMtMGY2NC00NmNlLThiNzYtYjE5MTY5NmI5ZjA0LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/yufA0LfNVYYFApA07cgs3V45yJK.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/phPIj1WMGcg26zGvh10LXaAXAxb.png",
-      "description": "Tomatometer 73%"
-    },
-    {
-      "id": "tt37968290",
-      "type": "series",
-      "name": "Thirst Trap: The Fame. The Fantasy. The Fallout",
-      "poster": "https://resizing.flixster.com/lQB7Sde8s_fzFeKz6UzTdwPmlhI=/164x246/v2/https://resizing.flixster.com/NtKPVai5ojPEyXHisBcBw-QUEbI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTMzOThkYmUtMDVmZi00Y2RjLWEzN2EtZTk5ZDUzMjE2ZjczLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/3k5QdiQmlT5SqxypIS9gVoP7sQQ.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt35562988",
-      "type": "series",
-      "name": "The Guest",
-      "poster": "https://resizing.flixster.com/w8vRF0wCh7CVVbZuDI2mWsrTFFE=/164x246/v2/https://resizing.flixster.com/IBT13P9ATkq7ryA9GKrTLpQQe8o=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYjU3NDE4NjUtM2Q0ZC00NjYyLTg3MmItZjA5YjU5NzBjMGY3LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/tdUxBzgtMeEbFa9hgbrq4PIT6mU.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/q0fypnaYurN4YBd17ys8BB00P1j.png",
-      "description": "Tomatometer 100%"
-    },
-    {
-      "id": "tt22059768",
-      "type": "series",
-      "name": "Digman!",
-      "poster": "https://resizing.flixster.com/_w6kSdeIlQN24W5oi-MtmKDIFrg=/164x246/v2/https://resizing.flixster.com/qlelH90AzmHKhrxDZYLhJ7s3qas=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNGMyOTg3ZjYtMDg4Zi00ODNjLWJmMmUtMDQzYTBkMWMyNjRiLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7v2qFq2wwHqZMrV9wphG5aSzI6X.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/jFfleH1j26ON6DEW6Jj2sYKCl3V.png",
-      "description": "Tomatometer 57%"
-    },
-    {
-      "id": "tt23462718",
-      "type": "series",
-      "name": "Churchy",
-      "poster": "https://resizing.flixster.com/tBlu55hZHHwnA9H-9eEa4cI1V4w=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26552732_b_v13_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/dggUu5gp5BQkqJ5RjxOPGD50grY.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt10518284",
-      "type": "series",
-      "name": "Baby Shark's Big Show!",
-      "poster": "https://resizing.flixster.com/I6Yi2z_yfqVjHtiYm5FOy32PlOA=/164x246/v2/https://resizing.flixster.com/CtLGRrYKfEQo3cMGohRx4xCI8ok=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjg2NzM4NS53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/vM4s6IG6DSG2m4XWZs2uqjQCXHs.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xlpGA03GCeL3rHquTdz9BQvzvpJ.png",
-      "description": ""
-    },
-    {
-      "id": "tt15121038",
-      "type": "series",
-      "name": "Everybody Still Hates Chris",
-      "poster": "https://resizing.flixster.com/7bZHCbRmuIU9HSW2mhHDF8fjS0U=/164x246/v2/https://resizing.flixster.com/7u_37QhiKylY0cU1ZE_WUEoTqmo=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODQ2MWZmM2EtNzVlZC00OWFlLWI1MGEtNDBmOTdhYzYwMDA3LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/sQW1zQChtQcGt33gNTytcBMfcKm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xFlsGH9s6ODyqfHHW26G8XNCBdr.png",
-      "description": ""
-    },
-    {
-      "id": "tt37599684",
-      "type": "series",
-      "name": "Murder 360",
-      "poster": "https://resizing.flixster.com/ZXV8nPKw1dngl0DJUHTSmrHgdfM=/164x246/v2/https://resizing.flixster.com/YqPiXDfniBapFWB-FhCW8erSBb8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmZkNDczOGMtNWNlZS00MmQzLWI1ZmMtY2E2YTUzOTFmYjUxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/oO8cJEjmsDQ4RpljV5TNH3Jxuko.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/l6FgmZcj0lQC10h5lSFKxYFPOlQ.png",
-      "description": ""
-    },
-    {
-      "id": "tt37458166",
-      "type": "series",
-      "name": "Hip Hop Was Born Here",
-      "poster": "https://resizing.flixster.com/SAui17Gg0l5MNvPW-Y12d3Svlrc=/164x246/v2/https://resizing.flixster.com/It39J3toSnAICTe7YTFCpN45JAE=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjc0ZGM5OWQtOGEzYS00YjhlLWFmNWUtMjliYTk5ZTRiMmUzLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/qx3Sr8j1rFsedhCbsnxDahUf75F.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/b5ViM6G4Q9wmvnrUvAggSghsrcw.png",
-      "description": ""
-    },
-    {
-      "id": "tt0472989",
-      "type": "series",
-      "name": "Nick Cannon Presents: Wild 'n Out",
-      "poster": "https://resizing.flixster.com/mA3kbUGA0RqXr3dZQdrV2RpkOxQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185468_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/desDFpjZHiBc4ENHIPs3NLWctWS.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/lKxMz6fraKxejF353lQqojLzwvI.png",
-      "description": ""
-    },
-    {
-      "id": "tt0972534",
-      "type": "series",
-      "name": "iCarly",
-      "poster": "https://resizing.flixster.com/_DQc8gk2lsja22dnVo2qjOaZ1CU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185707_b_v13_ai.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/u3rph1KVUOKbOtrPIgCb27H08Fy.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/dzM6ciclOCE58D9cEMJBTU7yOq.png",
-      "description": ""
-    },
-    {
-      "id": "tt8184280",
-      "type": "series",
-      "name": "Aerial Cities",
-      "poster": "https://resizing.flixster.com/ZdVl90D0E6UDYS9r8vrVSn8maDw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15270894_b_v8_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3UAsevCok77YGYNqKOcxr0nJDld.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt8184280/img",
-      "description": ""
-    },
-    {
-      "id": "tt32443581",
-      "type": "series",
-      "name": "Chopper Cops",
-      "poster": "https://resizing.flixster.com/mno0AKAsBqK7MAyD8twkUkVrpV4=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27350140_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/lxbTvHNbTA63AZ29Uljm9Fw5P0I.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt32591211",
-      "type": "series",
-      "name": "Little Disasters",
-      "poster": "https://resizing.flixster.com/D6OR0W3ZppPKsd_ERUF44DTEmBU=/164x246/v2/https://resizing.flixster.com/4r3baNk6BUgxdf-ywXMZBShnEh4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNDRkNzJjMjYtNGY2Yi00MWNjLTkzZDEtNjljOGI4YmM4NmQxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/dpzEk18UsxCB8ZeHOlg6D3oAtff.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/v5SL9dIn6lCQl3qB4X0gaLSGYj6.png",
-      "description": "Tomatometer 53%"
-    },
-    {
-      "id": "tt21663658",
-      "type": "series",
-      "name": "Teen Mom: The Next Chapter",
-      "poster": "https://resizing.flixster.com/dgJbh3w3jwkT3Z_vLGi7GZ8xHzQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22737021_b_v13_al.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vwNlQwlf2edQnMui62mTYVCF6rm.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/gDZh7r4ywtlXVtNpT6FawzTIUhl.png",
-      "description": ""
-    },
-    {
-      "id": "tt0235916",
-      "type": "series",
-      "name": "ChalkZone",
-      "poster": "https://resizing.flixster.com/8005yEkoea8kVRLHS8pRhJ_gn8A=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186111_b_v8_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/hguRih18aMSiGi0Nxik0VNVvgjv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2Y9c8K3cbBbdwt5f1yacvOs7VZE.png",
-      "description": ""
-    },
-    {
-      "id": "tt11242246",
-      "type": "series",
-      "name": "The Equalizer",
-      "poster": "https://resizing.flixster.com/-wNDslFKygLSDErzqUc-qukXAn0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18300011_b_v12_ba.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/z8CzVVAGHRRmgJQ6ZRjr8OuCmlj.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zUKavd5mPRiVCzkrux581HzxcCZ.svg",
-      "description": ""
-    },
-    {
-      "id": "tt13172612",
-      "type": "series",
-      "name": "Happy Face",
-      "poster": "https://resizing.flixster.com/ZK5ZttXaBgPGa53nGQSAdeH9f40=/164x246/v2/https://resizing.flixster.com/7EHWfLTeUSyC4BfGG1WCKb-ojuc=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmFiM2E2MjQtZjUxMi00NGFhLTliMzgtMTEzNzM2MjQ3ZTc5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/jpo9nZOayoh7IHIIXa6jRT6WP9L.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/8vmr98vp8LlF6WlchqtXaPmlBbF.png",
-      "description": "Tomatometer 57%"
-    },
-    {
-      "id": "tt36264035",
-      "type": "series",
-      "name": "The Carters: Hurts to Love You",
-      "poster": "https://resizing.flixster.com/cAXTrWcCYGLZTfiw_oMr-Tet-OU=/164x246/v2/https://resizing.flixster.com/P2nLcPksYeDfKVqOJ3nMTg_jej8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYzNhZDU4NTYtMThjNC00ZTg3LWFjYzAtMzlmMDcxMzUzYWI5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/zuKrP0mdGzQKHzOJVihrPG9LeGy.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt18335752",
-      "type": "series",
-      "name": "1923",
-      "poster": "https://resizing.flixster.com/_SVckpMzgbTuqNaSLEs2M1R9hzA=/164x246/v2/https://resizing.flixster.com/YacfFWcyD0ZSK4BzFiMixKHm0UQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZWI3ODFlZDctNzQyZS00MWM2LWExYWUtNTUwZGJiNTMyMzQxLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2hlc1DvGiDx8L0tmkSepEn5tpzb.png",
-      "description": "Tomatometer 94%"
-    },
-    {
-      "id": "tt25970416",
-      "type": "series",
-      "name": "RoboForce: The Animated Series",
-      "poster": "https://resizing.flixster.com/IoBPAXesT7HTbR6AphZKUemLNLg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29437727_b_v12_ac.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/wNdWkAjh28yuQ8yUyUEWrX645yU.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0136650",
-      "type": "series",
-      "name": "Family Legacy",
-      "poster": "https://resizing.flixster.com/xQbrbxNv625AAFkd4Kll6rloLbs=/164x246/v2/https://resizing.flixster.com/cWZihjOdU6EM8HMYB-T4-jP6XQA=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNTgxYWQ2NzgtMzQyZS00MDFkLThiM2ItMDgzZDk2MmY3OGNkLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/qMHofkVzzMgpNg5a1Avf2OqvnBc.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt6601082",
-      "type": "series",
-      "name": "Rise of the Teenage Mutant Ninja Turtles",
-      "poster": "https://resizing.flixster.com/KM5FFw414l8ZKjyly2pcm8Tw4eg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15686643_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tyMkJH0YvK6uBydUbN1nkW4Ad3f.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/476lT2b2qfuuBQ8xqFYPNfF1Yvc.png",
-      "description": ""
-    },
-    {
-      "id": "tt7440726",
-      "type": "series",
-      "name": "Your Honor",
-      "poster": "https://resizing.flixster.com/87igASIi0Kk0Rkh7vws8s0We0Kc=/164x246/v2/https://resizing.flixster.com/5FHWddnuWUhQxWhHbcnnyKE0tvw=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNzAzMjVmMjEtNzRkZS00YTA3LTg0NWItNTk5M2UwMTg0ZWYyLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/t73x5Pb81mIGZR417aeGwbkR520.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/u8E0rN668KKSBAPwdc7ZR6rXOFJ.png",
-      "description": "Tomatometer 49%"
-    },
-    {
-      "id": "tt31459523",
-      "type": "series",
-      "name": "Extreme Airport Africa",
-      "poster": "https://resizing.flixster.com/FZRnOBTMDfSOTelGQpPaq4-Iwgk=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26324962_b_v8_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/rKK5mSd40VikdCmVldQ6Ni0qwL9.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0235918",
-      "type": "series",
-      "name": "The Fairly OddParents",
-      "poster": "https://resizing.flixster.com/TD9_kVOzjtQpLOxF9w9gFYnhw6c=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186130_b_v8_az.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/pDT10nmEBz9RYCV0chJLniLfT5D.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/e8TokAgkQrzZIbEPdskUP58ud8m.png",
-      "description": ""
-    },
-    {
-      "id": "tt7983898",
-      "type": "series",
-      "name": "Lil Kev",
-      "poster": "https://resizing.flixster.com/vnoB5ME9yB7rzpn7N4iyyIZ4ohA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29533879_b_v11_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/fMCewQBoRlPQOZcSmGJOf3cWDMO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tx2JvZLo29mYM84b94Kap0kZbw7.png",
-      "description": ""
-    },
-    {
-      "id": "tt31598078",
-      "type": "series",
-      "name": "Carl Weber's The Family Business: New Orleans",
-      "poster": "https://resizing.flixster.com/fcrO4DoFP1BK0niBQZccjFkmQBw=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p29009484_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/rDDj97vDcjdM6UkZ3r6gglU8Vq.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/GzX4HoxVbO0S5emxCNvj5BsSqm.png",
-      "description": ""
-    },
-    {
-      "id": "tt35708730",
-      "type": "series",
-      "name": "Sin City Gigolo: A Murder in Las Vegas",
-      "poster": "https://resizing.flixster.com/Wz8VS5qbwW1GhIUDHZtB7l9jZIA=/164x246/v2/https://resizing.flixster.com/HbIXQJq-MQ8ZEQL64omw_Sfi_O4=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOTM3ZjAxYmUtYTZiNS00YzQ1LTgzZjgtYjE2ZTgwZDI0NmM5LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/iROgBW8T2MZ2Uq0jk3gGFzFkOnh.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cK3dPDGpBrR8ALb0NCTLT4m7aDb.png",
-      "description": ""
-    },
-    {
-      "id": "tt1610527",
-      "type": "series",
-      "name": "Workaholics",
-      "poster": "https://resizing.flixster.com/_6SdaOPJuVPcrZEuxMMQ5jdPm_k=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8549074_b_v12_aa.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zDSvUcCR2nkrGhLUTIgqQ18P27U.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/aX48yq2nywm9VUTEYWqKW5Cj2B9.svg",
-      "description": "Tomatometer 86%"
-    },
-    {
-      "id": "tt32252772",
-      "type": "series",
-      "name": "Dexter: Original Sin",
-      "poster": "https://resizing.flixster.com/_FSyq-ENzTPC0-F6wsAoAX0WsxE=/164x246/v2/https://resizing.flixster.com/MCkorwKU5ZVeazHKWTiHOnTEDWI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvOGE0YmM5NmMtMDZmMy00ZGUwLTgxYmQtY2RjNDZkYmFlYjBjLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/7f2bZ9TdBOlnKpdiir8xWDv6yOi.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/dfqnNvicjlul2LAZzet1AePHIAg.png",
-      "description": "Tomatometer 70%"
-    },
-    {
-      "id": "tt35523751",
-      "type": "series",
-      "name": "Burden of Guilt",
-      "poster": "https://resizing.flixster.com/Q5LXoQ0DNaTgs0MR2CHbNSLc_gg=/164x246/v2/https://resizing.flixster.com/wrCxnnUs0MLi0ShnM19fdwt1tOI=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZmUwMTI1NzEtNzk1Ni00NDQ2LWJlYjItZDVhNGY2NDI2ODViLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/9RECuEgzpYw1CJbXfYeFixT5hsl.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/sYq76HPcGGZSyeDziVjoGOpe6J6.png",
-      "description": ""
-    },
-    {
-      "id": "tt0108847",
-      "type": "series",
-      "name": "The Magic School Bus",
-      "poster": "https://resizing.flixster.com/HuWoM85uUYLucB8mSAaGL_9UvgQ=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186236_b_v11_ae.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/pWZjTb2ixwVEzvnsvv3KYz5pvIs.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/tHod7y5zRMQsG2U5pIhTcI75DHO.png",
-      "description": ""
-    },
-    {
-      "id": "tt4570888",
-      "type": "series",
-      "name": "Isle of MTV: Malta",
-      "poster": "https://resizing.flixster.com/l3PpD-RnRa3p2m6AdtgMGPS_Z6U=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25925505_b_v11_ab.jpg",
-      "background": "https://resizing.flixster.com/l3PpD-RnRa3p2m6AdtgMGPS_Z6U=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25925505_b_v11_ab.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt35380403",
-      "type": "series",
-      "name": "Liberation: D-Day to Berlin",
-      "poster": "https://resizing.flixster.com/fYsIX50medWh0dVG5oxdsltTy0U=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28815872_b_v7_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/tAn2zQ8pfJRocfPgOH2AW5SAYBt.jpg",
-      "description": ""
     }
   ]
 }
