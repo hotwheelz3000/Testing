@@ -153,6 +153,15 @@
       "background": "https://image.tmdb.org/t/p/w1280/4j1e7Gol1rM2uscJbEcJ3kEmzJn.jpg"
     },
     {
+      "id": "tt30768979",
+      "type": "movie",
+      "name": "Aadarsha Kutumbam House No: 47 - AK47",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt30768979/img",
+      "background": "https://image.tmdb.org/t/p/w1280/86tpN3ByXC3P5lK4GYhKym0rrwo.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/L3fVB1dWVgFwzjWmAxEiGzpdMi.png"
+    },
+    {
       "id": "tt44825373",
       "type": "movie",
       "name": "SCTV: The Greatest Show You've Never Heard Of",
@@ -1624,24 +1633,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt36956284/img",
       "background": "https://image.tmdb.org/t/p/w1280/haTr0tVcpfuOKMCmmmoetbAFidM.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/sKX6pwzclofvAT0ITWGVuxXwA26.svg"
-    },
-    {
-      "id": "tt38128726",
-      "type": "movie",
-      "name": "Stop! That! Train!",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt38128726/img",
-      "background": "https://image.tmdb.org/t/p/w1280/erNAhcSYrDMXQqAU1TVthYyFA71.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cmPXVV3xC178EHol8F1Kv5M7Siz.png"
-    },
-    {
-      "id": "tt36853497",
-      "type": "movie",
-      "name": "Double Occupancy",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt36853497/img",
-      "background": "https://image.tmdb.org/t/p/w1280/v4Fkzv4wrlGzF3af60Xwxpb5tJk.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/b5u0td9esOX8ykQoGknpsD0qVPb.png"
     }
   ]
 }

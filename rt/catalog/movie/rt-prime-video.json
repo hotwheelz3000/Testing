@@ -141,6 +141,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/qeQdNFGoo6jh5k8U7lVjBFjSpP0.png"
     },
     {
+      "id": "tt30834999",
+      "type": "movie",
+      "name": "Family",
+      "releaseInfo": "",
+      "description": "A 10-year-old girl begins to believe her parents are trying to kill her. Convinced a sinister spirit is to blame, she spirals into a haunting fantasy world that mirrors her deepest fears.",
+      "poster": "https://image.tmdb.org/t/p/w500/cTXGUz1Mle56A6vAK2GAf1j8Wtn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zC6PVkXlTKDhThohbLl2qycCcjI.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wZs1Ww8wAPOETdvnTOveJxd32VG.png"
+    },
+    {
       "id": "tt1776340",
       "type": "movie",
       "name": "The Whistler",
@@ -1940,16 +1950,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/eycVPsYXsLMRXgAPGqJTzKvnlzX.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/fsogRNuRdI7wBv8Ur1UwE0Yd6HC.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/2fI8cq2f1K2UX6Vx0LB76KFomw3.png"
-    },
-    {
-      "id": "tt20240826",
-      "type": "movie",
-      "name": "Frankenstein: Legacy",
-      "releaseInfo": "",
-      "description": "Frankenstein’s secrets did not die with him. As graves are torn up and patience disappear from asylum, William Browning sets out to find who stole his father’s body - and finds horrors close to home as his mother descends into madness.",
-      "poster": "https://image.tmdb.org/t/p/w500/cnqyaHpZ7CpgKBlmBgbgqyKicJX.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/jzhQGjzfsrxPwIkSZPMTpfhh27h.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7EsmilWRbmRJayjkVZC6t10b2md.png"
     }
   ]
 }
