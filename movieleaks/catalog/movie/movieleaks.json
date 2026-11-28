@@ -17,6 +17,7 @@
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt36823912/img",
       "background": "https://image.tmdb.org/t/p/w1280/kkierrbus8z4QpsexmSg8QSKqak.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bjlRwIuO6AxeYhboJ6sKqxgBYse.png",
       "description": "Posted on r/movieleaks 2026-11-27"
     },
     {
@@ -1480,45 +1481,6 @@
       "background": "https://image.tmdb.org/t/p/w1280/bpll0oy6gHwLvypfFNfT2QI4VkT.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/AaHXwuFNm0gknm5FqwcjGxT415V.png",
       "description": "Posted on r/movieleaks 2026-09-29"
-    },
-    {
-      "id": "tt36983905",
-      "type": "movie",
-      "name": "The Uprising",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt36983905/img",
-      "background": "https://image.tmdb.org/t/p/w1280/kAlAFblqBI6aGXItR4DRpT5Tozg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/drBOdj4htH0Chlno2Ctt6OxCGgJ.png",
-      "description": "Posted on r/movieleaks 2026-09-29"
-    },
-    {
-      "id": "tt17524850",
-      "type": "movie",
-      "name": "Ghost Light",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt17524850/img",
-      "background": "https://image.tmdb.org/t/p/w1280/6JQ41noDH8iyejUxPaJpPBwU7mR.jpg",
-      "description": "Posted on r/movieleaks 2026-09-29"
-    },
-    {
-      "id": "tt1756855",
-      "type": "movie",
-      "name": "Coyote vs. Acme",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt1756855/img",
-      "background": "https://image.tmdb.org/t/p/w1280/rueyXwlewVPAP5NkqCUJx4RjhqB.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/3m1raTve2RWZ0jfnUwHSnRtjVK3.png",
-      "description": "Posted on r/movieleaks 2026-09-29"
-    },
-    {
-      "id": "tt33095251",
-      "type": "movie",
-      "name": "Tony",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt33095251/img",
-      "background": "https://image.tmdb.org/t/p/w1280/uQvz6NdyhoWE6dMurFn0BriLIv9.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/2FxtH9oC4p2ZUaO8Q656MSe0YD6.png",
-      "description": "Posted on r/movieleaks 2026-09-28"
     }
   ]
 }

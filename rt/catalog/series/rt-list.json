@@ -34,7 +34,7 @@
       "type": "series",
       "name": "The Well",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kJxlDirpnTUnmVpqGAgl0dxM4VQ.jpg",
-      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//kJxlDirpnTUnmVpqGAgl0dxM4VQ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/xOKoP5TLVGm7nAQPYIDCIyMr73I.jpg",
       "description": "Before an aging serial killer on death row takes his secrets to the grave, a team of detectives in California's rural Central Valley are thrust back into the decades-old \"Speed Freak Killers\" mystery. Guided by one of the killers himself, the female-led team hunts for undiscovered victims and seeks atonement for their department's past mistakes.",
       "releaseInfo": "2026"
     },
@@ -1035,6 +1035,15 @@
       "description": ""
     },
     {
+      "id": "tt0056758",
+      "type": "series",
+      "name": "General Hospital",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
+      "description": ""
+    },
+    {
       "id": "tt8467296",
       "type": "series",
       "name": "Love Island Australia",
@@ -1067,15 +1076,6 @@
       "name": "The Floor",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
       "background": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p25652191_b_v12_ao.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt0056758",
-      "type": "series",
-      "name": "General Hospital",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p183893_b_v8_ao.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ljS3auI8tPDYyLw6CnNpLcr2kjT.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/wIldHi49Sm5sj8W8BqasYTqcyWj.png",
       "description": ""
     },
     {
@@ -1124,21 +1124,21 @@
       "description": ""
     },
     {
-      "id": "tt2202488",
-      "type": "series",
-      "name": "Mountain Men",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9199091_b_v12_bz.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/gG1gpdr3Kc0MKgJGp3RQ1O6mofg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/xUT14DwEaM48U8K1hN53AskP1QC.png",
-      "description": ""
-    },
-    {
       "id": "tt0239195",
       "type": "series",
       "name": "Survivor",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p187348_b_v12_by.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1oaj0RL4cM0WuUQJUuarpVWrhb0.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/rKebE7JhuVrixfQoN695u44hX5F.png",
+      "description": ""
+    },
+    {
+      "id": "tt2202488",
+      "type": "series",
+      "name": "Mountain Men",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9199091_b_v12_bz.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/gG1gpdr3Kc0MKgJGp3RQ1O6mofg.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/xUT14DwEaM48U8K1hN53AskP1QC.png",
       "description": ""
     },
     {
@@ -1177,30 +1177,21 @@
       "description": ""
     },
     {
-      "id": "tt1531068",
-      "type": "series",
-      "name": "Alaska State Troopers",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7828643_b_v12_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ifnrPkfLOIu2l2Ym0K11u29Q6ri.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt1531068/img",
-      "description": ""
-    },
-    {
       "id": "tt0285335",
       "type": "series",
       "name": "The Amazing Race",
-      "poster": "https://resizing.flixster.com/F_n3EtrCz13E9lVy5Fper292GiI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p188109_b_v12_aq.jpg",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p188109_b_v12_aq.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/mSkisNewxu55Ivar5EubhcIuoqn.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/c4eB0vUciffD2ukqLcdldBnq0Jt.png",
       "description": ""
     },
     {
-      "id": "tt1492088",
+      "id": "tt1531068",
       "type": "series",
-      "name": "Pawn Stars",
-      "poster": "https://resizing.flixster.com/H4dJetffV67sHXqGFtpuEwOYZ-g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3565439_b_v12_ax.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/eNOtlAJX7ISkgy7ABJ9HtJH5OAk.png",
+      "name": "Alaska State Troopers",
+      "poster": "https://resizing.flixster.com/OlyWmfB0T7g6vekukeZBQquvdqY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7828643_b_v12_aq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ifnrPkfLOIu2l2Ym0K11u29Q6ri.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt1531068/img",
       "description": ""
     },
     {
@@ -1210,6 +1201,15 @@
       "poster": "https://resizing.flixster.com/fk6mFGYesAPaD2_lR35IK4N4RCc=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11308404_b_v12_de.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/7pWfwtREzL47QvYbZxerGKwIUE9.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/4R6qf5o5zAelBZPKzSzvDeIl9RY.png",
+      "description": ""
+    },
+    {
+      "id": "tt1492088",
+      "type": "series",
+      "name": "Pawn Stars",
+      "poster": "https://resizing.flixster.com/H4dJetffV67sHXqGFtpuEwOYZ-g=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3565439_b_v12_ax.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zzZzApaNDa2IxQUWo8x3Rbgs7iW.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/eNOtlAJX7ISkgy7ABJ9HtJH5OAk.png",
       "description": ""
     },
     {
@@ -1248,21 +1248,21 @@
       "description": ""
     },
     {
-      "id": "tt23709380",
-      "type": "series",
-      "name": "Customer Wars",
-      "poster": "https://resizing.flixster.com/38kMzSelIsImnE30EaJvj7bN7lI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22962383_b_v12_au.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/zL2IFr9H3o4H2YSN4r7pn5lRRLE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zCknaeFmlfX6ArMb1Suv8YSgz2v.png",
-      "description": ""
-    },
-    {
       "id": "tt0320037",
       "type": "series",
       "name": "Jimmy Kimmel Live!",
       "poster": "https://resizing.flixster.com/QiZkraVW1blT9TFQ72bm5XkDo14=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184869_b_v12_af.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/taqVKvEmMlI2hs2g364fXWzv0ia.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xiYj5NlGEYglNfG2Wytbd6hvZtB.png",
+      "description": ""
+    },
+    {
+      "id": "tt23709380",
+      "type": "series",
+      "name": "Customer Wars",
+      "poster": "https://resizing.flixster.com/38kMzSelIsImnE30EaJvj7bN7lI=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p22962383_b_v12_au.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/zL2IFr9H3o4H2YSN4r7pn5lRRLE.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zCknaeFmlfX6ArMb1Suv8YSgz2v.png",
       "description": ""
     },
     {
@@ -1292,21 +1292,21 @@
       "description": ""
     },
     {
-      "id": "tt5938484",
-      "type": "series",
-      "name": "Homestead Rescue",
-      "poster": "https://resizing.flixster.com/RL4vg1ORwkFv6kkd7YQt2GtnZDY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12887624_b_v12_aq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/bQ5uhaxXAMKY1bQxVKZVt3pQrCb.png",
-      "description": ""
-    },
-    {
       "id": "tt9425082",
       "type": "series",
       "name": "Body Cam",
       "poster": "https://resizing.flixster.com/PN1OawgR0qN3vlkw25_vPfBUFqU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16204845_b_v12_bg.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/qVESbDzDAfIc73XxjQ2R2b1iIfL.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/myaNkgR2F0zLR8reUvpPnXBmgsW.png",
+      "description": ""
+    },
+    {
+      "id": "tt5938484",
+      "type": "series",
+      "name": "Homestead Rescue",
+      "poster": "https://resizing.flixster.com/RL4vg1ORwkFv6kkd7YQt2GtnZDY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12887624_b_v12_aq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/bQ5uhaxXAMKY1bQxVKZVt3pQrCb.png",
       "description": ""
     },
     {
@@ -1505,21 +1505,21 @@
       "description": ""
     },
     {
-      "id": "tt13438882",
-      "type": "series",
-      "name": "Celebrity Wheel of Fortune",
-      "poster": "https://resizing.flixster.com/RyPZKjKb4FIwgDCBOz5uLPJ9hq0=/164x246/v2/https://resizing.flixster.com/oSKjDqj41gnshtfLJ5wCATuK3ao=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjgxNzE0Ni53ZWJw",
-      "background": "https://image.tmdb.org/t/p/w1280/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/jdGzw5XOa9iHrDCo6DlUaQPQnkA.png",
-      "description": ""
-    },
-    {
       "id": "tt4508624",
       "type": "series",
       "name": "My Lottery Dream Home",
       "poster": "https://resizing.flixster.com/JJ1Oo2YsnRnCWIlwixXEcZu7J18=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11547416_b_v12_bl.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/mvXfPSzWlOIwabxiPVtj2vAKqmK.png",
+      "description": ""
+    },
+    {
+      "id": "tt13438882",
+      "type": "series",
+      "name": "Celebrity Wheel of Fortune",
+      "poster": "https://resizing.flixster.com/RyPZKjKb4FIwgDCBOz5uLPJ9hq0=/164x246/v2/https://resizing.flixster.com/oSKjDqj41gnshtfLJ5wCATuK3ao=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvUlRUVjgxNzE0Ni53ZWJw",
+      "background": "https://image.tmdb.org/t/p/w1280/vKk3womxcGLqOZLiGZ2aXA2PtOV.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/jdGzw5XOa9iHrDCo6DlUaQPQnkA.png",
       "description": ""
     },
     {
@@ -1584,21 +1584,21 @@
       "description": ""
     },
     {
-      "id": "tt31844371",
-      "type": "series",
-      "name": "Vienna Game",
-      "poster": "https://resizing.flixster.com/KCUHaHTKUzsFI2te5YPmeCmUMK0=/164x246/v2/https://resizing.flixster.com/iAoSluqqTw2FLkUAicHMXKl2LRM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNWI5ZWNmN2EtNjFlZC00YjI2LTkyZDctZWJiZjFmNDlhMDhhLnBuZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/hQ7pzPFt7HiwAnsTwTsUadwHu6A.jpg",
-      "logo": "https://images.metahub.space/logo/medium/tt31844371/img",
-      "description": ""
-    },
-    {
       "id": "tt36933520",
       "type": "series",
       "name": "99 to Beat",
       "poster": "https://resizing.flixster.com/o4Sqp4_qMv0VhEEUBYp7zBxQKhs=/164x246/v2/https://resizing.flixster.com/KrYjo82x2dmWLbdwVOKNrBxCqS8=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvZDk4Nzk3YmItYzBiOS00YjE5LWExODgtYjkzMjdlYTFlMDIwLmpwZw==",
       "background": "https://image.tmdb.org/t/p/w1280/3zpScPAgn0Z9ddfxKwvkRasKyf0.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/kgkqH3f0wH47fD2PWfWE8YHoZfp.png",
+      "description": ""
+    },
+    {
+      "id": "tt31844371",
+      "type": "series",
+      "name": "Vienna Game",
+      "poster": "https://resizing.flixster.com/KCUHaHTKUzsFI2te5YPmeCmUMK0=/164x246/v2/https://resizing.flixster.com/iAoSluqqTw2FLkUAicHMXKl2LRM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNWI5ZWNmN2EtNjFlZC00YjI2LTkyZDctZWJiZjFmNDlhMDhhLnBuZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/hQ7pzPFt7HiwAnsTwTsUadwHu6A.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt31844371/img",
       "description": ""
     },
     {
@@ -1701,29 +1701,11 @@
       "description": ""
     },
     {
-      "id": "tt28450216",
-      "type": "series",
-      "name": "Student of the Year: After Dark",
-      "poster": "https://resizing.flixster.com/fo4N0G72XtC94-9ZNt02R1DXfBU=/164x246/v2/https://resizing.flixster.com/HoycBkxX__qJYfoOAYIutqMasbY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODFlY2RmNWEtZTNjMy00ODA1LWE4N2ItNDYyMjVhZDUwMzViLmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/kaugQAtftkyTmZe9DxZOu01AIA3.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hJY5ujLN1bCiFBak8jPnUfBDs8L.png",
-      "description": "Tomatometer 14%"
-    },
-    {
       "id": "tt50369345",
       "type": "series",
       "name": "Cars That Changed History",
       "poster": "https://resizing.flixster.com/ARNaSlXZ_PbGaiCF_q8ckLWNc5o=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34069046_b_v12_ab.jpg",
       "background": "https://resizing.flixster.com/ARNaSlXZ_PbGaiCF_q8ckLWNc5o=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34069046_b_v12_ab.jpg",
-      "description": ""
-    },
-    {
-      "id": "tt1433058",
-      "type": "series",
-      "name": "Life After People",
-      "poster": "https://resizing.flixster.com/ogTUSe47D0vchf_L2TLhuy0DIQg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p257705_b_v12_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/mPD0ct0FVmtD52DF73UfdzRa00S.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/nIenrJj4JRXQySRpJE9dITbRhGt.png",
       "description": ""
     },
     {
@@ -1733,6 +1715,24 @@
       "poster": "https://resizing.flixster.com/IHp2jATtLDXqRXb3P2Sa8kfJoas=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9895118_b_v12_ce.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/rlr7ldDpT67kuublz5W6QGDR6OJ.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/8NTe00TI0dMUffM4T2iA0ZdpkHg.png",
+      "description": ""
+    },
+    {
+      "id": "tt28450216",
+      "type": "series",
+      "name": "Student of the Year: After Dark",
+      "poster": "https://resizing.flixster.com/fo4N0G72XtC94-9ZNt02R1DXfBU=/164x246/v2/https://resizing.flixster.com/HoycBkxX__qJYfoOAYIutqMasbY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvODFlY2RmNWEtZTNjMy00ODA1LWE4N2ItNDYyMjVhZDUwMzViLmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/kaugQAtftkyTmZe9DxZOu01AIA3.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hJY5ujLN1bCiFBak8jPnUfBDs8L.png",
+      "description": "Tomatometer 14%"
+    },
+    {
+      "id": "tt1433058",
+      "type": "series",
+      "name": "Life After People",
+      "poster": "https://resizing.flixster.com/ogTUSe47D0vchf_L2TLhuy0DIQg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p257705_b_v12_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/mPD0ct0FVmtD52DF73UfdzRa00S.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/nIenrJj4JRXQySRpJE9dITbRhGt.png",
       "description": ""
     },
     {
@@ -1781,21 +1781,21 @@
       "description": ""
     },
     {
-      "id": "tt13329976",
-      "type": "series",
-      "name": "History's Greatest Escapes With Morgan Freeman",
-      "poster": "https://resizing.flixster.com/s4CQfetatL7JpjZiVD1aCzkM_1M=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20598195_b_v13_ar.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/dfaEk7rTvDJph2EL4jdjlRfW7EE.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/7SEckgnhc6eaJoh9QSBLbI94rZs.png",
-      "description": ""
-    },
-    {
       "id": "tt2930446",
       "type": "series",
       "name": "Cutthroat Kitchen",
       "poster": "https://resizing.flixster.com/ErKtEuVrkWojSAw6mrNNtUJu6qY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10052665_b_v10_as.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/9FaGtqyDTZjdZXP0fU7yTMWeIoD.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/jUDlisT4L3H68ms24iqiP0ogHBF.png",
+      "description": ""
+    },
+    {
+      "id": "tt13329976",
+      "type": "series",
+      "name": "History's Greatest Escapes With Morgan Freeman",
+      "poster": "https://resizing.flixster.com/s4CQfetatL7JpjZiVD1aCzkM_1M=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p20598195_b_v13_ar.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/dfaEk7rTvDJph2EL4jdjlRfW7EE.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/7SEckgnhc6eaJoh9QSBLbI94rZs.png",
       "description": ""
     },
     {

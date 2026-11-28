@@ -976,7 +976,7 @@
       "type": "series",
       "name": "Gold Rush",
       "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8825082_b_v12_bb.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ReSSC77upQRIZgvaJaPQPCbWaK.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7phPrvswZeLQDc0n381q6xmgJGw.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/dhoW3tgHqolJ862K0xHpaylgGYm.png",
       "description": ""
     },
@@ -1025,6 +1025,15 @@
       "description": ""
     },
     {
+      "id": "tt1771742",
+      "type": "series",
+      "name": "Restaurant: Impossible",
+      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8422693_b_v13_bn.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hwpoeLVP2VsvVqZcOU8CMBHSuFf.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/cOW0X8TFa1Kw7u8gFOsEdJCUntp.png",
+      "description": ""
+    },
+    {
       "id": "tt33246591",
       "type": "series",
       "name": "The Assassin",
@@ -1046,7 +1055,7 @@
       "id": "tt2396135",
       "type": "series",
       "name": "Shetland",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v8_as.jpg",
+      "poster": "https://resizing.flixster.com/_B9o1P7d7IFuyUszM9heEOpTyCA=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9809946_b_v8_as.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/t3YeSQyOIrQquSBrEQfeWkAuaM0.png",
       "description": ""
@@ -1055,7 +1064,7 @@
       "id": "tt2815522",
       "type": "series",
       "name": "Southern Charm",
-      "poster": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
+      "poster": "https://resizing.flixster.com/JACpnz9_bbyF-_e28MW1QkdJma0=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9897386_b_v12_am.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/m0uNha1CSBDxJmqvcNWm7fMgppe.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/b3UHjwZrTOjeJD03Etw4Ec4PcU8.png",
       "description": ""
@@ -1079,6 +1088,15 @@
       "description": ""
     },
     {
+      "id": "tt12169564",
+      "type": "series",
+      "name": "100 Day Dream Home",
+      "poster": "https://resizing.flixster.com/RKTZXandPrtBqwY2qyBdqcs_n4E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17699912_b_v12_bq.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/hzEf4duN43v9ofQc5v1Ou9kdSvF.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vK2AhMZx9LeynFOAT4SrD8Eme5D.png",
+      "description": ""
+    },
+    {
       "id": "tt14415190",
       "type": "series",
       "name": "Bargain Block",
@@ -1094,24 +1112,6 @@
       "poster": "https://resizing.flixster.com/P3FUoPW3QYuH8SDtoUSg-JBMqRg=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p489690_b_v8_bb.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/1szJqm8ksrwbPheLfEZn2ohTGbg.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/aA22LR78dYfG4ZSQ2gMWgdjcjWj.png",
-      "description": ""
-    },
-    {
-      "id": "tt12169564",
-      "type": "series",
-      "name": "100 Day Dream Home",
-      "poster": "https://resizing.flixster.com/RKTZXandPrtBqwY2qyBdqcs_n4E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p17699912_b_v12_bq.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/hzEf4duN43v9ofQc5v1Ou9kdSvF.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/vK2AhMZx9LeynFOAT4SrD8Eme5D.png",
-      "description": ""
-    },
-    {
-      "id": "tt1771742",
-      "type": "series",
-      "name": "Restaurant: Impossible",
-      "poster": "https://resizing.flixster.com/mDzfV4ZE5Cjm5v8R6GofToeMWU8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8422693_b_v13_bn.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/hwpoeLVP2VsvVqZcOU8CMBHSuFf.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/cOW0X8TFa1Kw7u8gFOsEdJCUntp.png",
       "description": ""
     },
     {
@@ -1184,21 +1184,21 @@
       "description": ""
     },
     {
-      "id": "tt0083452",
-      "type": "series",
-      "name": "Nature",
-      "poster": "https://resizing.flixster.com/RuwrrDVjEgotSedgQgHmMfojVNU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185481_b_v8_ah.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/cg5mTWpFagPzHMG887GPKe1kskM.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9ZGQSW7B4UBgSNnA3y3nQluYpPb.png",
-      "description": ""
-    },
-    {
       "id": "tt1454824",
       "type": "series",
       "name": "Monsters Inside Me",
       "poster": "https://resizing.flixster.com/errbogJWMKLk5A9tyuP9Sf5Ol3E=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p3542051_b_v12_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/zPwurtClWPxo5xlVOGnwzRsd4EI.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/7kQlZCi1lecidc17ibHTHuBWQFK.png",
+      "description": ""
+    },
+    {
+      "id": "tt0083452",
+      "type": "series",
+      "name": "Nature",
+      "poster": "https://resizing.flixster.com/RuwrrDVjEgotSedgQgHmMfojVNU=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185481_b_v8_ah.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/cg5mTWpFagPzHMG887GPKe1kskM.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/9ZGQSW7B4UBgSNnA3y3nQluYpPb.png",
       "description": ""
     },
     {
@@ -1263,19 +1263,19 @@
       "description": ""
     },
     {
-      "id": "tt42281320",
-      "type": "series",
-      "name": "Love & Hip Hop: The Final Chapter",
-      "poster": "https://resizing.flixster.com/MavYadQSs3im5TuqTzJ51RcMOqY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34375969_b_v12_ab.jpg",
-      "background": "https://resizing.flixster.com/MavYadQSs3im5TuqTzJ51RcMOqY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34375969_b_v12_ab.jpg",
-      "description": ""
-    },
-    {
       "id": "tt51991551",
       "type": "series",
       "name": "Deadly Women 2.0",
       "poster": "https://resizing.flixster.com/Rz6XGEUUnMENsZLyJh0sI6I54zE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34539872_b_v12_ab.jpg",
       "background": "https://resizing.flixster.com/Rz6XGEUUnMENsZLyJh0sI6I54zE=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34539872_b_v12_ab.jpg",
+      "description": ""
+    },
+    {
+      "id": "tt42281320",
+      "type": "series",
+      "name": "Love & Hip Hop: The Final Chapter",
+      "poster": "https://resizing.flixster.com/MavYadQSs3im5TuqTzJ51RcMOqY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34375969_b_v12_ab.jpg",
+      "background": "https://resizing.flixster.com/MavYadQSs3im5TuqTzJ51RcMOqY=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34375969_b_v12_ab.jpg",
       "description": ""
     },
     {
@@ -1288,20 +1288,20 @@
       "description": ""
     },
     {
-      "id": "tt45775175",
-      "type": "series",
-      "name": "Sweet Deceit",
-      "poster": "https://resizing.flixster.com/Xkwi3v-4W9XY0WgAzRm87y-qwP8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34024775_b_v12_ad.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
-      "description": ""
-    },
-    {
       "id": "tt6289132",
       "type": "series",
       "name": "The Boulet Brothers' Dragula",
       "poster": "https://resizing.flixster.com/B0YefldnrcT8Hd46Bt3Q6R8Nvg8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14519968_b_v12_ag.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/o5HFD1RbugnCc1TTAWI3TJrp4ix.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/ou6IuSAcQxr5qIdZfv7jqfVJZEo.png",
+      "description": ""
+    },
+    {
+      "id": "tt45775175",
+      "type": "series",
+      "name": "Sweet Deceit",
+      "poster": "https://resizing.flixster.com/Xkwi3v-4W9XY0WgAzRm87y-qwP8=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34024775_b_v12_ad.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/160WLvcboP94lwnnOd2fN5T9Nrq.jpg",
       "description": ""
     },
     {
@@ -1350,14 +1350,6 @@
       "description": ""
     },
     {
-      "id": "tt49996033",
-      "type": "series",
-      "name": "History's Mystery Files",
-      "poster": "https://resizing.flixster.com/lnv599KcAxDP-QMEf2hdsT1yE30=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34353658_b_v12_ab.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/ENeKQmWa1qrVlsLfrAM8s9kRnA.jpg",
-      "description": ""
-    },
-    {
       "id": "tt4388486",
       "type": "series",
       "name": "My Big Fat Fabulous Life",
@@ -1373,6 +1365,14 @@
       "poster": "https://resizing.flixster.com/leVUWVRXp4tH_UV8wMIRr35z6Po=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34352434_b_v12_ab.jpg",
       "background": "https://resizing.flixster.com/leVUWVRXp4tH_UV8wMIRr35z6Po=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34352434_b_v12_ab.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vvIf9NXZ8eNFcuMSwrT7ESib4ab.png",
+      "description": ""
+    },
+    {
+      "id": "tt49996033",
+      "type": "series",
+      "name": "History's Mystery Files",
+      "poster": "https://resizing.flixster.com/lnv599KcAxDP-QMEf2hdsT1yE30=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34353658_b_v12_ab.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/ENeKQmWa1qrVlsLfrAM8s9kRnA.jpg",
       "description": ""
     },
     {

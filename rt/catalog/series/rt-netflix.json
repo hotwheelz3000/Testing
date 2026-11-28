@@ -1,6 +1,24 @@
 {
   "metas": [
     {
+      "id": "tt50366235",
+      "type": "series",
+      "name": "Salish's 12 Games of Christmas",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//qDasTvECXJIDtfTG45s7caEKYGG.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/kIJyyEolrxCOvvOZSfPou9JZujA.jpg",
+      "description": "Salish Matter and seven of her closest friends compete in 12 epic holiday challenges for a mountain of Christmas presents, hosted by her dad, Jordan. But there's a twist: a Christmas imposter is hiding among them, out to sabotage the games and swipe the gifts. Can they unwrap the culprit before it’s too late?",
+      "releaseInfo": "2026"
+    },
+    {
+      "id": "tmdb:343955",
+      "type": "series",
+      "name": "The Tupac Tapes with Angie Martinez",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sCwts8VoLeFRJgTWFh7ByqGP05m.jpg",
+      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//sCwts8VoLeFRJgTWFh7ByqGP05m.jpg",
+      "description": "For 30 years, Angie Martinez kept an unreleased Tupac Shakur interview she recorded months before his death. Now she's finally sharing it with the world.",
+      "releaseInfo": "2026"
+    },
+    {
       "id": "tt36951910",
       "type": "series",
       "name": "Always on Call",
@@ -34,18 +52,19 @@
       "id": "tt38681811",
       "type": "series",
       "name": "Toos: The Van der Valk Kidnapping",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//yTn41duVqEmiBimV3itSyOpUPnU.jpg",
+      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//wVMnb4zWFeLGUJF7y6SqNbXSgV6.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/6k5dug3eriqHf1kgJeLHXrfBROc.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/3kkjD0F5E9etkH3JufiQEF4xgGx.png",
       "description": "1982. When the matriarch of a Dutch hotel empire is kidnapped for ransom, her family launches a desperate effort to free her.",
       "releaseInfo": "2026"
     },
     {
-      "id": "tmdb:343634",
+      "id": "tt52456115",
       "type": "series",
       "name": "Picturelogue ～Escape From Oogiri Labyrinth～",
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//1y5QobUcGzCZuaEk4iAf06C8wXW.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/ytrFcr88F7HgHmLWoFySFbNY5Bs.jpg",
+      "logo": "https://images.metahub.space/logo/medium/tt52456115/img",
       "description": "Contestants race to escape a mind-bending maze in 90 minutes, using their wit to caption photos and teaming up with partners for physical challenges.",
       "releaseInfo": "2026"
     },
@@ -174,16 +193,6 @@
       "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//23NYIFT4qlReCE24eVTpp08lAHB.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/kQsOAVdgXLmqid0vwwQGM3SH2Nf.jpg",
       "description": "Gwyneth Paltrow welcomes celebrities, artists, entrepreneurs and experts for candid conversations about wellness, relationships, personal growth and everyday life, exploring fresh perspectives and the experiences that shape us.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tt39390491",
-      "type": "series",
-      "name": "Alicia's Law",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//7o9nY3GO97jyeVWdtWr12nR0Qpt.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/yb58l4VGT687EbQAYjc6ecPRjmg.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/z7J804kq2XYAuKQSI9CaTd6pSPe.png",
-      "description": "When her carefully built life comes undone, Alicia returns to practicing law and discovers that rebuilding her career also means redefining herself.",
       "releaseInfo": "2026"
     },
     {
@@ -918,24 +927,6 @@
       "releaseInfo": "2026"
     },
     {
-      "id": "tt36789137",
-      "type": "series",
-      "name": "The Kevin Langue Show",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6CCQfFSnboP9ZqIugqtbYL4VQ7t.jpg",
-      "background": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//6CCQfFSnboP9ZqIugqtbYL4VQ7t.jpg",
-      "description": "Kevin Langue and his friends put their people-reading skills to the test, questioning a lineup of contestants to try and find the secret liar.",
-      "releaseInfo": "2026"
-    },
-    {
-      "id": "tmdb:334552",
-      "type": "series",
-      "name": "On Campus: Game of the Week",
-      "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2//o213ET8xrxoj5rX4Jzj7dUPyIBE.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/vZYqiOKOa6vPAUpviNFeqTjE518.jpg",
-      "description": "Every week at a different school, go inside campus life with real college students from the lead-up to the aftermath of college football's biggest games.",
-      "releaseInfo": "2026"
-    },
-    {
       "id": "tt11041332",
       "type": "series",
       "name": "Yellowjackets",
@@ -1113,21 +1104,21 @@
       "description": ""
     },
     {
-      "id": "tt31106862",
-      "type": "series",
-      "name": "Happy's Place",
-      "poster": "https://resizing.flixster.com/5snUXKDuVfbUwkzztEAVYy3FRXI=/164x246/v2/https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
-      "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
-      "description": ""
-    },
-    {
       "id": "tt32344704",
       "type": "series",
       "name": "Tougen Anki",
       "poster": "https://resizing.flixster.com/tnWtO30zGQIs9kjBRdjdzOolT2s=/164x246/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p30289253_b_v11_ad.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/k7h9p81H6X6TGV70TgOp4TmjXco.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/5KJjTVvl4ZDFJNHT5NV6etyBHCy.png",
+      "description": ""
+    },
+    {
+      "id": "tt31106862",
+      "type": "series",
+      "name": "Happy's Place",
+      "poster": "https://resizing.flixster.com/5snUXKDuVfbUwkzztEAVYy3FRXI=/164x246/v2/https://resizing.flixster.com/Xdh3f_ZXA9oo_o-4qrqwd_aXXIY=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvYmIyZDU4NDgtMDFlNC00NjA1LTliNjEtZDc4MWI1Y2NlYzI2LmpwZw==",
+      "background": "https://image.tmdb.org/t/p/w1280/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/fBNWt5oFlZY3BSBsodGP7MOkpXn.png",
       "description": ""
     },
     {
