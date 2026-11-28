@@ -1641,16 +1641,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/aNalqaUhdZjihHzDUn1kn1cPvvb.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/v23NwAVTQ4GWrbJSQTzP4iNHhIp.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt28248430/img"
-    },
-    {
-      "id": "tt28094412",
-      "type": "movie",
-      "name": "The Wonderful World of Mickey Mouse: Steamboat Silly",
-      "releaseInfo": "",
-      "description": "Mickey and gang must stop hundreds of old film reel versions of Mickey from wreaking havoc all over town.",
-      "poster": "https://image.tmdb.org/t/p/w500/A9VIIks5Mw3mjWStOj7FvIOGtmW.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/bsesTngzYDZiHiYpsq12av3bkk2.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/m7wBCntCJluSknFNJGxu8XK8kqN.png"
     }
   ]
 }

@@ -163,6 +163,15 @@
       "logo": "https://image.tmdb.org/t/p/w500/9lTDbOAbW4rfzmKIdEkoadAVkTd.png"
     },
     {
+      "id": "tt7526136",
+      "type": "movie",
+      "name": "Heart of the Beast",
+      "releaseInfo": "2026",
+      "poster": "https://images.metahub.space/poster/medium/tt7526136/img",
+      "background": "https://image.tmdb.org/t/p/w1280/yE766yhgg98tKwTKd8CyNvAtmn6.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/zJ3jZa2gJzEQ8KWRxMYRox3qr2O.png"
+    },
+    {
       "id": "tt34206385",
       "type": "movie",
       "name": "Primetime",
@@ -179,15 +188,6 @@
       "poster": "https://images.metahub.space/poster/medium/tt37971717/img",
       "background": "https://image.tmdb.org/t/p/w1280/7AArZYRp6zGtbvSbbqoHn9xFp0L.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/eUfI2sn6ZYlKfjFxNY7EKIGJIa9.png"
-    },
-    {
-      "id": "tt7526136",
-      "type": "movie",
-      "name": "Heart of the Beast",
-      "releaseInfo": "2026",
-      "poster": "https://images.metahub.space/poster/medium/tt7526136/img",
-      "background": "https://image.tmdb.org/t/p/w1280/yE766yhgg98tKwTKd8CyNvAtmn6.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/zJ3jZa2gJzEQ8KWRxMYRox3qr2O.png"
     },
     {
       "id": "tt37020296",
@@ -580,7 +580,7 @@
       "releaseInfo": "2026",
       "poster": "https://images.metahub.space/poster/medium/tt35410859/img",
       "background": "https://image.tmdb.org/t/p/w1280/iPVAMaI0W4lr7Rl56m0H388eR5.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/lCcYOtoUakm2ykpmv0fisfM3cQ9.png"
+      "logo": "https://images.metahub.space/logo/medium/tt35410859/img"
     },
     {
       "id": "tt1333644",

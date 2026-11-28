@@ -1,6 +1,16 @@
 {
   "metas": [
     {
+      "id": "tt37267166",
+      "type": "movie",
+      "name": "The Hunchback, Soul of Paris",
+      "releaseInfo": "",
+      "description": "Paris, 1830. As cholera threatens to ravage the city, a hunchback hunted for medical experiments is caught between political turmoil and impossible love.",
+      "poster": "https://image.tmdb.org/t/p/w500/3dHSDFEyUsjwRldplaRGygC5zkJ.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/fILFJb7okqkNdzAataH4CxywwZX.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hYC6e1iagZeagj67E1cWGpvRpz2.png"
+    },
+    {
       "id": "tt47597255",
       "type": "movie",
       "name": "Rob Lowe: The Outsider",
@@ -447,6 +457,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/xFCMObAyeWE7iWFH30XNiOjcWsv.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/fvfXiUaexUqCitmOftGBXgNO6Of.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt34792531/img"
+    },
+    {
+      "id": "tt27050858",
+      "type": "movie",
+      "name": "Drishyam: The Conclusion",
+      "releaseInfo": "",
+      "description": "Years after outsmarting the police, Vijay Salgaonkar's past resurfaces when a new evidence threatens to expose his secret. As the investigation reopens, he must outwit the system once again to save his family.",
+      "poster": "https://image.tmdb.org/t/p/w500/6IEboqn0dKnUbu1AlWPuXLzgEtu.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/slSC0xYHynkHAwIdLPqfW9Blcow.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/hBTaiMxMFXZuaSVaVmihrkaima6.png"
     },
     {
       "id": "tt43738050",
@@ -936,6 +956,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/oD2AyS0B8JcemPHbsMvKffdhTXE.png"
     },
     {
+      "id": "tt39390582",
+      "type": "movie",
+      "name": "Hanuman Ansh",
+      "releaseInfo": "",
+      "description": "A grieving boy seeks God to meet his departed mother, and in finding the divine, learns to serve humanity with miracles of love, food and silent blessings, becoming Hanuman Ansh, Neem Karoli Baba.",
+      "poster": "https://image.tmdb.org/t/p/w500/as2Y3zGUa2IUS3uAx2sh6Ano3es.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/tKYOK8iMxkhJhug3LJ2yvC5QY8M.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/rYGC9fhc9z22cRlLc57BSVch3Zv.png"
+    },
+    {
       "id": "tt42186253",
       "type": "movie",
       "name": "THE RIBBON HERO",
@@ -1305,6 +1335,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/AgKNByf6tc8e4dB6Sd9puLS2rAd.png"
     },
     {
+      "id": "tt37675037",
+      "type": "movie",
+      "name": "Maddie's Secret",
+      "releaseInfo": "",
+      "description": "A plucky dishwasher leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque — complete with an adoring husband, ride-or-die best friend and a cupboard full of woman-owned ethically-sourced chili crisp to boot — mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
+      "poster": "https://image.tmdb.org/t/p/w500/vADal7sH7E9xFr4w2k4V3EPSzF6.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/39RIvioR4KJWMnzjjZGUWOoQxzv.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/5gAkimGDnvnBnFrqCZQt2Zdtd6y.png"
+    },
+    {
       "id": "tt35064672",
       "type": "movie",
       "name": "Cocktail 2",
@@ -1571,6 +1611,16 @@
       "poster": "https://image.tmdb.org/t/p/w500/lpsUpXieodUhN6DlK9ZDnjkysLk.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/xsoKAonKy1zk5XoQoUG1dUXDCKH.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/bLTZQ0a6lEdLht1n0dplIZpV4eW.png"
+    },
+    {
+      "id": "tt35512499",
+      "type": "movie",
+      "name": "7 Dogs",
+      "releaseInfo": "",
+      "description": "Interpol agent Khalid Al-Azzazi joins forces with Ghali Abu Dawood from the 7 Dogs crime syndicate to fight drug trafficking.",
+      "poster": "https://image.tmdb.org/t/p/w500/qK0l8mzBwiMV6N2lHTFccRVddLN.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/7cHPvy3aF1mDMX1zqmZRt8YE7Vr.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/vUP2j5czwucOwalv0iSlJsUoHit.png"
     },
     {
       "id": "tt41801288",
@@ -1938,55 +1988,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/cTcJs2bEsJDhQEpeYSOZD3yayZI.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/u0FLlb0vKQLvKmiGE6nyhHODFWH.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/xb7GLP14ONQAodab860eqpgDwbo.png"
-    },
-    {
-      "id": "tt33301434",
-      "type": "movie",
-      "name": "Mile End Kicks",
-      "releaseInfo": "",
-      "description": "Grace Pine, a 24-year-old music critic, moves to Montreal to write a book on Alanis Morissette's Jagged Little Pill, but her plans are complicated when she becomes romantically involved with two members of an indie band she is covering and decides to become their publicist.",
-      "poster": "https://image.tmdb.org/t/p/w500/qq3Q1tsxAxMqP38YTZKl8m5zmA4.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/1Es1fV6Wn4ArpqTRTPs8ydpEkiw.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/9ynmhKfXDTa4apbQ5ZXlZCR9vQm.png"
-    },
-    {
-      "id": "tt41559856",
-      "type": "movie",
-      "name": "Yiya Murano: Death at Tea Time",
-      "releaseInfo": "",
-      "description": "Yiya Murano poisoned her friends to cover up scams in 1970s Argentina and became a dark figure in popular culture. Freed in the 1990s, she reappeared as a pop icon. Today, her son Martín seeks to reveal her true face.",
-      "poster": "https://image.tmdb.org/t/p/w500/5uRgn0Qt7Qxs6rAfdOh2t75Oboh.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/x6pJGUc9hXOEjvhtDZ0W8cPOzQy.jpg"
-    },
-    {
-      "id": "tt40891145",
-      "type": "movie",
-      "name": "180",
-      "releaseInfo": "",
-      "description": "When an unexpected road rage incident puts his son in critical condition, an enraged father spirals down a dark path of emotional turmoil and vengeance.",
-      "poster": "https://image.tmdb.org/t/p/w500/9ISjrhA38HpSSGtfiCk8lpziC3K.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/iQSXJs6RbTumcwxMjCedDoK99rx.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hcwSNBfbJawloA9GeLnkq6xUo6S.png"
-    },
-    {
-      "id": "tt39314348",
-      "type": "movie",
-      "name": "A Gorilla Story: Told by David Attenborough",
-      "releaseInfo": "",
-      "description": "Veteran naturalist Sir David Attenborough tells the story of a remarkable group of gorillas, from his first encounter in the '70s to the present day.",
-      "poster": "https://image.tmdb.org/t/p/w500/5X6VyjG0YYMbJu94l6xEY2YQvss.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/r80zWzxQn5pMAPgDHd4CiKIGOyU.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/s2I4R3czp2OzdpfDGfyl1CF74iY.png"
-    },
-    {
-      "id": "tt29540862",
-      "type": "movie",
-      "name": "Bhooth Bangla",
-      "releaseInfo": "",
-      "description": "A man inherits a palace in rural Mangalpur and plans his sister's wedding there, but strange supernatural events and panicked locals force him to investigate the property's mysterious past.",
-      "poster": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/A2tzVTVtnTvpji96IZmleN78KKv.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/v6gE3UvQhM2SiNlltJYpc38cikD.png"
     }
   ]
 }

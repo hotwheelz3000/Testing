@@ -245,7 +245,7 @@
       "type": "movie",
       "name": "The SpongeBob Movie: Search for SquarePants",
       "releaseInfo": "",
-      "description": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
+      "description": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman—a mysterious swashbuckling ghost pirate—on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
       "poster": "https://image.tmdb.org/t/p/w500/xJnOMMsFASxNiFnG7v3TNIQ3ife.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/pMxO1beNNFYMDM7RcDyKW5Wheuz.jpg",
       "logo": "https://image.tmdb.org/t/p/w500/vUdsS3AZOWtqOg70paUBnWPlhRr.png"
@@ -1441,6 +1441,16 @@
       "logo": "https://image.tmdb.org/t/p/w500/2AzvsFYdcBfT19qg4z1WLvKYOhK.png"
     },
     {
+      "id": "tt9690832",
+      "type": "movie",
+      "name": "Sisters",
+      "releaseInfo": "",
+      "description": "After losing their mothers at a young age, Diamond and her closest cousins, Tia and Tara, known as \"Sisters\", are willing to do anything to keep their grandmother from dying of cancer and save their family.",
+      "poster": "https://image.tmdb.org/t/p/w500/jpPwMDS7l1DP2QK9CUKyO6x71Ek.jpg",
+      "background": "https://image.tmdb.org/t/p/w1280/aGE0fghzwkO7PclKtBDRbKRDaXS.jpg",
+      "logo": "https://image.tmdb.org/t/p/w500/sIoRefvaP5cZMXGHPjWjqxjvU2x.png"
+    },
+    {
       "id": "tt8589698",
       "type": "movie",
       "name": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
@@ -1961,16 +1971,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/ra2UvHNvZ1oaneSa96I48G4sQ9N.jpg",
       "background": "https://image.tmdb.org/t/p/w1280/lKsHyNJFr47Pgz3uxnnMqDU1bx0.jpg",
       "logo": "https://images.metahub.space/logo/medium/tt21220612/img"
-    },
-    {
-      "id": "tt12718300",
-      "type": "movie",
-      "name": "Confess, Fletch",
-      "releaseInfo": "",
-      "description": "The roguishly charming and endlessly troublesome Fletch becomes the prime suspect in a murder case while searching for a stolen art collection. The only way to prove his innocence? Find out which of the long list of suspects is the culprit - from the eccentric art dealer and a missing playboy to a crazy neighbor and Fletch’s Italian girlfriend. Crime, in fact, has never been this disorganized.",
-      "poster": "https://image.tmdb.org/t/p/w500/h2oyiPu7aql1s1mLDoKBNAH7p3B.jpg",
-      "background": "https://image.tmdb.org/t/p/w1280/3xGfsAYAxVmYj1CbE5vAkmMJbHo.jpg",
-      "logo": "https://image.tmdb.org/t/p/w500/hClsxK6QoJMCj0CHhT6VD4VBN03.png"
     }
   ]
 }
